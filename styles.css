@@ -1,0 +1,27 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    color: red;
+}
+
+.lud {
+    color: lightgreen;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.songs {
+    color: blue;
+}
+
+.songs a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
