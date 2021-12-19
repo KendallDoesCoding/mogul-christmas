@@ -37,6 +37,7 @@
                 const seconds = songs[song_title]
                 const outerElem = document.createElement("p")
                 const link = document.createElement("a")
+                link.innerHTML = song_title
                 link.onclick = () => {
                     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${seconds}`
                 }
