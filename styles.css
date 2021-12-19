@@ -36,3 +36,7 @@ a, a:hover, a:focus, a:active {
     display: inline-block;
     font-size: 16px;
   }
+
+p {
+    text=align: justify;
+    text-align: center; 
