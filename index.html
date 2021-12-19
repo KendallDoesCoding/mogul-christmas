@@ -38,6 +38,7 @@
                 const outerElem = document.createElement("p")
                 const link = document.createElement("a")
                 link.innerHTML = song_title
+                link.style = "cursor: pointer"
                 link.onclick = () => {
                     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${seconds}`
                 }
