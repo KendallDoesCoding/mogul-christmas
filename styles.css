@@ -15,6 +15,10 @@ body {
     color: lightgreen;
 }
 
+.lyrics-lud {
+    color: blue;
+}
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
