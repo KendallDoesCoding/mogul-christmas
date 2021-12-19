@@ -11,21 +11,39 @@
     <h1 class="heading"> A very Mogul Christmas</h1>
     <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA" >Ludwig</a></p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TtY9eRayseg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="embed" width="560" height="315" src="https://www.youtube.com/embed/TtY9eRayseg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <div class="songs">
-        <p><a href="https://youtu.be/TtY9eRayseg">Christmas Song</a></p>
-        <p><a href="https://youtu.be/TtY9eRayseg?t=206">Baby It's Cold Outside</a></p>
-        <p><a href="https://youtu.be/TtY9eRayseg?t=373">The Most Wonderful Time Of The Year</a></p>
-        <p><a href="https://youtu.be/TtY9eRayseg?t=525">Last Christmas</a></p>
-        <p><a href="https://youtu.be/TtY9eRayseg?t=808">Little Saint Nick</a></p>
-        <p><a href="https://youtu.be/TtY9eRayseg?t=940">All I Want For Christmas</a></p>
     </div>
     
         <div class="container">
         <div id="lyrics" class="button">
             <a href="/lyrics" id="lyrics-btn" class="btn">Lyrics/Individual Song Page
         </div>
+            
+        <script type="text/javascript">
+            const songs = {
+                "Christmas Song": "0",
+                "Baby It's Cold Outside": "206",
+                "The Most Wonderful Time Of The Year": "373",
+                "Last Christmas": "525",
+                "Little Saint Nick": "808",
+                "All I Want For Christmas": "940"
+            }
+            const songsDOM = document.querySelector("songs")
+            const embed = document.getElementById("embed")
+            
+            Object.keys(songs).map(song_title => {
+                const seconds = songs[song_title]
+                const outerElem = document.createElement("p")
+                const link = document.createElement("a")
+                link.onclick = () => {
+                    embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${seconds}`
+                }
+                outerElem.appendElement(link)
+                songsDOM.appendElement(outerElem)
+            })
+        </script>
             
 </body>
 </html>
