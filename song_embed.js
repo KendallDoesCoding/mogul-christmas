@@ -17,7 +17,7 @@ Object.keys(songs).map(song_title => {
   link.style = "cursor: pointer"
   link.onclick = () => {
     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${seconds}`
-    console.log('testing')
+    console.log('[song_title] has been loaded. Please tap play, to play the song.')
   }
   outerElem.appendChild(link)
   songsDOM.appendChild(outerElem)
