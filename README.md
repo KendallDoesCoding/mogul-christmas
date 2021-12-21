@@ -12,5 +12,5 @@ Make sure you check it out.
 
 # Working on
 
-For now, we're working on making it so that, after the song you selected to be played is over. It completely stops till you press another song to start playing. This will be hard to implement but its a cool feature overall. Other then that, we're working on sorting bugs, etc. You can check out the "Issues" panel for more info.
+For now, we're working on making it so that, after the song you selected to be played is over, It completely stops till you press another song to start playing. This will be hard to implement but its a cool feature overall. Other then that, we're working on sorting bugs, etc. You can check out the "Issues" panel for more info.
 
