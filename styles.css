@@ -47,13 +47,14 @@ a, a:hover, a:focus, a:active {
   }
 
 .playlist-button {
-    background-color: red;
+    background-color: blue
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    justify-content: space-between;
     font-size: 16px;
   }
 
