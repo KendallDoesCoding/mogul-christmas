@@ -47,7 +47,7 @@ a, a:hover, a:focus, a:active {
   }
 
 .playlist-button {
-    background-color: blue;
+    background-color: red;
     border: none;
     color: white;
     padding: 15px 32px;
