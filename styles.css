@@ -42,7 +42,7 @@ a, a:hover, a:focus, a:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-right:16px;
+    justify-content: space-between;
     font-size: 16px;
   }
 
