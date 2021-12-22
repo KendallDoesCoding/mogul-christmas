@@ -16,7 +16,8 @@ body {
 }
 
 .otherprojects {
-    color: purple;
+    color: violet;
+    text-decoration: none;
 }
 
 .lyrics-lud {
