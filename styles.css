@@ -7,12 +7,36 @@ body {
     color: red;
 }
 
+.paragraph {
+    color: violet;
+    font-size: 15px;
+}
+
 .lyrics-heading {
     color: lightgreen;
 }
 
 .lud {
     color: lightgreen;
+}
+
+.otherprojects {
+    color: violet;
+    text-decoration: none;
+}
+
+/* Other Projects link, remove underline on hyperlink */
+
+.otherprojects a:link  {
+    text-decoration: none;
+}
+
+.otherprojects a:visited {
+    text-decoration: none;
+}
+
+.otherprojects a:hover {
+    text-decoration: none;
 }
 
 .lyrics-lud {
@@ -61,3 +85,9 @@ a, a:hover, a:focus, a:active {
 .lyrics {
     color: red;
 }
+
+.duckyboi, .githubtemplate {
+    color: blue;
+}
+
+
