@@ -87,14 +87,14 @@ a, a:hover, a:focus, a:active {
 
 /* Duck Song Playlist link, remove underline and text decor from hyperlinks
 
-.duckyboi a:link  {
+.others a:link  {
     text-decoration: none;
 }
 
-.duckyboi a:visited {
+.others a:visited {
     text-decoration: none;
 }
 
-.duckyboi a:hover {
+.others a:hover {
     text-decoration: none;
 }
