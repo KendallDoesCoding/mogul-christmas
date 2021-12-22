@@ -9,7 +9,7 @@ body {
 
 .paragraph {
     color: violet;
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .lyrics-heading {
@@ -88,6 +88,7 @@ a, a:hover, a:focus, a:active {
 
 .duckyboi, .githubtemplate {
     color: blue;
+    font-size: 12px;
 }
 
 
