@@ -20,6 +20,8 @@ body {
     text-decoration: none;
 }
 
+/* Other Projects link, remove underline on hyperlink */
+
 .otherprojects a:link  {
     text-decoration: none;
 }
@@ -81,4 +83,18 @@ a, a:hover, a:focus, a:active {
 
 .duckyboi {
     color: blue;
+}
+
+/* Duck Song Playlist link, remove underline and text decor from hyperlinks
+
+.duckyboi a:link  {
+    text-decoration: none;
+}
+
+.duckyboi a:visited {
+    text-decoration: none;
+}
+
+.duckyboi a:hover {
+    text-decoration: none;
 }
