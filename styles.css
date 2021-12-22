@@ -83,6 +83,7 @@ a, a:hover, a:focus, a:active {
 
 .duckyboi {
     color: blue;
+    text-decoration: none;
 }
 
 /* Duck Song Playlist link, remove underline and text decor from hyperlinks
