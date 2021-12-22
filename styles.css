@@ -20,6 +20,18 @@ body {
     text-decoration: none;
 }
 
+.otherprojects a:link  {
+    text-decoration: none;
+}
+
+.otherprojects a:visited {
+    text-decoration: none;
+}
+
+.otherprojects a:hover {
+    text-decoration: underline;
+}
+
 .lyrics-lud {
     color: blue;
 }
