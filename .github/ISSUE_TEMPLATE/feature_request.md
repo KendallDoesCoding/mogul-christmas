@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: "⭐ Submit a feature request"
+about: 'Please drop in your feature request here, we will consider adding it to this project, and will let you know our decision'
 title: '[FEATURE REQUEST] -'
 labels: 'enhancement'
 assignees: 'KendallDoesCoding'
