@@ -86,6 +86,10 @@ a, a:hover, a:focus, a:active {
     color: red;
 }
 
+.lyrics p {
+    color: red;
+}
+
 .duckyboi, .githubtemplate {
     color: blue;
 }
