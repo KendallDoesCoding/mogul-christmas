@@ -86,8 +86,10 @@ a, a:hover, a:focus, a:active {
     color: red;
 }
 
-.list {
-    color: red;
+#list  p {
+    font: arial;
+    font-size: 14px;
+    background-color: yellow ;
 }
 
 .duckyboi, .githubtemplate {
