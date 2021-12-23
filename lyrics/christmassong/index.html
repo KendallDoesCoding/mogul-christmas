@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lyrics - The Christmas Song</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>A Very Mogul Christmas!</title>
 </head>
 <body>
-  <h1 class="lyrics-heading"> The Christmas Song Lyrics</h1>
-  <p class="lyrics-lud">Song from <a href="https://youtube.com/MrAndersLA" >Ludwig</a>'s Album!</p>  
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TtY9eRayseg&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-<div class="container">
-  <div id="orginal-song" class="button">
-            <a href="https://kendalldoescoding.gq/thechristmassong" id="originalsong-btn" class="btn">Original Song
-        </div>    
- <body id="tinymce" class="mceContentBody " contenteditable="false">
-  <p>
-    <br data-mce-bogus="3">
-  </p>
-<script src="test.js"></script>
-  </body>
+    <h1 class="heading"> A very Mogul Christmas</h1>
+    <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA" >Ludwig</a></p>
+
+    <iframe id="embed" width="560" height="315" src="https://www.youtube.com/embed/TtY9eRayseg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- songs container, its called upon in the js file, thus this is empty. -->
+    <div class="songs">
+    </div>
+        <div class="container">
+        <div id="lyrics" class="button">
+            <a href="/lyrics" id="lyrics-btn" class="btn">Lyrics/Individual Song Page
+        </div>     
+        <div class="container">
+        <div id="playlist" class="playlist-button">
+            <a href="https://kendalldoescoding.gq/mogulchristmasplaylist" id="playlist-btn" class="btn">Mogul Christmas Playlist</a>
+        </div>  
+       
+   <div class="other-pro">
+       <p class="otherprojects"><a href="/otherprojects" target="_blank">Other Similar Projects</a></p>  
+ </div>
+</body>
+<script type="text/javascript" src="song_embed.js"></script>            
+</html>
