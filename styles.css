@@ -91,3 +91,29 @@ a, a:hover, a:focus, a:active {
 }
 
 
+.duckyboi a:link  {
+    text-decoration: none;
+}
+
+.duckyboi a:visited {
+    text-decoration: none;
+}
+
+.duckyboi a:hover {
+    text-decoration: none;
+}
+
+.githubtemplate a:link  {
+    text-decoration: none;
+}
+
+.githubtemplate a:visited {
+    text-decoration: none;
+}
+
+.githubtemplate a:hover {
+    text-decoration: none;
+}
+
+
+
