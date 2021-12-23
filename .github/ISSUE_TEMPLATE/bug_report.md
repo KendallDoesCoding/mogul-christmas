@@ -1,9 +1,11 @@
 ---
-name: Bug report
-about: Report bugs your facing in this project.
-title: "[BUG REPORT]"
-labels: bug
-assignees: KendallDoesCoding
+name: "\U0001F41B Bug report"
+about: Report bugs your facing on the project website.
+description: File a bug report
+title: "[Bug]: (Enter short, one sentence summary of bug here)"
+labels: ["bug"]
+assignees:
+- KendallDoesCoding
 
 ---
 
