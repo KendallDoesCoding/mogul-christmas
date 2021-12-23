@@ -1,6 +1,10 @@
-for ( var i=0, n=numArray.length; i < n; i++) { 
-  var line = document.createElement("p");
-  line.className = "line";
-  line.innerHTML = '|';
-  document.body.appendChild(line);
-}
+const str = `<div>
+  <p>1st p tag</p>
+  <p>2nd p tag</p>
+</div>`
+
+let doc = new DOMParser().parseFromString(str, 'text/html')
+
+console.log(
+  doc.querySelector('p').textContent
+)
