@@ -82,16 +82,9 @@ a, a:hover, a:focus, a:active {
     font-size: 16px;
   }
 
-.lyrics p {
+.lyrics {
     color: red;
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center; /* vertical */
-}
 
-#list  p{
-    font: arial;
-    font-size: 14px;
 }
 
 .duckyboi, .githubtemplate {
