@@ -7,17 +7,16 @@ body {
     color: red;
 }
 
-.paragraph {
-    color: violet;
-    font-size: 15px;
-}
-
 .lyrics-heading {
     color: lightgreen;
 }
 
 .lud {
     color: lightgreen;
+}
+
+.lud2 {
+    color: violet;
 }
 
 .otherprojects {
