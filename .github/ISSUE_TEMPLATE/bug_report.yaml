@@ -4,8 +4,7 @@ title: "[Bug]: (Enter short, one sentence summary of bug here)"
 labels: ["bug"]
 assignees:
   - KendallDoesCoding
-  
-  body:
+ body:
    type: checkboxes
     id: no-issues-relating-to-this
     attributes:
