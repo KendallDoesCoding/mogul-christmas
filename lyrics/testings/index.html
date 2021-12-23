@@ -1,14 +1,19 @@
 <html> 
   <head> 
-    <script src="jquery.js"></script> 
     <script> 
-    $(function(){
-      $("#includedContent").load("/lyrics/b.html"); 
-    });
+$(function () {
+  var includes = $('[data-include]')
+  $.each(includes, function () {
+    var file = 'views/' + $(this).data('include') + '.html'
+    $(this).load(file)
+  })
+})
     </script> 
   </head> 
-
   <body> 
-     <div id="includedContent"></div>
-  </body> 
+<div data-include="header">
+  <p> Why did the chicken cross the road </p>
+  <p>To get to the other side</p>
+ </div>
+<div data-include="footer"></div>  </body> 
 </html>
