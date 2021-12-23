@@ -3,9 +3,15 @@ description: File a bug report
 title: "[Bug]: (Enter short, one sentence summary of bug here)"
 labels: ["bug"]
 assignees:
-  - KendallDoesCoding
- body:
-   type: checkboxes
+  - ThioJoe
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+        IS THIS A FEATURE REQUEST OR IDEA? SUBMIT A DISCUSSION POST INSTEAD HERE: https://github.com/ThioJoe/YouTube-Spammer-Purge/discussions
+  - type: checkboxes
     id: no-issues-relating-to-this
     attributes:
       label: Duplicate Issues
