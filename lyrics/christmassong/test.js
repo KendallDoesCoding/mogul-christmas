@@ -1,1 +1,1 @@
-$("p").html("test");
+$("body > p").text("new text");
