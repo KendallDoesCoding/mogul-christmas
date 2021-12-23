@@ -5,7 +5,7 @@ const songs = {
   "Last Christmas": {start: "525", end: "807"},
   "Little Saint Nick": {start: "808", end: "939"},
   "All I Want For Christmas": {start: "940", end: "1179"},
-  "All of the above": {start: "940", end:"1179"}
+  "All of the above": {start: "0", end:"1179"}
   }
 const songsDOM = document.querySelector(".songs")
 const embed = document.getElementById("embed")
