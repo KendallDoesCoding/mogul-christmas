@@ -1,19 +1,12 @@
 <html> 
-  <head> 
-    <script> 
-$(function () {
-  var includes = $('[data-include]')
-  $.each(includes, function () {
-    var file = 'views/' + $(this).data('include') + '.html'
-    $(this).load(file)
-  })
-})
-    </script> 
-  </head> 
-  <body> 
-<div data-include="header">
-  <p> Why did the chicken cross the road </p>
-  <p>To get to the other side</p>
- </div>
-<div data-include="footer"></div>  </body> 
+  <body>
+  <h1>Put your HTML content before insertion of b.js.</h1>
+      ...
+
+  <script src="b.js"></script>
+
+      ...
+
+  <p>And whatever content you want afterwards.</p>
+  </body>
 </html>
