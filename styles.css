@@ -86,10 +86,10 @@ a, a:hover, a:focus, a:active {
     color: red;
 }
 
-#list  p {
+#list  p{
     font: arial;
     font-size: 14px;
-    text-color: red;
+    background-color: red;
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
