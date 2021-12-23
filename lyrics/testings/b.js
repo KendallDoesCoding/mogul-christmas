@@ -1,6 +1,7 @@
 document.write(`
 
-   <p>Chestnuts roasting on an open fire</p>
+<div class="lyrics>
+  <p>Chestnuts roasting on an open fire</p>
   <p>Jack Frost nipping at your nose</p>
   <p>Yuletide carols being sung by a choir</p>
   <p>And folks dressed up like Eskimos</p>
@@ -20,4 +21,5 @@ document.write(`
   <p>To kids from one to ninety-two</p>
   <p>Although it's been said many times, many ways</p>
   <p>Merry Christmas to you</p>
+</div>
 `);
