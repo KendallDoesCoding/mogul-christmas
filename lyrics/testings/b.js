@@ -1,6 +1,6 @@
 document.write(`
 
-<div class="lyrics>
+<div class="lyrics">
   <p>Chestnuts roasting on an open fire</p>
   <p>Jack Frost nipping at your nose</p>
   <p>Yuletide carols being sung by a choir</p>
