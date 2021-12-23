@@ -89,7 +89,10 @@ a, a:hover, a:focus, a:active {
 #list  p {
     font: arial;
     font-size: 14px;
-    background-color: yellow ;
+    color: red;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
 }
 
 .duckyboi, .githubtemplate {
