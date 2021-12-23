@@ -1,16 +1,14 @@
 name: Bug Report
-description: File a bug report
-title: "[Bug]: (Enter short, one sentence summary of bug here)"
+description: Report a bug your facing in the project website
+title: "[BUG REPORT]:- (Enter short, one sentence summary of bug here)"
 labels: ["bug"]
 assignees:
-  - ThioJoe
+  - KendallDoesCoding
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        
-        IS THIS A FEATURE REQUEST OR IDEA? SUBMIT A DISCUSSION POST INSTEAD HERE: https://github.com/ThioJoe/YouTube-Spammer-Purge/discussions
   - type: checkboxes
     id: no-issues-relating-to-this
     attributes:
@@ -34,7 +32,7 @@ body:
     id: version
     attributes:
       label: Release version
-      description: What version of this program are you using? (can be found in the title when running (eg. ======== YOUTUBE SPAMMER PURGE VERSION (insert version here) or in the `version` variable in the `YouTubeSpammerPurge.py` file.)
+      description: What version of this program are you using? (If your just running it on the website, don't mention a release version, just say the current version on the website. If your running it locally, and if you downloaded a specific version , please mention)
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -57,11 +55,13 @@ body:
         - Windows
         - MacOS
         - Linux (can also be ChromeOS)
+        - iOS
+        - Android
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Copy and paste from tracebacks, aka any error message text that appears during a program crash
+      label: Relevant console log (if any)
+      description: Copy and paste from any relevent console log information about this bug.
       render: shell
