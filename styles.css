@@ -115,14 +115,44 @@ a, a:hover, a:focus, a:active {
 .githubtemplate a:hover {
     text-decoration: none;
 }
-/* Light mode */
-body {
-background: #fff;
-color: #0;
+
+section {
+    background-color: white;
+    border: solid black 1px;
+
 }
 
-/* Dark mode */
-body.dark {
-background: #0;
-color: #fff;
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    text-decoration: none;
 }
