@@ -1,12 +1,11 @@
 body {
     align-items: center;
     text-align: center;
-    background-color: #000; /*Default bg, similar to the background's base color*/
     background-image: url("/images/christmastree.png");
     background-position: left bottom; /*Positioning*/
-     background-repeat: no-repeat; /*Prevent showing multiple background images*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
-}
+
 
 .heading {
     color: red;
