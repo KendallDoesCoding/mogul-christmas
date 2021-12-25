@@ -115,3 +115,7 @@ a, a:hover, a:focus, a:active {
 .githubtemplate a:hover {
     text-decoration: none;
 }
+
+.25th {
+    color: violet;
+}
