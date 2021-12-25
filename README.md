@@ -56,6 +56,14 @@ Link: [5.0.1/Seventh version of this website](https://mogulchristmas.kendalldoes
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonerelease)
 
+**Version 5.0.2**
+
+Link: [5.0.2/Eighth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.02)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointtworelease)
+
+
+
 
 
 
