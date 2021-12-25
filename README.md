@@ -76,7 +76,9 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 **Special Version for Christmas Day**
 
-Link: [Special Version for Christmas](https://deploy-preview-39--mogulchristmas.netlify.app)
+Link: [Special Version for Christmas](https://mogulchristmas.kendalldoescoding.gq/christmasday)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/christmasdaytag)
 
 
 
