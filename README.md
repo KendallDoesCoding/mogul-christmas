@@ -87,7 +87,7 @@ LINKS COMING SOON
 # CONTRIBUTING AND RELATED
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
-[Check this out](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
+[Good first-contributor issues to take up](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
 
 # Deploy Status
