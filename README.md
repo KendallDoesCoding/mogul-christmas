@@ -32,6 +32,7 @@ Link: [3.0/Third version of this website](https://mogulchristmas.kendalldoescodi
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/thirdrelease)
 
 **Version 4.0**
+
 Link: [4.0/Fourth version of this website](https://mogulchristmas.kendalldoescoding.gq/version4)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourthrelease)
