@@ -19,14 +19,20 @@ Link: [1.0/First version of the website](https://mogulchristmas.kendalldoescodin
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/firstrelease)
 
 
-
 **Version 2.0**
 
 Link: [2.0/Second version of this website](https://mogulchristmas.kendalldoescoding.gq/version2)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/secondrelease)
 
+**Version 3.0**
+
+Link: [3.0/Third version of this website](https://mogulchristmas.kendalldoescoding.gq/version3)
+
+Github Release Page: [The github release page is listed here[(https://mogulchristmas.kendalldoescoding.gq/thirdrelease)
+
 LINKS TO OTHER VERSION COMING SOON
+
 
 
 
