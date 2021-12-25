@@ -67,6 +67,7 @@ a, a:hover, a:focus, a:active {
     display: inline-block;
     justify-content: space-between;
     font-size: 16px;
+    margin-bottom: 10px;
   }
 
 .playlist-button {
@@ -114,4 +115,14 @@ a, a:hover, a:focus, a:active {
 
 .githubtemplate a:hover {
     text-decoration: none;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+
+    #embed {
+        border: 2px solid white;
+    }
 }
