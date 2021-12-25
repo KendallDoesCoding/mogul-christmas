@@ -80,6 +80,9 @@ Link: [Special Version for Christmas](https://mogulchristmas.kendalldoescoding.g
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/christmasdaytag)
 
+# Deploy Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a61158-0ccb-489e-ba45-85eafcf4bc3b/deploy-status)](https://app.netlify.com/sites/mogulchristmas/deploys)
+
 
 
 
