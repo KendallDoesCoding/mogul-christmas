@@ -84,6 +84,11 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 LINKS COMING SOON
 
+# CONTRIBUTING AND RELATED
+[Contributing Guidelines](https://github.com/KendallDoesCoding/mogul-christmas/blob/fcffd4b7bc9952296e75d8a0629ed068bc2374e8/.github/CONTRIBUTING.md)
+[Check this out](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
+
+
 # Deploy Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9a61158-0ccb-489e-ba45-85eafcf4bc3b/deploy-status)](https://app.netlify.com/sites/mogulchristmas/deploys)
 
