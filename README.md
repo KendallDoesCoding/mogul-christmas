@@ -14,6 +14,7 @@ Make sure you check it out.
 *Version 1.0*
 
 Link: [1.0/First version of the website](https://mogulchristmas.kendalldoescoding.gq/version1)
+
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/firstrelease)
 
 LINKS TO OTHER VERSIONS COMING SOON
