@@ -29,7 +29,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 Link: [3.0/Third version of this website](https://mogulchristmas.kendalldoescoding.gq/version3)
 
-Github Release Page: [The github release page is listed here[(https://mogulchristmas.kendalldoescoding.gq/thirdrelease)
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/thirdrelease)
 
 LINKS TO OTHER VERSION COMING SOON
 
