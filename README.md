@@ -44,6 +44,12 @@ Link: [4.0.1/Fourth version of this website](https://mogulchristmas.kendalldoesc
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourthpointonerelease)
 
+**Version 5.0**
+
+Link: [5.0/Fifth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fifithrelease)
+
 
 
 
