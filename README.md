@@ -42,7 +42,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 Link: [4.0.1/Fifth version of this website](https://mogulchristmas.kendalldoescoding.gq/version4.01)
 
-Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourthpointonerelease)
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourpointonerelease)
 
 **Version 5.0**
 
@@ -54,7 +54,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 Link: [5.0.1/Seventh version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.01)
 
-Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fifthpointonerelease)
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonerelease)
 
 
 
