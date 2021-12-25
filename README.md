@@ -86,6 +86,7 @@ LINKS COMING SOON
 
 # CONTRIBUTING AND RELATED
 [Contributing Guidelines](https://github.com/KendallDoesCoding/mogul-christmas/blob/fcffd4b7bc9952296e75d8a0629ed068bc2374e8/.github/CONTRIBUTING.md)
+
 [Check this out](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
 
