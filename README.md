@@ -11,7 +11,8 @@ The website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)!
 Make sure you check it out.
 
 # Versions & Previews
-*Version 1.0*
+**Version 1.0**
+
 
 Link: [1.0/First version of the website](https://mogulchristmas.kendalldoescoding.gq/version1)
 
