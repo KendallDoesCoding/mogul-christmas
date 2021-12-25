@@ -1,9 +1,10 @@
 body {
     align-items: center;
     text-align: center;
-    background-image: url("/images/christmastree.png");
+}
+
+.img {
     background-position: left bottom; /*Positioning*/
-    background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
 
