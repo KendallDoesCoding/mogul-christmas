@@ -70,8 +70,9 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 **Version 5.1.2**
 
-LINKS COMING SOON
+Link: [5.2.0/Tenth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.2.0)
 
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointtwopointzero)
 
 
 
