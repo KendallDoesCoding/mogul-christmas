@@ -1,6 +1,10 @@
 body {
     align-items: center;
     text-align: center;
+    background-color: #000; /*Default bg, similar to the background's base color*/
+    background-image: url("/images/christmas_tree.jpg");
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
 
 .heading {
