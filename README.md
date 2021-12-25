@@ -1,6 +1,6 @@
 # mogul-christmas
 
-I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project!, so for now there's 10 releases, some small ones and some big releases and more coming soon.
+I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project!
 
 # Important 
 Ensure that the last youtube video you watched wasn't on mute, otherwise the autoplay on this site will be muted too. 
