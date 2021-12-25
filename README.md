@@ -40,15 +40,21 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 **Version 4.0.1**
 
-Link: [4.0.1/Fourth version of this website](https://mogulchristmas.kendalldoescoding.gq/version4.01)
+Link: [4.0.1/Fifth version of this website](https://mogulchristmas.kendalldoescoding.gq/version4.01)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourthpointonerelease)
 
 **Version 5.0**
 
-Link: [5.0/Fifth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5)
+Link: [5.0/Sixith version of this website](https://mogulchristmas.kendalldoescoding.gq/version5)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fifithrelease)
+
+**Version 5.0.1**
+
+Link: [5.0.1/Seventh version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.01)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fifthpointonerelease)
 
 
 
