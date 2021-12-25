@@ -2,7 +2,7 @@ body {
     align-items: center;
     text-align: center;
     background-image: url("/images/christmastree.png");
-    background-position: left bottom; /*Positioning*/
+    background-position: left bottom, right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
 
