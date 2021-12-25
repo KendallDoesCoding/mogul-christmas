@@ -50,23 +50,24 @@ Link: [5.0/Sixith version of this website](https://mogulchristmas.kendalldoescod
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fifithrelease)
 
-**Version 5.0.1**
+**Version 5.01**
 
-Link: [5.0.1/Seventh version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.0.1)
+Link: [5.01/Seventh version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.01)
 
-Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonerelease)
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointzeroonerelease)
 
-**Version 5.0.2**
+**Version 5.02**
 
-Link: [5.0.2/Eighth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.0.2)
+Link: [5.02/Eighth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.02)
 
-Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointtworelease)
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointzerotworelease)
 
 **Version 5.1.0**
 
 Link: [5.1.0/Nineth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.1.2)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonepointzero)
+
 
 
 
