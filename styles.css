@@ -1,14 +1,18 @@
 body {
     align-items: center;
     text-align: center;
+}
+
+.img {
     background-image: url("/images/christmastree.png");
     background-position: left bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
+}
+.img1 {
     background-image: url("/images/christmastree1.png");
     background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
-
 
 .heading {
     color: red;
