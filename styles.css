@@ -115,3 +115,14 @@ a, a:hover, a:focus, a:active {
 .githubtemplate a:hover {
     text-decoration: none;
 }
+/* Light mode */
+body {
+background: #fff;
+color: #0;
+}
+
+/* Dark mode */
+body.dark {
+background: #0;
+color: #fff;
+}
