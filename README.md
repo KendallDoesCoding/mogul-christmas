@@ -11,6 +11,7 @@ The website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)!
 Make sure you check it out.
 
 # Versions & Previews
+For updates on the website, we've written it as **Version** and for updates on Github we've written it as a **Release**, for Releases, we've provided a complete change log.
 
 **Version 1.0**
 
@@ -70,7 +71,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 **Version 5.1.2**
 
-Link: [5.1.2/Tenth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.1.0)
+Link: [5.1.2/Tenth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.1.2)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonepointtwo)
 
@@ -80,9 +81,18 @@ Link: [Special Version for Christmas](https://mogulchristmas.kendalldoescoding.g
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/christmasdaytag)
 
-**VERSION 5.5.5 & 5.5.7**
+**Version 5.5.5**
 
-LINKS COMING SOON
+Link: [5.5.5/Eleventh version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.5.5)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointficepointfive)
+
+**Release 5.5.7**
+
+We just updated the README for this, so here's the changelog:
+
+[Changelog](https://github.com/KendallDoesCoding/mogul-christmas/compare/5.5.5...5.5.7)
+
 
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
