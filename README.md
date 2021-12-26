@@ -70,7 +70,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 **Version 5.1.2**
 
-Link: [5.1.2/Tenth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.1.0)
+Link: [5.1.2/Tenth version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.1.2)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonepointtwo)
 
@@ -80,9 +80,12 @@ Link: [Special Version for Christmas](https://mogulchristmas.kendalldoescoding.g
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/christmasdaytag)
 
-**VERSION 5.5.5 & 5.5.7**
+**Version 5.5.5**
 
-LINKS COMING SOON
+Link: [5.5.5/Eleventh version of this website](https://mogulchristmas.kendalldoescoding.gq/version5.5.5)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointficepointfive)
+
 
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
