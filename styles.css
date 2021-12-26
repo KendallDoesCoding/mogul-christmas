@@ -6,6 +6,7 @@ body {
        url("/images/christmastree1.png");
    background-repeat: no-repeat, no-repeat;
    background-position: right bottom, left bottom; 
+   background-color: #d9d9d9
 }
 
 .heading {
