@@ -87,6 +87,7 @@ Link: [5.5.5/Eleventh version of this website](https://mogulchristmas.kendalldoe
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointficepointfive)
 
 **Release 5.5.7**
+
 We just updated the README for this, so here's the changelog:
 
 [Changelog](https://github.com/KendallDoesCoding/mogul-christmas/compare/5.5.5...5.5.7)
