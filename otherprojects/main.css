@@ -7,14 +7,6 @@ body {
     color: red;
 }
 
-.lyrics-heading {
-    color: lightgreen;
-}
-
-.lud {
-    color: lightgreen;
-}
-
 .lud2 {
     color: violet;
 }
@@ -38,54 +30,11 @@ body {
     text-decoration: none;
 }
 
-.lyrics-lud {
-    color: blue;
-}
-
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
     text-decoration: underline;
 }
-
-.songs {
-    color: blue;
-}
-
-.songs a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    justify-content: space-between;
-    font-size: 16px;
-  }
-
-.playlist-button {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    justify-content: space-between;
-    font-size: 16px;
-  }
-
-.lyrics {
-    color: red;
-}
-
-
 
 .duckyboi, .githubtemplate {
     color: blue;
