@@ -84,7 +84,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 LINKS COMING SOON
 
-# CONTRIBUTING AND RELATED
+# Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
 [Good first-contributor issues to take up](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
