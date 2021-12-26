@@ -1,0 +1,117 @@
+body {
+    align-items: center;
+    text-align: center; 
+}
+
+.heading {
+    color: red;
+}
+
+.lyrics-heading {
+    color: lightgreen;
+}
+
+.lud {
+    color: lightgreen;
+}
+
+.lud2 {
+    color: violet;
+}
+
+.otherprojects {
+    color: violet;
+    text-decoration: none;
+}
+
+/* Other Projects link, remove underline on hyperlink */
+
+.otherprojects a:link  {
+    text-decoration: none;
+}
+
+.otherprojects a:visited {
+    text-decoration: none;
+}
+
+.otherprojects a:hover {
+    text-decoration: none;
+}
+
+.lyrics-lud {
+    color: blue;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.songs {
+    color: blue;
+}
+
+.songs a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+.playlist-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+.lyrics {
+    color: red;
+}
+
+
+
+.duckyboi, .githubtemplate {
+    color: blue;
+    font-weight:normal;
+}
+
+.duckyboi a:link  {
+    text-decoration: none;
+}
+
+.duckyboi a:visited {
+    text-decoration: none;
+}
+
+.duckyboi a:hover {
+    text-decoration: none;
+}
+
+.githubtemplate a:link  {
+    text-decoration: none;
+}
+
+.githubtemplate a:visited {
+    text-decoration: none;
+}
+
+.githubtemplate a:hover {
+    text-decoration: none;
+}
