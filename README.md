@@ -95,7 +95,7 @@ We just updated the README for this, so here's the changelog:
 
 **Version 6.0**
 
-Link: [6.0/Twelved version of this website](https://mogulchristmas.kendalldoescoding.gq/version6.0)
+Link: [6.0/Twelfth version of this website](https://mogulchristmas.kendalldoescoding.gq/version6.0)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/sixpointzero)
 
