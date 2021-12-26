@@ -93,6 +93,8 @@ We just updated the README for this, so here's the changelog:
 
 [Changelog](https://github.com/KendallDoesCoding/mogul-christmas/compare/5.5.5...5.5.7)
 
+**Version 6.0**
+LINKS COMING SOON
 
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
