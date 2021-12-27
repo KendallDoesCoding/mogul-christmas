@@ -19,7 +19,7 @@ Link: [1.0/First version of the website](https://mogulchristmas.kendalldoescodin
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/firstrelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/1.0)
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/1.0)
 
 **Version 2.0**
 
@@ -27,8 +27,7 @@ Link: [2.0/Second version of this website](https://mogulchristmas.kendalldoescod
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/secondrelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/2.0)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/2.0)
 
 **Version 3.0**
 
@@ -36,8 +35,7 @@ Link: [3.0/Third version of this website](https://mogulchristmas.kendalldoescodi
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/thirdrelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/3.0)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/3.0)
 
 **Version 4.0**
 
@@ -45,9 +43,7 @@ Link: [4.0/Fourth version of this website](https://mogulchristmas.kendalldoescod
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourthrelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/4.0)
-
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/4.0)
 
 **Version 4.0.1**
 
@@ -55,8 +51,7 @@ Link: [4.0.1/Fifth version of this website](https://mogulchristmas.kendalldoesco
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fourpointonerelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/4.0.1)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/4.0.1)
 
 **Version 5.0**
 
@@ -64,8 +59,7 @@ Link: [5.0/Sixith version of this website](https://mogulchristmas.kendalldoescod
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fifithrelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.0)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.0)
 
 **Version 5.01**
 
@@ -73,8 +67,7 @@ Link: [5.01/Seventh version of this website](https://mogulchristmas.kendalldoesc
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointzeroonerelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.0.1)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.0.1)
 
 **Version 5.02**
 
@@ -82,8 +75,7 @@ Link: [5.02/Eighth version of this website](https://mogulchristmas.kendalldoesco
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointzerotworelease)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.02)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.02)
 
 **Version 5.1.0**
 
@@ -91,8 +83,7 @@ Link: [5.1.0/Nineth version of this website](https://mogulchristmas.kendalldoesc
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonepointzero)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.1.0)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.1.0)
 
 **Version 5.1.2**
 
@@ -100,8 +91,7 @@ Link: [5.1.2/Tenth version of this website](https://mogulchristmas.kendalldoesco
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointonepointtwo)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.1.2)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.1.2)
 
 **Special Version for Christmas Day**
 
@@ -109,7 +99,7 @@ Link: [Special Version for Christmas](https://mogulchristmas.kendalldoescoding.g
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/christmasdaytag)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/christmasday)
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/christmasday)
 
 **Version 5.5.5**
 
@@ -117,8 +107,7 @@ Link: [5.5.5/Eleventh version of this website](https://mogulchristmas.kendalldoe
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/fivepointficepointfive)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.5.5)
-
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/5.5.5)
 
 **Release 5.5.7**
 
@@ -132,7 +121,7 @@ Link: [6.0/Twelfth version of this website](https://mogulchristmas.kendalldoesco
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/sixpointzero)
 
-Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/6.0)
+Complete **Changelog**: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/6.0)
 
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
