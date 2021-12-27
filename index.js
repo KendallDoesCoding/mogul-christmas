@@ -26,7 +26,3 @@ Object.keys(songs).map((song_title) => {
   outerElem.appendChild(link);
   songsDOM.appendChild(outerElem);
 });
-
-// let matched = window.matchMedia("(prefers-color-scheme: dark)").matches;
-// if (matched) console.log("Currently in dark mode");
-// else console.log("Currently not in dark mode");
