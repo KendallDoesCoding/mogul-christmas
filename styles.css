@@ -117,12 +117,4 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
 }
 
-@media(prefers-color-scheme: dark) {
-    body {
-        background-color: ##d9d9d9;
-    }
 
-    #embed {
-        border: 2px solid white;
-    }
-}
