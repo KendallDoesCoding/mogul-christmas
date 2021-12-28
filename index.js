@@ -9,6 +9,8 @@ const songs = {
 };
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
+embed.style = "display:none"
+let userHasClickedASong = false;
 
 Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
@@ -22,6 +24,10 @@ Object.keys(songs).map((song_title) => {
     console.log(
       "If you dont know this song, we suggest you go to the lyrics page, dont worry... You can play the song from that page too :)"
     );
+    if (!userHasClickedASong) {
+      embed.style = "display:block"
+      userHasClickedASong = true
+    }
   };
   outerElem.appendChild(link);
   songsDOM.appendChild(outerElem);
