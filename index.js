@@ -6,7 +6,7 @@ const songs = {
   "Little Saint Nick": { start: "808", end: "939" },
   "All I Want For Christmas": { start: "940", end: "1179" },
   "All of the above": { start: "0" },
-};
+};.
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
 
