@@ -1,2 +1,2 @@
 # Auto assign KendallDoesCoding to be a reviewer for PR's
-*.images @KendallDoesCoding
+*   @KendallDoesCoding
