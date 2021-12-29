@@ -3,5 +3,3 @@
 
 # Auto assign TechStudent11 to be reviewer for Javascript PR's
 *.js @TechStudent11
-
-
