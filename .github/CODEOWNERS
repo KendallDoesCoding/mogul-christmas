@@ -1,2 +1,5 @@
-# Auto assign KendallDoesCoding to be a reviewer for PR's
+# Auto assign KendallDoesCoding to be a reviewer for most PR's
 * @KendallDoesCoding
+
+# Auto assign TechStudent11 to be reviewer for Javascript PR's
+*.js @TechStudent11
