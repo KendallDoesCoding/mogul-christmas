@@ -38,7 +38,9 @@ const month = Date().getMonth()
 const day = Date().getDate()
 
 if (month === 11) {
+  console.log("It's December")
   if (day === 25) {
+    console.log("It's Christmas")
     document.querySelector("luds").innerHTML += "<p class="lud">We at KendallDoesCoding wish all of you a Merry Christmas, enjoy your day and make sure you atleast listen to this album on this site atleast 10 times during your day :)</p>"
   }
 }
