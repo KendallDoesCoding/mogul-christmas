@@ -25,7 +25,6 @@ Object.keys(songs).map((song_title) => {
       "If you dont know this song, we suggest you go to the lyrics page, dont worry... You can play the song from that page too :)"
     );
     if (!userHasClickedASong) {
-      embed.style = "display:block"
       userHasClickedASong = true
     }
   };
