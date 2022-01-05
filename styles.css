@@ -2,8 +2,8 @@ body {
     align-items: center;
     text-align: center;
    background-image: 
-       url("/images/christmastree.png"),
-       url("/images/christmastree1.png");
+       url("https://media.istockphoto.com/photos/decorated-christmas-tree-isolated-on-white-picture-id1170077413?k=20&m=1170077413&s=612x612&w=0&h=v0UHZpHRwxS1BEHgUFdUNl8qiX_AR7TCKxjVY_F-CSI="),
+       url("https://media.istockphoto.com/photos/decorated-christmas-tree-isolated-on-white-picture-id1170077413?k=20&m=1170077413&s=612x612&w=0&h=v0UHZpHRwxS1BEHgUFdUNl8qiX_AR7TCKxjVY_F-CSI=");
    background-repeat: no-repeat, no-repeat;
    background-position: right bottom, left bottom; 
 }
