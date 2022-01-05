@@ -126,4 +126,12 @@ a, a:hover, a:focus, a:active {
     display: none;
 }
 
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 10px;
+}
+
 
