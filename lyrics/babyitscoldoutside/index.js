@@ -1,3 +1,5 @@
+console.log(lyrics[0].name);
+
 document.write(`
 <div class="lyrics">
     <p>I really can't stay</p>

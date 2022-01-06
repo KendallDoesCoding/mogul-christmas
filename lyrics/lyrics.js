@@ -1,4 +1,4 @@
-export const lyrics = [
+const lyrics = [
   {
     name: "the most wonderful time of the year",
     lyrics: [
