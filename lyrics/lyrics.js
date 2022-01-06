@@ -1,33 +1,36 @@
-document.write(`
-<div class="lyrics">
-<p>Its the most wonderful time of the year</p>
-  <p>With the kids jingle belling and everyone telling youll be of good cheer</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>Its the hap- happest season of all</p>
-  <p>With those holiday greetings</p>
-  <p>And gay happy meetings when friends come to call</p>
-  <p>Its the hap- happest season of all</p>
-  <p>There be parties for hosting</p>
-  <p>Marshmellows for tosting</p>
-  <p>And caroling out in the snow</p>
-  <p>There be scary ghost stories and tales of the glories of Christmases</p>
-  <p>Long long ago</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>There be much misoltoeng</p>
-  <p>And hearts will be glowing</p>
-  <p>When loved ones are near</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>There be parties for hosting</p>
-  <p>Marshmellows for tosting</p>
-  <p>And caroling out in the snow</p>
-  <p>There be scary ghost stories</p>
-  <p>And tales of the glories of Christmases long long ago</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>There be much misoletong</p>
-  <p>And hearts will be glowing</p>
-  <p>When loved ones are near</p>
-  <p>Its the most wonderful time</p>
-  <p>Yes the most wonderful time</p>
-  <p>Its the most wonderful time of he year</p>
-</div>
-`);
+export const lyrics = [
+  {
+    name: "the most wonderful time of the year",
+    lyrics: [
+      "Its the most wonderful time of the year",
+      "With the kids jingle belling and everyone telling youll be of good cheer",
+      "Its the most wonderful time of the year",
+      "Its the hap- happest season of all",
+      "With those holiday greetings",
+      "And gay happy meetings when friends come to call",
+      "Its the hap- happest season of all",
+      "There be parties for hosting",
+      "Marshmellows for tosting",
+      "And caroling out in the snow",
+      "There be scary ghost stories and tales of the glories of Christmases",
+      "Long long ago",
+      "Its the most wonderful time of the year",
+      "There be much misoltoeng",
+      "And hearts will be glowing",
+      "When loved ones are near",
+      "Its the most wonderful time of the year",
+      "There be parties for hosting",
+      "Marshmellows for tosting",
+      "And caroling out in the snow",
+      "There be scary ghost stories",
+      "And tales of the glories of Christmases long long ago",
+      "Its the most wonderful time of the year",
+      "There be much misoletong",
+      "And hearts will be glowing",
+      "When loved ones are near",
+      "Its the most wonderful time",
+      "Yes the most wonderful time",
+      "Its the most wonderful time of he year",
+    ],
+  },
+];
