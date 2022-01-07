@@ -77,6 +77,7 @@ const lyrics = [
   {
     name: "all i want for christmas",
     lyrics: [
+      "I don't want a lot for Christmas",
       "There is just one thing I need",
       "I don't care about the presents underneath the Christmas tree",
       "I just want you for my own",
