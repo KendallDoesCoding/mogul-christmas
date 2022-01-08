@@ -131,6 +131,22 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/6.1.0)
 
+**Release 6.1.2**
+
+We just updated a few github settings, so here's the changelogs.
+
+[Changelog](https://github.com/KendallDoesCoding/mogul-christmas/compare/6.1.0...6.1.2)
+
+**Version 7.0**
+
+Link: [7.0/14th version of this website](https://mogulchristmas.kendalldoescoding.gq/version7.0)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/sevenpointzero)
+
+Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/7.0)
+
+
+
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
