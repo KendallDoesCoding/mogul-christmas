@@ -1,3 +1,21 @@
+:root {
+  --bg-color: white;
+
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --font-color-heading: lightgreen;
+  --font-color-sub-heading: violet;
+}
+
+.darkMode {
+  --bg-color: #d9d9d9;
+
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --font-color-heading: lightgreen;
+  --font-color-sub-heading: violet;
+}
+
 body {
   align-items: center;
   text-align: center;
@@ -5,26 +23,27 @@ body {
     url("/images/christmastree1.png");
   background-repeat: no-repeat, no-repeat;
   background-position: right bottom, left bottom;
+  background-color: var(--bg-color);
 }
 
 .heading {
-  color: red;
+  color: var(--font-color-red);
 }
 
 .lyrics-heading {
-  color: lightgreen;
+  color: var(--font-color-heading);
 }
 
 .lud {
-  color: lightgreen;
+  color: var(--font-color-heading);
 }
 
 .lud2 {
-  color: violet;
+  color: var(--font-color-sub-heading);
 }
 
 .otherprojects {
-  color: violet;
+  color: var(--font-color-sub-heading);
   text-decoration: none;
 }
 
@@ -43,7 +62,7 @@ body {
 }
 
 .lyrics-lud {
-  color: blue;
+  color: var(--font-color-blue);
 }
 
 a,
@@ -56,7 +75,7 @@ a:active {
 }
 
 .songs {
-  color: blue;
+  color: var(--font-color-blue);
 }
 
 .songs a,
@@ -93,12 +112,12 @@ a:active {
 }
 
 .lyrics {
-  color: red;
+  color: var(--font-color-red);
 }
 
 .duckyboi,
 .githubtemplate {
-  color: blue;
+  color: var(--font-color-blue);
   font-weight: normal;
 }
 

@@ -10,6 +10,17 @@ const songs = {
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
+const toggle = document.querySelector(".round");
+toggle.addEventListener("click", modeSwitch);
+
+let isLight = true;
+
+function modeSwitch() {
+  isLight = !isLight;
+  // isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}
 embed.style = "display:none";
 let userHasClickedASong = false;
 
