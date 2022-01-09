@@ -192,6 +192,10 @@ a:active {
   background-color: gray;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  background-image: url("./images/day.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .slider:before {
@@ -201,7 +205,7 @@ a:active {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }

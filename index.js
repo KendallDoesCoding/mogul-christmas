@@ -11,13 +11,16 @@ const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
+const slider = document.querySelector(".slider");
 toggle.addEventListener("click", modeSwitch);
 
 let isLight = true;
 
 function modeSwitch() {
   isLight = !isLight;
-  // isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
+  isLight
+    ? (slider.style.backgroundImage = "url('./images/day.png')")
+    : (slider.style.backgroundImage = "url('./images/night.png')");
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
 }
