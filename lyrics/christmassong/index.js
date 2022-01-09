@@ -8,3 +8,11 @@ christmas_song.map((item) => {
   p.appendChild(textNode);
   return christmas_song__container.appendChild(p);
 });
+const toggle_christmas_song = document.querySelector(".round");
+toggle_christmas_song.addEventListener("click", modeSwitch);
+
+function modeSwitch() {
+  // isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}

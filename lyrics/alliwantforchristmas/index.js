@@ -8,3 +8,11 @@ song.map((item) => {
   p.appendChild(textNode);
   return lyrics__container.appendChild(p);
 });
+const toggle_all_I_want_for_cristmas = document.querySelector(".round");
+toggle_all_I_want_for_cristmas.addEventListener("click", modeSwitch);
+
+function modeSwitch() {
+  // isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}

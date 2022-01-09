@@ -11,3 +11,11 @@ little_saint_nick.map((item) => {
   p.appendChild(textNode);
   return little_saint_nick__container.appendChild(p);
 });
+const toggle_little_saint_nick = document.querySelector(".round");
+toggle_little_saint_nick.addEventListener("click", modeSwitch);
+
+function modeSwitch() {
+  // isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}
