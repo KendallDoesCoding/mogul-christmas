@@ -11,11 +11,21 @@ its_cold_outside.map((item) => {
   p.appendChild(textNode);
   return its_cold_outside__container.appendChild(p);
 });
+
+const slider_baby_its_cold_outside = document.querySelector(".slider");
+
 const toggle_on_baby_its_cold_outside = document.querySelector(".round");
 toggle_on_baby_its_cold_outside.addEventListener("click", modeSwitch);
 
+let isLight_baby_its_cold_outside = true;
 function modeSwitch() {
-  // isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
+  isLight_baby_its_cold_outside = !isLight_baby_its_cold_outside;
+
+  isLight_baby_its_cold_outside
+    ? (slider_baby_its_cold_outside.style.backgroundImage =
+        "url('../../images/day.png')")
+    : (slider_baby_its_cold_outside.style.backgroundImage =
+        "url('../../images/night.png')");
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
 }
