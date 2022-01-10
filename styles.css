@@ -235,7 +235,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (max-width: 620px) {
   body {
     background-image: none;
   }
