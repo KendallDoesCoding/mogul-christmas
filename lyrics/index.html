@@ -7,8 +7,17 @@
     <title>Lyrics</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
-    <h1 class="heading">Lyrics of songs in the playlist!</h1>
+<body >
+    <div id="header">
+        <h1 class="heading">Lyrics of songs in the playlist!</h1>
+        <div id="switch">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+   
     <div class="songs">
         <p><a href="/lyrics/christmassong">Christmas Song</a></p>
         <p><a href="/lyrics/babyitscoldoutside">Baby It's Cold Outside</a></p>
@@ -18,4 +27,20 @@
         <p><a href="/lyrics/alliwantforchristmas">All I Want For Christmas</a></p>
     </div>
 </body>
+<script>
+    const slider = document.querySelector(".slider");
+    const toggle_lyrics_page = document.querySelector(".round");
+    toggle_lyrics_page.addEventListener("click", modeSwitch);
+    let isLight = true;
+    function modeSwitch() {
+        isLight = !isLight;
+       isLight
+            ? (slider.style.backgroundImage = "url('../images/day.png')")
+            : (slider.style.backgroundImage = "url('../images/night.png')");
+        const rootElement = document.body;
+        rootElement.classList.toggle("darkMode");
+    }
+
+
+</script>
 </html>
