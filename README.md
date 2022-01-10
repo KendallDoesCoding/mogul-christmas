@@ -11,7 +11,7 @@ The website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)!
 Make sure you check it out.
 
 # Versions & Previews
-For updates on the website, we've written it as Version and for updates on Github we've written it as a Release, for Releases, we've provided a complete change log.
+- For updates on the website, we've written it as Version and for updates on Github we've written it as a Release, for Releases, we've provided a complete change log.
 
 **Version 1.0**
 
@@ -154,7 +154,8 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/7.1.0)
 
 **Version 7.2.0**
-This version really made the site un-functional. I thought the website was fine but I didn't give it a proper look at first, after that we fixed the issue and made a new release, so if you go on the deploy preview, you'll be able to check absolutely nothing.
+
+- This version really made the site un-functional. I thought the website was fine but I didn't give it a proper look at first, after that we fixed the issue and made a new release, so if you go on the deploy preview, you'll be able to check absolutely nothing.
 
 Link: [7.2.0/16th version of this website](https://mogulchristmas.kendalldoescoding.gq/version7.2.0)
 
