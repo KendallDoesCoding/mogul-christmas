@@ -21,11 +21,14 @@
 body {
   align-items: center;
   text-align: center;
-  background-image: url("/images/christmastree.png"),
-    url("/images/christmastree1.png");
   background-repeat: no-repeat, no-repeat;
   background-position: right bottom, left bottom;
   background-color: var(--bg-color);
+}
+
+body.index {
+  background-image: url("/images/christmastree.png"),
+    url("/images/christmastree1.png");
 }
 
 .heading {
