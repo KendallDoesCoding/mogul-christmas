@@ -234,3 +234,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+@media screen and (min-width: 480px) {
+  body {
+    background: white;
+  }
+}
