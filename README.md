@@ -153,6 +153,15 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/7.1.0)
 
+**Version 7.2.0**
+This version really made the site un-functional. I thought the website was fine but I didn't give it a proper look at first, after that we fixed the issue and made a new release, so if you go on the deploy preview, you'll be able to check absolutely nothing.
+
+Link: [7.2.0/16th version of this website](https://mogulchristmas.kendalldoescoding.gq/version7.2.0)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/sevenpointtwopointzero)
+
+Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/7.2.0)
+
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
