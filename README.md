@@ -3,7 +3,7 @@
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project!
 
 # Important 
-Ensure that the last youtube video you watched wasn't on mute, otherwise the autoplay on this site will be muted too. 
+Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
 
 # Check it out here
 The website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)! 

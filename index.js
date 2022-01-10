@@ -9,7 +9,22 @@ const songs = {
 };
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
-embed.style = "display:none"
+const newTabGithub = document.querySelector(".social");
+const toggle = document.querySelector(".round");
+const slider = document.querySelector(".slider");
+toggle.addEventListener("click", modeSwitch);
+
+let isLight = true;
+
+function modeSwitch() {
+  isLight = !isLight;
+  isLight
+    ? (slider.style.backgroundImage = "url('./images/day.png')")
+    : (slider.style.backgroundImage = "url('./images/night.png')");
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}
+embed.style = "display:none";
 let userHasClickedASong = false;
 
 Object.keys(songs).map((song_title) => {
@@ -25,9 +40,16 @@ Object.keys(songs).map((song_title) => {
       "If you dont know this song, we suggest you go to the lyrics page, dont worry... You can play the song from that page too :)"
     );
     if (!userHasClickedASong) {
-      userHasClickedASong = true
+      userHasClickedASong = true;
     }
   };
   outerElem.appendChild(link);
   songsDOM.appendChild(outerElem);
+});
+newTabGithub.addEventListener("click", () => {
+  window.open(
+    "https://github.com/KendallDoesCoding/mogul-christmas",
+    "_blank",
+    "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
+  );
 });

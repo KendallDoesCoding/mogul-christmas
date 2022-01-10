@@ -1,24 +1,29 @@
-document.write(`
-<div class="lyrics">
-  <p>Chestnuts roasting on an open fire</p>
-  <p>Jack Frost nipping at your nose</p>
-  <p>Yuletide carols being sung by a choir</p>
-  <p>And folks dressed up like Eskimos</p>
-  <p>Everybody knows a turkey and some mistletoe</p>
-  <p>Help to make the season bright</p>
-  <p>Tiny tots with their eyes all aglow</p>
-  <p>Will find it hard to sleep tonight</p>
-  <p>They know that Santa's on his way</p>
-  <p>He's loaded lots of toys and goodies on his sleigh</p>
-  <p>And every mother's child is gonna spy</p>
-  <p>To see if reindeers really know how to fly</p>
-  <p>And so I'm offering this simple phrase</p>
-  <p>To kids from one to ninety-two</p>
-  <p>Although it's been said many times, many ways</p>
-  <p>Merry Christmas to you</p>
-  <p>And so I'm offering this simple phrase</p>
-  <p>To kids from one to ninety-two</p>
-  <p>Although it's been said many times, many ways</p>
-  <p>Merry Christmas to you</p>
-</div>
-`);
+const christmas_song = lyrics.find((x) => x.name === "christmas song").lyrics;
+
+const christmas_song__container = document.getElementsByClassName("lyrics")[0];
+
+christmas_song.map((item) => {
+  const p = document.createElement("p");
+  const textNode = document.createTextNode(item);
+  p.appendChild(textNode);
+  return christmas_song__container.appendChild(p);
+});
+
+const slider_christmas_song = document.querySelector(".slider");
+
+const toggle_christmas_song = document.querySelector(".round");
+toggle_christmas_song.addEventListener("click", modeSwitch);
+
+let isLight_christmas_song = true;
+
+function modeSwitch() {
+  isLight_christmas_song = !isLight_christmas_song;
+
+  isLight_christmas_song
+    ? (slider_christmas_song.style.backgroundImage =
+        "url('../../images/day.png')")
+    : (slider_christmas_song.style.backgroundImage =
+        "url('../../images/night.png')");
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}

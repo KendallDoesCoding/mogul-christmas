@@ -1,33 +1,30 @@
-document.write(`
-<div class="lyrics">
-<p>Its the most wonderful time of the year</p>
-  <p>With the kids jingle belling and everyone telling youll be of good cheer</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>Its the hap- happest season of all</p>
-  <p>With those holiday greetings</p>
-  <p>And gay happy meetings when friends come to call</p>
-  <p>Its the hap- happest season of all</p>
-  <p>There be parties for hosting</p>
-  <p>Marshmellows for tosting</p>
-  <p>And caroling out in the snow</p>
-  <p>There be scary ghost stories and tales of the glories of Christmases</p>
-  <p>Long long ago</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>There be much misoltoeng</p>
-  <p>And hearts will be glowing</p>
-  <p>When loved ones are near</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>There be parties for hosting</p>
-  <p>Marshmellows for tosting</p>
-  <p>And caroling out in the snow</p>
-  <p>There be scary ghost stories</p>
-  <p>And tales of the glories of Christmases long long ago</p>
-  <p>Its the most wonderful time of the year</p>
-  <p>There be much misoletong</p>
-  <p>And hearts will be glowing</p>
-  <p>When loved ones are near</p>
-  <p>Its the most wonderful time</p>
-  <p>Yes the most wonderful time</p>
-  <p>Its the most wonderful time of he year</p>
-</div>
-`);
+const song = lyrics.find(
+  (x) => x.name === "the most wonderful time of the year"
+).lyrics;
+
+const lyrics__container = document.getElementsByClassName("lyrics")[0];
+
+song.map((item) => {
+  const p = document.createElement("p");
+  const textNode = document.createTextNode(item);
+  p.appendChild(textNode);
+  return lyrics__container.appendChild(p);
+});
+
+const slider_wonderful_time_of_the_year = document.querySelector(".slider");
+
+const toggle_wonderful_time_of_the_year = document.querySelector(".round");
+toggle_wonderful_time_of_the_year.addEventListener("click", modeSwitch);
+let isLight_wonderful_time_of_the_year = true;
+function modeSwitch() {
+  isLight_wonderful_time_of_the_year = !isLight_wonderful_time_of_the_year;
+
+  isLight_wonderful_time_of_the_year
+    ? (slider_wonderful_time_of_the_year.style.backgroundImage =
+        "url('../../images/day.png')")
+    : (slider_wonderful_time_of_the_year.style.backgroundImage =
+        "url('../../images/night.png')");
+
+  const rootElement = document.body;
+  rootElement.classList.toggle("darkMode");
+}
