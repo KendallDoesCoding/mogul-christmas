@@ -1,6 +1,6 @@
 # mogul-christmas
 
-I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project!
+I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. If you would like darkmode on this site, you can toggle dark-mode on or off by using the button in the top right corner of the site.
 
 # Important 
 Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
