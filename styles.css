@@ -24,11 +24,12 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: right bottom, left bottom;
   background-color: var(--bg-color);
-}
-
-body.index {
   background-image: url("/images/christmastree.png"),
     url("/images/christmastree1.png");
+}
+
+body.lyrics {
+  background-color: var(--bg-color);
 }
 
 .heading {
@@ -239,7 +240,7 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 620px) {
-  body.index {
+  body {
     background-image: none;
   }
 }
