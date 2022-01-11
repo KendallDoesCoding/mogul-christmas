@@ -126,7 +126,7 @@ Complete Changelog: [Changelog located here](https://github.com/KendallDoesCodin
 # Contributing Guidelines & Related Stuff
 [Contributing Guidelines](./.github/CONTRIBUTING.md)
 
-[Good first-contributor issues to take up](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
+[Issues which new contributors can take up.](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
 
 # Deploy Status
