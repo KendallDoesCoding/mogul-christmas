@@ -130,6 +130,8 @@ Complete Changelog: [Changelog located here](https://github.com/KendallDoesCodin
 
 
 # Deploy Status
+Below, you can see the progress of the github deploy to the site. Incase a change is made to this repo, it takes around 1-5 minutes to display on the site, depending on if there's other deploy's going on within Pull Requests or within repos which have sites, because using Netlify, I can only deploy one thing at a time.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9a61158-0ccb-489e-ba45-85eafcf4bc3b/deploy-status)](https://app.netlify.com/sites/mogulchristmas/deploys)
 
 
