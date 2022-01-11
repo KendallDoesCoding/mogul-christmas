@@ -6,7 +6,7 @@ I was feeling bored so I made this basic HTML Project and I felt like keeping go
 Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
 
 # Check it out here
-The website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)! 
+The project website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)! 
 
 Make sure you check it out.
 
