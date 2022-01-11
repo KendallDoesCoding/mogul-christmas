@@ -239,7 +239,7 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 620px) {
-  body {
+  body.index {
     background-image: none;
   }
 }
