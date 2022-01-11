@@ -14,7 +14,13 @@ const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
 toggle.addEventListener("click", modeSwitch);
 
-let isLight = true;
+let isLight;
+
+if (window.localStorage.getItem("isLight") === null) {
+  isLight = true
+else {
+  isLight = window.localStorage.getItem("isLight")
+}
 
 function modeSwitch() {
   isLight = !isLight;
@@ -23,6 +29,7 @@ function modeSwitch() {
     : (slider.style.backgroundImage = "url('./images/night.png')");
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
+  window.localStorage.setItem("isLight", isLight)
 }
 embed.style = "display:none";
 let userHasClickedASong = false;
