@@ -29,7 +29,7 @@ body {
 }
 
 body.lyrics {
-  background-color: var(--bg-color);
+  background-image: none;
 }
 
 .heading {
