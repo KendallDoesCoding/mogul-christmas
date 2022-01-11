@@ -124,7 +124,7 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/6.0)
 
 # Contributing Guidelines & Related Stuff
-[CONTRIBUTING.md](./.github/CONTRIBUTING.md)
+[Contributing Guidelines](./.github/CONTRIBUTING.md)
 
 [Good first-contributor issues to take up](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
