@@ -18,7 +18,7 @@ let isLight;
 
 if (window.localStorage.getItem("isLight") === null) {
   isLight = true
-else {
+} else {
   isLight = window.localStorage.getItem("isLight")
 }
 
