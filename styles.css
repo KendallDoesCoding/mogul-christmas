@@ -47,6 +47,12 @@ body {
 .lud2 {
   color: var(--font-color-sub-heading);
 }
+.christmas_day_message {
+  display: none;
+}
+.christmas_day_message p {
+  color: var(--font-color-sub-heading);
+}
 
 .otherprojects {
   color: var(--font-color-sub-heading);
@@ -106,7 +112,7 @@ a:active {
 }
 
 .button1 {
-  background-color: #1E90FF; 
+  background-color: #1e90ff;
   border: none;
   color: white;
   padding: 15px 32px;
