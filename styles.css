@@ -48,7 +48,7 @@ body {
   color: var(--font-color-sub-heading);
 }
 .christmas_day_message {
-  display: block;
+  display: none;
 }
 .christmas_day_message p {
   color: var(--font-color-heading2);

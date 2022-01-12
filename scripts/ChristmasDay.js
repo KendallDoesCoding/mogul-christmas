@@ -1,7 +1,7 @@
 const christmasDay = new Date();
-
-if (christmasDay.getMonth() === 0 && christmasDay.getDate() === 12) {
-  console.log("christmas");
+const messageDisplay = document.querySelector(".christmas_day_message");
+if (christmasDay.getMonth() === 11 && christmasDay.getDate() === 25) {
+  messageDisplay.style.display = "block";
 } else {
-  console.log("not");
+  messageDisplay.style.display = "none";
 }
