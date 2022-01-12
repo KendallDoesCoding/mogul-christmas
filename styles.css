@@ -6,6 +6,7 @@
   --font-color-heading: lightgreen;
   --font-color-heading2: lightgreen;
   --font-color-sub-heading: violet;
+  --font-color-christmas_message: violet;
 }
 
 .darkMode {
@@ -16,6 +17,7 @@
   --font-color-heading: lightgreen;
   --font-color-heading2: darkgreen;
   --font-color-sub-heading: violet;
+  --font-color-christmas_message: purple;
 }
 
 /* Body */
@@ -51,7 +53,10 @@ body {
   display: none;
 }
 .christmas_day_message p {
-  color: var(--font-color-sub-heading);
+
+  color: var(--font-color-christmas_message);
+  
+
 }
 
 .otherprojects {
