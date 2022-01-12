@@ -5,7 +5,7 @@ I was feeling bored so I made this basic HTML Project and I felt like keeping go
 # Important 
 Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
 
-Also, I suggest you use [Adblocker Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) or any other adblocker because there's a chance that sometimes when you click a song a ad may play before, because this project runs via the youtube embed. Although, I may change it to run through Youtube Music or another music software soon where the ads are less. But mostly, there aren't ads so you should be good most of the time.
+Also, I suggest you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or any other adblocker because there's a chance that sometimes when you click a song a ad may play before, because this project runs via the youtube embed. Although, I may change it to run through Youtube Music or another music software soon where the ads are less. But mostly, there aren't ads so you should be good most of the time.
 
 # Check it out here
 The project website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)! 
