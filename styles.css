@@ -51,7 +51,7 @@ body {
   display: none;
 }
 .christmas_day_message p {
-  color: var(--font-color-heading2);
+  color: var(--font-color-sub-heading);
 }
 
 .otherprojects {
