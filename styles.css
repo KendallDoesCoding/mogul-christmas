@@ -101,6 +101,19 @@ a:active {
   margin-bottom: 10px;
 }
 
+.button1 {
+  background-color: #1E90FF; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 .playlist-button {
   background-color: red;
   border: none;
