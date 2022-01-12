@@ -53,7 +53,10 @@ body {
   display: none;
 }
 .christmas_day_message p {
+
   color: var(--font-color-christmas_message);
+  
+
 }
 
 .otherprojects {
