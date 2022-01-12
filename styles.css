@@ -18,6 +18,8 @@
   --font-color-sub-heading: violet;
 }
 
+/* Body */
+/* Needs editting, the christmastree images need to be called in a div not in the BODY */
 body {
   align-items: center;
   text-align: center;
@@ -27,6 +29,8 @@ body {
   background-position: right bottom, left bottom;
   background-color: var(--bg-color);
 }
+
+/* Headings, etc */
 
 .heading {
   color: var(--font-color-red);
