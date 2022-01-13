@@ -167,7 +167,7 @@ Complete Changelog: [Changelog located here](https://github.com/KendallDoesCodin
 
 Link: [8.0/17th version of this website](https://mogulchristmas.kendalldoescoding.gq/version8.0)
 
-Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/eightpointzero)
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/eighthpointzero)
 
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/8.0)
 
