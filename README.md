@@ -173,11 +173,20 @@ Complete Changelog: [Changelog located here](https://github.com/KendallDoesCodin
 
 **Version 8.1.0**
 
-Link: [8.0/17th version of this website](https://mogulchristmas.kendalldoescoding.gq/version8.1.0)
+Link: [8.1.0/18th version of this website](https://mogulchristmas.kendalldoescoding.gq/version8.1.0)
 
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/eighthpointonepointzero)
 
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/8.1.0)
+
+**Version 8.2.0**
+
+Link: [8.2.0/19th version of this website](https://mogulchristmas.kendalldoescoding.gq/version8.2.0)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/eighthpointtwopointzero)
+
+Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/8.2.0)
+
 
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
