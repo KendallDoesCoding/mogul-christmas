@@ -171,6 +171,13 @@ Github Release Page: [The github release page is listed here](https://mogulchris
 
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/8.0)
 
+**Version 8.1.0**
+Link: [8.0/17th version of this website](https://mogulchristmas.kendalldoescoding.gq/version8.1.0)
+
+Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/eighthpointonepointzero)
+
+Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/8.1.0)
+
 # Contributing Guidelines & Related Stuff
 [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
