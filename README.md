@@ -2,6 +2,8 @@
 
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. If you would like darkmode on this site, you can toggle dark-mode on or off by using the button in the top right corner of the site.
 
+Since version 8.0, we've updated how the website looks so that theirs no embed/iframe, but that does slow down the performance how fast the song plays/the user doesn't know if the song is loading or no, but just wait 1-5 seconds and the song should play, incase of any issue, please create a bug report issue using the template in the issue panel in this repo.
+
 # Important 
 Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
 
