@@ -3,9 +3,10 @@
 
   --font-color-red: red;
   --font-color-blue: blue;
-  --font-color-heading: lightgreen;
-  --font-color-heading2: lightgreen;
+  --font-color-heading: #1ABC9C;
+  --font-color-heading2: #1ABC9C;
   --font-color-sub-heading: violet;
+  --font-color-christmas_message: violet;
 }
 
 .darkMode {
@@ -16,8 +17,11 @@
   --font-color-heading: lightgreen;
   --font-color-heading2: darkgreen;
   --font-color-sub-heading: violet;
+  --font-color-christmas_message: purple;
 }
 
+/* Body */
+/* Needs editting, the christmastree images need to be called in a div not in the BODY */
 body {
   align-items: center;
   text-align: center;
@@ -31,6 +35,8 @@ body {
 body.lyrics {
   background-image: none;
 }
+
+/* Headings, etc */
 
 .heading {
   color: var(--font-color-red);
@@ -46,6 +52,15 @@ body.lyrics {
 
 .lud2 {
   color: var(--font-color-sub-heading);
+}
+.christmas_day_message {
+  display: none;
+}
+.christmas_day_message p {
+
+  color: var(--font-color-christmas_message);
+  
+
 }
 
 .otherprojects {
@@ -94,6 +109,19 @@ a:active {
 
 .button {
   background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  background-color: #1e90ff;
   border: none;
   color: white;
   padding: 15px 32px;
