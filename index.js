@@ -22,13 +22,6 @@ const updateMode = () => {
     : (slider.style.backgroundImage = "url('./images/night.png')");
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
-  window.localStorage.setItem("isLight", isLight)
-}
-
-if (window.localStorage.getItem("isLight") === null) {
-  isLight = true
-} else {
-  isLight = window.localStorage.getItem("isLight")
 }
 
 updateMode()
