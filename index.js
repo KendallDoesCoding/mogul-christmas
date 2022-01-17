@@ -14,7 +14,7 @@ const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
 toggle.addEventListener("click", modeSwitch);
 
-let isLight;
+let isLight = true;
 
 const updateMode = () => {
   isLight
@@ -23,8 +23,6 @@ const updateMode = () => {
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
 }
-
-updateMode()
 
 function modeSwitch() {
   isLight = !isLight;
