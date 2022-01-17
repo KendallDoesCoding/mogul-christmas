@@ -14,8 +14,8 @@
 
   --font-color-red: red;
   --font-color-blue: blue;
-  --font-color-heading: lightgreen;
-  --font-color-heading2: darkgreen;
+  --font-color-heading: #D4AC0D;
+  --font-color-heading2: #D4AC0D;
   --font-color-sub-heading: violet;
   --font-color-christmas_message: purple;
 }
