@@ -2,12 +2,12 @@
 
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. If you would like darkmode on this site, you can toggle dark-mode on or off by using the button in the top right corner of the site.
 
-Since version 8.0, we've updated how the website looks so that theirs no embed/iframe, but that does slow down the performance how fast the song plays/the user doesn't know if the song is loading or no, but just wait 1-5 seconds and the song should play, incase of any issue, please create a bug report issue using the template in the issue panel in this repo.
-
 # Important 
 Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
 
 Also, I suggest you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or any other adblocker because there's a chance that sometimes when you click a song a ad may play before, because this project runs via the youtube embed. Although, I may change it to run through Youtube Music or another music software soon where the ads are less. But mostly, there aren't ads so you should be good most of the time.
+
+If your running the versions between 8.0 to 10.5.0 especially please note that since version 8.0, we've updated how the website looks so that theirs no embed/iframe, but that does slow down the performance how fast the song plays/the user doesn't know if the song is loading or no, but just wait 1-5 seconds and the song should play, incase of any issue, please create a bug report issue using the template in the issue panel in this repo. Since release, 10.5.0 I believe, the songs have started playing a little faster then it used to play, now it will only take 1-4 seconds
 
 # Check it out here
 The project website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)! 
