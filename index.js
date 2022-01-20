@@ -12,8 +12,8 @@ const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
-const upVolume = document.getElementId("up");
-const downVolume = document.getElementId("down");
+const upVolume = document.getElementById("up");
+const downVolume = document.getElementById("down");
 toggle.addEventListener("click", modeSwitch);
 
 let isLight = true;
