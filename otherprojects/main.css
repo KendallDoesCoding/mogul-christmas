@@ -1,66 +1,71 @@
 body {
-    align-items: center;
-    text-align: center; 
+	align-items: center;
+	text-align: center;
 }
 
 .heading {
-    color: #1ABC9C;
+	color: #1ABC9C;
 }
 
 .info {
-    color: violet;
+	color: violet;
 }
 
 .otherprojects {
-    color: violet;
-    text-decoration: none;
+	color: violet;
+	text-decoration: none;
 }
+
 
 /* Other Projects link, remove underline on hyperlink */
 
-.otherprojects a:link  {
-    text-decoration: none;
+.otherprojects a:link {
+	text-decoration: none;
 }
 
 .otherprojects a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .otherprojects a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-    text-decoration: underline;
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+	text-decoration: underline;
 }
 
-.duckyboi, .githubtemplate {
-    color: blue;
-    font-weight:normal;
+.duckyboi,
+.githubtemplate {
+	color: blue;
+	font-weight: normal;
 }
 
-.duckyboi a:link  {
-    text-decoration: none;
+.duckyboi a:link {
+	text-decoration: none;
 }
 
 .duckyboi a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .duckyboi a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-.githubtemplate a:link  {
-    text-decoration: none;
+.githubtemplate a:link {
+	text-decoration: none;
 }
 
 .githubtemplate a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .githubtemplate a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
