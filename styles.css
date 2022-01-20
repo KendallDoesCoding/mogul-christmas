@@ -99,6 +99,10 @@ a:active {
   color: var(--font-color-blue);
 }
 
+.songs i {
+  color: black;
+}
+
 .songs a,
 a:hover,
 a:focus,
@@ -272,3 +276,4 @@ input:checked + .slider:before {
     background-image: none;
   }
 }
+
