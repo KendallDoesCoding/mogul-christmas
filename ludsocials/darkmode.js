@@ -1,6 +1,6 @@
 const slider = document.querySelector(".slider");
 const toggle_lyrics_page = document.querySelector(".round");
-toggle_lyrics_page.addEventListener("click", modeSwitch);
+toggle_socials_page.addEventListener("click", modeSwitch);
 let isLight = true;
 
 function modeSwitch() {
