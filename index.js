@@ -12,6 +12,8 @@ const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
+const upVolume = document.getElementId("up");
+const downVolume = document.getElementId("down");
 toggle.addEventListener("click", modeSwitch);
 
 let isLight = true;
@@ -30,6 +32,14 @@ function modeSwitch() {
 }
 embed.style = "display:none";
 let userHasClickedASong = false;
+
+upVolume.onClick = () => {
+  embed.setVolume(embed.volume + 5)
+}
+
+upVolume.onClick = () => {
+  embed.setVolume(embed.volume - 5)
+}
 
 Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
