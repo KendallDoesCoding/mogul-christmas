@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludwig's Socials</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/72f2609661.js" crossorigin="anonymous"></script>
+</head>
+<body class="lyrics">
+    <div id="header">
+        <h1 class="heading">Ludwig's Socials</h1>
+        <div id="switch">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+   
+    <div class="songs">
+        <p><a href="https://open.spotify.com/artist/7dicaSC16N5UkDPLfojKhX" target="_blank">Spotify <i class="fab fa-spotify" style="color:#1DB954 "></i></a></p>
+        <p><a href="https://music.apple.com/id/artist/ludwig-ahgren/1543744765" target="_blank">Apple Music <i class="fas fa-music" style="color:purple "></i></a></p>
+        <p><a href="https://youtube.com/MrAndersLA" target="_blank">YouTube <i class="fab fa-youtube" style="color:red "></i> </a></p>
+        <p><a href="https://twitter.com/LudwigAhgren" target="_blank">Twitter <i class="fab fa-twitter" style="color:#00ACEE "></i></a></p>
+        <p><a href="https://www.instagram.com/ludwigahgren" target="_blank">Instagram <i class="fab fa-instagram" style="color:#8A3AB9 "></i></a></p>
+        <p><a href="https://twitch.tv/ludwig" target="_blank">Twitch <i class="fab fa-twitch" style="color:purple "></i></a></p>
+        <p><a href="https://ludwig.gg" target="_blank">Merch <i class="fa fa-globe"></i></a></p>
+        <p><a href="https://www.tiktok.com/@ludwig?lang=en" target="_blank">TikTok <i class="fab fa-tiktok"></i></a></p>
+        <p><a href="/ludsocials/podcasts" target="_blank">Podcast/Podcast Socials <i class="fas fa-podcast" style="color:darksalmon "></i></a></p>
+    </div>
+<div id="official" class="button">
+       <a href="https://wlo.link/@ludwig" target="_blank" id="official-btn" class="btn"> Official Link-Tree Page
+</div>   
+</body>
+<script>
+    const slider = document.querySelector(".slider");
+    const toggle_lyrics_page = document.querySelector(".round");
+    toggle_lyrics_page.addEventListener("click", modeSwitch);
+    let isLight = true;
+    function modeSwitch() {
+        isLight = !isLight;
+       isLight
+            ? (slider.style.backgroundImage = "url('../images/day.png')")
+            : (slider.style.backgroundImage = "url('../images/night.png')");
+        const rootElement = document.body;
+        rootElement.classList.toggle("darkMode");
+    }
+
+
+</script>
+</html>
