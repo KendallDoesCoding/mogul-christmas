@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Other Projects</title>
+      <title>Similar Projects</title>
       <link rel="stylesheet" href="main.css">
    </head>
    <body>
@@ -14,4 +14,18 @@
          <p class="duckyboi"><a href="https://kendalldoescoding.gq/ducksong" target="_blank">Duck Song Playlist</a>
          <p class="githubtemplate"><a href="https://github.com/KendallDoesCoding/video-playlist-in-browser" target="_blank">Song Playlist Website Template</a>    
       </div>
+   <script>
+      const slider = document.querySelector(".slider");
+      const toggle_lyrics_page = document.querySelector(".round");
+      toggle_lyrics_page.addEventListener("click", modeSwitch);
+      let isLight = true;
+      function modeSwitch() {
+          isLight = !isLight;
+         isLight
+              ? (slider.style.backgroundImage = "url('../images/day.png')")
+              : (slider.style.backgroundImage = "url('../images/night.png')");
+          const rootElement = document.body;
+          rootElement.classList.toggle("darkMode");
+      }      
+</script>
    </body>
