@@ -1,279 +1,289 @@
 :root {
-  --bg-color: white;
-
-  --font-color-red: red;
-  --font-color-blue: blue;
-  --font-color-heading: #1ABC9C;
-  --font-color-heading2: #1ABC9C;
-  --font-color-sub-heading: violet;
-  --font-color-christmas_message: violet;
+	--bg-color: white;
+	--font-color-red: red;
+	--font-color-blue: blue;
+	--font-color-heading: #1ABC9C;
+	--font-color-heading2: #1ABC9C;
+	--font-color-sub-heading: violet;
+	--font-color-christmas_message: violet;
 }
 
 .darkMode {
-  --bg-color: #d9d9d9;
-
-  --font-color-red: red;
-  --font-color-blue: blue;
-  --font-color-heading: lightgreen;
-  --font-color-heading2: darkgreen;
-  --font-color-sub-heading: violet;
-  --font-color-christmas_message: purple;
+	--bg-color: #d9d9d9;
+	--font-color-red: red;
+	--font-color-blue: blue;
+	--font-color-heading: lightgreen;
+	--font-color-heading2: darkgreen;
+	--font-color-sub-heading: violet;
+	--font-color-christmas_message: purple;
 }
 
+
 /* Body */
+
+
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
+
 body {
-  align-items: center;
-  text-align: center;
-  background-repeat: no-repeat, no-repeat;
-  background-position: right bottom, left bottom;
-  background-color: var(--bg-color);
-  background-image: url("/images/christmastree.png"),
-    url("/images/christmastree1.png");
+	align-items: center;
+	text-align: center;
+	background-repeat: no-repeat, no-repeat;
+	background-position: right bottom, left bottom;
+	background-color: var(--bg-color);
+	background-image: url("/images/christmastree.png"), url("/images/christmastree1.png");
 }
 
 body.lyrics {
-  background-image: none;
+	background-image: none;
 }
+
 
 /* Headings, etc */
 
 .heading {
-  color: var(--font-color-red);
+	color: var(--font-color-red);
 }
 
 .lyrics-heading {
-  color: var(--font-color-heading);
+	color: var(--font-color-heading);
 }
 
 .lud {
-  color: var(--font-color-heading2);
+	color: var(--font-color-heading2);
 }
 
 .lud2 {
-  color: var(--font-color-sub-heading);
+	color: var(--font-color-sub-heading);
 }
+
 .christmas_day_message {
-  display: none;
+	display: none;
 }
+
 .christmas_day_message p {
-
-  color: var(--font-color-christmas_message);
-  
-
+	color: var(--font-color-christmas_message);
 }
 
 .otherprojects {
-  color: var(--font-color-sub-heading);
-  text-decoration: none;
+	color: var(--font-color-sub-heading);
+	text-decoration: none;
 }
+
 
 /* Other Projects link, remove underline on hyperlink */
 
 .otherprojects a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .otherprojects a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .otherprojects a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .lyrics-lud {
-  color: var(--font-color-blue);
+	color: var(--font-color-blue);
 }
 
 a,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
-  color: inherit;
-  text-decoration: underline;
+	text-decoration: none;
+	color: inherit;
+	text-decoration: underline;
 }
 
 .songs {
-  color: var(--font-color-blue);
+	color: var(--font-color-blue);
 }
 
 .songs i {
-  color: black;
+	color: black;
 }
 
 .songs a,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 .button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  font-size: 16px;
-  margin-bottom: 10px;
+	background-color: #4caf50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
 
 .button1 {
-  background-color: #1e90ff;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  font-size: 16px;
-  margin-bottom: 10px;
+	background-color: #1e90ff;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
 
 .playlist-button {
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  font-size: 16px;
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
 }
 
 .lyrics {
-  color: var(--font-color-red);
+	color: var(--font-color-red);
 }
 
 .duckyboi,
 .githubtemplate {
-  color: var(--font-color-blue);
-  font-weight: normal;
+	color: var(--font-color-blue);
+	font-weight: normal;
 }
 
 .duckyboi a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .duckyboi a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .duckyboi a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .githubtemplate a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .githubtemplate a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .githubtemplate a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 #embed {
-  display: none;
+	display: none;
 }
 
 .socials {
-  padding-bottom: 200px;
+	padding-bottom: 200px;
 }
 
 .social {
-  margin: 10px;
+	margin: 10px;
 }
 
 #header {
-  position: "relative";
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	position: "relative";
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 #switch {
-  position: absolute;
-  right: 0;
+	position: absolute;
+	right: 0;
 }
+
 .switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
 }
+
 
 /* Hide default HTML checkbox */
+
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+	opacity: 0;
+	width: 0;
+	height: 0;
 }
 
+
 /* The slider */
+
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: gray;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  background-image: url("./images/day.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: gray;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	background-image: url("./images/day.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
 }
 
-input:checked + .slider {
-  background-color: #2196f3;
+input:checked+.slider {
+	background-color: #2196f3;
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196f3;
 }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
 }
+
 
 /* Rounded sliders */
+
 .slider.round {
-  border-radius: 34px;
+	border-radius: 34px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 @media screen and (max-width: 620px) {
-  body {
-    background-image: none;
-  }
+	body {
+		background-image: none;
+	}
 }
-
