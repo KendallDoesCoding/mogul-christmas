@@ -37,7 +37,7 @@ upVolume.onClick = () => {
   embed.setVolume(embed.volume + 5)
 }
 
-upVolume.onClick = () => {
+downVolume.onClick = () => {
   embed.setVolume(embed.volume - 5)
 }
 
