@@ -114,8 +114,9 @@ a:active {
 }
 
 .button {
-	background-color: #4caf50;
+	background-color: #4CAF50;
 	/* Green */
+	/* Used in main page */
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -128,7 +129,9 @@ a:active {
 }
 
 .button1 {
-	background-color: #1e90ff;
+	background-color: #1E90FF;
+	/* Dark Blue */
+	/* Used in lyrics directory */
 	border: none;
 	color: white;
 	padding: 15px 32px;
