@@ -155,6 +155,18 @@ a:active {
 	font-size: 16px;
 }
 
+.socials-button {
+	background-color: darksalmon;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+}
+
 .lyrics {
 	color: var(--font-color-red);
 }
