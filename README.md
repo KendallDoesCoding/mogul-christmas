@@ -9,6 +9,8 @@ Also, I suggest you use [Adblocker Plus](https://mogulchristmas.kendalldoescodin
 
 If your running the versions between 8.0 to 10.5.0 especially please note that since version 8.0, we've updated how the website looks so that theirs no embed/iframe, but that does slow down the performance how fast the song plays/the user doesn't know if the song is loading or no, but just wait 1-5 seconds and the song should play, incase of any issue, please create a bug report issue using the template in the issue panel in this repo. Since release, 10.5.0 I believe, the songs have started playing a little faster then it used to play, now it will only take 1-4 seconds
 
+If your a developer, I'm sorry but for now the songs, cannot play if the inspect element is open in the background, incase you know how to fix this issue, please give your inputs here: #129
+
 # Check it out here
 The project website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)!
 
