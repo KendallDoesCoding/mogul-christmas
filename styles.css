@@ -153,6 +153,7 @@ a:active {
 	display: inline-block;
 	justify-content: space-between;
 	font-size: 16px;
+	margin-bottom: 10px;
 }
 
 .socials-button {
@@ -165,6 +166,7 @@ a:active {
 	display: inline-block;
 	justify-content: space-between;
 	font-size: 16px;
+    	margin-bottom: 10px;
 }
 
 .lyrics {
