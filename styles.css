@@ -18,13 +18,17 @@
 	--font-color-christmas_message: purple;
 }
 
-
 /* Body */
-
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
 body {
+	 user-select: none; /* Normal (chrome)*/;
+    	-webkit-touch-callout: none; /* iOS Safari */;
+    	-webkit-user-select: none; /* Safari */;
+    	-khtml-user-select: none; /* Konqueror HTML */;
+    	-moz-user-select: none; /* Old versions of Firefox */;
+    	-ms-user-select: none; /* Internet Explorer/Edge */;
 	align-items: center;
 	text-align: center;
 	background-repeat: no-repeat, no-repeat;
