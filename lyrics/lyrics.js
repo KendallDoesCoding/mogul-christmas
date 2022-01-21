@@ -1,3 +1,4 @@
+// Const the lyrics for all the songs
 const lyrics = [
   {
     name: "the most wonderful time of the year",
