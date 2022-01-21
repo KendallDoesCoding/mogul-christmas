@@ -1,3 +1,4 @@
+// Const Songs
 const songs = {
   "Christmas Song": { start: "0", end: "211" },
   "Baby It's Cold Outside": { start: "212", end: "373" },
@@ -13,6 +14,8 @@ const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
 toggle.addEventListener("click", modeSwitch);
+
+// Darkmode/Lightmode
 
 let isLight = true;
 
