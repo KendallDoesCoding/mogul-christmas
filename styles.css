@@ -21,7 +21,6 @@
 
 /* Body */
 
-
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
 body {
@@ -49,6 +48,10 @@ body {
 	background-position: right bottom, left bottom;
 	background-color: var(--bg-color);
 	background-image: url("/images/christmastree.png"), url("/images/christmastree1.png");
+}
+
+img {
+    max-width: 100%;
 }
 
 body.lyrics {
