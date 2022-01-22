@@ -4,7 +4,6 @@ body {
 	/* Block User Text Selection */
 	user-select: none;
 	/* Normal (chrome)*/
-	;
 	-webkit-touch-callout: none;
 	/* iOS Safari */
 	;
