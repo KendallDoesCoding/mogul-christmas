@@ -49,6 +49,8 @@ body {
 	background-position: right bottom, left bottom;
 	background-color: var(--bg-color);
 	background-image: url("/images/christmastree.png"), url("/images/christmastree1.png");
+	max-width: 800px;
+  	width: 100%;
 }
 
 body.lyrics {
