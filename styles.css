@@ -63,10 +63,7 @@ body.lyrics {
 }
 
 .heading-in-testing {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#45B39D, #17A589);
 }
 
 .lyrics-heading {
