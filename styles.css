@@ -63,7 +63,7 @@ body.lyrics {
 }
 
 .heading-in-testing {
-  background: -webkit-linear-gradient(#45B39D, #17A589);
+  text-color: -webkit-linear-gradient(#45B39D, #17A589);
 }
 
 .lyrics-heading {
