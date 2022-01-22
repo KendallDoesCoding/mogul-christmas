@@ -132,7 +132,7 @@ a:active {
 }
 
 .button {
-	background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 	/* Used in main page */
 	border: none;
 	color: white;
@@ -161,7 +161,7 @@ a:active {
 }
 
 .playlist-button {
-	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+	background: linear-gradient(90deg, rgba(255,22,22,1) 27%, rgba(84,26,50,1) 100%, rgba(0,212,255,1) 100%);
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -174,7 +174,7 @@ a:active {
 }
 
 .socials-button {
-	background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	border: none;
 	color: white;
 	padding: 15px 32px;
