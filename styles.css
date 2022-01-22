@@ -62,6 +62,13 @@ body.lyrics {
 	color: var(--font-color-red);
 }
 
+.heading-in-testing {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .lyrics-heading {
 	color: var(--font-color-heading);
 }
