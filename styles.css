@@ -50,8 +50,15 @@ body {
 	background-color: var(--bg-color);
 }
 
- div.outer { position: relative; height: 24px; }
- div.outer img { position: absolute; right: 0; bottom: 0; }
+ div.image-a { position: relative; height: 24px; }
+ div.image-a img { position: absolute; right: 0; bottom: 0; }
+
+.image-b {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
 
 body.lyrics {
 	background-image: none;
