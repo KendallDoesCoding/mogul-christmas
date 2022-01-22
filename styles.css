@@ -50,8 +50,12 @@ body {
 	background-color: var(--bg-color);
 }
 
- div.image-a { position: relative; height: 24px; }
- div.image-a img { position: absolute; right: 0; bottom: 0; }
+.image-a {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
 
 .image-b {
   position: absolute;
