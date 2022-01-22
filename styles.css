@@ -50,6 +50,13 @@ body {
 	background-color: var(--bg-color);
 }
 
+.background-img{
+    background:url('/christmastree.png);
+    width:100%;
+    height:698px; 
+    repeat-x;
+}
+
 body.lyrics {
 	background-image: none;
 }
