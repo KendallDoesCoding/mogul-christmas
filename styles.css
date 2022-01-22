@@ -132,8 +132,7 @@ a:active {
 }
 
 .button {
-	background-color: #4CAF50;
-	/* Green */
+	background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
 	/* Used in main page */
 	border: none;
 	color: white;
@@ -162,7 +161,7 @@ a:active {
 }
 
 .playlist-button {
-	background-color: red;
+	background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -175,7 +174,7 @@ a:active {
 }
 
 .socials-button {
-	background-color: #FF5722;
+	background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
 	border: none;
 	color: white;
 	padding: 15px 32px;
