@@ -25,6 +25,24 @@
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
 body {
+	user-select: none;
+	/* Normal (chrome)*/
+	;
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	;
+	-webkit-user-select: none;
+	/* Safari */
+	;
+	-khtml-user-select: none;
+	/* Konqueror HTML */
+	;
+	-moz-user-select: none;
+	/* Old versions of Firefox */
+	;
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	;
 	align-items: center;
 	text-align: center;
 	background-repeat: no-repeat, no-repeat;
@@ -157,7 +175,7 @@ a:active {
 }
 
 .socials-button {
-	background-color: orange;
+	background-color: #FF5722;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -166,7 +184,7 @@ a:active {
 	display: inline-block;
 	justify-content: space-between;
 	font-size: 16px;
-    	margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .lyrics {
