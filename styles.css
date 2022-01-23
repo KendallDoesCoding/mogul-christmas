@@ -132,7 +132,7 @@ a:active {
 }
 
 .button {
-	background: linear-gradient(90deg, rgba(76,175,80,1) 26%, rgba(108,245,114,1) 52%);
+	background: linear-gradient(90deg, rgba(76,175,80,1) 46%, rgba(180,255,183,1) 100%);
 	/* Green */
 	/* Used in main page */
 	border: none;
@@ -162,7 +162,7 @@ a:active {
 }
 
 .playlist-button {
-	background: linear-gradient(90deg, rgba(228,67,255,1) 46%, rgba(255,0,0,1) 100%);
+	background: linear-gradient(90deg, rgba(222,82,246,1) 46%, rgba(255,153,153,1) 100%);
 	border: none;
 	color: white;
 	padding: 15px 32px;
