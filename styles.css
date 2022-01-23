@@ -162,7 +162,7 @@ a:active {
 }
 
 .playlist-button {
-	background: linear-gradient(90deg, rgba(255,0,0,1) 36%, rgba(245,108,108,1) 72%);
+	background: linear-gradient(90deg, rgba(228,67,255,1) 46%, rgba(255,0,0,1) 100%);
 	border: none;
 	color: white;
 	padding: 15px 32px;
