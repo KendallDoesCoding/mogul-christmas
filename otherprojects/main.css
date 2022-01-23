@@ -28,6 +28,8 @@ body {
 .info {
 	color: violet;
 	text-align: center;
+  font-size: 16px; /* The font size if container is too small */
+  font-size: 5vw; /* Font size adjustment in percent, if the container is larger and there is more room */
 }
 
 .otherprojects {
