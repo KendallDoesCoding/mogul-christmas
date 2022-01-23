@@ -5,7 +5,7 @@ I was feeling bored so I made this basic HTML Project and I felt like keeping go
 # Important 
 Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
 
-If your running the new versions of this project, and if your a developer, I'm sorry but for now the songs, cannot play if the inspect element is open in the background, it seems to be a Youtube API issue, incase you know how to fix it by any chance, please create a thread in the [discussions tab](https://github.com/KendallDoesCoding/mogul-christmas/discussions)
+If your running the new versions of this project, and if your a developer, I'm sorry but for now the songs, cannot play if the inspect element is open in the background. It seems to be a Youtube API issue, incase you know how to fix it by any chance, please create a thread in the [discussions tab](https://github.com/KendallDoesCoding/mogul-christmas/discussions)
 
 Also, I suggest you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or any other adblocker, and block ads on spcifically Youtube and on the project website if the sites are whitelisted in the adblocker, because there's a chance that sometimes when you click a song a ad may play before, because this project runs via the youtube embed. Although, I may change it to run through Youtube Music or another music software soon where the ads are less. But mostly, there aren't ads so you should be good most of the time.
 
