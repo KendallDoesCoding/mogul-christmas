@@ -42,8 +42,8 @@ let isLight = true;
 const updateMode = () => {
     isLight
         ?
-        (slider.style.backgroundImage = "url('./images/day.png')") :
-        (slider.style.backgroundImage = "url('./images/night.png')");
+        (slider.style.backgroundImage = "url('./images/lightmode.png')") :
+        (slider.style.backgroundImage = "url('./images/darkmode.png')");
     const rootElement = document.body;
     rootElement.classList.toggle("darkMode");
 }
