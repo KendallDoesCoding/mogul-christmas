@@ -6,6 +6,7 @@
 	--font-color-heading2: #1ABC9C;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: violet;
+	--yml=btn: #A3E4D7
 }
 
 .darkMode {
@@ -16,6 +17,7 @@
 	--font-color-heading2: darkgreen;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: purple;
+	--yml-btn: #CB4335
 }
 
 
@@ -86,6 +88,12 @@ body.lyrics {
 	color: var(--font-color-sub-heading);
 	text-decoration: none;
 }
+
+.yml {
+	color: var(--yml-btn);
+	text-decoration: none;
+}
+	
 
 
 /* Other Projects link, remove underline on hyperlink */
@@ -186,18 +194,6 @@ a:active {
 	font-size: 16px;
 	margin-bottom: 10px;
 }
-
-.yml-button {
-	background-color: #8E44AD;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	justify-content: space-between;
-	font-size: 16px;
-	margin-bottom: 10px;
 
 .lyrics {
 	color: var(--font-color-red);
