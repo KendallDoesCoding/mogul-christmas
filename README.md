@@ -18,6 +18,11 @@ Backup URL: [Backup Domain](https://mogulchristmas.netlify.app)
 
 Make sure you check it out.
 
+# Links (Some links may not work if the project site is down)
+[Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
+[A Very Mogul Christmas Playlist](https://mogulchristmas.kendalldoescoding.gq/playlist)
+
+
 # Versions & Previews
 - For updates on the website, we've written it as Version and for updates on Github we've written it as a Release, for Releases, we've provided a complete change log.
 
