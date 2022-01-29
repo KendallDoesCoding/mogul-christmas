@@ -190,7 +190,7 @@ a:active {
 }
 
 .lyrics {
-	color: var(--lyrics-text-color);
+	color: var(--font-color-red);
 }
 
 .duckyboi,
