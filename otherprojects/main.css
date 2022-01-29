@@ -27,6 +27,8 @@ body {
 
 .info {
 	color: violet;
+	text-align: center;
+	font-size: 16px;
 }
 
 .otherprojects {

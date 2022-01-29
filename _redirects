@@ -94,8 +94,12 @@
 
 # Version 10.0
 
+# Used within Links in README.md/Links within the website
+/ludwig https://www.youtube.com/MrAndersLA
+/mogulchristmasplaylist https://www.youtube.com/playlist?list=PLLGT0cEMIAzelK7_q-3gCfpDSa7l4nPYn
 
-# Other
+# Other (Not used in the site)
+/ludwigahgren https://www.youtube.com/c/Ludwigahgren
 /kendalldoescoding https://kendalldoescoding.gq
 /adblockerplus https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb
 /gradientbg https://deploy-preview-152--mogulchristmas.netlify.app
