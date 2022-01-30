@@ -6,7 +6,7 @@
 	--font-color-heading2: #1ABC9C;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: violet;
-	--lyrics-text-color: #1ABC9C;
+	--yml-btn: #A3E4D7
 }
 
 .darkMode {
@@ -17,7 +17,7 @@
 	--font-color-heading2: darkgreen;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: purple;
-	--lyrics-text-color: #1E88E5;
+	--yml-btn: #CB4335
 }
 
 
@@ -88,6 +88,12 @@ body.lyrics {
 	color: var(--font-color-sub-heading);
 	text-decoration: none;
 }
+
+.yml {
+	color: var(--yml-btn);
+	text-decoration: none;
+}
+	
 
 
 /* Other Projects link, remove underline on hyperlink */
@@ -190,7 +196,7 @@ a:active {
 }
 
 .lyrics {
-	color: var(--lyrics-text-color);
+	color: var(--font-color-red);
 }
 
 .duckyboi,
