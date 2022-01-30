@@ -6,6 +6,7 @@
   --font-color-heading2: #1abc9c;
   --font-color-sub-heading: violet;
   --font-color-christmas_message: violet;
+  --info-text: violet;
 }
 
 .darkMode {
@@ -16,6 +17,7 @@
   --font-color-heading2: darkgreen;
   --font-color-sub-heading: violet;
   --font-color-christmas_message: purple;
+  --info-text: #6C3483;
 }
 
 body {
@@ -42,7 +44,7 @@ body {
 }
 
 .info {
-  color: violet;
+  color: --info-text;
   text-align: center;
   font-size: 16px;
 }
