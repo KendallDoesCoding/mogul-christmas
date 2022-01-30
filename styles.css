@@ -50,7 +50,6 @@ body {
 	background-repeat: no-repeat, no-repeat;
 	background-position: right bottom, left bottom;
 	background-color: var(--bg-color);
-	background-image: url("/images/christmastree.png"), url("/images/christmastree1.png");
 }
 
 .image-a {
@@ -66,7 +65,6 @@ body {
   left: 16px;
   font-size: 18px;
 }
-
 
 body.lyrics {
 	background-image: none;
