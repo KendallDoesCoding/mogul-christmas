@@ -89,3 +89,7 @@ a:active {
 .githubtemplate a:hover {
 	text-decoration: none;
 }
+
+.testing {
+	color: black;
+}
