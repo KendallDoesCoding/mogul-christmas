@@ -6,18 +6,18 @@
 	--font-color-heading2: #1ABC9C;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: violet;
-	--yml-btn: #A3E4D7
+	--yml-btn: #1ABC9C
 }
 
 .darkMode {
 	--bg-color: #d9d9d9;
-	--font-color-red: red;
+	--font-color-red: #8B0000;
 	--font-color-blue: blue;
 	--font-color-heading: lightgreen;
 	--font-color-heading2: darkgreen;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: purple;
-	--yml-btn: #CB4335
+	--yml-btn: #5B2C6F 
 }
 
 
