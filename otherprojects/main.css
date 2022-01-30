@@ -1,89 +1,183 @@
+:root {
+  --bg-color: white;
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --font-color-heading: #1abc9c;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: violet;
+  --font-color-christmas_message: violet;
+  --info-text: violet;
+}
+
+.darkMode {
+  --bg-color: #d9d9d9;
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --font-color-heading: lightgreen;
+  --font-color-heading2: darkgreen;
+  --font-color-sub-heading: violet;
+  --font-color-christmas_message: purple;
+  --info-text: #6C3483;
+}
+
 body {
-	align-items: center;
-	text-align: center;
-	/* Block User Text Selection */
-	user-select: none;
-	/* Normal (chrome)*/
-	-webkit-touch-callout: none;
-	/* iOS Safari */
-	;
-	-webkit-user-select: none;
-	/* Safari */
-	;
-	-khtml-user-select: none;
-	/* Konqueror HTML */
-	;
-	-moz-user-select: none;
-	/* Old versions of Firefox */
-	;
-	-ms-user-select: none;
-	/* Internet Explorer/Edge */
-	;
+  align-items: center;
+  text-align: center;
+  /* Block User Text Selection */
+  user-select: none;
+  /* Normal (chrome)*/
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  background-color: var(--bg-color);
 }
 
 .heading {
-	color: #1ABC9C;
+  color: var(--font-color-heading2);
 }
 
 .info {
-	color: violet;
+  color: var(--info-text);
+  text-align: center;
+  font-size: 16px;
 }
 
 .otherprojects {
-	color: violet;
-	text-decoration: none;
+  color: var(--font-color-sub-heading);
+  text-decoration: none;
 }
-
 
 /* Other Projects link, remove underline on hyperlink */
 
 .otherprojects a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .otherprojects a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .otherprojects a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a,
 a:hover,
 a:focus,
 a:active {
-	text-decoration: none;
-	color: inherit;
-	text-decoration: underline;
+  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .duckyboi,
 .githubtemplate {
-	color: blue;
-	font-weight: normal;
+  color: blue;
+  font-weight: normal;
 }
 
 .duckyboi a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .duckyboi a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .duckyboi a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .githubtemplate a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .githubtemplate a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .githubtemplate a:hover {
-	text-decoration: none;
+  text-decoration: none;
+}
+
+#switch {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-image: url("../images/day.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

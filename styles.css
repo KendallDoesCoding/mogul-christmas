@@ -6,16 +6,18 @@
 	--font-color-heading2: #1ABC9C;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: violet;
+	--yml-btn: #1ABC9C
 }
 
 .darkMode {
 	--bg-color: #d9d9d9;
-	--font-color-red: red;
+	--font-color-red: #8B0000;
 	--font-color-blue: blue;
 	--font-color-heading: lightgreen;
 	--font-color-heading2: darkgreen;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: purple;
+	--yml-btn: #5B2C6F 
 }
 
 
@@ -99,6 +101,12 @@ body.lyrics {
 	color: var(--font-color-sub-heading);
 	text-decoration: none;
 }
+
+.yml {
+	color: var(--yml-btn);
+	text-decoration: none;
+}
+	
 
 
 /* Other Projects link, remove underline on hyperlink */
