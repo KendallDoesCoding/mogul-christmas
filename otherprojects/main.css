@@ -44,7 +44,7 @@ body {
 }
 
 .info {
-  color: --info-text;
+  color: var(--info-text;
   text-align: center;
   font-size: 16px;
 }
