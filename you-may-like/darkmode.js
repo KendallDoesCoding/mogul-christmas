@@ -44,10 +44,4 @@ Object.keys(songs).map((song_title) => {
     outerElem.appendChild(link);
     songsDOM.appendChild(outerElem);
 });
-newTabGithub.addEventListener("click", () => {
-    window.open(
-        "https://github.com/KendallDoesCoding/mogul-christmas",
-        "_blank",
-        "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
-    );
-});
+
