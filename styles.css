@@ -53,6 +53,21 @@ body {
 	background-image: url("/images/christmastree.png"), url("/images/christmastree1.png");
 }
 
+.image-a {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.image-b {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+
 body.lyrics {
 	background-image: none;
 }
