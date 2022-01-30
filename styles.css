@@ -6,6 +6,7 @@
 	--font-color-heading2: #1ABC9C;
 	--font-color-sub-heading: violet;
 	--font-color-christmas_message: violet;
+	--lyrics-text-color: #1ABC9C;
 	--yml-btn: #1ABC9C
 }
 
@@ -17,6 +18,7 @@
 	--font-color-heading2: darkgreen;
 	--font-color-sub-heading: #3498DB;
 	--font-color-christmas_message: purple;
+	--lyrics-text-color: #1ABC9C;
 	--yml-btn: #1C2833; 
 }
 
@@ -209,7 +211,7 @@ a:active {
 }
 
 .lyrics {
-	color: var(--font-color-red);
+	color: var(--lyrics-text-color);
 }
 
 .duckyboi,
