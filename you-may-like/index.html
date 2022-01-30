@@ -4,12 +4,13 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Lyrics</title>
-      <link rel="stylesheet" href="/styles.css">
+      <link rel="stylesheet" href="styles.css">
+      <title>Songs like the album.</title>
+      <script src="https://kit.fontawesome.com/72f2609661.js" crossorigin="anonymous"></script>
    </head>
-   <body class="lyrics">
+   <body>
       <div id="header">
-         <h1 class="heading">Lyrics of songs in the playlist!</h1>
+         <h1 class="heading"> You May Also Like</h1>
          <div id="switch">
             <label class="switch">
             <input type="checkbox">
@@ -17,15 +18,33 @@
             </label>
          </div>
       </div>
+      <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA" >Ludwig</a></p>
+      <div class="christmas_day_message">
+         <p>Merry Christmas! These are songs like this album, to put you in the Christmas Mood. &#128522; 
+         </p>
+      </div>
+      <iframe id="embed" width="560" height="315" src="https://www.youtube.com/embed/TtY9eRayseg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- songs container, its called upon in the js file, thus this is empty. -->
       <div class="songs">
-         <p><a href="/lyrics/christmassong">Christmas Song</a></p>
-         <p><a href="/lyrics/babyitscoldoutside">Baby It's Cold Outside</a></p>
-         <p><a href="/lyrics/wonderfultimeoftheyear">The Most Wonderful Time Of The Year</a></p>
-         <p><a href="/lyrics/lastchristmas">Last Christmas</a></p>
-         <p><a href="/lyrics/littlesaintnick">Little Saint Nick</a></p>
-         <p><a href="/lyrics/alliwantforchristmas">All I Want For Christmas</a></p>
+      </div>
+      <div class="container">
+      <div class="container">
+      <div id="playlist" class="playlist-button">
+      <a href="https://kendalldoescoding.gq/mogulchristmasplaylist" id="playlist-btn" class="btn">Mogul Christmas Playlist</a>
+      </div>
+      <div class="container">
+      <div id="socials" class="socials-button">
+         <a href="/ludsocials" id="socials-btn" class="btn">Ludwig Socials</a>
+      </div>
+      <div class="other-pro">
+         <p class="otherprojects"><a href="/otherprojects" target="_blank">Other Similar Projects</a></p>
+         <div class="socials">
+            <div class="social">
+               <i class="fab fa-github"></i>
+            </div>
+         </div>
       </div>
    </body>
-   <script type="text/javascript" 
-      src="darkmode.js">  </script>  
+   <script type="text/javascript" src="/scripts/christmasday.js"></script>
+   <script type="text/javascript" src="index.js"></script>            
 </html>
