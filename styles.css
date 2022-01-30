@@ -11,13 +11,13 @@
 
 .darkMode {
 	--bg-color: #d9d9d9;
-	--font-color-red: #E74C3C;
+	--font-color-red: #E67E22;
 	--font-color-blue: blue;
 	--font-color-heading: lightgreen;
 	--font-color-heading2: darkgreen;
 	--font-color-sub-heading: #3498DB;
 	--font-color-christmas_message: purple;
-	--yml-btn: #5B2C6F 
+	--yml-btn: #F1C40F; 
 }
 
 
