@@ -347,5 +347,18 @@ a:active {
 	text-decoration: none;
 }
 
+.yml a:link {
+	text-decoration: none;
+}
+
+.yml a:visited {
+	text-decoration: none;
+}
+
+.yml a:hover {
+	text-decoration: none;
+}
+
+
 
 
