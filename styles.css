@@ -110,21 +110,6 @@ body.lyrics {
 }
 	
 
-
-/* Other Projects link, remove underline on hyperlink */
-
-.otherprojects a:link {
-	text-decoration: none;
-}
-
-.otherprojects a:visited {
-	text-decoration: none;
-}
-
-.otherprojects a:hover {
-	text-decoration: none;
-}
-
 .lyrics-lud {
 	color: var(--font-color-blue);
 }
@@ -144,14 +129,6 @@ a:active {
 
 .songs i {
 	color: black;
-}
-
-.songs a,
-a:hover,
-a:focus,
-a:active {
-	text-decoration: none;
-	color: inherit;
 }
 
 .button {
@@ -212,36 +189,6 @@ a:active {
 
 .lyrics {
 	color: var(--lyrics-text-color);
-}
-
-.duckyboi,
-.githubtemplate {
-	color: var(--font-color-blue);
-	font-weight: normal;
-}
-
-.duckyboi a:link {
-	text-decoration: none;
-}
-
-.duckyboi a:visited {
-	text-decoration: none;
-}
-
-.duckyboi a:hover {
-	text-decoration: none;
-}
-
-.githubtemplate a:link {
-	text-decoration: none;
-}
-
-.githubtemplate a:visited {
-	text-decoration: none;
-}
-
-.githubtemplate a:hover {
-	text-decoration: none;
 }
 
 #embed {
@@ -345,3 +292,60 @@ input:checked+.slider:before {
 		background-image: none;
 	}
 }
+
+/* Remove underline for links on buttons, etc
+
+/* Other Projects link, remove underline on hyperlink */
+
+.otherprojects a:link {
+	text-decoration: none;
+}
+
+.otherprojects a:visited {
+	text-decoration: none;
+}
+
+.otherprojects a:hover {
+	text-decoration: none;
+}
+
+.songs a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.duckyboi,
+.githubtemplate {
+	color: var(--font-color-blue);
+	font-weight: normal;
+}
+
+.duckyboi a:link {
+	text-decoration: none;
+}
+
+.duckyboi a:visited {
+	text-decoration: none;
+}
+
+.duckyboi a:hover {
+	text-decoration: none;
+}
+
+.githubtemplate a:link {
+	text-decoration: none;
+}
+
+.githubtemplate a:visited {
+	text-decoration: none;
+}
+
+.githubtemplate a:hover {
+	text-decoration: none;
+}
+
+
+
