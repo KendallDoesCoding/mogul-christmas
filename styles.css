@@ -107,7 +107,6 @@ body.lyrics {
 .yml {
 	color: var(--yml-btn);
 	text-decoration: none;
-	color: inherit;
 }
 	
 
