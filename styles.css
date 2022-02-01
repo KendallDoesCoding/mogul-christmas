@@ -186,6 +186,10 @@ a:active {
 	color: var(--lyrics-text-color);
 }
 
+body.lyrics {
+background-image: none;
+}
+
 #embed {
 	display: none;
 }
