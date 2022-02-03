@@ -6,6 +6,9 @@ body {
 	min-height: 180px;
 	padding: 0;
 	width: 384px;
+	display: flex;
+ 	justify-content: center; /* horizontal */
+  	align-items: center; /* vertical */
 }
 
 h1 {
