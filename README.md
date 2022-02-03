@@ -16,11 +16,21 @@ Backup URL: [Backup Domain](https://mogulchristmas.netlify.app)
 
 Make sure you check it out.
 
+# Contributing Guidelines & Related Contributing Stuff
+[Contributing Guidelines](./.github/CONTRIBUTING.md)
+
+[Issues which new contributors can take up.](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
+
+## 💪 Thanks to all Contributors
+
+Thanks a lot for spending your time helping out with the Mogul Christmas project Thanks a lot! Keep rocking :)
+
+[![Contributors](https://contrib.rocks/image?repo=KendallDoesCoding/mogul-christmas)](https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors)
+
 # Links (Some links may not work if the project site is down)
 [Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
 
 [A Very Mogul Christmas Playlist](https://mogulchristmas.kendalldoescoding.gq/playlist)
-
 
 # Versions & Previews
 - For updates on the website, we've written it as Version and for updates on Github we've written it as a Release, for Releases, we've provided a complete change log.
@@ -214,12 +224,6 @@ Link: [8.5.0/21st version of this website](https://mogulchristmas.kendalldoescod
 Github Release Page: [The github release page is listed here](https://mogulchristmas.kendalldoescoding.gq/eighthpointfivepointzero)
 
 Complete Changelog: [Changelog located here](https://github.com/KendallDoesCoding/mogul-christmas/commits/8.5.0)
-
-# Contributing Guidelines & Related Contributing Stuff
-[Contributing Guidelines](./.github/CONTRIBUTING.md)
-
-[Issues which new contributors can take up.](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
-
 
 # Deploy Status
 Below, you can see the progress of the github deploy to the site. Incase a change is made to this repo, it takes around 1-5 minutes to display on the site, depending on if there's other deploy's going on within Pull Requests or within repos which have sites, because using Netlify, I can only deploy one thing at a time.
