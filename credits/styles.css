@@ -8,10 +8,6 @@ h1 {
   color: blue;
 }
 
-a:visited{
-  color:blue;
-}
-
 .commits-contributors a:visited{
   color:red;
 }
