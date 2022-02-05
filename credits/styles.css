@@ -13,8 +13,12 @@
 
 .heading {
   color: #1ABC9C;
+  align-items: center;
+  text-align: center;
 }
 
 .subtext {
   color: red;
+  align-items: center;
+  text-align: center;
 }
