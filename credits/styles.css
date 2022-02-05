@@ -11,6 +11,10 @@ a:visited{
   color:blue;
 }
 
+.subtext a:visited{
+  color:red;
+}
+
 h3 {
   color: purple
 }
