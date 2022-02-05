@@ -12,10 +12,6 @@ a:visited{
   color:blue;
 }
 
-.commits-contributors a{
-  color: red;
-}
-
 .commits-contributors a:visited{
   color:red;
 }
