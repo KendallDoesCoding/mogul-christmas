@@ -12,11 +12,11 @@ a:visited{
   color:blue;
 }
 
-.commit-contributors a{
+.commits-contributors a{
   color: red;
 }
 
-.comit-contributors a:visited{
+.commits-contributors a:visited{
   color:red;
 }
 
