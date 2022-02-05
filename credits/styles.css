@@ -30,3 +30,7 @@ a:visited{
 .heading-mogul-team h1 {
   color: green;
 }
+
+.contributors embed {
+  align-items: center;
+}
