@@ -8,8 +8,8 @@ h1 {
   color: blue;
 }
 
-a::visited {
-  color: blue;
+a:visited{
+  color:blue;
 }
 
 h3 {
