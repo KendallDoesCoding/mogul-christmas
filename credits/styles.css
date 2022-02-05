@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.mogul-christmas-team h1 {
+h1 {
   color: blue;
 }
 
@@ -11,7 +11,7 @@ a:visited{
   color:blue;
 }
 
-.mogul-christmas-team h3 {
+h3 {
   color: purple
 }
 
@@ -25,10 +25,6 @@ a:visited{
   color: red;
   align-items: center;
   text-align: center;
-}
-
-.heading-mogul-team h1 {
-  color: green;
 }
 
 .contributors embed {
