@@ -4,7 +4,11 @@
 }
 
 .mogul-christmas-team h1 {
-  color: light-green;
+  color: blue;
+}
+
+a:visited{
+  color:blue;
 }
 
 .mogul-christmas-team h3 {
