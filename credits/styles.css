@@ -11,10 +11,6 @@ a:visited{
   color:blue;
 }
 
-p a:visited{
-  color: red;
-}
-
 h3 {
   color: purple
 }
