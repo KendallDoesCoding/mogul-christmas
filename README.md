@@ -23,7 +23,7 @@ Make sure you check it out.
 
 ## 💪 Thanks to all Contributors
 
-Thanks a lot for spending time to help us out with the Mogul Christmas project Thanks a lot! Keep rocking :)
+Huge thanks to our contributors for spending time to help us out with the Mogul Christmas project. Thanks a lot! Keep rocking :)
 
 [![Contributors](https://contrib.rocks/image?repo=KendallDoesCoding/mogul-christmas)](https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors)
 

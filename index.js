@@ -65,7 +65,7 @@ Object.keys(songs).map((song_title) => {
     link.onclick = () => {
         embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}`;
         console.log(
-            "If you dont know this song, we suggest you go to the lyrics page, dont worry... You can play the song from that page too :)"
+            "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
         );
         if (!userHasClickedASong) {
             userHasClickedASong = true;

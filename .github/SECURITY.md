@@ -2,6 +2,4 @@
 
 ## Reporting a Vulnerability
 
-For now, you can email privacy@kendalldoescoding.gq to report a security vulnerablity.
-
-More ways to report a vulnerablity, coming SOON
+You can email our [privacy team](https://github.com/orgs/Kendall-Does-Coding-Websites/teams/privacy), privacy@kendalldoescoding.gq to report a security vulnerablity or fill in this form - https://forms.gle/J9Mz9JWuMQYSGA2g9
