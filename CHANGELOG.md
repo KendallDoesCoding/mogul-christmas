@@ -1,4 +1,13 @@
-# 0.1.0 (2022-02-16)
+## [0.1.1](https://github.com/KendallDoesCoding/mogul-christmas/compare/v0.1.0...v0.1.1) (2022-02-16)
+
+
+### Bug Fixes
+
+* christmas trees in the way of song text ([#200](https://github.com/KendallDoesCoding/mogul-christmas/issues/200)) ([14d2f4e](https://github.com/KendallDoesCoding/mogul-christmas/commit/14d2f4e905fa60ee2c20620a260b0ef7dd18c903)), closes [#800](https://github.com/KendallDoesCoding/mogul-christmas/issues/800)
+
+
+
+# [0.1.0](https://github.com/KendallDoesCoding/mogul-christmas/compare/5cf54024572f6e0c87298f2e48048a15172469bb...v0.1.0) (2022-02-16)
 
 
 ### Reverts
