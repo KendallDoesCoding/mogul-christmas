@@ -1,9 +1,12 @@
 # mogul-christmas
 
-I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. If you would like darkmode on this site, you can toggle dark-mode on or off by using the button in the top right corner of the site.
+I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. 
 
 # Important 
-Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.
+
+**Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.**
+
+If you would like darkmode on this site, you can toggle dark-mode on or off by using the button in the top right corner of the site.
 
 Also, I suggest you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or any other adblocker, and block ads on spcifically Youtube and on the project website if the sites are whitelisted in the adblocker, because there's a chance that sometimes when you click a song a ad may play before, because this project runs via the youtube embed. Although, I may change it to run through Youtube Music or another music software soon where the ads are less. There is one adblocker that allows you to whitelist ads on a certain YouTuber, if you use that adblocker and whitelisted "Ludwig" on it, you may get ads so please un-whitelist him while running the songs on the project website. But mostly, there aren't ads so you should be good most of the time. My adblocker tells me, that for every song I am tapping on the website, inculding "All Of The Above" it's blocking 2 ads each, although when I went to another login without the adblocker I didn't get any ads, so the ads will only come some times, but I'm just giving a fair warning.
 
