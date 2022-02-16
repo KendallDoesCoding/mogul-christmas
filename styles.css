@@ -353,3 +353,11 @@ a:active {
 .yml a:hover {
 	text-decoration: none;
 }
+
+/* Hide Christmas Tree Images on Small Screen Size */
+@media only screen and (max-width: 1026px) {
+    .christmas-tree-images {
+
+        display: none;
+    }
+}
