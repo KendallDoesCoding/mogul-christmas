@@ -356,7 +356,8 @@ a:active {
 
 /* Hide Christmas Tree Images on Small Screen Size */
 @media only screen and (max-width: 1026px) {
-    #christmas-tree-images {
+    .christmas-tree-images {
+
         display: none;
     }
 }
