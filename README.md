@@ -24,6 +24,9 @@ Make sure you check it out.
 
 [Issues which new contributors can take up.](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
+
+# Credits
+- Credits are located [here](https://mogulchristmas.kendalldoescoding.gq/credits)
 ## 💪 Thanks to all Contributors
 
 Huge thanks to our contributors for spending time to help us out with the Mogul Christmas project. Thanks a lot! Keep rocking :)
@@ -41,6 +44,7 @@ Huge thanks to our contributors for spending time to help us out with the Mogul 
 **Disclaimer: This only has 25 releases, at the time of writing this (17th Feb 2021, 1am IST) there are 19 more releases not added to this list.**
 
 - For updates on the website, we've written it as Version and for updates on Github we've written it as a Release, for Releases, we've provided a complete change log.
+
 
 # Deploy Status
 Below, you can see the progress of the github deploy to the site. Incase a change is made to this repo, it takes around 1-5 minutes to display on the site, depending on if there's other deploy's going on within Pull Requests or within repos which have sites, because using Netlify, I can only deploy one thing at a time.
