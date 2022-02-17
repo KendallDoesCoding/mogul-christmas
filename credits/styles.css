@@ -1,0 +1,33 @@
+html,
+body {
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+a:visited{
+  color:blue;
+}
+
+h3 {
+  color: purple
+}
+
+.heading {
+  color: #1ABC9C;
+  align-items: center;
+  text-align: center;
+}
+
+.subtext {
+  color: red;
+  align-items: center;
+  text-align: center;
+}
+
+.contributors embed {
+  align-items: center;
+}

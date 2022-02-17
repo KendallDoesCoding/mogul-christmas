@@ -24,11 +24,14 @@ Make sure you check it out.
 
 [Issues which new contributors can take up.](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
-## 💪 Thanks to all Contributors
 
-Huge thanks to our contributors for spending time to help us out with the Mogul Christmas project. Thanks a lot! Keep rocking :)
+# Credits
+**Project credits are located [here](https://mogulchristmas.kendalldoescoding.gq/credits).**
 
-[![Contributors](https://contrib.rocks/image?repo=KendallDoesCoding/mogul-christmas)](https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors)
+*Credits inculde the following*:
+- Mogul Christmas Team
+- Project Contributors
+- Singers whose songs are in the You May Like directory.
 
 # Links (Some links may not work if the project site is down)
 [Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
