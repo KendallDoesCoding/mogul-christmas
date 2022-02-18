@@ -1,7 +1,7 @@
 # mogul-christmas
 
 <div align="center">
-![Size](https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg)
+<img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
 <div align="center">
   <a href="https://github.com/ThioJoe/YT-Spammer-Purge/issues">
     <img src="https://img.shields.io/github/issues/ThioJoe/YT-Spammer-Purge" />
