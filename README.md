@@ -1,6 +1,17 @@
 # mogul-christmas
 
+<div align="center">
 ![Size](https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg)
+<div align="center">
+  <a href="https://github.com/ThioJoe/YT-Spammer-Purge/issues">
+    <img src="https://img.shields.io/github/issues/ThioJoe/YT-Spammer-Purge" />
+  </a>
+  <a href="https://github.com/ThioJoe/YT-Spammer-Purge/pulls">
+    <img src="https://img.shields.io/github/issues-pr/ThioJoe/YT-Spammer-Purge" />
+  </a>
+  <a href="https://github.com/ThioJoe/YT-Spammer-Purge/releases">
+    <img src="https://img.shields.io/github/v/release/ThioJoe/YT-Spammer-Purge?include_prereleases&label=Latest%20Release" />
+  </a>
 
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. 
 
