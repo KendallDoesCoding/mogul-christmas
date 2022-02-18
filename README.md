@@ -11,6 +11,7 @@
   <a href="https://github.com/KendallDoesCoding/mogul-christmas/releases">
     <img src="https://img.shields.io/github/v/release/KendallDoesCoding/mogul-christmas?include_prereleases&label=Latest%20Release" />
   </a>
+</div>
 
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. 
 
