@@ -1,5 +1,18 @@
 # mogul-christmas
 
+<div align="center">
+<img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
+  <a href="https://github.com/KendallDoesCoding/mogul-christmas">
+    <img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas" />
+  </a>
+  <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls">
+    <img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas" />
+  </a>
+  <a href="https://github.com/KendallDoesCoding/mogul-christmas/releases">
+    <img src="https://img.shields.io/github/v/release/KendallDoesCoding/mogul-christmas?include_prereleases&label=Latest%20Release" />
+  </a>
+</div>
+
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. 
 
 # Important 
@@ -33,7 +46,9 @@ Make sure you check it out.
 - Project Contributors
 - Singers whose songs are in the You May Like directory.
 
-# Links (Some links may not work if the project site is down)
+# Links 
+*Some links may not work if the project site is down*
+
 [Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
 
 [A Very Mogul Christmas Playlist](https://mogulchristmas.kendalldoescoding.gq/playlist)
