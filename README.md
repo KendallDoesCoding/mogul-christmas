@@ -1,5 +1,7 @@
 # mogul-christmas
 
+![Size](https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg)
+
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out. 
 
 # Important 
