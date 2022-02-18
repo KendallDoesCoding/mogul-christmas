@@ -7,6 +7,7 @@
   --font-color-sub-heading: violet;
   --font-color-christmas_message: violet;
   --info-text: violet;
+  font-family: 'Roboto', sans-serif;
 }
 
 .darkMode {
@@ -18,6 +19,7 @@
   --font-color-sub-heading: violet;
   --font-color-christmas_message: purple;
   --info-text: #6C3483;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {

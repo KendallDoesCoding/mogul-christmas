@@ -8,6 +8,7 @@
 	--font-color-christmas_message: violet;
 	--lyrics-text-color: #1ABC9C;
 	--yml-btn: #1ABC9C;
+	font-family: 'Roboto', sans-serif;
 }
 
 .darkMode {
@@ -20,6 +21,7 @@
 	--font-color-christmas_message: purple;
 	--lyrics-text-color: #1E88E5;
 	--yml-btn: #03AC12; 
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -72,6 +74,7 @@ body {
 
 .heading {
 	color: var(--font-color-red);
+	font-family: 'Redressed', cursive;
 }
 
 .lyrics-heading {
@@ -139,6 +142,7 @@ a:active {
 	justify-content: space-between;
 	font-size: 16px;
 	margin-bottom: 10px;
+	font-family: 'Handlee', cursive;
 }
 
 .button1 {
@@ -154,6 +158,7 @@ a:active {
 	justify-content: space-between;
 	font-size: 16px;
 	margin-bottom: 10px;
+	font-family: 'Handlee', cursive;
 }
 
 .playlist-button {
@@ -167,6 +172,7 @@ a:active {
 	justify-content: space-between;
 	font-size: 16px;
 	margin-bottom: 10px;
+	font-family: 'Handlee', cursive;
 }
 
 .socials-button {
@@ -180,6 +186,7 @@ a:active {
 	justify-content: space-between;
 	font-size: 16px;
 	margin-bottom: 10px;
+	font-family: 'Handlee', cursive;
 }
 
 .lyrics {

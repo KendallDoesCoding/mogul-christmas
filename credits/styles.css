@@ -6,6 +6,7 @@ body {
 
 h1 {
   color: blue;
+  font-family: 'Handlee', cursive;
 }
 
 a:visited{
@@ -13,19 +14,23 @@ a:visited{
 }
 
 h3 {
-  color: purple
+  color: purple;
+  font-family: 'Handlee', cursive;
 }
 
 .heading {
   color: #1ABC9C;
   align-items: center;
   text-align: center;
+  font-family: 'Redressed', cursive;
 }
 
 .subtext {
   color: red;
   align-items: center;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .contributors embed {
