@@ -18,6 +18,10 @@ h3 {
   font-family: 'Handlee', cursive;
 }
 
+h2 {
+  color: green;
+}
+
 .heading {
   color: #1ABC9C;
   align-items: center;
