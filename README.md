@@ -46,7 +46,9 @@ Make sure you check it out.
 - Project Contributors
 - Singers whose songs are in the You May Like directory.
 
-# Links (Some links may not work if the project site is down)
+# Links 
+*Some links may not work if the project site is down*
+
 [Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
 
 [A Very Mogul Christmas Playlist](https://mogulchristmas.kendalldoescoding.gq/playlist)
