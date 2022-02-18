@@ -1,64 +1,56 @@
-/* Fonts */ 
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
 :root {
-	--bg-color: white;
-	--font-color-red: red;
-	--font-color-blue: blue;
-	--font-color-heading: #1ABC9C;
-	--font-color-heading2: #1ABC9C;
-	--font-color-sub-heading: blue;
-	--font-color-christmas_message: violet;
-	--lyrics-text-color: #1ABC9C;
-	--yml-btn: #1ABC9C;
-	font-family: 'Roboto', sans-serif;
+  --bg-color: white;
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --font-color-heading: #1abc9c;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: blue;
+  --font-color-christmas_message: violet;
+  --lyrics-text-color: #1abc9c;
+  --yml-btn: #1abc9c;
+  font-family: "Roboto", sans-serif;
 }
 
 .darkMode {
-	--bg-color: #d9d9d9;
-	--font-color-red: #FFA500;
-	--font-color-blue: blue;
-	--font-color-heading: lightgreen;
-	--font-color-heading2: #03C04A;
-	--font-color-sub-heading: blue;
-	--font-color-christmas_message: purple;
-	--lyrics-text-color: #1E88E5;
-	--yml-btn: #03AC12; 
-	font-family: 'Roboto', sans-serif;
+  --bg-color: #d9d9d9;
+  --font-color-red: #ffa500;
+  --font-color-blue: blue;
+  --font-color-heading: lightgreen;
+  --font-color-heading2: #03c04a;
+  --font-color-sub-heading: blue;
+  --font-color-christmas_message: purple;
+  --lyrics-text-color: #1e88e5;
+  --yml-btn: #03ac12;
+  font-family: "Roboto", sans-serif;
 }
 
-
 /* Body */
-
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
 body {
-	user-select: none;
-	/* Normal (chrome)*/
-	;
-	-webkit-touch-callout: none;
-	/* iOS Safari */
-	;
-	-webkit-user-select: none;
-	/* Safari */
-	;
-	-khtml-user-select: none;
-	/* Konqueror HTML */
-	;
-	-moz-user-select: none;
-	/* Old versions of Firefox */
-	;
-	-ms-user-select: none;
-	/* Internet Explorer/Edge */
-	;
-	align-items: center;
-	text-align: center;
-	background-repeat: no-repeat, no-repeat;
-	background-position: right bottom, left bottom;
-	background-color: var(--bg-color);
+  user-select: none;
+  /* Normal (chrome)*/
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left bottom;
+  background-color: var(--bg-color);
 }
 
 .image-a {
@@ -78,222 +70,239 @@ body {
 /* Headings, etc */
 
 .heading {
-	color: var(--font-color-red);
-	font-family: 'Redressed', cursive;
+  color: var(--font-color-red);
+  font-family: "Redressed", cursive;
 }
 
 .lyrics-heading {
-	color: var(--font-color-heading);
+  color: var(--font-color-heading);
 }
 
 .lud {
-	color: var(--font-color-heading2);
+  color: var(--font-color-heading2);
 }
 
 .lud2 {
-	color: var(--font-color-sub-heading);
+  color: var(--font-color-sub-heading);
 }
 
 .christmas_day_message {
-	display: none;
+  display: none;
 }
 
 .christmas_day_message p {
-	color: var(--font-color-christmas_message);
+  color: var(--font-color-christmas_message);
 }
 
 .otherprojects {
-	color: var(--font-color-sub-heading);
-	text-decoration: none;
+  color: var(--font-color-sub-heading);
+  text-decoration: none;
 }
 
 .yml {
-	color: var(--yml-btn);
-	text-decoration: none;
+  color: var(--yml-btn);
+  text-decoration: none;
 }
-	
 
 .lyrics-lud {
-	color: var(--font-color-blue);
+  color: var(--font-color-blue);
 }
 
 a,
 a:hover,
 a:focus,
 a:active {
-	text-decoration: none;
-	color: inherit;
-	text-decoration: underline;
+  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .songs {
-	color: var(--font-color-blue);
+  color: var(--font-color-blue);
 }
 
 .songs i {
-	color: black;
+  color: black;
 }
 
 .button {
-	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );	
-	/* Used in main page */
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	justify-content: space-between;
-	font-size: 16px;
-	margin-bottom: 10px;
-	font-family: 'Handlee', cursive;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  /* Used in main page */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
 }
 
 .button1 {
-	background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );	/* Dark Blue */
-	/* Used in lyrics directory */
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	justify-content: space-between;
-	font-size: 16px;
-	margin-bottom: 10px;
-	font-family: 'Handlee', cursive;
+  background-image: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  ); /* Dark Blue */
+  /* Used in lyrics directory */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
 }
 
 .playlist-button {
-	background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	justify-content: space-between;
-	font-size: 16px;
-	margin-bottom: 10px;
-	font-family: 'Handlee', cursive;
+  background-image: radial-gradient(
+    circle 860px at 11.8% 33.5%,
+    rgba(240, 30, 92, 1) 0%,
+    rgba(244, 49, 74, 1) 30.5%,
+    rgba(249, 75, 37, 1) 56.1%,
+    rgba(250, 88, 19, 1) 75.6%,
+    rgba(253, 102, 2, 1) 100.2%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
 }
 
 .socials-button {
-	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	justify-content: space-between;
-	font-size: 16px;
-	margin-bottom: 10px;
-	font-family: 'Handlee', cursive;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
 }
 
 .lyrics {
-	color: var(--lyrics-text-color);
+  color: var(--lyrics-text-color);
 }
 
 #embed {
-	display: none;
+  display: none;
 }
 
 .socials {
-	padding-bottom: 200px;
+  padding-bottom: 200px;
 }
 
 .social {
-	margin: 10px;
+  margin: 10px;
 }
 
 #header {
-	position: "relative";
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: "relative";
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #switch {
-	position: absolute;
-	right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .switch {
-	position: relative;
-	display: inline-block;
-	width: 60px;
-	height: 34px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
-
 
 /* Hide default HTML checkbox */
 
 .switch input {
-	opacity: 0;
-	width: 0;
-	height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
-
 
 /* The slider */
 
 .slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: gray;
-	-webkit-transition: 0.4s;
-	transition: 0.4s;
-	background-image: url("./images/day.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-image: url("./images/day.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .slider:before {
-	position: absolute;
-	content: "";
-	height: 26px;
-	width: 26px;
-	left: 4px;
-	bottom: 4px;
-	background-color: white;
-	-webkit-transition: 0.4s;
-	transition: 0.4s;
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.slider {
-	background-color: #2196f3;
+input:checked + .slider {
+  background-color: #2196f3;
 }
 
-input:focus+.slider {
-	box-shadow: 0 0 1px #2196f3;
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
 }
 
-input:checked+.slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(26px);
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
-
 
 /* Rounded sliders */
 
 .slider.round {
-	border-radius: 34px;
+  border-radius: 34px;
 }
 
 .slider.round:before {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 620px) {
-	body {
-		background-image: none;
-	}
+  body {
+    background-image: none;
+  }
 }
 
 /* Remove underline for links on buttons, etc
@@ -301,71 +310,70 @@ input:checked+.slider:before {
 /* Other Projects link, remove underline on hyperlink */
 
 .otherprojects a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .otherprojects a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .otherprojects a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .songs a,
 a:hover,
 a:focus,
 a:active {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .duckyboi,
 .githubtemplate {
-	color: var(--font-color-blue);
-	font-weight: normal;
+  color: var(--font-color-blue);
+  font-weight: normal;
 }
 
 .duckyboi a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .duckyboi a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .duckyboi a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .githubtemplate a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .githubtemplate a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .githubtemplate a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .yml a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .yml a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .yml a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* Hide Christmas Tree Images on Small Screen Size */
 @media only screen and (max-width: 1026px) {
-    .christmas-tree-images {
-
-        display: none;
-    }
+  .christmas-tree-images {
+    display: none;
+  }
 }

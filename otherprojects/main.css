@@ -1,26 +1,26 @@
 :root {
-	--font-color-blue: blue;
-	--font-color-heading: #1ABC9C;
-	--font-color-heading2: #1ABC9C;
-	--font-color-sub-heading: violet;
-	--font-color-christmas_message: violet;
-	--yml-btn: #1ABC9C;
-  --yml-btn-hover: #1ABC9C;
+  --font-color-blue: blue;
+  --font-color-heading: #1abc9c;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: violet;
+  --font-color-christmas_message: violet;
+  --yml-btn: #1abc9c;
+  --yml-btn-hover: #1abc9c;
   --info-text: violet;
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .darkMode {
-	--bg-color: #d9d9d9;
-	--font-color-blue: blue;
-	--font-color-heading: lightgreen;
-	--font-color-heading2: #03C04A;
-	--font-color-sub-heading: #3498DB;
-	--font-color-christmas_message: purple;
-	--lyrics-text-color: #1E88E5;
-	--yml-btn: #03AC12; 
+  --bg-color: #d9d9d9;
+  --font-color-blue: blue;
+  --font-color-heading: lightgreen;
+  --font-color-heading2: #03c04a;
+  --font-color-sub-heading: #3498db;
+  --font-color-christmas_message: purple;
+  --lyrics-text-color: #1e88e5;
+  --yml-btn: #03ac12;
   --info-text: purple;
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {

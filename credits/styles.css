@@ -1,7 +1,7 @@
-/* Fonts */ 
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
 html,
 body {
@@ -11,16 +11,16 @@ body {
 
 h1 {
   color: blue;
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
 }
 
-a:visited{
-  color:blue;
+a:visited {
+  color: blue;
 }
 
 h3 {
   color: purple;
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
 }
 
 h2 {
@@ -28,18 +28,17 @@ h2 {
 }
 
 .heading {
-  color: #1ABC9C;
+  color: #1abc9c;
   align-items: center;
   text-align: center;
-  font-family: 'Redressed', cursive;
+  font-family: "Redressed", cursive;
 }
 
 .subtext {
   color: red;
   align-items: center;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 .contributors embed {
