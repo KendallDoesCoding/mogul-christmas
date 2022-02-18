@@ -2,7 +2,6 @@
 
 <div align="center">
 <img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
-<div align="center">
   <a href="https://github.com/KendallDoesCoding/mogul-christmas">
     <img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas" />
   </a>
