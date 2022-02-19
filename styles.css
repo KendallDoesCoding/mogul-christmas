@@ -193,6 +193,24 @@ a:active {
   font-family: "Handlee", cursive;
 }
 
+.credits-button {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+}
+
 .lyrics {
   color: var(--lyrics-text-color);
 }
