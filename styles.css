@@ -53,20 +53,6 @@ body {
   background-color: var(--bg-color);
 }
 
-.image-a {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
-.image-b {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 18px;
-}
-
 /* Headings, etc */
 
 .heading {
@@ -84,6 +70,11 @@ body {
 
 .lud2 {
   color: var(--font-color-sub-heading);
+}
+
+/* Icon on top of the website */
+#spotify {
+  color: #1db954;
 }
 
 .christmas_day_message {
@@ -371,13 +362,25 @@ a:active {
   text-decoration: none;
 }
 
+/* Christmas Tree Images */
+
+.image-a {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.image-b {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
 /* Hide Christmas Tree Images on Small Screen Size */
 @media only screen and (max-width: 1026px) {
   .christmas-tree-images {
     display: none;
   }
-}
-
-#spotify {
-  color: #1db954;
 }
