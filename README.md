@@ -59,7 +59,7 @@ _Some links may not work if the project site is down_
 
 # Versions & Previews
 
-- You can view the versions & previews [here](https://github.com/KendallDoesCoding/mogul-christmas/wiki/Versions-&-Previews)
+- You can view the versions & previews [here](https://mogulchristmas.kendalldoescoding.gq/versionsandpreviews)
 
 **Disclaimer: This only has 25 releases, at the time of writing this (17th Feb 2021, 1am IST) there are 19 more releases not added to this list.**
 
