@@ -126,6 +126,8 @@ button {
   color: white;
   outline: none;
   border: none;
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem;
 }
 
 .button {
