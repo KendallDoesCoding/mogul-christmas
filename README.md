@@ -11,6 +11,7 @@
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/KendallDoesCoding/mogul-christmas?color=yellow"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls"><img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
+</div>
 
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
 
