@@ -6,7 +6,7 @@
 <a href="https://github.com/KendallDoesCoding/mogul-christmas"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors"><img src="https://img.shields.io/github/contributors/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/stargazers"><img src="https://img.shields.io/github/stars/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
-<a href="https://github.com/KendallDoesCoding/mogul-christmas/network/members"><img src="https://img.shields.io/github/forks/mogul-christmas/?color=yellow"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/network/members"><img src="https://img.shields.io/github/forks/KendallDoesCoding/mogul-christmas?color=yellow"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/issues"><img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/KendallDoesCoding/mogul-christmascolor=yellow"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls"><img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
