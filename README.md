@@ -3,15 +3,14 @@
 <div align="center">
 <img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
   <a href="https://github.com/KendallDoesCoding/mogul-christmas">
-    <img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas" />
-  </a>
-  <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls">
-    <img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas" />
-  </a>
-  <a href="https://github.com/KendallDoesCoding/mogul-christmas/releases">
-    <img src="https://img.shields.io/github/v/release/KendallDoesCoding/mogul-christmas?include_prereleases&label=Latest%20Release" />
-  </a>
-</div>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors"><img src="https://img.shields.io/github/contributors/KendallDoesCoding/mogul-christmasy?color=brightgreen"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/stargazers"><img src="https://img.shields.io/github/stars/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/network/members"><img src="https://img.shields.io/github/forks/mogul-christmas/makesmatheasy?color=yellow"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/issues"><img src="https://img.shields.io/github/issues/mKendallDoesCoding/mogul-christmas?color=0059b3"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/KendallDoesCoding/mogul-christmascolor=yellow"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls"><img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 
 I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
 
