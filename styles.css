@@ -72,15 +72,6 @@ body {
   color: var(--font-color-sub-heading);
 }
 
-button {
-  background-image: radial-gradient(
-    circle farthest-corner at 92.3% 71.5%,
-    rgba(83, 138, 214, 1) 0%,
-    rgba(134, 231, 214, 1) 90%
-  );
-  color: white;
-}
-
 /* Icon on top of the website */
 #spotify {
   color: #1db954;
@@ -123,6 +114,18 @@ a:active {
 
 .songs i {
   color: black;
+}
+
+button {
+  /* This button is for the YML directory NOT the main page */
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgba(83, 138, 214, 1) 0%,
+    rgba(134, 231, 214, 1) 90%
+  );
+  color: white;
+  outline: none;
+  border: none;
 }
 
 .button {
