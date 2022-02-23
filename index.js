@@ -35,7 +35,7 @@ const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
 toggle.addEventListener("click", modeSwitch);
 
-// Darkmode/Lightmode
+// Darkmode/Lightmode + Making songs play when clicked
 
 let isLight = true;
 

@@ -18,13 +18,13 @@
 
 .darkMode {
   --bg-color: #d9d9d9;
-  --font-color-red: #ffa500;
+  --font-color-red: red;
   --font-color-blue: blue;
   --font-color-heading: lightgreen;
   --font-color-heading2: #03c04a;
   --font-color-sub-heading: blue;
   --font-color-christmas_message: purple;
-  --lyrics-text-color: #1e88e5;
+  --lyrics-text-color: red;
   --yml-btn: #03ac12;
   font-family: "Roboto", sans-serif;
 }
@@ -53,20 +53,6 @@ body {
   background-color: var(--bg-color);
 }
 
-.image-a {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
-.image-b {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 18px;
-}
-
 /* Headings, etc */
 
 .heading {
@@ -84,6 +70,11 @@ body {
 
 .lud2 {
   color: var(--font-color-sub-heading);
+}
+
+/* Icon on top of the website */
+#spotify {
+  color: #1db954;
 }
 
 .christmas_day_message {
@@ -185,6 +176,24 @@ a:active {
 }
 
 .socials-button {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+}
+
+.credits-button {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(255, 209, 67, 1) 0%,
@@ -371,13 +380,25 @@ a:active {
   text-decoration: none;
 }
 
+/* Christmas Tree Images */
+
+.image-a {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.image-b {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
 /* Hide Christmas Tree Images on Small Screen Size */
 @media only screen and (max-width: 1026px) {
   .christmas-tree-images {
     display: none;
   }
-}
-
-#spotify {
-  color: #1db954;
 }

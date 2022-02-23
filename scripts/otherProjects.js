@@ -1,3 +1,4 @@
+// The toggle button wasn't working for some reason in the "Other Projects" directory, so aliraza made this script to make it work.
 const toggle_other_projects = document.querySelector(".round");
 const slider_other_projects = document.querySelector(".slider");
 toggle_other_projects.addEventListener("click", modeSwitch);

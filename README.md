@@ -3,21 +3,24 @@
 <div align="center">
 <img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
   <a href="https://github.com/KendallDoesCoding/mogul-christmas">
-    <img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas" />
-  </a>
-  <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls">
-    <img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas" />
-  </a>
-  <a href="https://github.com/KendallDoesCoding/mogul-christmas/releases">
-    <img src="https://img.shields.io/github/v/release/KendallDoesCoding/mogul-christmas?include_prereleases&label=Latest%20Release" />
-  </a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors"><img src="https://img.shields.io/github/contributors/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/stargazers"><img src="https://img.shields.io/github/stars/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/network/members"><img src="https://img.shields.io/github/forks/KendallDoesCoding/mogul-christmas?color=yellow"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/issues"><img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/KendallDoesCoding/mogul-christmas?color=yellow"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls"><img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
+<a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 </div>
 
-I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
+On 18th December 2021, around Christmas time. I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
 
 # Important
 
 **Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.**
+
+**As of now, there's no way to control the volume of the songs, I know it should be added soon, but you can reduce the volume on your device, if that's still loud though, please download the [extension (Volume Booster](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)(even though it's meant to boost volume, it also can be used as a reducer)(available on Brave, Edge, Chrome, idk about Firefox, etc)) and reduce the volume there.. We are working on a in-built volume slider on the project site, if you would like to help, please drop a messege [here](https://github.com/KendallDoesCoding/mogul-christmas/issues/105). Thanks**
+**If your using a VPN the performance may be slow/song may not play.**
 
 If you would like dark mode on this site, you can toggle dark mode on or off by using the button in the top right corner of the site.
 
