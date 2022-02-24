@@ -77,6 +77,11 @@ body {
   color: #1db954;
 }
 
+#youtube {
+  color: red;
+}
+}
+
 .christmas_day_message {
   display: none;
 }
