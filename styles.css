@@ -17,12 +17,12 @@
 }
 
 .darkMode {
-  --bg-color: #d9d9d9;
+  --bg-color: #121212;
   --font-color-red: red;
-  --font-color-blue: blue;
+  --font-color-blue: aqua;
   --font-color-heading: lightgreen;
   --font-color-heading2: #03c04a;
-  --font-color-sub-heading: blue;
+  --font-color-sub-heading: aqua;
   --font-color-christmas_message: purple;
   --lyrics-text-color: red;
   --yml-btn: #03ac12;
@@ -81,6 +81,10 @@ body {
 
 #youtube {
   color: red;
+}
+
+#github {
+  color: grey;
 }
 
 .christmas_day_message {
