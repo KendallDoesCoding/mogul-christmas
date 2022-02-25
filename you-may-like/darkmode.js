@@ -39,3 +39,5 @@ let openStuff = function () {
     // open it in a new window / tab (depends on browser setting)
     window.open(link);
 };
+
+randomSongBtn.onClick = openStuff;
