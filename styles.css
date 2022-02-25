@@ -13,8 +13,8 @@
   --font-color-christmas_message: violet;
   --lyrics-text-color: #1abc9c;
   --yml-btn: #1abc9c;
-  font-family: "Roboto", sans-serif;
   --grey: black;
+  font-family: "Roboto", sans-serif;
 }
 
 .darkMode {
@@ -27,8 +27,8 @@
   --font-color-christmas_message: pink;
   --lyrics-text-color: lime;
   --yml-btn: #03ac12;
-  font-family: "Roboto", sans-serif;
   --grey: grey;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Body */
