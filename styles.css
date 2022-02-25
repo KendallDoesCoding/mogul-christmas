@@ -14,6 +14,7 @@
   --lyrics-text-color: #1abc9c;
   --yml-btn: #1abc9c;
   font-family: "Roboto", sans-serif;
+  --grey: black;
 }
 
 .darkMode {
@@ -27,6 +28,7 @@
   --lyrics-text-color: lime;
   --yml-btn: #03ac12;
   font-family: "Roboto", sans-serif;
+  --grey: grey;
 }
 
 /* Body */
@@ -83,8 +85,8 @@ body {
   color: red;
 }
 
-#github {
-  color: grey;
+#grey {
+  color: var(--grey);
 }
 
 .christmas_day_message {
