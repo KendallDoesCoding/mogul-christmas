@@ -412,6 +412,9 @@ a:active {
 .random-song {
   color: #ffa500;
 }
+#random-button {
+  color: black;
+}
 
 /* Christmas Tree Images */
 
