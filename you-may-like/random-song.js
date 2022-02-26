@@ -1,4 +1,4 @@
-// Open any random song in You May Like directory.
+// Open any random song url in the You May Like directory.
 
 const randomSongBtn = document.getElementById("random-button");
 
