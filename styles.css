@@ -119,11 +119,13 @@ a:active {
   text-decoration: underline;
 }
 
-.songs {
+.songs,
+.socials {
   color: var(--font-color-blue);
 }
 
-.songs i {
+.songs,
+.socials i {
   color: black;
 }
 
@@ -360,7 +362,8 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
-.songs a,
+.songs,
+.socials a,
 a:hover,
 a:focus,
 a:active {
