@@ -64,7 +64,7 @@ _Some links may not work if the project site is down_
 
 - You can view the versions & previews [here](https://mogulchristmas.kendalldoescoding.gq/versionsandpreviews)
 
-**Please Note: This only has 25 releases, at the time of writing this (17th Feb 2021, 1 am IST) there are 19 more releases not added to this list.**
+**Please Note: This only has 25 releases, at the time of writing this (3rd March 2022, 12:13am IST) there are 27 more releases not added to this list.**
 
 - For updates on the website, I've written it as a Version, and for updates on Github we've written it as a Release, for Releases, we've provided a complete changelog.
 
