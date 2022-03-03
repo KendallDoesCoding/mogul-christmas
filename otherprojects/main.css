@@ -184,3 +184,12 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* Violet text, black bullet points */
+
+#other-projects-text {
+  color: violet;
+}
+li::marker{
+  color: black;
+}
