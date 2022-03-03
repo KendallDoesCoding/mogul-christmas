@@ -11,16 +11,17 @@
 }
 
 .darkMode {
-  --bg-color: #d9d9d9;
-  --font-color-blue: blue;
+  --bg-color: black;
+  --font-color-blue: aqua;
   --font-color-heading: lightgreen;
   --font-color-heading2: #03c04a;
   --font-color-sub-heading: #3498db;
-  --font-color-christmas_message: purple;
+  --font-color-christmas_message: lightgreen;
   --lyrics-text-color: #1e88e5;
   --yml-btn: #03ac12;
-  --info-text: purple;
+  --info-text: violet;
   font-family: "Roboto", sans-serif;
+  --others: yellow;
 }
 
 body {
@@ -82,7 +83,7 @@ a:active {
 
 .duckyboi,
 .githubtemplate {
-  color: blue;
+  color: var(--font-color-blue);
   font-weight: normal;
 }
 
@@ -183,4 +184,8 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.others {
+  color: var(--others);
 }
