@@ -18,6 +18,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "JeffBucherDev",
+      "name": "Jeff Bucher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71293215?v=4",
+      "profile": "https://github.com/JeffBucherDev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
