@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on users first issue'
-        pr-message: 'Message that will be displayed on users first pull request'
+        issue-message: 'Welcome! Thanks for making your FIRST issue in this repo. We hope you will stick around and possibly drop a few contributions!'
+        pr-message: 'Welcome! Thanks for making your FIRST PR in this repo. We really appriciate it. Hope you will stick around for this fun journey of "Languages Around The World"!'
