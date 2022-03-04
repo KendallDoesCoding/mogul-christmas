@@ -10,6 +10,15 @@
   "types": {},
   "skipCi": true,
   "contributors": [
+    {
+      "login": "aliraza944",
+      "name": "Ali Raza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50791045?v=4",
+      "profile": "https://github.com/aliraza944",
+      "contributions": [
+        "doc"
+      ]
+    }
   ],
   "projectName": "mogul-christmas",
   "projectOwner": "KendallDoesCoding",
