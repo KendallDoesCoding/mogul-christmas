@@ -19,7 +19,8 @@
         "doc"
       ]
     },
-    {
+  ],
+      {
       "login": "TechStudent11",
       "name": "TechStudent10",
       "avatar_url": "https://avatars.githubusercontent.com/u/76978184?v=4",
@@ -28,7 +29,6 @@
         "doc"
       ]
     }
-  ],
   "projectName": "mogul-christmas",
   "projectOwner": "KendallDoesCoding",
   "repoType": "github",
