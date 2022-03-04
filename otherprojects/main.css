@@ -7,6 +7,7 @@
   --yml-btn: #1abc9c;
   --yml-btn-hover: #1abc9c;
   --info-text: violet;
+  --info-text-bulet: black;
   font-family: "Roboto", sans-serif;
 }
 
@@ -20,6 +21,7 @@
   --lyrics-text-color: #1e88e5;
   --yml-btn: #03ac12;
   --info-text: violet;
+  --info-text-bulet: lightgrey;
   font-family: "Roboto", sans-serif;
   --others: yellow;
 }
@@ -189,11 +191,11 @@ input:checked + .slider:before {
 .others {
   color: var(--others);
 }
- /* Violet text, black bullet points */
+/* Violet text, black bullet points */
 
 #other-projects-text {
   color: violet;
 }
-li::marker{
-  color: black;
+li::marker {
+  color: var(--info-text-bulet);
 }
