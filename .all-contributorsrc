@@ -27,7 +27,7 @@
       "contributions": [
         "doc"
       ]
-    }
+    },
     {
       "login": "aliraza944",
       "name": "Ali Raza",
@@ -51,9 +51,10 @@
       "name": "Jeff Bucher",
       "avatar_url": "https://avatars.githubusercontent.com/u/71293215?v=4",
       "profile": "https://github.com/JeffBucherDev"
-    }    
+    }
   ],
   "projectName": "mogul-christmas",
   "projectOwner": "KendallDoesCoding",
   "repoType": "github",
   "repoHost": "https://github.com"
+}
