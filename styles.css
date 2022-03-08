@@ -8,6 +8,7 @@
   --bg-color: white;
   --font-color-red: red;
   --font-color-blue: blue;
+  --ludsocials-color-blue: yellow;
   --font-color-heading: #1abc9c;
   --font-color-heading2: #1abc9c;
   --font-color-sub-heading: #d35400;
@@ -15,6 +16,7 @@
   --lyrics-text-color: #1abc9c;
   --yml-btn: #1abc9c;
   --grey: black;
+  --ludsocials-grey: black;
   font-family: "Roboto", sans-serif;
 }
 
@@ -29,6 +31,7 @@
   --lyrics-text-color: lime;
   --yml-btn: yellow;
   --grey: grey;
+  --ludsocials-grey: black;
   font-family: "Roboto", sans-serif;
 }
 
@@ -85,7 +88,7 @@ body {
 }
 
 #grey {
-  color: var(--grey);
+  color: var(--ludsocials-grey);
 }
 
 .christmas_day_message {
@@ -121,6 +124,10 @@ a:active {
 
 .songs {
   color: var(--font-color-blue);
+}
+
+.songs1 {
+  color: var(--ludsocials-color-blue);
 }
 
 .songs i {
@@ -360,7 +367,8 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
-.songs a,
+.songs,
+.songs1 a,
 a:hover,
 a:focus,
 a:active {
