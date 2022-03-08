@@ -89,6 +89,10 @@ body {
 }
 
 #grey {
+  color: var(--grey);
+}
+
+#ludsocials-grey {
   color: var(--ludsocials-grey);
 }
 
