@@ -16,7 +16,6 @@
   --lyrics-text-color: #1abc9c;
   --yml-btn: #1abc9c;
   --grey: black;
-  --ludsocials-grey: black;
   font-family: "Roboto", sans-serif;
 }
 
@@ -32,7 +31,6 @@
   --lyrics-text-color: lime;
   --yml-btn: yellow;
   --grey: grey;
-  --ludsocials-grey: black;
   font-family: "Roboto", sans-serif;
 }
 
@@ -90,10 +88,6 @@ body {
 
 #grey {
   color: var(--grey);
-}
-
-#ludsocials-grey {
-  color: var(--ludsocials-grey);
 }
 
 .christmas_day_message {
