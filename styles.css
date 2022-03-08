@@ -25,6 +25,7 @@
   --font-color-red: red;
   --font-color-blue: aqua;
   --font-color-heading: lightgreen;
+  --ludsocials-color-blue: yellow;
   --font-color-heading2: lime;
   --font-color-sub-heading: #f5b041;
   --font-color-christmas_message: pink;
@@ -367,7 +368,14 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
-.songs,
+.songs a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .songs1 a,
 a:hover,
 a:focus,
