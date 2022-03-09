@@ -10,6 +10,7 @@
   --font-color-blue: blue;
   --ludsocials-color-blue: yellow;
   --font-color-heading: #1abc9c;
+  --ludsocials-color-heading: green;
   --font-color-heading2: #1abc9c;
   --font-color-sub-heading: #d35400;
   --font-color-christmas_message: violet;
@@ -23,8 +24,9 @@
   --bg-color: #121212;
   --font-color-red: red;
   --font-color-blue: aqua;
-  --font-color-heading: lightgreen;
   --ludsocials-color-blue: yellow;
+  --font-color-heading: lightgreen;
+  --ludsocials-color-heading: green;
   --font-color-heading2: lime;
   --font-color-sub-heading: #f5b041;
   --font-color-christmas_message: pink;
@@ -62,6 +64,11 @@ body {
 
 .heading {
   color: var(--font-color-red);
+  font-family: "Redressed", cursive;
+}
+
+.ludsocials-heading {
+  color: var(--ludsocials-color-heading);
   font-family: "Redressed", cursive;
 }
 
