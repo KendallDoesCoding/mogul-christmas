@@ -16,6 +16,7 @@
   --font-color-christmas_message: violet;
   --lyrics-text-color: #1abc9c;
   --yml-btn: #1abc9c;
+  --rate-song-btn: purple;
   --grey: black;
   font-family: "Roboto", sans-serif;
 }
@@ -32,6 +33,7 @@
   --font-color-christmas_message: pink;
   --lyrics-text-color: lime;
   --yml-btn: yellow;
+  --rate-song-btn: purple;
   --grey: grey;
   font-family: "Roboto", sans-serif;
 }
@@ -93,6 +95,10 @@ body {
   color: red;
 }
 
+#star {
+  color: yellow;
+}
+
 #grey {
   color: var(--grey);
 }
@@ -112,6 +118,11 @@ body {
 
 .yml {
   color: var(--yml-btn);
+  text-decoration: none;
+}
+
+.rate-song {
+  color: var(--rate-song-btn);
   text-decoration: none;
 }
 
@@ -428,6 +439,18 @@ a:active {
 }
 
 .yml a:hover {
+  text-decoration: none;
+}
+
+.rate a:link {
+  text-decoration: none;
+}
+
+.rate a:visited {
+  text-decoration: none;
+}
+
+.rate a:hover {
   text-decoration: none;
 }
 

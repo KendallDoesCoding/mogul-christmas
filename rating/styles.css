@@ -1,0 +1,44 @@
+.song-name,
+.rating {
+  color: limegreen;
+}
+
+.song-name {
+  width: 200px;
+}
+
+input {
+  color: red;
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #ea384d 51%,
+    #d31027 100%
+  );
+}
+.btn {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
