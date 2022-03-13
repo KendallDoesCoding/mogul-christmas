@@ -71,6 +71,6 @@ _Some links may not work if the project site is down_
 
 # Deploy Status
 
-Below, you can see the progress of the GitHub deployment to the site. In case a change is made to this repo, it takes around 1-5 minutes to display on the site, depending on if there are other deploy's going on within Pull Requests or within repos that have sites, because using Netlify, I can only deploy one thing at a time.
+Below, you can see the progress of the GitHub deployment to the site. In case a change is made to this repo, it takes around 2-5 minutes to display on the site, depending on if there are other deploy's going on within Pull Requests or within repos that have sites, because using Netlify, I can only deploy one thing at a time.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9a61158-0ccb-489e-ba45-85eafcf4bc3b/deploy-status)](https://app.netlify.com/sites/mogulchristmas/deploys)
