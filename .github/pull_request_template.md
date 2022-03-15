@@ -1,6 +1,6 @@
 ### 🛠️ Fixes Issue
 
-<!-- Example: Closes #31 -->
+<!-- Example: Fixes #31 -->
 
 ### 👨‍💻 Changes proposed
 
