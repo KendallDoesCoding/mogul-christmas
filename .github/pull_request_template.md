@@ -29,7 +29,7 @@ Please delete options that are not relevant.
 ### 📄 Note to reviewers
 
 
-### Screenshots
+### 📷 Screenshots
 
 Original | Updated
 :----------------------:|:-----------:
