@@ -26,7 +26,7 @@ Please delete options that are not relevant.
 - [ ] This PR does not contain plagiarized content.
 - [ ] The title of my pull request is a short description of the requested changes.
 
-### Note to reviewers
+### 📄 Note to reviewers
 
 
 ### Screenshots
