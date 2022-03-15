@@ -18,7 +18,7 @@ Please delete options that are not relevant.
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-### Check List (Check all the applicable boxes) <!-- Follow the below conventions to check the box -->
+### ✔️ Check List (Check all the applicable boxes) <!-- Follow the below conventions to check the box -->
 
 <!-- Mark all the applicable boxes. To mark the box as done follow the following conventions -->
 
