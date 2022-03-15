@@ -27,7 +27,8 @@ Please delete options that are not relevant.
 - [ ] The title of my pull request is a short description of the requested changes.
 
 ### 📄 Note to reviewers
-
+<!-- Fill in anything that you want to let the reviewers know about -->
+<!-- If you don't have anything for the reviewers, please remove this section -->
 
 ### 📷 Screenshots
 
