@@ -5,7 +5,7 @@
 ### Related Issue/Addition to code
 - Issue goes here
 
-### Changes proposed
+### 👨‍💻 Changes proposed
 
 <!-- List all the proposed changes in your PR -->
 
