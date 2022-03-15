@@ -1,4 +1,4 @@
-### Fixes Issue
+### 🛠️ Fixes Issue
 
 <!-- Example: Fixes #31 -->
 
