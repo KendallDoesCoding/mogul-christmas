@@ -14,28 +14,34 @@
   --font-color-heading2: #1abc9c;
   --font-color-sub-heading: #d35400;
   --font-color-christmas_message: violet;
-  --lyrics-text-color: #1abc9c;
+  --lyrics-text-color: red;
   --yml-btn: #1abc9c;
   --rate-song-btn: purple;
   --grey: black;
   font-family: "Roboto", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  --bg-image: url("/images/light-bg.png");
 }
 
 .darkMode {
-  --bg-color: #121212;
+  --bg-color: white;
   --font-color-red: red;
-  --font-color-blue: aqua;
+  --font-color-blue: blue;
   --ludsocials-color-blue: yellow;
-  --font-color-heading: lightgreen;
+  --font-color-heading: #1abc9c;
   --ludsocials-color-heading: green;
-  --font-color-heading2: lime;
-  --font-color-sub-heading: #f5b041;
-  --font-color-christmas_message: pink;
-  --lyrics-text-color: lime;
-  --yml-btn: yellow;
-  --rate-song-btn: violet;
-  --grey: grey;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: #d35400;
+  --font-color-christmas_message: violet;
+  --lyrics-text-color: red;
+  --yml-btn: #1abc9c;
+  --rate-song-btn: purple;
+  --grey: black;
   font-family: "Roboto", sans-serif;
+  --bg-image: url("/images/dark-bg.png");
 }
 
 /* Body */
@@ -60,6 +66,11 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: right bottom, left bottom;
   background-color: var(--bg-color);
+  background: var(--bg-image) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Headings, etc */
