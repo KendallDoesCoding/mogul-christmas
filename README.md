@@ -1,15 +1,12 @@
 # mogul-christmas
 
 <div align="center">
+<img src="https://socialify.git.ci/KendallDoesCoding/mogul-christmas/image?description=1&descriptionEditable=Ludwig%20Ahgren%20made%20a%20Christmas%20Album%20in%202020.%20This%20project%20allows%20you%20to%20play%20all%20the%20songs%20from%20the%20album%20in%20your%20browser.&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Dark" />
 <img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
-  <a href="https://github.com/KendallDoesCoding/mogul-christmas">
+<a href="https://github.com/KendallDoesCoding/mogul-christmas">
 <a href="https://github.com/KendallDoesCoding/mogul-christmas"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/graphs/contributors"><img src="https://img.shields.io/github/contributors/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
-<a href="https://github.com/KendallDoesCoding/mogul-christmas/stargazers"><img src="https://img.shields.io/github/stars/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
-<a href="https://github.com/KendallDoesCoding/mogul-christmas/network/members"><img src="https://img.shields.io/github/forks/KendallDoesCoding/mogul-christmas?color=yellow"></a>
-<a href="https://github.com/KendallDoesCoding/mogul-christmas/issues"><img src="https://img.shields.io/github/issues/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/KendallDoesCoding/mogul-christmas?color=yellow"></a>
-<a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls"><img src="https://img.shields.io/github/issues-pr/KendallDoesCoding/mogul-christmas?color=brightgreen"></a>
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 </div>
 
