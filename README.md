@@ -1,6 +1,7 @@
 # mogul-christmas
 
 <div align="center">
+<img src="https://socialify.git.ci/KendallDoesCoding/mogul-christmas/image?description=1&descriptionEditable=Ludwig%20Ahgren%20made%20a%20Christmas%20Album%20in%202020.%20I%20just%20thought%20of%20a%20project%20cause%20I%20was%20bored%20where%20you%20can%20play%20all%20the%20songs%20by%20a%20click%20of%20a%20button%20which%20you%20can%20already%20do%20from%20his%20timestamps%20but%20what%20makes%20it%20special%20is%20that%20it%20has%20lyrics%20of%20those%20songs%20too%20and%20a%20bunch%20of%20other%20features.&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Dark" />
 <img src="https://github-size-badge.herokuapp.com/KendallDoesCoding/mogul-christmas.svg" />
   <a href="https://github.com/KendallDoesCoding/mogul-christmas">
 <a href="https://github.com/KendallDoesCoding/mogul-christmas"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
