@@ -488,10 +488,3 @@ a:active {
   left: 16px;
   font-size: 18px;
 }
-
-/* Hide Christmas Tree Images on Small Screen Size */
-@media only screen and (max-width: 1026px) {
-  .christmas-tree-images {
-    display: none;
-  }
-}
