@@ -73,6 +73,8 @@ Object.keys(songs).map((song_title) => {
   outerElem.appendChild(link);
   songsDOM.appendChild(outerElem);
 });
+
+// Open GitHub repo in a new window if user clicks GitHub icon on project website
 newTabGithub.addEventListener("click", () => {
   window.open(
     "https://github.com/KendallDoesCoding/mogul-christmas",
