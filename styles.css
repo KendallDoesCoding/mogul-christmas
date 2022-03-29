@@ -488,3 +488,14 @@ a:active {
   left: 16px;
   font-size: 18px;
 }
+
+@media only screen and (max-width: 1026px) {
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left bottom;
+  background-color: var(--bg-color);
+  background: var(--bg-image) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
