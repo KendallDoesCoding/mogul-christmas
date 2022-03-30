@@ -22,9 +22,6 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
   background-size: 100% 100%;
   background-image: url("./images/light-bg.png");
 
@@ -45,15 +42,15 @@
   --rate-song-btn: purple;
   --grey: black;
   font-family: "Roboto", sans-serif;
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  margin: auto; 
   background-size: 100% 100%;
 
   background-image: url("./images/dark-bg.png");
-}
-
-/* Body */
+}/* Body */
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
