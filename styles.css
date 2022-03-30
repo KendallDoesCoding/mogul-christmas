@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 
 :root {
-  --bg-color: white;
+  --bg-color: rgb(255, 255, 255);
   --font-color-red: red;
   --font-color-blue: blue;
   --ludsocials-color-blue: yellow;
@@ -22,8 +22,12 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  --bg-image: url("/images/light-bg.png");
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-size: 100% 100%;
+  background-image: url("./images/light-bg.png");
+
 }
 
 .darkMode {
@@ -41,7 +45,12 @@
   --rate-song-btn: purple;
   --grey: black;
   font-family: "Roboto", sans-serif;
-  --bg-image: url("/images/dark-bg.png");
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-size: 100% 100%;
+
+  background-image: url("./images/dark-bg.png");
 }
 
 /* Body */
@@ -190,7 +199,8 @@ button {
   /* Used in main page */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 2%;
+  line-height: 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -198,6 +208,7 @@ button {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
+
 }
 
 .button1 {
@@ -331,7 +342,13 @@ button {
   background-color: gray;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-size: 100% 100%;
+
   background-image: url("./images/day.png");
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
