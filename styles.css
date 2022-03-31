@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 
 :root {
-  --bg-color: white;
+  --bg-color: rgb(255, 255, 255);
   --font-color-red: red;
   --font-color-blue: blue;
   --ludsocials-color-blue: yellow;
@@ -22,8 +22,9 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  --bg-image: url("/images/light-bg.png");
+  background-size: 100% 100%;
+  background-image: url("./images/light-bg.png");
+
 }
 
 .darkMode {
@@ -41,10 +42,15 @@
   --rate-song-btn: purple;
   --grey: black;
   font-family: "Roboto", sans-serif;
-  --bg-image: url("/images/dark-bg.png");
-}
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 
-/* Body */
+  margin: auto; 
+  background-size: 100% 100%;
+
+  background-image: url("./images/dark-bg.png");
+}/* Body */
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
@@ -199,7 +205,6 @@ button {
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
 }
-
 .button1 {
   background-image: linear-gradient(
     83.2deg,
@@ -331,7 +336,13 @@ button {
   background-color: gray;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-size: 100% 100%;
+
   background-image: url("./images/day.png");
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -380,7 +391,6 @@ input:checked + .slider:before {
 }
 
 /* Remove underline for links on buttons, etc
-
 /* Other Projects link, remove underline on hyperlink */
 
 .otherprojects a:link {
