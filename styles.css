@@ -5,29 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 
 :root {
-  --bg-color: rgb(255, 255, 255);
-  --font-color-red: red;
-  --font-color-blue: blue;
-  --ludsocials-color-blue: yellow;
-  --font-color-heading: #1abc9c;
-  --ludsocials-color-heading: green;
-  --font-color-heading2: #1abc9c;
-  --font-color-sub-heading: #d35400;
-  --font-color-christmas_message: violet;
-  --lyrics-text-color: red;
-  --yml-btn: #1abc9c;
-  --rate-song-btn: purple;
-  --grey: black;
-  font-family: "Roboto", sans-serif;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 100%;
-  background-image: url("./images/light-bg.png");
-
-}
-
-.darkMode {
   --bg-color: white;
   --font-color-red: red;
   --font-color-blue: blue;
@@ -45,12 +22,29 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
+  --bg-image: url("/images/light-bg.png");
+}
 
-  margin: auto; 
-  background-size: 100% 100%;
+.darkMode {
+  --bg-color: white;
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --ludsocials-color-blue: yellow;
+  --font-color-heading: #1abc9c;
+  --ludsocials-color-heading: green;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: #d35400;
+  --font-color-christmas_message: violet;
+  --lyrics-text-color: red;
+  --yml-btn: #1abc9c;
+  --rate-song-btn: purple;
+  --grey: black;
+  font-family: "Roboto", sans-serif;
+  --bg-image: url("/images/dark-bg.png");
+}
 
-  background-image: url("./images/dark-bg.png");
-}/* Body */
+/* Body */
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
@@ -196,8 +190,7 @@ button {
   /* Used in main page */
   border: none;
   color: white;
-  padding: 2%;
-  line-height: 1.5rem;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -205,7 +198,6 @@ button {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
-
 }
 
 .button1 {
@@ -339,13 +331,7 @@ button {
   background-color: gray;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-  background-size: 100% 100%;
-
   background-image: url("./images/day.png");
-  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -394,6 +380,7 @@ input:checked + .slider:before {
 }
 
 /* Remove underline for links on buttons, etc
+
 /* Other Projects link, remove underline on hyperlink */
 
 .otherprojects a:link {
