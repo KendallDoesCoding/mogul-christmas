@@ -7,7 +7,7 @@
 
 ### 👨‍💻 Changes proposed
 
-<!-- List all the proposed changes in your PR -->
+<!-- List all the proposed changes in your PR. -->
 
 ### Type of change
 
