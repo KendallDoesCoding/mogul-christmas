@@ -1,35 +1,51 @@
 :root {
+  --bg-color: white;
+  --font-color-red: red;
   --font-color-blue: blue;
+  --ludsocials-color-blue: yellow;
   --font-color-heading: #1abc9c;
+  --ludsocials-color-heading: green;
   --font-color-heading2: #1abc9c;
-  --font-color-sub-heading: violet;
-  --font-color-christmas_message: violet;
+  --font-color-sub-heading: #d35400;
+  --lyrics-text-color: red;
   --yml-btn: #1abc9c;
-  --yml-btn-hover: #1abc9c;
-  --info-text: violet;
-  --info-text-bulet: black;
+  --rate-song-btn: purple;
+  --grey: black;
   font-family: "Roboto", sans-serif;
+  --other-projects-text: purple;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  --black: black;
+  --bg-image: url("/images/lightsolid-bg.png");
 }
 
 .darkMode {
-  --bg-color: black;
+  --bg-color: white;
+  --font-color-red: red;
   --font-color-blue: aqua;
-  --font-color-heading: lightgreen;
-  --font-color-heading2: #03c04a;
-  --font-color-sub-heading: #3498db;
-  --font-color-christmas_message: lightgreen;
-  --lyrics-text-color: #1e88e5;
-  --yml-btn: #03ac12;
-  --info-text: violet;
-  --info-text-bulet: lightgrey;
+  --ludsocials-color-blue: yellow;
+  --font-color-heading: #1abc9c;
+  --ludsocials-color-heading: green;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: #d35400;
+  --font-color-christmas_message: violet;
+  --lyrics-text-color: red;
+  --yml-btn: #1abc9c;
+  --rate-song-btn: purple;
+  --other-projects-text: violet;
+  --grey: black;
+  --black: red;
   font-family: "Roboto", sans-serif;
-  --others: yellow;
+  --bg-image: url("/images/darksolid-bg.png");
 }
 
+/* Body */
+
+/* Needs editting, the christmastree images need to be called in a div not in the BODY */
+
 body {
-  align-items: center;
-  text-align: center;
-  /* Block User Text Selection */
   user-select: none;
   /* Normal (chrome)*/
   -webkit-touch-callout: none;
@@ -42,7 +58,16 @@ body {
   /* Old versions of Firefox */
   -ms-user-select: none;
   /* Internet Explorer/Edge */
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left bottom;
   background-color: var(--bg-color);
+  background: var(--bg-image) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .heading {
@@ -194,7 +219,11 @@ input:checked + .slider:before {
 /* Violet text, black bullet points */
 
 #other-projects-text {
-  color: violet;
+  color: var(--other-projects-text);
+}
+
+.notupdating {
+  color: var(--black);
 }
 li::marker {
   color: var(--info-text-bulet);
