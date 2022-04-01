@@ -5,28 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 
 :root {
-  --bg-color: rgb(255, 255, 255);
-  --font-color-red: red;
-  --font-color-blue: blue;
-  --ludsocials-color-blue: yellow;
-  --font-color-heading: #1abc9c;
-  --ludsocials-color-heading: green;
-  --font-color-heading2: #1abc9c;
-  --font-color-sub-heading: #d35400;
-  --font-color-christmas_message: violet;
-  --lyrics-text-color: red;
-  --yml-btn: #1abc9c;
-  --rate-song-btn: purple;
-  --grey: black;
-  font-family: "Roboto", sans-serif;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 100%;
-  background-image: url("./images/light-bg.png");
-}
-
-.darkMode {
   --bg-color: white;
   --font-color-red: red;
   --font-color-blue: blue;
@@ -44,10 +22,29 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  margin: auto;
-  background-size: 100% 100%;
-  background-image: url("./images/dark-bg.png");
-} /* Body */
+  background-size: cover;
+  --bg-image: url("/images/light-bg.png");
+}
+
+.darkMode {
+  --bg-color: white;
+  --font-color-red: red;
+  --font-color-blue: blue;
+  --ludsocials-color-blue: yellow;
+  --font-color-heading: #1abc9c;
+  --ludsocials-color-heading: green;
+  --font-color-heading2: #1abc9c;
+  --font-color-sub-heading: #d35400;
+  --font-color-christmas_message: violet;
+  --lyrics-text-color: red;
+  --yml-btn: #1abc9c;
+  --rate-song-btn: purple;
+  --grey: black;
+  font-family: "Roboto", sans-serif;
+  --bg-image: url("/images/dark-bg.png");
+}
+
+/* Body */
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
@@ -202,6 +199,7 @@ button {
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
 }
+
 .button1 {
   background-image: linear-gradient(
     83.2deg,
@@ -333,13 +331,7 @@ button {
   background-color: gray;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-  background-size: 100% 100%;
-
   background-image: url("./images/day.png");
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -379,6 +371,12 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media screen and (max-width: 620px) {
+  body {
+    background-image: none;
+  }
 }
 
 /* Remove underline for links on buttons, etc
@@ -472,4 +470,20 @@ a:active {
 #random-button {
   color: black;
   font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+
+/* Christmas Tree Images */
+
+.image-a {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.image-b {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
 }
