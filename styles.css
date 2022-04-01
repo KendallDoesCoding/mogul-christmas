@@ -76,6 +76,13 @@ body {
   background-size: cover;
 }
 
+/* Change background for mobile/small screens */
+@media screen and (max-width: 620px) {
+  :root {
+    background-image: url("./images/mobile-light.png");
+  }
+}
+
 /* Headings, etc */
 
 .heading {
