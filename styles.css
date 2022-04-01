@@ -24,7 +24,6 @@
   -o-background-size: cover;
   background-size: 100% 100%;
   background-image: url("./images/light-bg.png");
-
 }
 
 .darkMode {
@@ -45,11 +44,11 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  margin: auto; 
+  margin: auto;
   background-size: 100% 100%;
 
   background-image: url("./images/dark-bg.png");
-}/* Body */
+} /* Body */
 
 /* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
@@ -341,7 +340,7 @@ button {
   background-size: 100% 100%;
 
   background-image: url("./images/day.png");
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -480,20 +479,4 @@ a:active {
 #random-button {
   color: black;
   font-family: "ZCOOL QingKe HuangYou", cursive;
-}
-
-/* Christmas Tree Images */
-
-.image-a {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
-.image-b {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 18px;
 }
