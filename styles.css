@@ -81,6 +81,9 @@ body {
   :root {
     background-image: url("./images/mobile-light.png");
   }
+  .darkMode {
+    background-image: url("./images/mobile-dark.png");
+  }
 }
 
 /* Headings, etc */
