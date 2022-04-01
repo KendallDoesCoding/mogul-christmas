@@ -46,7 +46,6 @@
   -o-background-size: cover;
   margin: auto;
   background-size: 100% 100%;
-
   background-image: url("./images/dark-bg.png");
 } /* Body */
 
@@ -380,12 +379,6 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-
-@media screen and (max-width: 620px) {
-  body {
-    background-image: none;
-  }
 }
 
 /* Remove underline for links on buttons, etc
