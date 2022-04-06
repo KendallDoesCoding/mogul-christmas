@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
 
 html,
 body {
@@ -62,4 +63,10 @@ h2 {
 
 .commits a {
   color: red;
+}
+
+.thank-you {
+  color: purple;
+  font-family: "Beau Rivage", cursive;
+  font-size: 9mm;
 }
