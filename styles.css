@@ -162,6 +162,11 @@ a:active {
   color: black;
 }
 
+.QT {
+  color: purple;
+  font-weight: bold;
+}
+
 button {
   /* This button is for the YML directory NOT the main page */
   background-image: radial-gradient(
