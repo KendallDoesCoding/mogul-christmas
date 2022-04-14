@@ -5,6 +5,8 @@ const randomSongBtn = document.getElementById("random-button");
 const links = [
   // Bryan Adams - Must Be Santa
   "https://www.youtube.com/watch?v=aAuKuyAZ7YM",
+  // Rick Astley - Love This Christmas
+  "https://www.youtube.com/watch?v=uYCUNULp868",
   // Bobby Helms - Jingle Bell Rock
   "https://www.youtube.com/watch?v=R_vmuL0gjU0",
   // Pentatonix - Joy to the World
