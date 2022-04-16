@@ -29,6 +29,8 @@ const links = [
   "https://www.youtube.com/watch?v=ifCWN5pJGIE",
   // RoomieOfficial - Santa Claus is Coming To Town
   "https://www.youtube.com/embed/gjjb5Guc8As?start=5&end=28&autoplay=1",
+  // RoomieOfficial - White Christmas
+  "https://www.youtube.com/embed/gjjb5Guc8As?start=28&end=48&autoplay=1",
 ];
 let openStuff = function () {
   // get a random number between 0 and the number of links
