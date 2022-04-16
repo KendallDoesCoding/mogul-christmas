@@ -33,6 +33,8 @@ const links = [
   "https://www.youtube.com/embed/gjjb5Guc8As?start=28&end=48&autoplay=1",
   // RoomieOfficial - Last Christmas
   "https://www.youtube.com/embed/gjjb5Guc8As?start=49&end=67&autoplay=1",
+  // RoomieOfficial - All I Want For Christmas
+  "https://www.youtube.com/embed/gjjb5Guc8As?start=67&end=81&autoplay=1",
 ];
 let openStuff = function () {
   // get a random number between 0 and the number of links
