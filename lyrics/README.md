@@ -2,7 +2,7 @@
 This directory, has all the songs with lyrics.
 
 ### Alternative to the Lyrics Directory
-A alternative of this, to have lyrics on the main page, is if your using chrome, to to the following, although The only issue with this is that, it uses Youtube Captions, and that's absolutely not accurate, so I reccomend you use the lyrics directory:
+A alternative of this, to have lyrics on the main page, is if your using chrome, to to the following, although The only issue with this is that, it uses Youtube Captions, and that's absolutely not accurate, so I recommend you use the lyrics directory:
 
 Tap this near your extensions: ![image](https://user-images.githubusercontent.com/84712013/154449488-68225ff8-9387-4a48-a2ff-dc8bd4bd6a58.png)
 
