@@ -122,13 +122,6 @@ body {
   color: var(--font-color-christmas_message);
 }
 
-.new_years_message {
-  display: none;
-}
-.new_years_message p {
-  color: var(--font-color-sub-heading);
-}
-
 .otherprojects {
   color: var(--font-color-sub-heading);
   text-decoration: none;
