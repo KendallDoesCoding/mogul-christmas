@@ -470,3 +470,17 @@ a:active {
   color: black;
   font-family: "ZCOOL QingKe HuangYou", cursive;
 }
+
+#preloader {
+  background: #000 url(images/loader.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
