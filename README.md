@@ -55,8 +55,6 @@ _Some links may not work if the project site is down_
 
 [Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
 
-[A Very Mogul Christmas Playlist](https://mogulchristmas.kendalldoescoding.gq/playlist)
-
 ### Versions & Previews
 
 - You can view the versions & previews [here](https://mogulchristmas.kendalldoescoding.gq/versionsandpreviews)
