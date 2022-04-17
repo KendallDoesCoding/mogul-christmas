@@ -15,7 +15,7 @@ A clear and concise description of what the problem is. Ex. I'm always frustrate
 A clear and concise description of what you want to happen.
 
 **Why do you think we should add this feature? How will it be useful for the project?**
-Please write a description on how you think this would benifit this project.
+Please write a description on how you think this would benefit this project.
 
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered.

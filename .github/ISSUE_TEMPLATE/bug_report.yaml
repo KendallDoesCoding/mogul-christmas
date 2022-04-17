@@ -63,5 +63,5 @@ body:
     id: logs
     attributes:
       label: Relevant console log (if any)
-      description: Copy and paste from any relevent console log information about this bug.
+      description: Copy and paste from any relevant console log information about this bug.
       render: shell
