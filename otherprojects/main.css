@@ -99,6 +99,14 @@ body {
   text-decoration: none;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: inherit;
+}
+
 .duckyboi,
 .githubtemplate {
   color: var(--font-color-blue);
