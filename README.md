@@ -12,7 +12,7 @@
 
 On 18th December 2021, I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
 
-# Important
+## Important
 
 **Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.**
 
@@ -25,7 +25,7 @@ If you would like dark mode on this site, you can toggle dark mode on or off by 
 
 If your running the versions between 8.0 to 10.5.0 especially please note that since version 8.0, we've updated how the website looks so that there is no embed/iframe, but that does slow down the performance how fast the song plays/the user doesn't know if the song is loading or no, but just wait 1-5 seconds and the song should play, in case of any issue, please create a bug report issue using the template in the issue panel in this repo. Since release, 10.5.0 I believe, the songs have started playing a little faster than it used to play, now it will only take 1-4 seconds.
 
-# Check it out here
+## Check it out here
 
 The project website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)!
 
@@ -33,13 +33,13 @@ Backup URL: [Backup Domain](https://mogulchristmas.netlify.app)
 
 Make sure you check it out.
 
-# Contributing Guidelines & Related Contributing Stuff
+## Contributing Guidelines & Related Contributing Stuff
 
 [Contributing Guidelines](./.github/CONTRIBUTING.md)
 
 [Issues which new contributors can take up.](https://github.com/KendallDoesCoding/mogul-christmas/contribute)
 
-# Credits
+## Credits
 
 **Project credits are located [here](https://mogulchristmas.kendalldoescoding.gq/credits).**
 
@@ -49,15 +49,13 @@ _Credits include the following_:
 - Project Contributors
 - Singers whose songs are in the You May Like directory.
 
-# Links
+## Links
 
 _Some links may not work if the project site is down_
 
 [Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
 
-[A Very Mogul Christmas Playlist](https://mogulchristmas.kendalldoescoding.gq/playlist)
-
-# Versions & Previews
+## Versions & Previews
 
 - You can view the versions & previews [here](https://mogulchristmas.kendalldoescoding.gq/versionsandpreviews)
 
@@ -65,7 +63,7 @@ _Some links may not work if the project site is down_
 
 - For updates on the website, I've written it as a Version, and for updates on Github we've written it as a Release, for Releases, we've provided a complete changelog.
 
-# Deploy Status
+## Deploy Status
 
 Below, you can see the progress of the GitHub deployment to the site. In case a change is made to this repo, it takes around 2-5 minutes to display on the site, depending on if there are other deploy's going on within Pull Requests or within repos that have sites, because using Netlify, I can only deploy one thing at a time.
 
