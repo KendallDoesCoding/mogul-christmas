@@ -8,6 +8,12 @@ h1 {
   color: blue;
 }
 
+.info {
+  color: purple;
+  text-align: center;
+  font-size: 15px;
+}
+
 form {
   margin: 0 auto;
   width: 250px;
