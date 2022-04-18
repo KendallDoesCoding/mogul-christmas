@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Song Suggestion</title>
+  </head>
+  <body>
+    <h2>Do You Want To Add A Christmas Song To The You May Like Directory?</h2>
+    <h3>
+      Leave the song below as a suggestion and I'll be sure to add it if it
+      meets our requirements -KendallDoesCoding
+    </h3>
+    <form
+      method="POST"
+      action="https://script.google.com/macros/s/AKfycbxDfhEtut28cIvBYmeJQ-FqUazZ_co2pxTVYDFq9q-xxAG8g9Ag5NA5zrPcnmAVb84b-Q/exec"
+    >
+      <input
+        name="Github Username"
+        type="username"
+        placeholder="Github Username"
+        required
+      />
+      <input name="Name" type="text" placeholder="Name" required />
+      <input
+        name="Song Suggestion"
+        type="text"
+        placeholder="Song Suggestion"
+        required
+      />
+      <input name="YouTube url" type="url" placeholder="Youtube url" required />
+      <button type="submit">Send</button>
+    </form>
+    <p>
+      <a
+        class="suggestions"
+        href="https://docs.google.com/spreadsheets/d/1KaHEvD4iNq1peWLWYMfSrJ5rFQZDNOWEO2Ch0HZXkQ8/edit?usp=sharing"
+        >View Song Suggestions Requested
+      </a>
+    </p>
+  </body>
+</html>

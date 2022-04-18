@@ -1,0 +1,35 @@
+h2,
+h3,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: blue;
+}
+
+form {
+  margin: 0 auto;
+  width: 250px;
+}
+
+p {
+  color: deeppink;
+}
+
+a {
+  color: deeppink;
+  text-decoration: none;
+}
+
+.suggestions {
+  width: 100%;
+  text-align: center;
+  padding-right: 50px;
+}

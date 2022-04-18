@@ -193,6 +193,24 @@ button {
   margin-top: 1rem;
 }
 
+.suggest {
+  background-image: linear-gradient(
+    64.5deg,
+    rgba(245, 116, 185, 1) 14.7%,
+    rgba(89, 97, 223, 1) 88.7%
+  );
+  color: white;
+  outline: none;
+  border: none;
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 1rem;
+}
+
 .button {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
@@ -474,6 +492,11 @@ a:active {
   color: #ffa500;
 }
 #random-button {
+  color: black;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+
+#suggest-button {
   color: black;
   font-family: "ZCOOL QingKe HuangYou", cursive;
 }
