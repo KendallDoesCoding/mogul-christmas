@@ -37,6 +37,7 @@ a:visited {
 
 img {
   width: 30px;
+  color: darksalmon;
 }
 
 .modal-header {
@@ -79,10 +80,6 @@ img {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
   width: 120px;
-}
-
-img {
-  color: darksalmon;
 }
 
 .flex:hover {
