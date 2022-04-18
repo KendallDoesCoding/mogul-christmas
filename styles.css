@@ -174,7 +174,7 @@ a:active {
   font-weight: bold;
 }
 
-button {
+.random {
   /* This button is for the YML directory NOT the main page */
   background-image: radial-gradient(
     circle farthest-corner at 92.3% 71.5%,
