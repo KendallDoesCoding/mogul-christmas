@@ -23,7 +23,7 @@ p {
   color: deeppink;
 }
 
-a {
+.suggestions {
   color: deeppink;
   text-decoration: none;
 }
@@ -32,4 +32,15 @@ a {
   width: 100%;
   text-align: center;
   padding-right: 50px;
+}
+
+.requirements {
+  padding-left: 5px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.requirements:hover {
+  text-decoration: none;
+  color: orange;
 }
