@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Report A Song</title>
+  </head>
+  <body>
+    <h1>
+      Report a Song Violating Our
+      <a
+        class="requirements"
+        href="/you-may-like/song-suggestion/requirements.html"
+        >Requirements</a
+      >
+    </h1>
+    <form name="violation" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label
+          >Song Violating Requirements <input type="text" name="song"
+        /></label>
+      </p>
+      <p>
+        <label
+          >Which requirement is it violating? <input type="text" name="violation">
+      </p>
+      <p>
+        <label>Additional Info: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+  </body>
+</html>

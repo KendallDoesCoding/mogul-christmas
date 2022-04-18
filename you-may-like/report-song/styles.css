@@ -1,0 +1,40 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: blue;
+}
+
+form {
+  margin: 0 auto;
+  width: 250px;
+}
+
+p {
+  color: deeppink;
+}
+
+.suggestions {
+  color: deeppink;
+  text-decoration: none;
+}
+
+.suggestions {
+  width: 100%;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.requirements {
+  padding-left: 5px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.requirements:hover {
+  text-decoration: none;
+  color: orange;
+}
