@@ -266,27 +266,6 @@ a:active {
   font-family: "Handlee", cursive;
 }
 
-.playlist-button {
-  background-image: radial-gradient(
-    circle 860px at 11.8% 33.5%,
-    rgba(240, 30, 92, 1) 0%,
-    rgba(244, 49, 74, 1) 30.5%,
-    rgba(249, 75, 37, 1) 56.1%,
-    rgba(250, 88, 19, 1) 75.6%,
-    rgba(253, 102, 2, 1) 100.2%
-  );
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-family: "Handlee", cursive;
-}
-
 .socials-button {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
