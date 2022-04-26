@@ -158,6 +158,7 @@ a:active {
 
 .songs {
   color: var(--font-color-blue);
+  cursor: pointer;
 }
 
 .songs1 {
