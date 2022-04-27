@@ -9,6 +9,7 @@ main .list {
   max-width: 768px;
   margin-top: 25px;
   color: var(--font-color-blue);
+  cursor: pointer;
 }
 
 main .list .item {
@@ -56,8 +57,4 @@ main .list .item:hover {
 .pagenumbers button.active {
   background-color: #44eeaa;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
-}
-
-.list {
-  cursor: pointer;
 }
