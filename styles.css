@@ -198,11 +198,8 @@ a:active {
 }
 
 .suggest {
-  background-image: linear-gradient(
-    64.5deg,
-    rgba(245, 116, 185, 1) 14.7%,
-    rgba(89, 97, 223, 1) 88.7%
-  );
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   color: white;
   outline: none;
   border: none;
@@ -216,11 +213,14 @@ a:active {
 }
 
 .report {
+  background-color: #ff9a8b;
   background-image: linear-gradient(
-    358.4deg,
-    rgba(249, 151, 119, 1) -2.1%,
-    rgba(98, 58, 162, 1) 90%
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
   );
+
   color: white;
   outline: none;
   border: none;
