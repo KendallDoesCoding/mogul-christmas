@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .list {
+  width: 100%;
+  max-width: 768px;
+  margin-top: 25px;
+  color: var(--you-may-like-songs-color);
+  cursor: pointer;
+}
+
+main .list .item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+main .list .item:last-of-type {
+  border-bottom: none;
+}
+main .list .item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.pagenumbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagenumbers button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  padding: 1rem;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #44aaee;
+  margin: 5px;
+  transition: 0.4s;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+  background-color: #44eeaa;
+}
+
+.pagenumbers button.active {
+  background-color: #44eeaa;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
