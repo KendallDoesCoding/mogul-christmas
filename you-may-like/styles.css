@@ -8,7 +8,7 @@ main .list {
   width: 100%;
   max-width: 768px;
   margin-top: 25px;
-  color: var(--font-color-blue);
+  color: var(--you-may-like-songs-color);
   cursor: pointer;
 }
 
