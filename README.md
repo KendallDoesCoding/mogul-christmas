@@ -51,12 +51,6 @@ _Credits include the following_:
 - Project Contributors
 - Singers whose songs are in the You May Like directory.
 
-## Links
-
-_Some links may not work if the project site is down_
-
-[Ludwig's Channel](https://mogulchristmas.kendalldoescoding.gq/ludwig)
-
 ## Versions & Previews
 
 - You can view the versions & previews [here](https://mogulchristmas.kendalldoescoding.gq/versionsandpreviews)
