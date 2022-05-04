@@ -10,6 +10,8 @@
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 </div>
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/KendallDoesCoding/mogul-christmas)
+
 On 18th December 2021, I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
 
 ## Important
