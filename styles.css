@@ -339,6 +339,7 @@ a:active {
 
 .social {
   margin: 10px;
+  cursor: pointer;
 }
 
 #header {
