@@ -307,6 +307,25 @@ a:active {
   font-family: "Handlee", cursive;
 }
 
+.news-button {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+}
+
 .credits-button {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
