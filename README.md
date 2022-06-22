@@ -12,20 +12,23 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/KendallDoesCoding/mogul-christmas)
 
-On 18th December 2021, I was feeling bored so I made this basic HTML Project and I felt like keeping going with this fun project and got a few contributors to help me out.
+On the 18th of December 2021, I was bored, so I created this basic HTML Project. I felt like continuing with this fun project, so I enlisted the help of a few contributors.
 
 ## Important
 
-**Ensure that the last Youtube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics directory will automatically set on mute too.**
+**Ensure that the last YouTube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics' directory will automatically be set on mute too.**
 
-**As of now, there's no way to control the volume of the songs, I know it should be added soon, but you can reduce the volume on your device, if that's still loud though, please download the [extension (Volume Booster](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke)(even though it's meant to boost volume, it also can be used as a reducer)(available on Brave, Edge, Chrome, idk about Firefox, etc)) and reduce the volume there.. We are working on a in-built volume slider on the project site, if you would like to help, please drop a messege [here](https://github.com/KendallDoesCoding/mogul-christmas/issues/105). Thanks**
-**If your using a VPN the performance may be slow/song may not play.**
+**There is currently no way to control the volume of the songs. Although it should be added soon, you can lower the volume on your device. If that is still too loud, please download the [Volume Booster extension](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke) (even though it is meant to boost volume, it can also be used as a reducer; available on Brave, Edge, Chrome, I am not sure about Firefox, etc) and lower the volume there. On the project site, we are developing an in-built volume slider. [Please leave a message](https://github.com/KendallDoesCoding/mogul-christmas/issues/105) if you are willing to assist. Thanks.**
+ 
+**If you use a VPN, your performance may be slowed or the song may not play.**
 
-**Also, I suggest you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or any other adblocker and block ads on specifically Youtube and the project website if the sites are whitelisted in the adblocker because there's a chance that sometimes when you click a song an ad may play before. After all, this project runs via the youtube embed. Although, I may change it to run through Youtube Music or another music software soon where the ads are fewer or none for that matter. There is one adblocker that allows you to whitelist ads on a certain YouTuber, if you use that adblocker and whitelisted "Ludwig" on it, you may get ads so please un-whitelist him while running the songs on the project website. But mostly, there aren't ads so you should be good most of the time. My adblocker tells me, that for every song I am tapping on the website, including "All Of The Above" it's blocking 2 ads each, although when I went to another login without the adblocker I didn't get any ads, so the ads will only come some times, I'm just giving a fair warning.**
+**Also, I recommend that you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or another adblocker to block ads on YouTube and the project website if the sites are not whitelisted in the adblocker because there is a chance that an ad will play before you click a song. After all, this project is powered by a YouTube embed. However, I may soon change it to run through Youtube Music or another music software where the ads are fewer or none at all. There is one adblocker that allows you to whitelist ads on a specific YouTuber; if you use that adblocker and whitelist, say, "Ludwig," you may get ads, so please un-whitelist him while running the songs on the project website. But, because there are not many ads, you should be fine most of the time. My adblocker tells me that for every song I tap on the website, including "All Of The Above," it is blocking two ads; however, when I tried another login without the adblocker, I did not get any ads, so the ads will only appear occasionally; I am just providing fair warning.**
+  
+  
 
 If you would like dark mode on this site, you can toggle dark mode on or off by using the button in the top right corner of the site.
 
-If your running the versions between 8.0 to 10.5.0 especially please note that since version 8.0, we've updated how the website looks so that there is no embed/iframe, but that does slow down the performance how fast the song plays/the user doesn't know if the song is loading or no, but just wait 1-5 seconds and the song should play, in case of any issue, please create a bug report issue using the template in the issue panel in this repo. Since release, 10.5.0 I believe, the songs have started playing a little faster than it used to play, now it will only take 1-4 seconds.
+Please note that since version 8.0, we have updated how the website looks so that there is no embed/iframe, but that does slow down the performance how fast the song plays/the user does not know if the song is loading or not, but just wait 1-5 seconds and the song should play, in case of any issue, please create a bug report issue using the template in the issue panel in this repo. Since the release of 10.5.0, I believe, the songs have started playing a little faster than they used to, now taking only 1-4 seconds.
 
 ## Check it out here
 
