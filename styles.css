@@ -361,6 +361,40 @@ a:active {
   cursor: pointer;
 }
 
+.main-random-div {
+  width: 100%;
+  display: flex;
+  margin-top: 0.8rem;
+  justify-content: center;
+}
+
+.random-song-container {
+  padding-right: 2.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+#random-text-container {
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.random {
+  background-color: white;
+  position: relative;
+  align-self: center;
+}
+
+#random-btn-text {
+  vertical-align: middle;
+}
+
+
 #header {
   position: relative;
   display: flex;
