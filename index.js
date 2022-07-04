@@ -74,6 +74,16 @@ Object.keys(songs).map((song_title) => {
   songsDOM.appendChild(outerElem);
 });
 
+// randomly shuffle a song from main page's songs
+function shuffleSongs() {
+  var properties = Object.getOwnPropertyNames(songs);
+  var ranNum = Math.floor(Math.random() * (properties.length - 1));
+  var songName = properties[ranNum];
+  var song = songs[songName];
+  console.log(songs[songName]);
+  embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}`;
+}
+
 // Open GitHub repo in a new window if user clicks GitHub icon on project website
 newTabGithub.addEventListener("click", () => {
   window.open(
