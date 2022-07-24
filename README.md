@@ -16,7 +16,7 @@ On the 18th of December 2021, I was bored, so I created this basic HTML Project.
 
 ## Important
 
-**Ensure that the last YouTube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics' directory will automatically be set on mute too.**
+**Please ensure that the last YouTube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyrics' directory will automatically be set on mute too.**
 
 **There is currently no way to control the volume of the songs. Although it should be added soon, you can lower the volume on your device. If that is still too loud, please download the [Volume Booster extension](https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke) (even though it is meant to boost volume, it can also be used as a reducer; available on Brave, Edge, Chrome, I am not sure about Firefox, etc) and lower the volume there. On the project site, we are developing an in-built volume slider. [Please leave a message](https://github.com/KendallDoesCoding/mogul-christmas/issues/105) if you are willing to assist. Thanks.**
  
