@@ -6,6 +6,9 @@ song.map((item) => {
   const p = document.createElement("p");
   const textNode = document.createTextNode(item);
   p.appendChild(textNode);
+  if (!item) {
+    p.appendChild(document.createElement("br"));
+  }
   return lyrics__container.appendChild(p);
 });
 

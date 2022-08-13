@@ -9,6 +9,9 @@ its_cold_outside.map((item) => {
   const p = document.createElement("p");
   const textNode = document.createTextNode(item);
   p.appendChild(textNode);
+  if (!item) {
+    p.appendChild(document.createElement("br"));
+  }
   return its_cold_outside__container.appendChild(p);
 });
 
