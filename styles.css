@@ -434,7 +434,7 @@ a:active {
   background-color: gray;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background-image: url("./images/day.png");
+  background-image: url("./images/light.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
