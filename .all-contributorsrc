@@ -90,6 +90,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Weave-Trix",
+      "name": "Weave-Trix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88459877?v=4",
+      "profile": "https://github.com/Weave-Trix",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
