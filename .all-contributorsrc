@@ -117,6 +117,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "frazie",
+      "name": "Frazier Odhiambo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14346677?v=4",
+      "profile": "https://frazier-se.netlify.app/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
