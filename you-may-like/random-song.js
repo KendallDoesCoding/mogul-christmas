@@ -37,6 +37,8 @@ const links = [
   "https://www.youtube.com/embed/gjjb5Guc8As?start=67&end=81&autoplay=1",
   // RoomieOfficial - Feliz Navidad
   "https://www.youtube.com/embed/gjjb5Guc8As?start=81&end=106&autoplay=1",
+  // Chris Tomlin - It's Christmas
+  "https://www.youtube.com/watch?v=10YJjdzZSPo"
 ];
 let openStuff = function () {
   // get a random number between 0 and the number of links

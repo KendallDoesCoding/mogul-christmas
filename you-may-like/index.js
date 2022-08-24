@@ -7,6 +7,7 @@ const list_items = [
   "We Wish You a Merry Christmas by Arthur Warrell",
   "Have Yourself a Merry Little Christmas by Sam Smith",
   "Sleigh Ride by The Ronettes",
+  "It's Christmas by Chris Tomlin",
   "Frosty The Snowman (Original) by The Ronettes",
   "Frosty The Snowman (Cover/Remix) by Pentatonix",
   "Frosty The Snowman (Cover/Remix) by Micheal Bublé, ft: The Puppini Sisters",
@@ -55,7 +56,9 @@ const links = [
   // RoomieOfficial - All I Want For Christmas
   "https://www.youtube.com/embed/gjjb5Guc8As?start=67&end=81&autoplay=1",
   // RoomieOfficial - Feliz Navidad
-  "https://www.youtube.com/embed/gjjb5Guc8As?start=81&end=106&autoplay=1"
+  "https://www.youtube.com/embed/gjjb5Guc8As?start=81&end=106&autoplay=1",
+  // Chris Tomlin - It's Christmas
+  "https://www.youtube.com/watch?v=10YJjdzZSPo",
 ]
 
 const list_element = document.getElementById("list");
