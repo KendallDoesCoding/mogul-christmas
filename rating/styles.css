@@ -1,42 +1,114 @@
-.song-name,
-.rating {
-  color: limegreen;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.song-name {
-  width: 200px;
-}
-
-input {
-  color: red;
-}
-
-.btn {
-  background-image: linear-gradient(
-    to right,
-    #d31027 0%,
-    #ea384d 51%,
-    #d31027 100%
-  );
-  margin: 10px;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
+body{
+  background:linear-gradient(to right,#ffe1e1,#ffc3c3,#ffb7b7);
+  width: 100%;
+  display: column;
+  align-items: center;
+  justify-content: center;
   color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-}
-
-.btn:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
-}
-
-body {
   max-width: 100%;
-  overflow-x: hidden;
+}
+main{
+  margin-top:8em;
+  width: 100%;
+  display: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: rgba(0,0,0, 0.3);
+}
+h1{
+  text-align: center;
+  margin: 1em;
+  color: black;
+  padding: 10px;
+  font-weight: 800;
+  font-size: xx-large;
+  font-family: 'Poppins',sans-serif;
+}
+form{
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+label{
+  font-family: 'Poppins', sans-serif
+  
+}
+.select{
+  height:50px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  margin: 5px;
+  border: 1px solid white;
+  background-color: black;
+}
+.rating{
+  width: 300px;
+  color: purple;
+
+}
+.btn{
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  padding: 7px;
+  color: black;
+  font-weight: bolder;
+  background-color: rgb(250, 175, 250);
+  transform: scale(1);
+  transition: 0.5s;
+
+}
+.btn:hover{
+  background: black;
+  color: white;
+  transform: scale(1.1);
+}
+    /* for large screens */
+@media screen and (min-width : 750px){
+  body{
+    background: url('./pink-wavy.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main{
+    width: 70%;
+    height: 80vh;
+    margin-top: 5em;
+    background-color: white;
+    border-radius: 10px;
+  }
+  h1{
+    text-align: center;
+    margin: 1em;
+    color: black;
+    padding: 10px;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Poppins',sans-serif;
+  }
+  .select{
+    height:50px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+  }
 }
