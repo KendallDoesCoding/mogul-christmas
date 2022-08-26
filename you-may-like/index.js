@@ -23,7 +23,7 @@ const list_items = [
 ];
 
 const links = [
-    // Bryan Adams - Must Be Santa
+  // Bryan Adams - Must Be Santa
   "https://www.youtube.com/watch?v=aAuKuyAZ7YM",
   // Rick Astley - Love This Christmas
   "https://www.youtube.com/watch?v=uYCUNULp868",
@@ -58,8 +58,8 @@ const links = [
   // RoomieOfficial - Feliz Navidad
   "https://www.youtube.com/embed/gjjb5Guc8As?start=81&end=106&autoplay=1",
   // Chris Tomlin - It's Christmas
-  "https://www.youtube.com/watch?v=10YJjdzZSPo",
-]
+  "https://www.youtube.com/watch?v=10YJjdzZSPo"
+];
 
 const list_element = document.getElementById("list");
 const pagination_element = document.getElementById("pagination");
