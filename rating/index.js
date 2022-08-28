@@ -1,5 +1,5 @@
 // get the input
-let const = document.getElementById('rating')
+ const rating = document.getElementById('rating')
  
 // handles changes in the input and renders values to the screen 
 function handleChange(){
