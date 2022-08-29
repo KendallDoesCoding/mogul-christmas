@@ -5,7 +5,8 @@
 }
 
 body{
-  background:linear-gradient(to right,#ffe1e1,#ffc3c3,#ffb7b7);
+  background: url('photo1.jpeg');
+  background-size: cover;
   width: 100%;
   display: column;
   align-items: center;
@@ -14,22 +15,34 @@ body{
   max-width: 100%;
 }
 main{
-  margin-top:8em;
+  margin-top:3em;
   width: 100%;
   display: column;
   justify-content: center;
   align-items: center;
   height: 70vh;
-  background: rgba(0,0,0, 0.3);
+  background: rgba(0,0,0, 0.9);
 }
 h1{
   text-align: center;
   margin: 1em;
-  color: black;
+  color: white;
   padding: 10px;
   font-weight: 800;
   font-size: xx-large;
   font-family: 'Poppins',sans-serif;
+}
+h3{
+  border: ipx solid white;
+  box-shadow: 6px 2px  2px rgba(0,0,0,0.15);
+  width: 80%;
+  height: 100px;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.2);
+  margin: auto;
+  visibility: hidden;
+  border-radius: 10px;
 }
 form{
   margin: auto;
@@ -56,20 +69,22 @@ label{
 
 }
 .btn{
+  margin-top: 1rem;
   height: 50px;
   width: 140px;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 7px;
-  color: black;
+  color: white;
   font-weight: bolder;
-  background-color: rgb(250, 175, 250);
+  background-color: rgb(0,0,0);
   transform: scale(1);
   transition: 0.5s;
 
 }
 .btn:hover{
-  background: black;
-  color: white;
+  background: #f5f5f5;
+  color: rgb(0, 0, 0);
   transform: scale(1.1);
 }
     /* for large screens */
@@ -88,7 +103,7 @@ label{
   main{
     width: 70%;
     height: 80vh;
-    margin-top: 5em;
+    margin-top: 3em;
     background-color: white;
     border-radius: 10px;
   }

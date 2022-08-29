@@ -10,11 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Rate Song</title>
-  </head>
+  </head>z
   <body>
-    <main>
+<h3 Id="review_msg">
+  hello
+</h3>  
+  <main>
       <h1>Ratings</h1>
-      <form name="rating" netlify>
+      <form name="rating"  id="submit"  netlify>
         
           <label class="song-name">Song Name:</label><br/><br/>
           <select class="select" name="song[]">
@@ -28,15 +31,14 @@
         
         
           <label  class="">Rating - Out of 10 : <span id="demo"></span></label><br/><br/>
-             <input name='rating' type="range" id="rating" class="rating" max="10" step="1" onchange="handleChange()" required/><br/><br/>
+             <input name='rating' type="range" id="rating" class="rating" max="10" step="1" value=0 onchange="handleChange()" required/><br/><br/>
         
-        
-          <button class="btn" type="submit">Submit Rating</button>
+        <button class="btn" type="submit">Submit Rating</button>
         </p>
       </form>
       <p id="demo"></p>
     </main>
     <script src="index.js"></script>
-    <script src="text.js"></script>
+    
   </body>
 </html>
