@@ -18,4 +18,5 @@ jobs:
           # access-token: ${{ secrets.ACCESS_TOKEN }}
           access-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-branch: master
-          build-args: --base-href 
+          build-args: --base-href
+          
