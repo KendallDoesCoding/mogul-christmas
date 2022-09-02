@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +10,9 @@ jobs:
       - uses: actions/checkout@v1
       - uses: jruipinto/ImageMagick-action@v1
         with:
-          # ImageMagick command to be executed
           command: mogrify -format jpg images/*.png
       - uses: cmgriffing/scully-gh-pages-action@v9
         with:
-          # access-token: ${{ secrets.ACCESS_TOKEN }}
           access-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-branch: master
           build-args: --base-href
-          
