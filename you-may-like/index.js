@@ -1,65 +1,93 @@
 const list_items = [
-  "Must Be Santa by Bryan Adams",
-  "Love This Christmas by Rick Astley",
-  "Jingle Bell Rock by Bobby Helms",
-  "Joy To The World (Cover/Remix) by Pentatonix",
-  "Joy To The World (Original) by Isaac Watts",
-  "We Wish You a Merry Christmas by Arthur Warrell",
-  "Have Yourself a Merry Little Christmas by Sam Smith",
-  "Sleigh Ride by The Ronettes",
-  "It's Christmas by Chris Tomlin",
-  "Frosty The Snowman (Original) by The Ronettes",
-  "Frosty The Snowman (Cover/Remix) by Pentatonix",
-  "Frosty The Snowman (Cover/Remix) by Micheal Bublé, ft: The Puppini Sisters",
-  "Mary, Did You Know? (Cover/Remix) by Pentatonix",
-  "Santa Claus is Coming To Town (Cover) by RoomieOfficial",
-  "White Christmas (Cover) by RoomieOfficial",
-  "Last Christmas (Cover) by RoomieOfficial",
-  "All I Want For Christmas (Cover) by RoomieOfficial",
-  "Feliz Navidad (Cover) by RoomieOfficial",
-  "I Got The Biggest Streamers To Sing In A Christmas Concert (Video by QTCinderella)",
-  "Singing The TOP 10 Most Popular CHRISTMAS SONGS (Video by RoomieOfficial)",
-  "One Guy, 5 Christmas Songs (Video by RoomieOfficial)",
-];
+  {
+    title: "Must Be Santa by Bryan Adams",
+    link: "https://www.youtube.com/watch?v=aAuKuyAZ7YM",
+  },
+  {
+    title: "Love This Christmas by Rick Astley",
+    link: "https://www.youtube.com/watch?v=uYCUNULp868",
+  },
+  {
+    title: "Jingle Bell Rock by Bobby Helms",
+    link: "https://www.youtube.com/watch?v=R_vmuL0gjU0",
+  },
+  {
+    title: "Joy To The World (Cover/Remix) by Pentatonix",
+    link: "https://www.youtube.com/watch?v=-Xo64Q2ucQ8",
+  },
+  {
+    title: "Joy To The World (Original) by Isaac Watts",
+    link: "https://www.youtube.com/watch?v=30OaM6b48k8",
+  },
 
-const links = [
-    // Bryan Adams - Must Be Santa
-  "https://www.youtube.com/watch?v=aAuKuyAZ7YM",
-  // Rick Astley - Love This Christmas
-  "https://www.youtube.com/watch?v=uYCUNULp868",
-  // Bobby Helms - Jingle Bell Rock
-  "https://www.youtube.com/watch?v=R_vmuL0gjU0",
-  // Pentatonix - Joy to the World
-  "https://www.youtube.com/watch?v=-Xo64Q2ucQ8",
-  // Joy To The World | Original
-  "https://www.youtube.com/watch?v=30OaM6b48k8",
-  // We Wish You A Merry Christmas | Original
-  "https://www.youtube.com/watch?v=g-OF7KGyDis",
-  // Sam Smith - Have Yourself A Merry Little Christmas
-  "https://www.youtube.com/watch?v=rnEqv8WcVq8",
-  // The Ronettes - Sleigh Ride
-  "https://www.youtube.com/watch?v=JVer2lCjARU",
-  // The Ronettes - Frosty The Snowman
-  "https://www.youtube.com/watch?v=PQ-ULzAAb20",
-  // Pentatonix - Frosty The Snowman ft: Alessia Cara
-  "https://www.youtube.com/watch?v=18qE6_-2dQs",
-  // Michael Bublé - Frosty The Snowman (ft. The Puppini Sisters)
-  "https://www.youtube.com/watch?v=jIyVB1b2aBs",
-  // Pentatonix - Mary, Did You Know?
-  "https://www.youtube.com/watch?v=ifCWN5pJGIE",
-  // RoomieOfficial - Santa Claus is Coming To Town
-  "https://www.youtube.com/embed/gjjb5Guc8As?start=5&end=28&autoplay=1",
-  // RoomieOfficial - White Christmas
-  "https://www.youtube.com/embed/gjjb5Guc8As?start=28&end=48&autoplay=1",
-  // RoomieOfficial - Last Christmas
-  "https://www.youtube.com/embed/gjjb5Guc8As?start=49&end=67&autoplay=1",
-  // RoomieOfficial - All I Want For Christmas
-  "https://www.youtube.com/embed/gjjb5Guc8As?start=67&end=81&autoplay=1",
-  // RoomieOfficial - Feliz Navidad
-  "https://www.youtube.com/embed/gjjb5Guc8As?start=81&end=106&autoplay=1",
-  // Chris Tomlin - It's Christmas
-  "https://www.youtube.com/watch?v=10YJjdzZSPo",
-]
+  {
+    title: "We Wish You a Merry Christmas by Arthur Warrell",
+    link: "https://www.youtube.com/watch?v=g-OF7KGyDis",
+  },
+  {
+    title: "Have Yourself a Merry Little Christmas by Sam Smith",
+    link: "https://www.youtube.com/watch?v=rnEqv8WcVq8",
+  },
+  {
+    title: "Sleigh Ride by The Ronettes",
+    link: "https://www.youtube.com/watch?v=JVer2lCjARU",
+  },
+  {
+    title: "It's Christmas by Chris Tomlin",
+    link: "https://www.youtube.com/watch?v=10YJjdzZSPo",
+  },
+  {
+    title: "Frosty The Snowman (Original) by The Ronettes",
+    link: "https://www.youtube.com/watch?v=PQ-ULzAAb20",
+  },
+  {
+    title: "Frosty The Snowman (Cover/Remix) by Pentatonix",
+    link: "https://www.youtube.com/watch?v=18qE6_-2dQs",
+  },
+  {
+    title:
+      "Frosty The Snowman (Cover/Remix) by Micheal Bublé, ft: The Puppini Sisters",
+    link: "https://www.youtube.com/watch?v=jIyVB1b2aBs",
+  },
+  {
+    title: "Mary, Did You Know? (Cover/Remix) by Pentatonix",
+    link: "https://www.youtube.com/watch?v=ifCWN5pJGIE",
+  },
+  {
+    title: "Santa Claus is Coming To Town (Cover) by RoomieOfficial",
+    link: "https://www.youtube.com/embed/gjjb5Guc8As?start=5&end=28&autoplay=1",
+  },
+  {
+    title: "White Christmas (Cover) by RoomieOfficial",
+    link: "https://www.youtube.com/embed/gjjb5Guc8As?start=28&end=48&autoplay=1",
+  },
+  {
+    title: "Last Christmas (Cover) by RoomieOfficial",
+    link: "https://www.youtube.com/embed/gjjb5Guc8As?start=49&end=67&autoplay=1",
+  },
+  {
+    title: "All I Want For Christmas (Cover) by RoomieOfficial",
+    link: "https://www.youtube.com/embed/gjjb5Guc8As?start=67&end=81&autoplay=1",
+  },
+  {
+    title: "Feliz Navidad (Cover) by RoomieOfficial",
+    link: "https://www.youtube.com/embed/gjjb5Guc8As?start=81&end=106&autoplay=1",
+  },
+  {
+    title:
+      "I Got The Biggest Streamers To Sing In A Christmas Concert (Video by QTCinderella)",
+    link: "https://www.youtube.com/watch?v=efIL2pPWlO4",
+  },
+  {
+    title:
+      "Singing The TOP 10 Most Popular CHRISTMAS SONGS (Video by RoomieOfficial)",
+    link: "https://www.youtube.com/watch?v=Vewr-Y2gGkM",
+  },
+  {
+    title: "One Guy, 5 Christmas Songs (Video by RoomieOfficial)",
+    link: "https://www.youtube.com/watch?v=gjjb5Guc8As",
+  },
+];
 
 const list_element = document.getElementById("list");
 const pagination_element = document.getElementById("pagination");
@@ -73,18 +101,17 @@ function DisplayList(items, wrapper, rows_per_page, page) {
 
   let start = rows_per_page * page;
   let end = start + rows_per_page;
-  let paginatedItems = items.slice(start, end);
+  const paginatedItems = items.slice(start, end);
 
   for (let i = 0; i < paginatedItems.length; i++) {
-    let item = paginatedItems[i];
+    const item = paginatedItems[i];
 
     let item_element = document.createElement("div");
     item_element.classList.add("item");
-    item_element.innerText = item;
-    let link = links[i]
+    item_element.innerText = item.title;
     item_element.addEventListener("click", (e) => {
-      window.open(link, "_blank")
-    })
+      window?.open(item?.link, "_blank");
+    });
 
     wrapper.appendChild(item_element);
   }
