@@ -111,7 +111,7 @@ function DisplayList(items, wrapper, rows_per_page, page) {
     item_element.classList.add("item");
     item_element.innerText = item.title;
     item_element.addEventListener("click", (e) => {
-      window.open(item.link, "_blank");
+      window?.open(item?.link, "_blank");
     });
 
     wrapper.appendChild(item_element);
