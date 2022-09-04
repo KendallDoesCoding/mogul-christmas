@@ -126,6 +126,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "eduarecnam",
+      "name": "Eduar Mancera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26501943?v=4",
+      "profile": "https://github.com/eduarecnam",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
