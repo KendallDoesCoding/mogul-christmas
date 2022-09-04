@@ -81,7 +81,7 @@ function DisplayList(items, wrapper, rows_per_page, page) {
     let item_element = document.createElement("div");
     item_element.classList.add("item");
     item_element.innerText = item;
-    let link = links[i]
+    let link = links[i+start]
     item_element.addEventListener("click", (e) => {
       window.open(link, "_blank")
     })
