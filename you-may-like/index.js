@@ -32,7 +32,10 @@ const list_items = [
     title: "Sleigh Ride by The Ronettes",
     link: "https://www.youtube.com/watch?v=JVer2lCjARU",
   },
-  { title: "It's Christmas by Chris Tomlin" },
+  {
+    title: "It's Christmas by Chris Tomlin",
+    link: "https://www.youtube.com/watch?v=10YJjdzZSPo",
+  },
   {
     title: "Frosty The Snowman (Original) by The Ronettes",
     link: "https://www.youtube.com/watch?v=PQ-ULzAAb20",
@@ -83,10 +86,6 @@ const list_items = [
   {
     title: "One Guy, 5 Christmas Songs (Video by RoomieOfficial)",
     link: "https://www.youtube.com/watch?v=gjjb5Guc8As",
-  },
-  {
-    title: "It's Christmas by Chris Tomlin",
-    link: "https://www.youtube.com/watch?v=10YJjdzZSPo",
   },
 ];
 
