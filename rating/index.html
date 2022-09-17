@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link href="star.ico" rel="icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Rate Song</title>
   </head>
   <body>
-    <form name="rating" netlify>
-      <p>
-        <label class="song-name"
-          >Song Name:
-          <select name="song[]" multiple required>
-            <option value="christmas-song">Christmas Song</option>
-            <option value="baby-it's-cold-outside">Baby It's Cold Outside</option>
-            <option value="the-most-wonderful-time-of-the-year">The Most Wonderful Time of The Year</option>
-            <option value="last-christmas">Last Christmas</option>
-            <option value="little-saint-nick">Little Saint Nick</option>
-            <option value="all-i-want-for-christmas">All I Want For Christmas</option>
-          </select></label
-        >
-      </p>
-      <p>
-        <label class="rating"
-          >Rating - Out of 10 <input type="number" name="number" min="0" max="10" required/></label
-        ></label>
-      </p>
-      <p>
+<h3 Id="review_msg">
+    hello
+</h3>  
+  <main>
+      <h1>Ratings</h1>
+      <form name="rating"  id="submit"  netlify>
+        
+          <label class="song-name">Song Name:</label><br/><br/>
+          <select class="select" name="song[]">
+              <option value="--choose song">Choose Song</option>
+              <option value="christmas-song">Christmas Song</option>
+              <option value="baby-it's-cold-outside">Baby It's Cold Outside</option>
+              <option value="the-most-wonderful-time-of-the-year">The Most Wonderful Time of The Year</option>
+              <option value="last-christmas">Last Christmas</option>
+              <option value="little-saint-nick">Little Saint Nick</option><option value="all-i-want-for-christmas">All I Want For Christmas</option>
+            </select><br/><br/><br/>
+        
+        
+          <label  class="">Rating - Out of 10 : <span id="demo"></span></label><br/><br/>
+             <input name='rating' type="range" id="rating" class="rating" max="10" step="1" value=0 onchange="handleChange()" required/><br/><br/>
+        
         <button class="btn" type="submit">Submit Rating</button>
-      </p>
-    </form>
+        </p>
+      </form>
+      <p id="demo"></p>
+    </main>
+    <script src="index.js"></script>
+    
   </body>
 </html>
