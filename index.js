@@ -33,7 +33,10 @@ const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
+const stopButton=document.querySelector("#stop-btn"); //stop button
+
 toggle.addEventListener("click", modeSwitch);
+
 
 // Darkmode/Lightmode + Making songs play when clicked
 
@@ -76,6 +79,7 @@ Object.keys(songs).map((song_title) => {
 
 // randomly shuffle a song from main page's songs
 function shuffleSongs() {
+  revealStopButton();
   var properties = Object.getOwnPropertyNames(songs);
   var ranNum = Math.floor(Math.random() * (properties.length - 1));
   var songName = properties[ranNum];
@@ -92,3 +96,14 @@ newTabGithub.addEventListener("click", () => {
     "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
   );
 });
+
+//make the stop button visible when "play random song button is clicked"
+function revealStopButton(){
+  stopButton.style.display='block';
+}
+
+//stop button function
+function stopVideo(){
+  embed.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}','*');
+  stopButton.style.display='none';
+}
