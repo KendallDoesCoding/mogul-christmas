@@ -62,7 +62,7 @@ Object.keys(songs).map((song_title) => {
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
-    embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}`;
+    embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
@@ -81,7 +81,7 @@ function shuffleSongs() {
   var songName = properties[ranNum];
   var song = songs[songName];
   console.log(songs[songName]);
-  embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}`;
+  embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`;
 }
 
 // Open GitHub repo in a new window if user clicks GitHub icon on project website

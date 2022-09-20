@@ -198,7 +198,7 @@ a:active {
 }
 
 .stop-btn-style{
-  /* display:block; */
+  display:none;
   background-image: radial-gradient(
     circle farthest-corner at 92.3% 71.5%,
     rgb(255, 85, 0) 0%,
