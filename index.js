@@ -33,7 +33,7 @@ const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
-const stopButton=document.querySelector("#stop-btn"); //stop button
+
 
 toggle.addEventListener("click", modeSwitch);
 
@@ -96,6 +96,9 @@ newTabGithub.addEventListener("click", () => {
     "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
   );
 });
+
+//stop-button-feature
+const stopButton=document.querySelector("#stop-btn"); //stop button
 
 //make the stop button visible when "play random song button is clicked"
 function revealStopButton(){
