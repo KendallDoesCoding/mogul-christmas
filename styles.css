@@ -197,7 +197,7 @@ a:active {
   margin-top: 1rem;
 }
 
-.pause-btn-style{
+.stop-btn-style{
   /* display:block; */
   background-image: radial-gradient(
     circle farthest-corner at 92.3% 71.5%,
