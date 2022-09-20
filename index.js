@@ -61,6 +61,10 @@ Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
   const endTime = songs[song_title].end;
   const outerElem = document.createElement("p");
+
+  //stop button for individual songs
+  outerElem.onclick=()=>revealStopButton();
+
   const link = document.createElement("a");
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
