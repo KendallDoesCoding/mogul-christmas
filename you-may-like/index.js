@@ -45,8 +45,11 @@ const list_items = [
     link: "https://www.youtube.com/watch?v=18qE6_-2dQs",
   },
   {
-    title:
-      "Frosty The Snowman (Cover/Remix) by Micheal Bublé, ft: The Puppini Sisters",
+    title: "The Christmas Song (Cover/Remix) by Justin Bieber, ft: Usher",
+    link: "https://www.youtube.com/watch?v=-5TO1hqh4KY",
+  },
+  {
+    title: "Frosty The Snowman (Cover/Remix) by Micheal Bublé, ft: The Puppini Sisters",
     link: "https://www.youtube.com/watch?v=jIyVB1b2aBs",
   },
   {
