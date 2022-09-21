@@ -48,7 +48,7 @@
 
 /* Body */
 
-/* Needs editing, the christmastree images need to be called in a div not in the BODY */
+/* Needs editting, the christmastree images need to be called in a div not in the BODY */
 
 body {
   user-select: none;
@@ -99,7 +99,7 @@ body {
   color: var(--font-color-sub-heading);
 }
 
-/* Icons on top of the website */
+/* Icon on top of the website */
 #spotify {
   color: #1db954;
 }
