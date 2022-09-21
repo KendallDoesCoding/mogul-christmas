@@ -162,6 +162,24 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "CipherKill",
+      "name": "Alan Raju",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37742577?v=4",
+      "profile": "https://github.com/CipherKill",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "mukul314",
+      "name": "Mukul Ojha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76463001?v=4",
+      "profile": "https://github.com/mukul314",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",

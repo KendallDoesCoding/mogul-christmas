@@ -48,7 +48,7 @@
 
 /* Body */
 
-/* Needs editting, the christmastree images need to be called in a div not in the BODY */
+/* Needs editing, the christmastree images need to be called in a div not in the BODY */
 
 body {
   user-select: none;
@@ -99,7 +99,7 @@ body {
   color: var(--font-color-sub-heading);
 }
 
-/* Icon on top of the website */
+/* Icons on top of the website */
 #spotify {
   color: #1db954;
 }
@@ -184,6 +184,25 @@ a:active {
     circle farthest-corner at 92.3% 71.5%,
     rgba(83, 138, 214, 1) 0%,
     rgba(134, 231, 214, 1) 90%
+  );
+  color: white;
+  outline: none;
+  border: none;
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 1rem;
+}
+
+.stop-btn-style{
+  display:none;
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgb(255, 85, 0) 0%,
+    rgb(173, 0, 0) 90%
   );
   color: white;
   outline: none;

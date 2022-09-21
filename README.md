@@ -16,7 +16,7 @@
 
 # Introduction
 
-This is a project where you can play all the songs by a click of a button which you can already do from his timestamps but what makes it unique is that it has lyrics of the songs and a bunch of other features like a photo gallery.
+This is a project where you can play all the songs by a click of a button which you can already do from the timestamps but what makes it unique is that it has lyrics of the songs and a bunch of other features like a photo gallery.
 
 On the 18th of December 2021, I was bored, so I created this basic HTML Project. I felt like continuing with this fun project, so I enlisted the help of a few contributors.
 
