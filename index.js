@@ -33,7 +33,10 @@ const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
+
+
 toggle.addEventListener("click", modeSwitch);
+
 
 // Darkmode/Lightmode + Making songs play when clicked
 
@@ -58,11 +61,15 @@ Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
   const endTime = songs[song_title].end;
   const outerElem = document.createElement("p");
+
+  //stop button for individual songs
+  outerElem.onclick=()=>revealStopButton();
+
   const link = document.createElement("a");
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
-    embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}`;
+    embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
@@ -76,12 +83,13 @@ Object.keys(songs).map((song_title) => {
 
 // randomly shuffle a song from main page's songs
 function shuffleSongs() {
+  revealStopButton();
   var properties = Object.getOwnPropertyNames(songs);
   var ranNum = Math.floor(Math.random() * (properties.length - 1));
   var songName = properties[ranNum];
   var song = songs[songName];
   console.log(songs[songName]);
-  embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}`;
+  embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`;
 }
 
 // Open GitHub repo in a new window if user clicks GitHub icon on project website
@@ -92,3 +100,17 @@ newTabGithub.addEventListener("click", () => {
     "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
   );
 });
+
+//stop-button-feature
+const stopButton=document.querySelector("#stop-btn"); //stop button
+
+//make the stop button visible when "play random song button is clicked"
+function revealStopButton(){
+  stopButton.style.display='block';
+}
+
+//stop button function
+function stopVideo(){
+  embed.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}','*');
+  stopButton.style.display='none';
+}
