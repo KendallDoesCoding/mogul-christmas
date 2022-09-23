@@ -63,13 +63,16 @@ Object.keys(songs).map((song_title) => {
   const outerElem = document.createElement("p");
 
   //stop button for individual songs
-  outerElem.onclick=()=>revealStopButton();
+  outerElem.onclick=()=>revealStopAndLoopButton();
 
   const link = document.createElement("a");
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
+    //for looping feature
+    clearTimeout(timeoutData);
+    loopWatcher(startTime,endTime,`https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`)
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
@@ -83,13 +86,16 @@ Object.keys(songs).map((song_title) => {
 
 // randomly shuffle a song from main page's songs
 function shuffleSongs() {
-  revealStopButton();
+  revealStopAndLoopButton();
   var properties = Object.getOwnPropertyNames(songs);
   var ranNum = Math.floor(Math.random() * (properties.length - 1));
   var songName = properties[ranNum];
   var song = songs[songName];
   console.log(songs[songName]);
   embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`;
+  //for loop feature
+  clearTimeout(timeoutData);
+  loopWatcher(song.start,song.end,`https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`);
 }
 
 // Open GitHub repo in a new window if user clicks GitHub icon on project website
@@ -105,12 +111,62 @@ newTabGithub.addEventListener("click", () => {
 const stopButton=document.querySelector("#stop-btn"); //stop button
 
 //make the stop button visible when "play random song button is clicked"
-function revealStopButton(){
+function revealStopAndLoopButton(){
   stopButton.style.display='block';
+  loopButton.style.display='inline-block';
+}
+
+function hideStopAndLoopButton(){
+  stopButton.style.display='none';
+  loopButton.style.display='none';
 }
 
 //stop button function
 function stopVideo(){
   embed.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}','*');
-  stopButton.style.display='none';
+  hideStopAndLoopButton();
+  clearTimeout(timeoutData);
+  toggleLoop();
+}
+
+//loop song code
+
+const loopButton=document.querySelector('#loop-btn');
+//loopState=false means no loop
+//loopState=true means loop
+let loopState=false;
+let timeoutData=null;
+
+
+//toggle loop button effect
+function toggleLoop(){
+  loopState=!loopState;
+  if(loopState===false){
+    loopButton.classList.remove('loop-true');
+    loopButton.classList.add('loop-false');
+  }
+  else if(loopState===true){
+    loopButton.classList.remove('loop-false');
+    loopButton.classList.add('loop-true');
+  }
+}
+
+//when loop button clicked
+loopButton.addEventListener('click',e => {
+  toggleLoop();
+  console.log(`Loop=${loopState}`);
+})
+
+//loop function
+function loopWatcher(start,end,apiURL){
+  const waitTime=((parseInt(end)-parseInt(start))+5)*1000 //seconds
+  timeoutData=setTimeout(() => {
+    if(loopState===true){
+      embed.src=apiURL;
+      console.log('looped')//remove
+    }
+    else{
+      hideStopAndLoopButton();
+    }
+  },waitTime)
 }

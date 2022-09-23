@@ -217,7 +217,7 @@ a:active {
 }
 
 .loop-btn-style{
-  display:inline-block;
+  display:none;
   outline: none;
   border: none;
   font-family: "Handlee", cursive;
