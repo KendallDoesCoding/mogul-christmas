@@ -152,7 +152,7 @@ function toggleLoop(){
 }
 
 //when loop button clicked
-loopButton.addEventListener('click',e => {
+loopButton.addEventListener('click',() => {
   toggleLoop();
   console.log(`Loop=${loopState}`);
 })
