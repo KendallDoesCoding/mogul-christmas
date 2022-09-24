@@ -216,6 +216,37 @@ a:active {
   margin-top: 1rem;
 }
 
+.loop-btn-style{
+  display:none;
+  outline: none;
+  border: none;
+  font-family: "Handlee", cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.6rem 0.7rem;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 0rem;
+}
+
+.loop-true{
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgb(0, 144, 14) 0%,
+    rgb(194, 212, 0) 90%
+    );
+  color:rgb(77, 0, 177);
+  }
+  
+.loop-false{
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgb(0, 0, 0) 0%,
+    rgb(138, 138, 138) 90%
+    );
+  color: white;
+}
+
 .suggest {
   background-color: #f4d03f;
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
