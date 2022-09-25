@@ -1,122 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="styles.css">
-      <title>A Very Mogul Christmas!</title>
-      <!-- SEO -->
-      <meta name="keywords" content="javascript, css, music, html, youtube, music-player, songs, collaboration, christmas, ludwig, collab, contributors-welcome, good-first-issue, fun-project, content-creators, ludwig-ahgren, mogul-christmas, qtcinderella, contentcreators">
-      <meta name="author" content="KendallDoesCoding">
-      <meta name="publisher" content="KendallDoesCoding">
-      <meta name="copyright" content=" Play-Albums-In-Browser (a organization by KendallDoesCoding)">
-      <meta name="description" content="This short description describes my website.">
-      <meta name="page-topic" content="Music">
-      <meta name="page-type" content="Music">
-      <meta name="audience" content="Everyone">
-      <meta name="robots" content="index, follow">
-      <meta name="description" content="Ludwig Ahgren made a Christmas Album in 2020. I just thought of a project cause I was bored where you can play all the songs by a click of a button which you can already do from his timestamps but what makes it special is that it has lyrics of those songs too and a bunch of other features.">
-      <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
-      <script src="https://kit.fontawesome.com/72f2609661.js" crossorigin="anonymous"></script>
-      <link rel= canonical href="https://https://mogulchristmas.kendalldoescoding.gq/" />
-      <!-- Google Analytics -->
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-55DLRTJ04T"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         
-         gtag('config', 'G-55DLRTJ04T');
-      </script>     
-   </head>
-   <body>
-      <div id="header">
-         <h1 class="heading">A very Mogul Christmas</h1>
-         <div id="switch">
-            <label class="switch">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>A Very Mogul Christmas!</title>
+   <!-- SEO -->
+   <meta name="keywords"
+      content="javascript, css, music, html, youtube, music-player, songs, collaboration, christmas, ludwig, collab, contributors-welcome, good-first-issue, fun-project, content-creators, ludwig-ahgren, mogul-christmas, qtcinderella, contentcreators">
+   <meta name="author" content="KendallDoesCoding">
+   <meta name="publisher" content="KendallDoesCoding">
+   <meta name="copyright" content=" Play-Albums-In-Browser (a organization by KendallDoesCoding)">
+   <meta name="description" content="This short description describes my website.">
+   <meta name="page-topic" content="Music">
+   <meta name="page-type" content="Music">
+   <meta name="audience" content="Everyone">
+   <meta name="robots" content="index, follow">
+   <meta name="description"
+      content="Ludwig Ahgren made a Christmas Album in 2020. I just thought of a project cause I was bored where you can play all the songs with a click of a button which you can already do from his timestamps but what makes it special is that it has lyrics of those songs too and a bunch of other features.">
+   <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+   <script src="https://kit.fontawesome.com/72f2609661.js" crossorigin="anonymous"></script>
+   <link rel=canonical href="https://https://mogulchristmas.kendalldoescoding.gq/" />
+   <!-- Google Analytics -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-55DLRTJ04T"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-55DLRTJ04T');
+   </script>
+</head>
+
+<body>
+   <div id="header">
+      <h1 class="heading">A very Mogul Christmas</h1>
+      <div id="switch">
+         <label class="switch">
             <input type="checkbox">
             <span class="switch slider round"></span>
-            </label>
+         </label>
+      </div>
+   </div>
+   <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA">Ludwig</a></p>
+   <div class="playlist-icons">
+      <a href="/apple-music" target="_blank"><img src="/images/apple-music.svg" alt="apple-music" width="30"
+            height="30"></a>
+      <a href="/yt-music" target="_blank"><img src="/images/youtube-music.svg" alt="youtube-music" width="30"
+            height="30"></a>
+      <a href="/youtube" alt="youtube" target="_blank"><i id="youtube" class="fa fa-youtube fa-2x"
+            aria-hidden="true"></i></a>
+      <a href="/spotify" alt="spotify" target="_blank"><i id="spotify" class="fa fa-spotify fa-2x"
+            aria-hidden="true"></i></a>
+   </div>
+   <div class="christmas_day_message">
+      <p>We at KendallDoesCoding, wish you a Merry Christmas, enjoy your day and make sure you come here and listen to
+         this album
+         a couple of times during your day for Santa to put you on his good list!. &#128522;
+      </p>
+   </div>
+   <div class="new_years_message">
+      <p>We at KendallDoesCoding, wish you a very Happy New Year. Have an epic year! &#128522;
+      </p>
+      <p> PS: listen to Christmas Music throughout the year, not only during Christmas time. </p>
+   </div>
+   <div class="main-random-div">
+      <div class="random-song-container">
+         <i id="random-btn-meta" class="fa fa-random fa-2x"></i>
+         <div id="random-text-container">
+            <button class="random" id="random-btn-text" onClick="shuffleSongs();">Play Random Song</button>
          </div>
-      </div>
-      <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA">Ludwig</a></p>
-      <div class="playlist-icons">
-         <a href="/apple-music" target="_blank"><img src="/images/apple-music.svg" alt="apple-music"  width="30" height="30"></a>
-         <a href="/yt-music" target="_blank"><img src="/images/youtube-music.svg" alt="youtube-music" width="30" height="30"></a>
-         <a href="/youtube" alt="youtube" target="_blank"><i id="youtube" class="fa fa-youtube fa-2x"  aria-hidden="true"></i></a>
-         <a href="/spotify" alt="spotify" target="_blank"><i id="spotify" class="fa fa-spotify fa-2x"  aria-hidden="true"></i></a>
-      </div>
-      <div class="christmas_day_message">
-         <p>We at KendallDoesCoding, wish you a Merry Christmas, enjoy your day and make sure you come here and listen to this album
-            a couple times during your day for Santa to put you his good list!. &#128522; 
-         </p>
-      </div>
-      <div class="new_years_message">
-         <p>We at KendallDoesCoding, wish you a very Happy New Year. Have an epic year! &#128522; 
-         </p>
-         <p> PS: listen to Christmas Music throughout the year, not only during Christmas time. </p>
-      </div>
-      <div class="main-random-div">
-         <div class="random-song-container">
-            <i id="random-btn-meta" class="fa fa-random fa-2x"></i>
-            <div id="random-text-container">
-               <button class="random" id="random-btn-text" onClick="shuffleSongs();">Play Random Song</button>
-            </div>
-            <!-- Stop button -->
-            <div id="random-text-container">
-               <button class="stop-btn-style" id="stop-btn" onClick="stopVideo()">Stop</button>
-            </div>
-            <!-- stop button end -->
+         <!-- Stop button -->
+         <div id="random-text-container">
+            <button class="stop-btn-style" id="stop-btn" onClick="stopVideo()">Stop</button>
          </div>
+         <!-- stop button end -->
       </div>
-      <!-- Loop button -->
-      <div class="random-text-container">
-         <button class="loop-btn-style loop-false" id="loop-btn"><i id="random-btn-meta" class="fa fa-repeat fa-2x"></i></button>
-      </div>
-      <!-- loop button end -->
-      <iframe id="embed" src="https://www.youtube.com/embed/TtY9eRayseg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!-- songs container, the contents of the div are called upon in the js file, thus this div is empty. -->
-      <div class="songs">
-      </div>
-      <div class="container">
+   </div>
+   <!-- Loop button -->
+   <div class="random-text-container">
+      <button class="loop-btn-style loop-false" id="loop-btn"><i id="random-btn-meta"
+            class="fa fa-repeat fa-2x"></i></button>
+   </div>
+   <!-- loop button end -->
+   <iframe id="embed" src="https://www.youtube.com/embed/TtY9eRayseg" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+   <!-- songs container, the contents of the div are called upon in the js file, thus this div is empty. -->
+   <div class="songs">
+   </div>
+   <div class="container">
       <div id="lyrics" class="button">
          <a href="/lyrics" id="lyrics-btn" class="btn">
             Lyrics/Individual Song Page
       </div>
-      </div>
-      <div class="container">
+   </div>
+   <div class="container">
       <div id="socials" class="socials-button">
          <a href="/ludsocials" id="socials-btn" class="btn">Ludwig Socials</a>
       </div>
+   </div>
+   <div class="container">
+      <div id="photo-gallery" class="gallery-button">
+         <a href="/photo-gallery" id="gallery-btn" class="btn">Photo Gallery - A Very Mogul Christmas</a>
       </div>
-      <div class="container">
-         <div id="photo-gallery" class="gallery-button">
-            <a href="/photo-gallery" id="gallery-btn" class="btn">Photo Gallery - A Very Mogul Christmas</a>
-         </div>
-         </div>
-         <div class="container">
-            <div id="news" class="news-button">
-               <a href="/news-articles" id="gallery-btn" class="btn">News Articles - A Very Mogul Christmas</a>
-            </div>
-            </div>
-      <div class="you-may-like">
-         <p class="yml"><a href="/you-may-like" target="_blank">If you liked this album, You May Also Like</a></p>
+   </div>
+   <div class="container">
+      <div id="news" class="news-button">
+         <a href="/news-articles" id="gallery-btn" class="btn">News Articles - A Very Mogul Christmas</a>
       </div>
-      <div class="rate-song">
-         <p class="rate"><a href="/rating" target="_blank">Rate Song<i id="star" class="fas fa-star"></i></a></p>
+   </div>
+   <div class="you-may-like">
+      <p class="yml"><a href="/you-may-like" target="_blank">If you liked this album, You May Also Like</a></p>
+   </div>
+   <div class="rate-song">
+      <p class="rate"><a href="/rating" target="_blank">Rate Song<i id="star" class="fas fa-star"></i></a></p>
+   </div>
+   <div class="other-pro">
+      <p class="otherprojects"><a href="/otherprojects" target="_blank">Other Similar Projects</a></p>
+   </div>
+   <div class="socials">
+      <div class="social">
+         <i id="grey" class="fab fa-github"></i>
       </div>
-      <div class="other-pro">
-         <p class="otherprojects"><a href="/otherprojects" target="_blank">Other Similar Projects</a></p>
-      </div>
-         <div class="socials">
-            <div class="social">
-               <i id="grey" class="fab fa-github"></i>
-            </div>
-      </div>
-   </body>
-   <script type="text/javascript" src="scripts/christmasday.js"></script>
-   <script type="text/javascript" src="scripts/newyears.js"></script>
-   <script type="text/javascript" src="index.js"></script>            
+   </div>
+</body>
+<script type="text/javascript" src="scripts/christmasday.js"></script>
+<script type="text/javascript" src="scripts/newyears.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
 </html>
