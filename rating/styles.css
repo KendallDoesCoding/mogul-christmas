@@ -12,7 +12,8 @@
 }
 /*display mobile when the browser window is 991px width or less*/
 @media only screen and (max-width: 991px){
-  background: url('portrait.jpg');
+  background: url('.portrait.jpg');
+
   background-size: cover;
   width: 100%;
   display: column;
