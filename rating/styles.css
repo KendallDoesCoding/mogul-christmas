@@ -10,9 +10,13 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+/*display mobile when the browser window is 991px width or less*/
+ @media only screen and (max-width: 991px){
+    background: url('portrait.jpg');
 
-body{
-  background: url('photo1.jpeg');
+}
+
+body {
   background-size: cover;
   width: 100%;
   display: column;
@@ -21,6 +25,7 @@ body{
   color: white;
   max-width: 100%;
 }
+
 main{
   margin-top:3em;
   width: 100%;
@@ -97,7 +102,9 @@ label{
     /* for large screens */
 @media screen and (min-width : 750px){
   body{
-    background: url('./pink-wavy.jpg') no-repeat;
+background: url('/images/light-bg.png') no-repeat;
+
+
     background-size: cover;
     display: flex;
     width: 100%;
