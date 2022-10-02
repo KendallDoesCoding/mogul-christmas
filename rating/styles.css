@@ -99,7 +99,8 @@ label{
     /* for large screens */
 @media screen and (min-width : 750px){
   body{
-background: url('./images/light-bg.png') no-repeat;
+background: url('/images/light-bg.png') no-repeat;
+
 
     background-size: cover;
     display: flex;
