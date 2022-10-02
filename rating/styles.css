@@ -12,7 +12,8 @@
 }
 
 body{
-  background: url('portrait.jpeg');
+  background: url('portrait.jpg');
+
   background-size: cover;
   width: 100%;
   display: column;
