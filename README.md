@@ -32,7 +32,7 @@ Make sure you check it out.
 
 You can view the versions & previews [here](https://mogulchristmas.kendalldoescoding.gq/versionsandpreviews)
 
-**Please Note: This only has 25 releases, at the time of writing this (16th April 2022, 12:11pm IST) there are 59 more releases not added to this list.**
+**Please Note: This only has 25 releases, at the time of writing this (21st September 2022, 6:29pm IST) there are 87 more releases not added to this list.**
 
 - For updates on the website, I've written it as a Version, and for updates on Github we've written it as a Release, for Releases, we've provided a complete changelog.
 
