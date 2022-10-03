@@ -77,9 +77,47 @@ body {
 
 /* Headings, etc */
 
+.navB{
+  background-color: #fddfdca1 !important;
+}
+
+.playlist-icons{
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
 .heading {
   color: var(--font-color-red);
   font-family: "Redressed", cursive;
+  margin-left: 1rem;
+}
+
+.container{
+  text-align: center;
+}
+
+.others{
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav--content{
+  display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: -webkit-fill-available;
+    grid-template-columns: 0.5fr 0.5fr 2fr 0fr;
+    margin: 0;
+}
+
+.toggler{
+  border: 1px solid black !important;
+  visibility: hidden;
 }
 
 .ludsocials-heading {
@@ -91,8 +129,18 @@ body {
   color: var(--font-color-heading);
 }
 
+#lyrics-btn {
+  color: white;
+  font-size: larger;
+  text-decoration: underline;
+  font-style: italic;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
+}
+
 .lud {
   color: var(--font-color-heading2);
+  margin-top: 6rem;
+  text-align: center;
 }
 
 .lud2 {
@@ -141,6 +189,24 @@ body {
   font-size: larger;
   text-decoration: underline;
   font-style: italic;
+  width: -webkit-fill-available;
+}
+
+#yml{
+  color:white;
+  font-size: larger;
+  text-decoration: underline;
+  font-style: italic;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
+}
+
+#ymll {
+  color: var(--yml-btn);
+  font-size: larger;
+  text-decoration: underline;
+  font-style: italic;
+  width: -webkit-fill-available;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
 }
 
 .rate-song {
@@ -163,6 +229,7 @@ a:active {
 .songs {
   color: var(--font-color-blue);
   cursor: pointer;
+  text-align: center;
 }
 
 .lud-socials {
@@ -321,7 +388,7 @@ a:active {
   font-family: "Handlee", cursive;
 }
 
-.socials-button {
+#socials-btn {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(255, 209, 67, 1) 0%,
@@ -337,9 +404,10 @@ a:active {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
+  width: -webkit-fill-available;
 }
 
-.gallery-button {
+#gallery-btn {
   background-image: linear-gradient(
     180.4deg,
     rgba(188, 120, 236, 1) -2.2%,
@@ -355,9 +423,10 @@ a:active {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
+  width: -webkit-fill-available;
 }
 
-.news-button {
+#news-btn {
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -373,6 +442,65 @@ a:active {
   justify-content: space-between;
   font-size: 16px;
   margin-bottom: 10px;
+  width: -webkit-fill-available;
+  font-family: "Handlee", cursive;
+}
+
+#socials-btn1 {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+  width: max-content;
+}
+
+#gallery-btn1 {
+  background-image: linear-gradient(
+    180.4deg,
+    rgba(188, 120, 236, 1) -2.2%,
+    rgba(29, 133, 163, 1) 83.5%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+  width: max-content;
+}
+
+#news-btn1 {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: max-content;
   font-family: "Handlee", cursive;
 }
 
@@ -438,6 +566,10 @@ a:active {
   background-color: white;
   position: relative;
   align-self: center;
+}
+
+.ludwig{
+  color: var(--font-color-heading2);
 }
 
 #random-btn-text {
@@ -648,6 +780,39 @@ and (max-device-width: 1024px) {
     height: 100%;
   }
 }
+
+@media screen and (max-device-width: 820px)
+and (max-device-width: 1024px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+}
  
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
@@ -656,6 +821,31 @@ and (orientation: portrait) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
 }
  
 /* For Mobile Landscape View */
@@ -665,6 +855,31 @@ and (orientation: landscape) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
 }
  
 /* For Mobile Phones Portrait or Landscape View */
@@ -673,6 +888,32 @@ and (orientation: landscape) {
     width: 100%;
     height: 100%;
   }
+
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
 }
  
 /* For iPhone 4 Portrait or Landscape View */
@@ -682,6 +923,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100%;
     height: 100%;
   }
+
 }
  
 /* For iPhone 5 Portrait or Landscape View */
@@ -691,6 +933,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
 }
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
@@ -700,4 +967,30 @@ and (-webkit-min-device-pixel-ratio: 3) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
 }

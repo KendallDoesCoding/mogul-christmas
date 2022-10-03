@@ -20,6 +20,8 @@
       <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
       <script src="https://kit.fontawesome.com/72f2609661.js" crossorigin="anonymous"></script>
       <link rel= canonical href="https://https://mogulchristmas.kendalldoescoding.gq/" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
       <!-- Google Analytics -->
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-55DLRTJ04T"></script>
@@ -32,16 +34,55 @@
       </script>     
    </head>
    <body>
-      <div id="header">
-         <h1 class="heading">A very Mogul Christmas</h1>
-         <div id="switch">
-            <label class="switch">
-            <input type="checkbox">
-            <span class="switch slider round"></span>
-            </label>
+
+      <!-- Navbar -->
+       <nav class="navbar navB fixed-top">
+         <div class="container-fluid">
+            <div class="nav--content">
+               <a href="/lyrics" id="lyrics-btn" class="btn">Lyrics/Individual Song Page</a>   
+               <a href="/you-may-like" class="btn" id="yml" target="_blank">You May Also Like</a>
+               <h1 class="heading g-col-4">A very Mogul Christmas</h1>
+               <button class="navbar-toggler toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+            </div>
+           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+             <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">More Content</h5> -->
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               <div id="header">
+                  <div id="switch">
+                     <label class="switch">
+                     <input type="checkbox">
+                     <span class="switch slider round"></span>
+                     </label>
+                  </div>
+               </div>
+             </div>
+             <div class="offcanvas-body">
+               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                 <li class="nav-item">
+                 <a href="/lyrics" id="ymll" class="btn">Lyrics/Individual Song Page</a>   
+                 </li>
+                 <li class="nav-item">
+                 <a href="/you-may-like" class="btn yml" target="_blank">You May Also Like</a>
+                 </li>
+                 <li class="nav-item">
+                  <a href="/ludsocials" id="socials-btn" class="btn">Ludwig Socials</a>
+                 </li>
+                 <li class="nav-item">
+                  <a href="/photo-gallery" id="gallery-btn" class="btn">Photo Gallery - A Very Mogul Christmas</a>
+                 </li>
+                 <li class="nav-item">
+                  <a href="/news-articles" id="news-btn" class="btn">News Articles - A Very Mogul Christmas</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
          </div>
-      </div>
-      <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA">Ludwig</a></p>
+       </nav>
+      
+      <p class="lud">Christmas Album by <a href="https://youtube.com/MrAndersLA" class="ludwig">Ludwig</a></p>
       <div class="playlist-icons">
          <a href="/apple-music" target="_blank"><img src="/images/apple-music.svg" alt="apple-music"  width="30" height="30"></a>
          <a href="/yt-music" target="_blank"><img src="/images/youtube-music.svg" alt="youtube-music" width="30" height="30"></a>
@@ -80,30 +121,14 @@
       <!-- songs container, the contents of the div are called upon in the js file, thus this div is empty. -->
       <div class="songs">
       </div>
+      
+      <div class="others">
+         <a href="/ludsocials" id="socials-btn1" class="btn">Ludwig Socials</a>
+         <a href="/photo-gallery" id="gallery-btn1" class="btn">Photo Gallery - A Very Mogul Christmas</a>
+         <a href="/news-articles" id="news-btn1" class="btn">News Articles - A Very Mogul Christmas</a>
+      </div>
+
       <div class="container">
-      <div id="lyrics" class="button">
-         <a href="/lyrics" id="lyrics-btn" class="btn">
-            Lyrics/Individual Song Page
-      </div>
-      </div>
-      <div class="container">
-      <div id="socials" class="socials-button">
-         <a href="/ludsocials" id="socials-btn" class="btn">Ludwig Socials</a>
-      </div>
-      </div>
-      <div class="container">
-         <div id="photo-gallery" class="gallery-button">
-            <a href="/photo-gallery" id="gallery-btn" class="btn">Photo Gallery - A Very Mogul Christmas</a>
-         </div>
-         </div>
-         <div class="container">
-            <div id="news" class="news-button">
-               <a href="/news-articles" id="gallery-btn" class="btn">News Articles - A Very Mogul Christmas</a>
-            </div>
-            </div>
-      <div class="you-may-like">
-         <p class="yml"><a href="/you-may-like" target="_blank">If you liked this album, You May Also Like</a></p>
-      </div>
       <div class="rate-song">
          <p class="rate"><a href="/rating" target="_blank">Rate Song<i id="star" class="fas fa-star"></i></a></p>
       </div>
