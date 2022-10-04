@@ -77,6 +77,17 @@
             >If you liked this album, You May Also Like</a
           >
           <h1 class="heading g-col-4">A very Mogul Christmas</h1>
+
+          <!-- Toggler Outside Menu -->
+          <div id="header">
+            <div id="switch">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="switch slider round" id="round"></span>
+              </label>
+            </div>
+          </div>
+
           <button
             class="navbar-toggler toggler"
             type="button"
@@ -94,11 +105,12 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header" id="canvasHead">
+            <!-- Toggler inside menu -->
             <div id="header">
-              <div id="switch">
+              <div id="switch1">
                 <label class="switch">
                   <input type="checkbox" />
-                  <span class="switch slider round"></span>
+                  <span class="switch slider round" id="round1"></span>
                 </label>
               </div>
             </div>
@@ -120,7 +132,7 @@
               </li>
               <li class="nav-item">
                 <a href="/you-may-like" class="btn yml" target="_blank"
-                  >You May Also Like</a
+                  >If you like this album, You May Also Like</a
                 >
               </li>
               <li class="nav-item">
@@ -233,12 +245,12 @@
     </div>
 
     <div class="container">
-      <p class="rate" id="gallery-btn1">
+      <p class="rate" id="gallery-btn2">
         <a href="/rating" class="rate" target="_blank"
           >Rate Song<i id="star" class="fas fa-star"></i
         ></a>
       </p>
-      <p class="otherprojects rate" id="socials-btn1">
+      <p class="otherprojects rate" id="socials-btn2">
         <a href="/otherprojects" class="rate" target="_blank"
           >Other Similar Projects</a
         >

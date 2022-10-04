@@ -31,13 +31,16 @@ const songs = {
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
-const toggle = document.querySelector(".round");
+const toggle = document.getElementById("round");
+const toggle1 = document.getElementById("round1");
 const slider = document.querySelector(".slider");
 const canvasBody = document.getElementById("canvasBody");
 const canvasHead = document.getElementById("canvasHead");
 const navB = document.getElementById("navB");
+const switchh = document.getElementById("switch");
 
 toggle.addEventListener("click", modeSwitch);
+toggle1.addEventListener("click", modeSwitch);
 
 // Darkmode/Lightmode + Making songs play when clicked
 
@@ -49,6 +52,10 @@ const updateMode = () => {
     : (slider.style.backgroundImage = "url('./images/dark.png')");
 
   isLight
+    ? (toggle1.style.backgroundImage = "url('./images/light.png')")
+    : (toggle1.style.backgroundImage = "url('./images/dark.png')");
+
+  isLight
     ? (canvasBody.style.backgroundColor = "#fdd7d1")
     : (canvasBody.style.backgroundColor = "#dadada");
 
@@ -57,7 +64,7 @@ const updateMode = () => {
     : (canvasHead.style.backgroundColor = "#dadada");
 
   isLight
-    ? (navB.style.backgroundColor = "#fdd7d1")
+    ? (navB.style.backgroundColor = "#fdd7d1c4")
     : (navB.style.backgroundColor = "#e1e1e1c4");
 
   const rootElement = document.body;
@@ -70,8 +77,6 @@ function modeSwitch() {
 }
 embed.style = "display:none";
 let userHasClickedASong = false;
-
-// canvasBody.style.backgroundColor = isLight ? "#fdd7d1" : "#dadada";
 
 Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
