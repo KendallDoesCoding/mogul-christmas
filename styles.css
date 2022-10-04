@@ -78,7 +78,7 @@ body {
 /* Headings, etc */
 
 .navB{
-  background-color: #fddfdca1 !important;
+  background-color: #fddfdca1;
 }
 
 .playlist-icons{
@@ -94,7 +94,9 @@ body {
 }
 
 .container{
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .others{
@@ -107,12 +109,12 @@ body {
 
 .nav--content{
   display: grid;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    width: -webkit-fill-available;
-    grid-template-columns: 0.5fr 0.5fr 2fr 0fr;
-    margin: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: -webkit-fill-available;
+  grid-template-columns: 0.5fr 0.5fr 2fr 0fr;
+  margin: 0;
 }
 
 .toggler{
@@ -134,12 +136,11 @@ body {
   font-size: larger;
   text-decoration: underline;
   font-style: italic;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
+  background-image: linear-gradient(to right, #cc95c0a8 0%, #DBD4B4 51%, #cc95c0bf 100%);
 }
 
 .lud {
   color: var(--font-color-heading2);
-  margin-top: 6rem;
   text-align: center;
 }
 
@@ -192,20 +193,29 @@ body {
   width: -webkit-fill-available;
 }
 
+#canvasBody{
+  background-color: #fdd3d1;
+}
+
+#canvasHead{
+  background-color: #fdd3d1;
+}
+
 #yml{
   color:white;
   font-size: larger;
   text-decoration: underline;
   font-style: italic;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
+  background-image: linear-gradient(to right, #cc95c0a8 0%, #DBD4B4 51%, #cc95c0bf 100%);
+  margin-left: 1rem;
 }
 
 #ymll {
-  color: var(--yml-btn);
+  color: white;
   font-size: larger;
-  text-decoration: underline;
-  font-style: italic;
   width: -webkit-fill-available;
+  font-family: "Handlee", cursive;
+  text-decoration: none;
   background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
 }
 
@@ -504,6 +514,13 @@ a:active {
   font-family: "Handlee", cursive;
 }
 
+.rate{
+  color: white;
+  border-radius: 12px;
+}
+
+
+
 .credits-button {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
@@ -586,7 +603,7 @@ a:active {
 
 #switch {
   position: absolute;
-  right: 0;
+  right: -3.5rem;
 }
 
 .switch {

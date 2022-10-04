@@ -33,10 +33,11 @@ const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
-
+const canvasBody = document.getElementById("canvasBody");
+const canvasHead = document.getElementById("canvasHead");
+const navB = document.getElementById("navB");
 
 toggle.addEventListener("click", modeSwitch);
-
 
 // Darkmode/Lightmode + Making songs play when clicked
 
@@ -46,6 +47,19 @@ const updateMode = () => {
   isLight
     ? (slider.style.backgroundImage = "url('./images/light.png')")
     : (slider.style.backgroundImage = "url('./images/dark.png')");
+
+  isLight
+    ? (canvasBody.style.backgroundColor = "#fdd7d1")
+    : (canvasBody.style.backgroundColor = "#dadada");
+
+  isLight
+    ? (canvasHead.style.backgroundColor = "#fdd7d1")
+    : (canvasHead.style.backgroundColor = "#dadada");
+
+  isLight
+    ? (navB.style.backgroundColor = "#fdd7d1")
+    : (navB.style.backgroundColor = "#e1e1e1c4");
+
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
 };
@@ -57,13 +71,15 @@ function modeSwitch() {
 embed.style = "display:none";
 let userHasClickedASong = false;
 
+// canvasBody.style.backgroundColor = isLight ? "#fdd7d1" : "#dadada";
+
 Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
   const endTime = songs[song_title].end;
   const outerElem = document.createElement("p");
 
   //stop button for individual songs
-  outerElem.onclick=()=>revealStopAndLoopButton();
+  outerElem.onclick = () => revealStopAndLoopButton();
 
   const link = document.createElement("a");
   link.innerHTML = song_title;
@@ -72,7 +88,11 @@ Object.keys(songs).map((song_title) => {
     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
     //for looping feature
     clearTimeout(timeoutData);
-    loopWatcher(startTime,endTime,`https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`)
+    loopWatcher(
+      startTime,
+      endTime,
+      `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`
+    );
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
@@ -95,7 +115,11 @@ function shuffleSongs() {
   embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`;
   //for loop feature
   clearTimeout(timeoutData);
-  loopWatcher(song.start,song.end,`https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`);
+  loopWatcher(
+    song.start,
+    song.end,
+    `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`
+  );
 }
 
 // Open GitHub repo in a new window if user clicks GitHub icon on project website
@@ -108,22 +132,25 @@ newTabGithub.addEventListener("click", () => {
 });
 
 //stop-button-feature
-const stopButton=document.querySelector("#stop-btn"); //stop button
+const stopButton = document.querySelector("#stop-btn"); //stop button
 
 //make the stop button visible when "play random song button is clicked"
-function revealStopAndLoopButton(){
-  stopButton.style.display='block';
-  loopButton.style.display='inline-block';
+function revealStopAndLoopButton() {
+  stopButton.style.display = "block";
+  loopButton.style.display = "inline-block";
 }
 
-function hideStopAndLoopButton(){
-  stopButton.style.display='none';
-  loopButton.style.display='none';
+function hideStopAndLoopButton() {
+  stopButton.style.display = "none";
+  loopButton.style.display = "none";
 }
 
 //stop button function
-function stopVideo(){
-  embed.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}','*');
+function stopVideo() {
+  embed.contentWindow.postMessage(
+    '{"event":"command","func":"stopVideo","args":""}',
+    "*"
+  );
   hideStopAndLoopButton();
   clearTimeout(timeoutData);
   toggleLoop();
@@ -131,42 +158,39 @@ function stopVideo(){
 
 //loop song code
 
-const loopButton=document.querySelector('#loop-btn');
+const loopButton = document.querySelector("#loop-btn");
 //loopState=false means no loop
 //loopState=true means loop
-let loopState=false;
-let timeoutData=null;
-
+let loopState = false;
+let timeoutData = null;
 
 //toggle loop button effect
-function toggleLoop(){
-  loopState=!loopState;
-  if(loopState===false){
-    loopButton.classList.remove('loop-true');
-    loopButton.classList.add('loop-false');
-  }
-  else if(loopState===true){
-    loopButton.classList.remove('loop-false');
-    loopButton.classList.add('loop-true');
+function toggleLoop() {
+  loopState = !loopState;
+  if (loopState === false) {
+    loopButton.classList.remove("loop-true");
+    loopButton.classList.add("loop-false");
+  } else if (loopState === true) {
+    loopButton.classList.remove("loop-false");
+    loopButton.classList.add("loop-true");
   }
 }
 
 //when loop button clicked
-loopButton.addEventListener('click',() => {
+loopButton.addEventListener("click", () => {
   toggleLoop();
   console.log(`Loop=${loopState}`);
-})
+});
 
 //loop function
-function loopWatcher(start,end,apiURL){
-  const waitTime=((parseInt(end)-parseInt(start))+5)*1000 //seconds
-  timeoutData=setTimeout(() => {
-    if(loopState===true){
-      embed.src=apiURL;
-      console.log('looped')//remove
-    }
-    else{
+function loopWatcher(start, end, apiURL) {
+  const waitTime = (parseInt(end) - parseInt(start) + 5) * 1000; //seconds
+  timeoutData = setTimeout(() => {
+    if (loopState === true) {
+      embed.src = apiURL;
+      console.log("looped"); //remove
+    } else {
       hideStopAndLoopButton();
     }
-  },waitTime)
+  }, waitTime);
 }
