@@ -180,10 +180,20 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Vedant-Manjrekar",
+      "name": "Vedant Manjrekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93585735?v=4",
+      "profile": "https://github.com/Vedant-Manjrekar",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
   "projectOwner": "KendallDoesCoding",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "angular"
 }
