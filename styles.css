@@ -42,7 +42,6 @@
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
   --grey: black;
-  font-family: "Roboto", sans-serif;
   --bg-image: url("/images/dark-bg.png");
 }
 
@@ -77,9 +76,49 @@ body {
 
 /* Headings, etc */
 
+.navB{
+  background-color: #fdd7d1c4;
+}
+
+.playlist-icons{
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
 .heading {
   color: var(--font-color-red);
   font-family: "Redressed", cursive;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.others{
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav--content{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: -webkit-fill-available;
+  grid-template-columns: 0.5fr 0.5fr 1fr 0.9fr 0fr;
+  margin: 0;
+}
+
+.toggler{
+  border: 1px solid black !important;
+  visibility: hidden;
 }
 
 .ludsocials-heading {
@@ -91,8 +130,17 @@ body {
   color: var(--font-color-heading);
 }
 
+#lyrics-btn {
+  color: white;
+  font-size: larger;
+  text-decoration: underline;
+  font-style: italic;
+  background-image: linear-gradient(to right, #cc95c0a8 0%, #DBD4B4 51%, #cc95c0bf 100%);
+}
+
 .lud {
   color: var(--font-color-heading2);
+  text-align: center;
 }
 
 #christmashyperlink {
@@ -145,6 +193,33 @@ body {
   font-size: larger;
   text-decoration: underline;
   font-style: italic;
+  width: -webkit-fill-available;
+}
+
+#canvasBody{
+  background-color: #fdd3d1;
+}
+
+#canvasHead{
+  background-color: #fdd3d1;
+}
+
+#yml{
+  color:white;
+  font-size: larger;
+  text-decoration: underline;
+  font-style: italic;
+  background-image: linear-gradient(to right, #cc95c0a8 0%, #DBD4B4 51%, #cc95c0bf 100%);
+  margin-left: 1rem;
+}
+
+#ymll {
+  color: white;
+  font-size: larger;
+  width: -webkit-fill-available;
+  font-family: "Handlee", cursive;
+  text-decoration: none;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
 }
 
 .rate-song {
@@ -167,6 +242,7 @@ a:active {
 .songs {
   color: var(--font-color-blue);
   cursor: pointer;
+  text-align: center;
 }
 
 .lud-socials {
@@ -325,7 +401,7 @@ a:active {
   font-family: "Handlee", cursive;
 }
 
-.socials-button {
+#socials-btn {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(255, 209, 67, 1) 0%,
@@ -341,9 +417,29 @@ a:active {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
+  width: -webkit-fill-available;
 }
 
-.gallery-button {
+#socials-btn1 {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+  width: max-content;
+}
+
+#gallery-btn {
   background-image: linear-gradient(
     180.4deg,
     rgba(188, 120, 236, 1) -2.2%,
@@ -359,9 +455,29 @@ a:active {
   font-size: 16px;
   margin-bottom: 10px;
   font-family: "Handlee", cursive;
+  width: -webkit-fill-available;
 }
 
-.news-button {
+#gallery-btn1 {
+  background-image: linear-gradient(
+    180.4deg,
+    rgba(188, 120, 236, 1) -2.2%,
+    rgba(29, 133, 163, 1) 83.5%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "Handlee", cursive;
+  width: max-content;
+}
+
+#news-btn {
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -377,8 +493,44 @@ a:active {
   justify-content: space-between;
   font-size: 16px;
   margin-bottom: 10px;
+  width: -webkit-fill-available;
   font-family: "Handlee", cursive;
 }
+
+#socials-btn2 > a {
+  color: rgba(255, 145, 83, 1);
+}
+
+#gallery-btn2 > a {
+ color: rgba(188, 120, 236, 1);
+}
+
+#news-btn1 {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: max-content;
+  font-family: "Handlee", cursive;
+}
+
+.rate{
+  color: white;
+  border-radius: 12px;
+}
+
+
 
 .credits-button {
   background-image: radial-gradient(
@@ -408,6 +560,7 @@ a:active {
 
 .socials {
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .social {
@@ -444,6 +597,10 @@ a:active {
   align-self: center;
 }
 
+.ludwig{
+  color: var(--font-color-heading2);
+}
+
 #random-btn-text {
   vertical-align: middle;
 }
@@ -458,7 +615,7 @@ a:active {
 
 #switch {
   position: absolute;
-  right: 0;
+  right: -3.5rem;
 }
 
 .switch {
@@ -642,6 +799,10 @@ a:active {
     width: 100%;
     height: 100%;
   }
+  
+  #header1{
+    display: none;
+  }
 }
  
 /* For Tablet View */
@@ -651,6 +812,49 @@ and (max-device-width: 1024px) {
     width: 100%;
     height: 100%;
   }
+
+  #header1{
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 768px)
+and (max-device-width: 1024px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: grid;
+    grid-template-columns: 0.5fr 7fr 0fr 0.9fr 0fr;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
+#switch{
+  display: none;
+  visibility: hidden;
+}
 }
  
 /* For Mobile Portrait View */
@@ -660,6 +864,36 @@ and (orientation: portrait) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
+#switch{
+  display: none;
+  visibility: hidden;
+}
 }
  
 /* For Mobile Landscape View */
@@ -669,6 +903,37 @@ and (orientation: landscape) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: grid;
+    grid-template-columns: 0.5fr 7fr 0fr 0.9fr 0fr;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
+#switch{
+  display: none;
+  visibility: hidden;
+}
 }
  
 /* For Mobile Phones Portrait or Landscape View */
@@ -677,6 +942,38 @@ and (orientation: landscape) {
     width: 100%;
     height: 100%;
   }
+
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: grid;
+    grid-template-columns: 0.5fr 7fr 0fr 0.9fr 0fr;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
+#switch{
+  display: none;
+  visibility: hidden;
+}
+
 }
  
 /* For iPhone 4 Portrait or Landscape View */
@@ -686,6 +983,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100%;
     height: 100%;
   }
+
 }
  
 /* For iPhone 5 Portrait or Landscape View */
@@ -695,6 +993,36 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+.toggler{
+  visibility:visible;
+}
+
+.others{
+  display: none;
+}
+
+#switch{
+  display: none;
+  visibility: hidden;
+}
+
 }
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
@@ -704,4 +1032,35 @@ and (-webkit-min-device-pixel-ratio: 3) {
     width: 100%;
     height: 100%;
   }
+  
+  #lyrics-btn{
+    display: none;
+  }
+
+  #yml{
+    display: none;
+  }
+
+  .nav--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+    width: -webkit-fill-available;
+}
+
+.toggler{
+  visibility:visible;
+}
+
+#switch{
+  display: none;
+  visibility: hidden;
+}
+
+.others{
+  display: none;
+}
+
 }
