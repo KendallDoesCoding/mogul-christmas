@@ -143,6 +143,10 @@ body {
   text-align: center;
 }
 
+#christmashyperlink {
+  text-decoration: none;
+}
+
 .lud2 {
   color: var(--font-color-sub-heading);
 }
