@@ -92,11 +92,17 @@ const list_items = [
   },
 ];
 
+// getting the elements from "index.html"
+
 const list_element = document.getElementById("list");
 const pagination_element = document.getElementById("pagination");
 
+// creating rows where the songs are listed
+
 let current_page = 1;
 let rows = 5;
+
+// adding songs in those rows
 
 function DisplayList(items, wrapper, rows_per_page, page) {
   wrapper.innerHTML = "";
@@ -122,6 +128,8 @@ function DisplayList(items, wrapper, rows_per_page, page) {
 
 function SetupPagination(items, wrapper, rows_per_page) {
   wrapper.innerHTML = "";
+
+  // changing page
 
   let page_count = Math.ceil(items.length / rows_per_page);
   for (let i = 1; i < page_count + 1; i++) {
