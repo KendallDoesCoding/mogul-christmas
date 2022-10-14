@@ -28,7 +28,10 @@ const songs = {
     start: "0",
   },
 };
+
+// getting the song class from "./index.html"
 const songsDOM = document.querySelector(".songs");
+// getting the tag with id embed from "./index.html"
 const embed = document.getElementById("embed");
 const newTabGithub = document.querySelector(".social");
 const toggle = document.getElementById("round");
@@ -39,6 +42,7 @@ const canvasHead = document.getElementById("canvasHead");
 const navB = document.getElementById("navB");
 const switchh = document.getElementById("switch");
 
+//toggle that changes the theme
 toggle.addEventListener("click", modeSwitch);
 toggle1.addEventListener("click", modeSwitch);
 
@@ -90,9 +94,13 @@ Object.keys(songs).map((song_title) => {
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
+
+    //chaning embed link dynamically
+
     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
     //for looping feature
     clearTimeout(timeoutData);
+
     loopWatcher(
       startTime,
       endTime,
@@ -144,6 +152,8 @@ function revealStopAndLoopButton() {
   stopButton.style.display = "block";
   loopButton.style.display = "inline-block";
 }
+
+//hide the stop button when it's stopped
 
 function hideStopAndLoopButton() {
   stopButton.style.display = "none";
