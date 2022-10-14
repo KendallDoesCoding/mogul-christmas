@@ -51,4 +51,6 @@ let openStuff = function () {
   window.open(link);
 };
 
+// calls the function onclick
+
 randomSongBtn.onClick = openStuff;
