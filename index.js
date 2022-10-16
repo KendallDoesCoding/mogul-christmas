@@ -44,7 +44,7 @@ toggle1.addEventListener("click", modeSwitch);
 
 // Darkmode/Lightmode + Making songs play when clicked
 
-let isLight = localStorage.getItem("darkmode")=='false';
+let isLight = localStorage.getItem("darkmode")==='false';
 
 const updateMode = () => {
   const rootElement = document.body;
