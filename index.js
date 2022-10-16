@@ -44,37 +44,37 @@ toggle1.addEventListener("click", modeSwitch);
 
 // Darkmode/Lightmode + Making songs play when clicked
 
-let isLight = true;
+let isLight = localStorage.getItem("darkmode")=='false';
 
 const updateMode = () => {
-  isLight
-    ? (slider.style.backgroundImage = "url('./images/light.png')")
-    : (slider.style.backgroundImage = "url('./images/dark.png')");
-
-  isLight
-    ? (toggle1.style.backgroundImage = "url('./images/light.png')")
-    : (toggle1.style.backgroundImage = "url('./images/dark.png')");
-
-  isLight
-    ? (canvasBody.style.backgroundColor = "#fdd7d1")
-    : (canvasBody.style.backgroundColor = "#dadada");
-
-  isLight
-    ? (canvasHead.style.backgroundColor = "#fdd7d1")
-    : (canvasHead.style.backgroundColor = "#dadada");
-
-  isLight
-    ? (navB.style.backgroundColor = "#fdd7d1c4")
-    : (navB.style.backgroundColor = "#e1e1e1c4");
-
   const rootElement = document.body;
-  rootElement.classList.toggle("darkMode");
+  if (isLight) {
+    slider.style.backgroundImage = "url('./images/light.png')";
+    toggle1.style.backgroundImage = "url('./images/light.png')"
+    canvasBody.style.backgroundColor = "#fdd7d1";
+    canvasHead.style.backgroundColor = "#fdd7d1";
+    navB.style.backgroundColor = "#fdd7d1c4";
+    rootElement.classList.remove("darkMode");
+  } else {
+    slider.style.backgroundImage = "url('./images/dark.png')";
+    toggle1.style.backgroundImage = "url('./images/dark.png')";
+    canvasBody.style.backgroundColor = "#dadada";
+    canvasHead.style.backgroundColor = "#dadada";
+    navB.style.backgroundColor = "#e1e1e1c4";
+    rootElement.classList.add("darkMode");
+  }
 };
 
 function modeSwitch() {
   isLight = !isLight;
   updateMode();
+  localStorage.setItem("darkmode",!isLight);
 }
+// This function will execute on initial load of page
+window.onload = function () {
+  updateMode();
+}
+
 embed.style = "display:none";
 let userHasClickedASong = false;
 
