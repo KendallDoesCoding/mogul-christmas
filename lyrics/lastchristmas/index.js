@@ -20,6 +20,8 @@ let isLight_last_christmas = true;
 function modeSwitch() {
   isLight_last_christmas = !isLight_last_christmas;
 
+  // changing bg as per the song
+
   isLight_last_christmas
     ? (slider_last_christmas.style.backgroundImage =
         "url('../../images/day.png')")
