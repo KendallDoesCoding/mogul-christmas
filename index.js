@@ -91,7 +91,7 @@ Object.keys(songs).map((song_title) => {
   link.style = "cursor: pointer";
   link.onclick = () => {
     
-    // adds the link to the tag with the embed id
+    // adds the link to the tag with the embed id with a start time and end time and autoplay
 
     embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
     //for looping feature
@@ -120,6 +120,7 @@ function shuffleSongs() {
   var songName = properties[ranNum];
   var song = songs[songName];
   console.log(songs[songName]);
+  // changing the link by adding another link
   embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`;
   //for loop feature
   clearTimeout(timeoutData);

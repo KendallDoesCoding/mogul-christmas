@@ -16,7 +16,7 @@ song.map((item) => {
 });
 
 const toggle_all_I_want_for_christmas = document.querySelector(".round");
-// swtiching mode (can check the function for more info)
+// switching mode (can check the function for more info)
 toggle_all_I_want_for_christmas.addEventListener("click", modeSwitch);
 let isLight_all_I_want_for_christmas = true;
 function modeSwitch() {

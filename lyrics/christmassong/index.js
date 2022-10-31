@@ -18,7 +18,7 @@ christmas_song.map((item) => {
 
 const slider_christmas_song = document.querySelector(".slider");
 
-// swtiching mode
+// switching mode
 
 const toggle_christmas_song = document.querySelector(".round");
 toggle_christmas_song.addEventListener("click", modeSwitch);
