@@ -21,7 +21,7 @@ This is a project where you can play all the songs by a click of a button which 
 On the 18th of December 2021, I was bored, so I created this basic HTML Project. I felt like continuing with this fun project, so I enlisted the help of a few contributors.
 
 ## Check it out here
-The project website is hosted [here](https://kendalldoescoding.gq/mogulchristmas)!
+The project website is hosted [here](https://kendalldoescoding.tech/mogulchristmas)!
 
 Backup URL: [Backup Domain](https://mogulchristmas.netlify.app)
 
