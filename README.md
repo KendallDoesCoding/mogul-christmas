@@ -195,7 +195,7 @@ You can use the comments to ask for clarification if needed. As soon as the revi
 
 # Credits
 
-**Project credits are located [here](https://mogulchristmas.kendalldoescoding.gq/credits).**
+**Project credits are located [here](https://mogulchristmas.kendalldoescoding.tech/credits).**
 
 _Credits include the following_:
 
