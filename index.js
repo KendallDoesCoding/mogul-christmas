@@ -38,7 +38,8 @@ const canvasBody = document.getElementById("canvasBody");
 const canvasHead = document.getElementById("canvasHead");
 const navB = document.getElementById("navB");
 const switchh = document.getElementById("switch");
-
+let player;
+let currSong;
 toggle.addEventListener("click", modeSwitch);
 toggle1.addEventListener("click", modeSwitch);
 
@@ -75,6 +76,28 @@ window.onload = function () {
   updateMode();
 }
 
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('embed', {
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange':onPlayerStateChange
+          }
+      });
+    }
+    function onPlayerReady(event) {
+      console.log('event', event,player)
+      event.target.setVolume(50);
+      
+    }
+    function onPlayerStateChange(event) {
+      if(player.getPlayerState()===0){
+        if(loopState)
+        player?.seekTo(songs[currSong]?.start||0);
+        else{
+          stopVideo();
+        }
+      }
+    }
 embed.style = "display:none";
 let userHasClickedASong = false;
 
@@ -90,14 +113,10 @@ Object.keys(songs).map((song_title) => {
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
-    embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`;
-    //for looping feature
-    clearTimeout(timeoutData);
-    loopWatcher(
-      startTime,
-      endTime,
-      `https://www.youtube.com/embed/TtY9eRayseg?start=${startTime}&autoplay=1&end=${endTime}&enablejsapi=1`
-    );
+    player.loadVideoById({'videoId': 'TtY9eRayseg',
+    'startSeconds': startTime,
+    'endSeconds': endTime});
+    currSong=song_title;
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
@@ -152,12 +171,9 @@ function hideStopAndLoopButton() {
 
 //stop button function
 function stopVideo() {
-  embed.contentWindow.postMessage(
-    '{"event":"command","func":"stopVideo","args":""}',
-    "*"
-  );
+  player.stopVideo();
   hideStopAndLoopButton();
-  clearTimeout(timeoutData);
+  loopState=true;
   toggleLoop();
 }
 
@@ -167,7 +183,6 @@ const loopButton = document.querySelector("#loop-btn");
 //loopState=false means no loop
 //loopState=true means loop
 let loopState = false;
-let timeoutData = null;
 
 //toggle loop button effect
 function toggleLoop() {
@@ -186,16 +201,3 @@ loopButton.addEventListener("click", () => {
   toggleLoop();
   console.log(`Loop=${loopState}`);
 });
-
-//loop function
-function loopWatcher(start, end, apiURL) {
-  const waitTime = (parseInt(end) - parseInt(start) + 5) * 1000; //seconds
-  timeoutData = setTimeout(() => {
-    if (loopState === true) {
-      embed.src = apiURL;
-      console.log("looped"); //remove
-    } else {
-      hideStopAndLoopButton();
-    }
-  }, waitTime);
-}
