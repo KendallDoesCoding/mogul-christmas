@@ -26,6 +26,16 @@ The project website is hosted [here](https://kendalldoescoding.tech/mogulchristm
 Backup URL: [Backup Domain](https://mogulchristmas.netlify.app)
 
 Make sure you check it out.
+  
+## Important
+
+**Please ensure that the last YouTube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyric's directory will automatically be set on mute too.**
+  
+ ☝️ (RESOLVED FOR SOME BROWSERS AS OF COMMIT [ca25440](https://github.com/KendallDoesCoding/mogul-christmas/commit/ca254409fd5f00204db6433b2c805ccf1af4d3e5). Although, it depends on your browser settings, which browser you use so I cannot guarantee it completely, hence keeping this as a possible issue).
+
+**There is currently no way to control the volume of the songs. On the project site, we are developing an in-built volume slider. [Please leave a message](https://github.com/KendallDoesCoding/mogul-christmas/issues/105) if you are willing to assist. Thanks.**
+
+**Also, I recommend that you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or another adblocker to block ads on YouTube and the project website if the sites are not whitelisted in the adblocker because there is a chance that an ad will play before you click a song. After all, this project is powered by a YouTube embed. However, I may soon change it to run through Youtube Music or another music software where the ads are fewer or none at all. There is one adblocker that allows you to whitelist ads on a specific YouTuber; if you use that adblocker and whitelist, say, "Ludwig," you may get ads, so please un-whitelist him while running the songs on the project website. But, because there are not many ads, you should be fine most of the time. My adblocker tells me that for every song I tap on the website, including "All Of The Above," it is blocking two ads; however, when I tried another login without the adblocker, I did not get any ads, so the ads will only appear occasionally; I am just providing fair warning.**
 
 
 # Build Status
@@ -64,15 +74,6 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 
 ## Recommended Songs
 <img src="images\screenshots\song-recommendations.jpg" alt="MarineGEO circle logo"/>
-
-## Important
-
-**Please ensure that the last YouTube video you watched wasn't on mute, otherwise the songs will not play, and the autoplay for the lyric's directory will automatically be set on mute too.**
-
-**There is currently no way to control the volume of the songs. On the project site, we are developing an in-built volume slider. [Please leave a message](https://github.com/KendallDoesCoding/mogul-christmas/issues/105) if you are willing to assist. Thanks.**
-
-**Also, I recommend that you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or another adblocker to block ads on YouTube and the project website if the sites are not whitelisted in the adblocker because there is a chance that an ad will play before you click a song. After all, this project is powered by a YouTube embed. However, I may soon change it to run through Youtube Music or another music software where the ads are fewer or none at all. There is one adblocker that allows you to whitelist ads on a specific YouTuber; if you use that adblocker and whitelist, say, "Ludwig," you may get ads, so please un-whitelist him while running the songs on the project website. But, because there are not many ads, you should be fine most of the time. My adblocker tells me that for every song I tap on the website, including "All Of The Above," it is blocking two ads; however, when I tried another login without the adblocker, I did not get any ads, so the ads will only appear occasionally; I am just providing fair warning.**
-
 
 # Contributing Guidelines & Related Contributing Stuff
 
