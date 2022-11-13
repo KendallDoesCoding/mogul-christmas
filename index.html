@@ -199,30 +199,16 @@
         Christmas time.
       </p>
     </div>
-    <div class="main-random-div">
-      <div class="random-song-container">
-        <i id="random-btn-meta" class="fa fa-random fa-2x"></i>
-        <div id="random-text-container">
-          <button class="random" id="random-btn-text" onClick="shuffleSongs();">
-            Play Random Song
-          </button>
-        </div>
-        <!-- Stop button -->
-        <div id="random-text-container">
-          <button class="stop-btn-style" id="stop-btn" onClick="stopVideo()">
-            Stop
-          </button>
-        </div>
-        <!-- stop button end -->
-      </div>
+    <i id="loader" class="icon-btn fa fa-circle-o-notch fa-spin fa-2x"></i>
+    
+    <div class="audio-controls hidden">
+      <i id="play-btn" title="Play" class="icon-btn fa fa-play fa-2x" onClick="playSongs();"></i>
+      <i id="pause-btn" title="Pause" class="icon-btn fa fa-pause fa-2x hidden" onClick="resumeSongs();"></i>
+      <i id="stop-btn" title="Stop" class="icon-btn fa fa-stop fa-2x hidden" onClick="stopVideo()"></i>
+      <i id="shuffle-btn" title="Shuffle" class="icon-btn fa fa-random fa-2x" onClick="toggleShuffle();"></i>
+      <i id="repeat-btn" title="Repeat current" class="icon-btn fa fa-repeat fa-2x" onClick="toggleLoop();"></i>
+      <input id="volume-bar" type="range" min="0" max="100">
     </div>
-    <!-- Loop button -->
-    <div class="random-text-container">
-      <button class="loop-btn-style loop-false" id="loop-btn">
-        <i id="random-btn-meta" class="fa fa-repeat fa-2x"></i>
-      </button>
-    </div>
-    <!-- loop button end -->
     <iframe
       id="embed"
       src="https://www.youtube.com/embed/TtY9eRayseg?enablejsapi=1"
