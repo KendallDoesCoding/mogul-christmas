@@ -202,12 +202,12 @@
     <i id="loader" class="icon-btn fa fa-circle-o-notch fa-spin fa-2x"></i>
     
     <div class="audio-controls hidden">
-      <i id="play-btn" title="Play" class="icon-btn fa fa-play fa-2x" onClick="playSongs();"></i>
-      <i id="pause-btn" title="Pause" class="icon-btn fa fa-pause fa-2x hidden" onClick="resumeSongs();"></i>
-      <i id="stop-btn" title="Stop" class="icon-btn fa fa-stop fa-2x hidden" onClick="stopVideo()"></i>
-      <i id="shuffle-btn" title="Shuffle" class="icon-btn fa fa-random fa-2x" onClick="toggleShuffle();"></i>
-      <i id="repeat-btn" title="Repeat current" class="icon-btn fa fa-repeat fa-2x" onClick="toggleLoop();"></i>
-      <input id="volume-bar" type="range" min="0" max="100">
+      <i id="play-btn" title="Play" name="Play" class="icon-btn fa fa-play fa-2x" onClick="playSongs();"></i>
+      <i id="pause-btn" title="Pause" name="Pause" class="icon-btn fa fa-pause fa-2x hidden" onClick="resumeSongs();"></i>
+      <i id="stop-btn" title="Stop" name="Stop" class="icon-btn fa fa-stop fa-2x hidden" onClick="stopVideo()"></i>
+      <i id="shuffle-btn" title="Shuffle" name="Shuffle" class="icon-btn fa fa-random fa-2x" onClick="toggleShuffle();"></i>
+      <i id="repeat-btn" title="Repeat current" name="Repeat current" class="icon-btn fa fa-repeat fa-2x" onClick="toggleLoop();"></i>
+      <input id="volume-bar" name="Volume bar" type="range" min="0" max="100">
     </div>
     <iframe
       id="embed"
