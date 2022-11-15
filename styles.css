@@ -134,11 +134,13 @@ body {
 }
 
 #lyrics-btn {
-  color: white;
+  color: black;
   font-size: larger;
   text-decoration: underline;
   font-style: italic;
-  background-image: linear-gradient(to right, #cc95c0a8 0%, #DBD4B4 51%, #cc95c0bf 100%);
+  border: none;
+  margin: 2%;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
 
 .lud {
