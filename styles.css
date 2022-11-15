@@ -45,6 +45,9 @@
   --bg-image: url("/images/dark-bg.png");
 }
 
+.hidden{
+  display: none !important;
+}
 /* Body */
 
 /* Needs editing, the christmastree images need to be called in a div not in the BODY */
@@ -256,6 +259,69 @@ a:active {
 .yml-videos {
   color: purple;
   font-weight: bold;
+}
+
+#loader{
+  width: 100%;
+  display: flex;
+  margin: 0.8rem 0;
+  justify-content: center;
+}
+
+.icon-btn{
+  color:#f49cbb;
+  cursor: pointer;
+}
+:hover.icon-btn{
+  text-shadow: 0px 0px 3px blue;
+}
+.icon-btn.active{
+  color: #f26a8d;
+}
+.audio-controls>.icon-btn{
+  margin: 0 0.5rem;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    width: 100px;
+    -webkit-appearance: none;
+    background-color: #f49cbb;
+    margin-left: 0.5rem;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #f26a8d;
+    margin-top: -20px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 80px;
+    cursor: ew-resize;
+    background: #f63464;
+    box-shadow: -80px 0 0 80px #f26a8d;
+  }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+background-color: #f26a8d; 
+}
+input[type="range"]::-moz-range-track {  
+background-color: #f49cbb;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+background-color: #f26a8d; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #f49cbb;
 }
 
 .random {
@@ -568,10 +634,10 @@ a:active {
   cursor: pointer;
 }
 
-.main-random-div {
+.audio-controls {
   width: 100%;
   display: flex;
-  margin-top: 0.8rem;
+  margin: 0.8rem 0;
   justify-content: center;
 }
 

@@ -1,3 +1,4 @@
+const VIDEO_ID = "TtY9eRayseg";
 // Const Songs
 const songs = {
   "Christmas Song": {
@@ -34,24 +35,43 @@ const newTabGithub = document.querySelector(".social");
 const toggle = document.getElementById("round");
 const toggle1 = document.getElementById("round1");
 const slider = document.querySelector(".slider");
+const audioControls = document.querySelector(".audio-controls");
+const loader = document.querySelector("#loader");
+const stopButton = document.querySelector("#stop-btn");
+const playButton = document.querySelector("#play-btn");
+const pauseButton = document.querySelector("#pause-btn");
+const volumeBar = document.querySelector("#volume-bar");
+const shuffleButton = document.querySelector("#shuffle-btn");
+const loopButton = document.querySelector("#repeat-btn");
 const canvasBody = document.getElementById("canvasBody");
 const canvasHead = document.getElementById("canvasHead");
 const navB = document.getElementById("navB");
 const switchh = document.getElementById("switch");
 let player;
 let currSong;
+let songList = [];
+let playedNext=true;
 toggle.addEventListener("click", modeSwitch);
 toggle1.addEventListener("click", modeSwitch);
 
 // Darkmode/Lightmode + Making songs play when clicked
-
-let isLight = localStorage.getItem("darkmode")==='false';
+let isLight = localStorage.getItem("darkmode") === "false";
+let loopState = localStorage.getItem("loop") === "true";
+let shuffleState = localStorage.getItem("shuffle") === "true";
+// Open GitHub repo in a new window if user clicks GitHub icon on project website
+newTabGithub.addEventListener("click", () => {
+  window.open(
+    "https://github.com/KendallDoesCoding/mogul-christmas",
+    "_blank",
+    "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
+  );
+});
 
 const updateMode = () => {
   const rootElement = document.body;
   if (isLight) {
     slider.style.backgroundImage = "url('./images/light.png')";
-    toggle1.style.backgroundImage = "url('./images/light.png')"
+    toggle1.style.backgroundImage = "url('./images/light.png')";
     canvasBody.style.backgroundColor = "#fdd7d1";
     canvasHead.style.backgroundColor = "#fdd7d1";
     navB.style.backgroundColor = "#fdd7d1c4";
@@ -69,35 +89,80 @@ const updateMode = () => {
 function modeSwitch() {
   isLight = !isLight;
   updateMode();
-  localStorage.setItem("darkmode",!isLight);
+  localStorage.setItem("darkmode", !isLight);
 }
 // This function will execute on initial load of page
 window.onload = function () {
   updateMode();
-}
+  updateLoop();
+  updateShuffle();
+  updateVolume();
+  audioControls.classList.remove("hidden");
+  loader.classList.add("hidden");
+  volumeBar.addEventListener("change", ({ target }) => {
+    player?.setVolume(target.value);
+    localStorage.setItem("volume", target.value);
+  });
+};
 
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('embed', {
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange':onPlayerStateChange
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player("embed", {
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+}
+function onPlayerReady(event) {
+  updateVolume();
+}
+function onPlayerStateChange(event) {
+  console.log(event);
+  if (player.getPlayerState() === 0) {
+    if (loopState) player?.seekTo(songs[currSong]?.start || 0);
+    else {
+      if (shuffleState) {
+        if (!playedNext) {
+          playedNext=true;
+          player.loadVideoById({
+            videoId: VIDEO_ID,
+            startSeconds: songs[currSong].start,
+            endSeconds: songs[currSong].end,
+          });
+        } else {
+          let songNum = songList.findIndex((el) => el === currSong);
+          if (songList.length <= songNum + 1) {
+            stopVideo();
+          } else {
+            currSong = songList[songNum + 1];
+            playedNext = false;
+            player.loadVideoById({
+              videoId: VIDEO_ID,
+              startSeconds: songs[currSong].start,
+              endSeconds: songs[currSong].end,
+            });
           }
-      });
-    }
-    function onPlayerReady(event) {
-      console.log('event', event,player)
-      event.target.setVolume(50);
-      
-    }
-    function onPlayerStateChange(event) {
-      if(player.getPlayerState()===0){
-        if(loopState)
-        player?.seekTo(songs[currSong]?.start||0);
-        else{
-          stopVideo();
         }
-      }
+      } else stopVideo();
     }
+  }
+  //if playing
+  if (player.getPlayerState() === 1) {
+    stopButton.classList.remove("hidden");
+    pauseButton.classList.remove("hidden");
+    playButton.classList.add("hidden");
+  } else {
+    stopButton.classList.add("hidden");
+    pauseButton.classList.add("hidden");
+    playButton.classList.remove("hidden");
+  }
+  // if buffering
+  if (player.getPlayerState() === 3) {
+    loader.classList.remove("hidden");
+  } else {
+    loader.classList.add("hidden");
+  }
+}
 embed.style = "display:none";
 let userHasClickedASong = false;
 
@@ -106,17 +171,16 @@ Object.keys(songs).map((song_title) => {
   const endTime = songs[song_title].end;
   const outerElem = document.createElement("p");
 
-  //stop button for individual songs
-  outerElem.onclick = () => revealStopAndLoopButton();
-
   const link = document.createElement("a");
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
-    player.loadVideoById({'videoId': 'TtY9eRayseg',
-    'startSeconds': startTime,
-    'endSeconds': endTime});
-    currSong=song_title;
+    player.loadVideoById({
+      videoId: VIDEO_ID,
+      startSeconds: startTime,
+      endSeconds: endTime,
+    });
+    currSong = song_title;
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
@@ -128,76 +192,77 @@ Object.keys(songs).map((song_title) => {
   songsDOM.appendChild(outerElem);
 });
 
+function playSongs() {
+  if (player.isMuted()) {
+    player.playVideo();
+  } else {
+    if (songList.length) {
+      if (!currSong) currSong = songList[0];
+      player.loadVideoById({
+        videoId: VIDEO_ID,
+        startSeconds: songs[currSong].start,
+        endSeconds: songs[currSong].end,
+      });
+    } else {
+      player.loadVideoById({ videoId: VIDEO_ID });
+    }
+  }
+}
+
 // randomly shuffle a song from main page's songs
-function shuffleSongs() {
-  revealStopAndLoopButton();
-  var properties = Object.getOwnPropertyNames(songs);
-  var ranNum = Math.floor(Math.random() * (properties.length - 1));
-  var songName = properties[ranNum];
-  var song = songs[songName];
-  console.log(songs[songName]);
-  embed.src = `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`;
-  //for loop feature
-  clearTimeout(timeoutData);
-  loopWatcher(
-    song.start,
-    song.end,
-    `https://www.youtube.com/embed/TtY9eRayseg?start=${song.start}&autoplay=1&end=${song.end}&enablejsapi=1`
-  );
-}
-
-// Open GitHub repo in a new window if user clicks GitHub icon on project website
-newTabGithub.addEventListener("click", () => {
-  window.open(
-    "https://github.com/KendallDoesCoding/mogul-christmas",
-    "_blank",
-    "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
-  );
-});
-
-//stop-button-feature
-const stopButton = document.querySelector("#stop-btn"); //stop button
-
-//make the stop button visible when "play random song button is clicked"
-function revealStopAndLoopButton() {
-  stopButton.style.display = "block";
-  loopButton.style.display = "inline-block";
-}
-
-function hideStopAndLoopButton() {
-  stopButton.style.display = "none";
-  loopButton.style.display = "none";
+function shuffleSongsList() {
+  let allSongs = { ...songs };
+  delete allSongs["All Of The Above"];
+  songList = Object.keys(allSongs).sort(() => Math.random() - 0.5);
+  console.log("songList", songList);
 }
 
 //stop button function
 function stopVideo() {
+  songList = [];
   player.stopVideo();
-  hideStopAndLoopButton();
-  loopState=true;
-  toggleLoop();
 }
 
 //loop song code
-
-const loopButton = document.querySelector("#loop-btn");
-//loopState=false means no loop
-//loopState=true means loop
-let loopState = false;
-
 //toggle loop button effect
 function toggleLoop() {
   loopState = !loopState;
+  localStorage.setItem("loop", loopState);
   if (loopState === false) {
-    loopButton.classList.remove("loop-true");
-    loopButton.classList.add("loop-false");
+    loopButton.classList.remove("active");
+    songList = [];
   } else if (loopState === true) {
-    loopButton.classList.remove("loop-false");
-    loopButton.classList.add("loop-true");
+    loopButton.classList.add("active");
+  }
+}
+function updateLoop() {
+  if (loopState === false) {
+    loopButton.classList.remove("active");
+  } else if (loopState === true) {
+    loopButton.classList.add("active");
   }
 }
 
-//when loop button clicked
-loopButton.addEventListener("click", () => {
-  toggleLoop();
-  console.log(`Loop=${loopState}`);
-});
+function toggleShuffle() {
+  shuffleState = !shuffleState;
+  localStorage.setItem("shuffle", shuffleState);
+  if (shuffleState === false) {
+    shuffleButton.classList.remove("active");
+  } else if (shuffleState === true) {
+    shuffleButton.classList.add("active");
+    shuffleSongsList();
+  }
+}
+function updateShuffle() {
+  if (shuffleState === false) {
+    shuffleButton.classList.remove("active");
+  } else if (shuffleState === true) {
+    shuffleButton.classList.add("active");
+    shuffleSongsList();
+  }
+}
+function updateVolume() {
+  let volumeState = parseInt(localStorage.getItem("volume") ?? 50);
+  player?.setVolume?.(volumeState);
+  volumeBar.value = volumeState;
+}
