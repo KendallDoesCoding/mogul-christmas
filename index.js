@@ -50,7 +50,8 @@ const switchh = document.getElementById("switch");
 let player;
 let currSong;
 let songList = [];
-let playedNext=true;
+let playedNext = true;
+let intervalId;
 toggle.addEventListener("click", modeSwitch);
 toggle1.addEventListener("click", modeSwitch);
 
@@ -117,13 +118,12 @@ function onPlayerReady(event) {
   updateVolume();
 }
 function onPlayerStateChange(event) {
-  console.log(event);
   if (player.getPlayerState() === 0) {
     if (loopState) player?.seekTo(songs[currSong]?.start || 0);
     else {
       if (shuffleState) {
         if (!playedNext) {
-          playedNext=true;
+          playedNext = true;
           player.loadVideoById({
             videoId: VIDEO_ID,
             startSeconds: songs[currSong].start,
@@ -151,10 +151,27 @@ function onPlayerStateChange(event) {
     stopButton.classList.remove("hidden");
     pauseButton.classList.remove("hidden");
     playButton.classList.add("hidden");
+    intervalId = window.setInterval(() => {
+      let secLeft =
+        (currSong ? songs[currSong].end : player.getDuration()) -
+        player.getCurrentTime();
+      secLeft=parseInt(secLeft);
+      const songBlock=document.getElementById(`song_${(currSong??"All Of The Above").split(' ').join('_')}`);
+      
+      const timeEl=songBlock.childNodes[1]
+      timeEl.classList.add('active');
+      timeEl.innerHTML = `${parseInt(secLeft/60)}:${(secLeft%60 < 10) ? ("0" + secLeft%60) : secLeft%60}`;
+
+    }, 500);
   } else {
     stopButton.classList.add("hidden");
     pauseButton.classList.add("hidden");
     playButton.classList.remove("hidden");
+    clearInterval(intervalId);
+    const a=document.getElementsByClassName('time-left');
+    for (let i = 0; i < a.length; i++) {
+      a[i].classList.remove('active');
+    }
   }
   // if buffering
   if (player.getPlayerState() === 3) {
@@ -164,12 +181,13 @@ function onPlayerStateChange(event) {
   }
 }
 embed.style = "display:none";
-let userHasClickedASong = false;
 
 Object.keys(songs).map((song_title) => {
   const startTime = songs[song_title].start;
   const endTime = songs[song_title].end;
   const outerElem = document.createElement("p");
+  outerElem.id = `song_${song_title.split(" ").join("_")}`;
+  outerElem.className = "song_item";
 
   const link = document.createElement("a");
   link.innerHTML = song_title;
@@ -180,15 +198,15 @@ Object.keys(songs).map((song_title) => {
       startSeconds: startTime,
       endSeconds: endTime,
     });
-    currSong = song_title;
+    currSong = song_title === "All Of The Above" ? undefined : song_title;
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
-    if (!userHasClickedASong) {
-      userHasClickedASong = true;
-    }
   };
   outerElem.appendChild(link);
+  const timeLeft = document.createElement("span");
+  timeLeft.className = "time-left";
+  outerElem.appendChild(timeLeft);
   songsDOM.appendChild(outerElem);
 });
 
