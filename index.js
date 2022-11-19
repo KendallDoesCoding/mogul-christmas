@@ -238,6 +238,7 @@ function shuffleSongsList() {
 //stop button function
 function stopVideo() {
   songList = [];
+  currSong=undefined;
   player.stopVideo();
 }
 
