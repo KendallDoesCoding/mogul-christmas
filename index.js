@@ -198,6 +198,7 @@ Object.keys(songs).map((song_title) => {
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
+    clearTimeLeft();
     player.loadVideoById({
       videoId: VIDEO_ID,
       startSeconds: startTime,
@@ -216,6 +217,7 @@ Object.keys(songs).map((song_title) => {
 });
 
 function playSongs() {
+  clearTimeLeft();
   if (player.isMuted() || player.getPlayerState() === 2) {
     player.playVideo();
   } else {
@@ -246,13 +248,9 @@ function shuffleSongsList() {
 //stop button function
 function stopVideo() {
   songList = [];
-  currSong=undefined;
+  currSong = undefined;
   player.stopVideo();
-  clearInterval(intervalId);
-  const a = document.getElementsByClassName("time-left");
-  for (let i = 0; i < a.length; i++) {
-    a[i].classList.remove("active");
-  }
+  clearTimeLeft();
 }
 
 //loop song code
@@ -297,4 +295,12 @@ function updateVolume() {
   let volumeState = parseInt(localStorage.getItem("volume") ?? 50);
   player?.setVolume?.(volumeState);
   volumeBar.value = volumeState;
+}
+
+function clearTimeLeft() {
+  clearInterval(intervalId);
+  const a = document.getElementsByClassName("time-left");
+  for (let i = 0; i < a.length; i++) {
+    a[i].classList.remove("active");
+  }
 }
