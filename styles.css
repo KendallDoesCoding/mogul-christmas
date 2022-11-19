@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 :root {
   --bg-color: white;
@@ -134,9 +135,10 @@ body {
 }
 
 #lyrics-btn {
+  font-family: Redressed;
   color: black;
-  font-size: larger;
-  text-decoration: underline;
+  font-size: x-large;
+  text-decoration: none;
   font-style: italic;
   border: none;
   margin: 2%;
@@ -922,6 +924,22 @@ and (max-device-width: 1024px) {
     justify-content: space-between;
     padding: 0;
     width: -webkit-fill-available;
+}
+
+.nav--content:link {
+  text-decoration: none;
+}
+
+.nav--content:visited {
+  text-decoration: none;
+}
+
+.nav--content:hover {
+  text-decoration: underline;
+}
+
+.nav--content:active {
+  text-decoration: underline;
 }
 
 .toggler{
