@@ -152,26 +152,31 @@ function onPlayerStateChange(event) {
     pauseButton.classList.remove("hidden");
     playButton.classList.add("hidden");
     intervalId = window.setInterval(() => {
-      let secLeft =
-        (currSong ? songs[currSong].end : player.getDuration()) -
-        player.getCurrentTime();
-      secLeft=parseInt(secLeft);
-      const songBlock=document.getElementById(`song_${(currSong??"All Of The Above").split(' ').join('_')}`);
-      
-      const timeEl=songBlock.childNodes[1]
-      timeEl.classList.add('active');
-      timeEl.innerHTML = `${parseInt(secLeft/60)}:${(secLeft%60 < 10) ? ("0" + secLeft%60) : secLeft%60}`;
+      if (player.getPlayerState() === 1) {
+        let secLeft =
+          (currSong ? songs[currSong].end : player.getDuration()) -
+          player.getCurrentTime();
+        secLeft = parseInt(secLeft);
+        const songBlock = document.getElementById(
+          `song_${(currSong ?? "All Of The Above").split(" ").join("_")}`
+        );
 
+        const timeEl = songBlock.childNodes[1];
+        timeEl.classList.add("active");
+        timeEl.innerHTML = `${parseInt(secLeft / 60)}:${
+          secLeft % 60 < 10 ? "0" + (secLeft % 60) : secLeft % 60
+        }`;
+      }
     }, 500);
+  }
+  // paused
+  else if (player.getPlayerState() === 2) {
+    pauseButton.classList.add("hidden");
+    playButton.classList.remove("hidden");
   } else {
     stopButton.classList.add("hidden");
     pauseButton.classList.add("hidden");
     playButton.classList.remove("hidden");
-    clearInterval(intervalId);
-    const a=document.getElementsByClassName('time-left');
-    for (let i = 0; i < a.length; i++) {
-      a[i].classList.remove('active');
-    }
   }
   // if buffering
   if (player.getPlayerState() === 3) {
@@ -193,6 +198,7 @@ Object.keys(songs).map((song_title) => {
   link.innerHTML = song_title;
   link.style = "cursor: pointer";
   link.onclick = () => {
+    clearTimeLeft();
     player.loadVideoById({
       videoId: VIDEO_ID,
       startSeconds: startTime,
@@ -211,7 +217,8 @@ Object.keys(songs).map((song_title) => {
 });
 
 function playSongs() {
-  if (player.isMuted()) {
+  clearTimeLeft();
+  if (player.isMuted() || player.getPlayerState() === 2) {
     player.playVideo();
   } else {
     if (songList.length) {
@@ -226,6 +233,9 @@ function playSongs() {
     }
   }
 }
+function pauseSong() {
+  player.pauseVideo();
+}
 
 // randomly shuffle a song from main page's songs
 function shuffleSongsList() {
@@ -238,8 +248,9 @@ function shuffleSongsList() {
 //stop button function
 function stopVideo() {
   songList = [];
-  currSong=undefined;
+  currSong = undefined;
   player.stopVideo();
+  clearTimeLeft();
 }
 
 //loop song code
@@ -284,4 +295,12 @@ function updateVolume() {
   let volumeState = parseInt(localStorage.getItem("volume") ?? 50);
   player?.setVolume?.(volumeState);
   volumeBar.value = volumeState;
+}
+
+function clearTimeLeft() {
+  clearInterval(intervalId);
+  const a = document.getElementsByClassName("time-left");
+  for (let i = 0; i < a.length; i++) {
+    a[i].classList.remove("active");
+  }
 }
