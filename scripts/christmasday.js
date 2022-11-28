@@ -28,7 +28,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
  
-  document.getElementById("christmasDayCountdown").innerHTML = days + " days left untill Christmas " ;
+  document.getElementById("christmasDayCountdown").innerHTML = days + " days left until Christmas " ;
 
   // If the count down is finished, write some text
   if (distance < 0) {
