@@ -9,23 +9,26 @@ if (christmasDay.getMonth() === 11 && christmasDay.getDate() === 25) {
 
 /*Christmas day countdown  */
 var countDownDate = new Date("Dec 25, 2022 23:59:59").getTime();
+var now = 0;
+var distance =0;
+var days = 0;
 
 // Update the count down every 1 second
 var x = setInterval(function() {
 
   // Get today's date and time
-  var now = new Date().getTime();
+   now = new Date().getTime();
 
   // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+  distance = countDownDate - now;
  
   // Time calculations for days, 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));  
+ days = Math.floor(distance / (1000 * 60 * 60 * 24));  
  
 
   // Display the result in the element with id="demo"
  
-  document.getElementById("christmasDayCountdown").innerHTML = days + "days to go... " ;
+  document.getElementById("christmasDayCountdown").innerHTML = days + " days left untill Christmas " ;
 
   // If the count down is finished, write some text
   if (distance < 0) {
