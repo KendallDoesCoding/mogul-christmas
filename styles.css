@@ -1161,5 +1161,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
 .others{
   display: none;
 }
-
+}
+.heading#christmasDayCountdown
+{
+  padding:10px;
+  background: rgba(255, 0, 0, 0.05);
 }
