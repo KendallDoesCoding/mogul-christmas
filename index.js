@@ -47,6 +47,7 @@ const canvasBody = document.getElementById("canvasBody");
 const canvasHead = document.getElementById("canvasHead");
 const navB = document.getElementById("navB");
 const switchh = document.getElementById("switch");
+let christmasCountdown = document.getElementById("christmasDayCountdown");
 let player;
 let currSong;
 let songList = [];
@@ -84,7 +85,9 @@ const updateMode = () => {
     canvasHead.style.backgroundColor = "#dadada";
     navB.style.backgroundColor = "#e1e1e1c4";
     rootElement.classList.add("darkMode");
+    christmasCountdown.style.background = "rgba(235, 235, 235, 0.05)";
   }
+ 
 };
 
 function modeSwitch() {
