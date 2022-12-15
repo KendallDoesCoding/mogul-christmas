@@ -94,6 +94,13 @@ body {
   color: var(--font-color-red);
   font-family: "Redressed", cursive;
   text-align: center;
+  text-decoration: underline;
+}
+
+.DaysTillChristmas {
+  color: var(--font-color-red);
+  font-family: "Redressed", cursive;
+  text-align: center;
 }
 
 .container{
