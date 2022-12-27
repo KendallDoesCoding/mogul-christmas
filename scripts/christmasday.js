@@ -8,7 +8,7 @@ if (christmasDay.getMonth() === 11 && christmasDay.getDate() === 25) {
 }
 
 /*Christmas day countdown  */
-var countDownDate = new Date("Dec 25, 2022 23:59:59").getTime();
+var countDownDate = new Date("Dec 25, 2023 23:59:59").getTime();
 var now = 0;
 var distance =0;
 var days = 0;
@@ -36,3 +36,31 @@ var x = setInterval(function() {
     document.getElementById("christmasDayCountdown").innerHTML = "";
   }
 }, 1000);
+
+// // days since christmas was OVER
+
+//     // One day Time in ms (milliseconds)
+//     var one_day = 1000 * 60 * 60 * 24;
+      
+//     const date = new Date();
+
+//     let day = date.getDate();
+//     let month = date.getMonth() + 1;
+//     let year = date.getFullYear();
+
+//     // This arrangement can be altered based on how we want the date's format to appear.
+//     let currentDate = `${day}-${month}-${year}`;
+
+//     // To set present_dates to two variables
+//     var present_date = new Date(date);
+      
+//     // 0-11 is Month in JavaScript
+//     var christmas_day = new Date(12-25-2022)
+      
+//     // To Calculate the result in milliseconds and then converting into days
+//     var Result = Math.round(christmas_day - present_date) / (one_day);
+      
+//     // To remove the decimals from the (Result) resulting days value
+//     var Final_Result = Result.toFixed(0);
+      
+// document.getElementById("christmasOVER").innerHTML = "Christmas was " + Final_Result + " days ago" ;
