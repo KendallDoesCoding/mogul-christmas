@@ -25,11 +25,6 @@ The project website is hosted [here](https://kendalldoescoding.tech/mogulchristm
 Backup URL: [Backup Domain](https://mogulchristmas.netlify.app)
 
 Make sure you check it out.
-  
-## Important
-
-**I recommend that you use [Adblocker Plus](https://mogulchristmas.kendalldoescoding.gq/adblockerplus) or another adblocker to block ads on YouTube and the project website if the sites are not whitelisted in the adblocker because there is a chance that an ad will play before you click a song. After all, this project is powered by a YouTube embed. However, I may soon change it to run through Youtube Music or another music software where the ads are fewer or none at all. There is one adblocker that allows you to whitelist ads on a specific YouTuber; if you use that adblocker and whitelist, say, "Ludwig," you may get ads, so please un-whitelist him while running the songs on the project website. But, because there are not many ads, you should be fine most of the time. My adblocker tells me that for every song I tap on the website, including "All Of The Above," it is blocking two ads; however, when I tried another login without the adblocker, I did not get any ads, so the ads will only appear occasionally; I am just providing fair warning.**
-
 
 # Build Status
 
