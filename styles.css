@@ -7,6 +7,7 @@
 
 :root {
   --bg-color: #F8F6EE;
+  --bg-color-menu: hsla(206, 8%, 17%, 0.7);
   --font-color-red: red;
   --font-color-blue: blue;
   --you-may-like-songs-color: blue;
@@ -29,6 +30,7 @@
 
 .darkMode {
   --bg-color: #272B2E;
+  --bg-color-menu: hsla(45, 43%, 95%, 0.7);
   --font-color-red: red;
   --font-color-blue: blue;
   --you-may-like-songs-color: red;
@@ -1120,6 +1122,28 @@ and (-webkit-min-device-pixel-ratio: 2) {
   visibility: hidden;
 }
 
+}
+
+
+#menu {
+  margin: 2%;
+}
+#menu-display {
+  display: none;
+  top: 5;
+  height: 50vh;
+  width: 30vw;
+  background: var(--bg-color-menu);
+  position: absolute;
+  z-index: 10;
+  backdrop-filter: blur(50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#menu-display a{
+  text-decoration: none;
+  color: var(--bg-color);
 }
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */

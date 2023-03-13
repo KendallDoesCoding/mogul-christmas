@@ -70,6 +70,8 @@ newTabGithub.addEventListener("click", () => {
   );
 });
 
+document.getElementById('menu').addEventListener('click', displayMenu)
+
 const updateMode = () => {
   const rootElement = document.body;
   if (!isLight) {
@@ -305,4 +307,8 @@ function clearTimeLeft() {
   for (let i = 0; i < a.length; i++) {
     a[i].classList.remove("active");
   }
+}
+
+function displayMenu(){
+  document.getElementById('menu-display').style.display = 'block'
 }
