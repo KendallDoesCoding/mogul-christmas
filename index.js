@@ -79,12 +79,18 @@ const updateMode = () => {
     canvasHead.style.backgroundColor = "#F8F6EE";
     body.style.backgroundColor = "#F8F6EE";
     navB.style.backgroundColor = "#F8F6EE";
+    document.getElementById('line-1').style.stroke = "#272B2E";
+    document.getElementById('line-2').style.stroke = "#272B2E";
+    document.getElementById('line-3').style.stroke = "#272B2E";
     rootElement.classList.remove("darkMode");
   } else {
     canvasBody.style.backgroundColor = "#272B2E";
     canvasHead.style.backgroundColor = "#272B2E";
     body.style.backgroundColor = "#272B2E";
     navB.style.backgroundColor = "#272B2E";
+    document.getElementById('line-1').style.stroke = "#F8F6EE";
+    document.getElementById('line-2').style.stroke = "#F8F6EE";
+    document.getElementById('line-3').style.stroke = "#F8F6EE";
     rootElement.classList.add("darkMode");
     christmasCountdown.style.background = "rgba(235, 235, 235, 0.05)";
   }
