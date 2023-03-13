@@ -1130,8 +1130,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 #menu-display {
   display: none;
-  top: 5;
-  height: 80vh;
+  top: 2;
+  height: 90vh;
   width: 30vw;
   background: var(--bg-color-menu);
   position: absolute;
@@ -1140,6 +1140,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
+  border-radius: 0px 5px 5px 0px;
 }
 #menu-display a{
   text-decoration: none;
