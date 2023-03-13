@@ -1131,7 +1131,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #menu-display {
   display: none;
   top: 5;
-  height: 50vh;
+  height: 80vh;
   width: 30vw;
   background: var(--bg-color-menu);
   position: absolute;
