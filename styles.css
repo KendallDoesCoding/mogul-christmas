@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 :root {
-  --bg-color: white;
+  --bg-color: #F8F6EE;
   --font-color-red: red;
   --font-color-blue: blue;
   --you-may-like-songs-color: blue;
@@ -25,11 +25,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  --bg-image: url("/images/light-bg.png");
 }
 
 .darkMode {
-  --bg-color: white;
+  --bg-color: #272B2E;
   --font-color-red: red;
   --font-color-blue: blue;
   --you-may-like-songs-color: red;
@@ -43,7 +42,6 @@
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
   --grey: black;
-  --bg-image: url("/images/dark-bg.png");
 }
 
 .hidden{
@@ -68,20 +66,14 @@ body {
   /* Internet Explorer/Edge */
   align-items: center;
   text-align: center;
-  background-repeat: no-repeat, no-repeat;
-  background-position: right bottom, left bottom;
   background-color: var(--bg-color);
-  background: var(--bg-image) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 
 /* Headings, etc */
 
 .navB{
-  background-color: #fdd7d1c4;
+  background-color: var(--bg-color);
 }
 
 .playlist-icons{
