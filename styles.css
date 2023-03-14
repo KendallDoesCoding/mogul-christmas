@@ -1147,6 +1147,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
   text-decoration: none;
   color: var(--bg-color);
 }
+#closed-menu-icon {
+  display: block;
+}
+#open-menu-icon {
+  display: none;
+}
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
 @media (min-device-height: 667px) and (min-device-width: 375px)

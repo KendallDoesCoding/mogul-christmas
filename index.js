@@ -70,7 +70,8 @@ newTabGithub.addEventListener("click", () => {
   );
 });
 
-document.getElementById('menu').addEventListener('click', displayMenu)
+document.getElementById('closed-menu-icon').addEventListener('click', displayMenu)
+document.getElementById('open-menu-icon').addEventListener('click', closeMenu)
 
 const updateMode = () => {
   const rootElement = document.body;
@@ -317,4 +318,11 @@ function clearTimeLeft() {
 
 function displayMenu(){
   document.getElementById('menu-display').style.display = 'block'
+  document.getElementById('closed-menu-icon').style.display = 'none'
+  document.getElementById('open-menu-icon').style.display = 'block'
+}
+function closeMenu(){
+  document.getElementById('menu-display').style.display = 'none'
+  document.getElementById('closed-menu-icon').style.display = 'block'
+  document.getElementById('open-menu-icon').style.display = 'none'
 }
