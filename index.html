@@ -69,12 +69,12 @@
     <!-- Navbar -->
     <header>
     <div id='menu'>
-      <svg id='closed-menu-icon' width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg id='closed-menu-icon' width="25" height="auto" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
         <line id='line-1' x1="1.5" y1="1.5" x2="18.5" y2="1.5" stroke="#272B2E" stroke-width="3" stroke-linecap="round"/>
         <line id='line-2' x1="1.5" y1="7.5" x2="18.5" y2="7.5" stroke="#272B2E" stroke-width="3" stroke-linecap="round"/>
         <line id='line-3' x1="1.5" y1="13.5" x2="18.5" y2="13.5" stroke="#272B2E" stroke-width="3" stroke-linecap="round"/>
         </svg>
-      <svg id='open-menu-icon' width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg id='open-menu-icon' width="25" height="auto" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line id='line-4' x1="1.88879" y1="10.951" x2="16.6112" y2="2.45096" stroke="#272B2E" stroke-width="3" stroke-linecap="round"/>
           <line id='line-5' x1="2.38879" y1="2.45096" x2="17.1112" y2="10.951" stroke="#272B2E" stroke-width="3" stroke-linecap="round"/>
       </svg>                  
@@ -133,7 +133,7 @@
           <div id="header">
             <div id="switch">
               <label class="switch">
-                <input type="checkbox" />
+                <input style="height: 0px; width: 0px;" type="checkbox" />
                 <span class="switch slider round" id="round"></span>
               </label>
             </div>
@@ -141,32 +141,13 @@
     </header>
 
     <main>
-      <section>
-        <img src="./images/home-page-img.png" />
+      <section id='img-section'>
+        <img id='home-page-img' src="./images/home-page-img.png" />
       </section>
       <section id=song-section>
     <nav class="navbar navB" id="navB">
       <div class="container-fluid">
-        <div class="nav--content">
-          <div style="display: none;" id="header1">
-            <div id="switch1">
-              <label class="switch">
-                <input type="checkbox" />
-                <span class="switch slider round" id="round1"></span>
-              </label>
-            </div>
-          </div>
 
-          <button
-            class="navbar-toggler toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
         <div
           class="offcanvas offcanvas-end"
           tabindex="-1"
@@ -226,12 +207,6 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-
-
-    <div class="socials">
-      <div class="social">
-      </div>
-    </div>
       </section>
   </main>
   </body>

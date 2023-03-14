@@ -50,6 +50,9 @@
 *{
   box-sizing: border-box;
 }
+html {
+  width: 100vw;
+}
 
 .hidden{
   display: none !important;
@@ -76,13 +79,14 @@ body {
   background-color: var(--bg-color);
   font-family: 'Nunito';
   font-weight: 200;
+  width: 100vw;
+  height: 100vh;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Headings, etc */
-
-.navB{
-  background-color: var(--bg-color);
-}
 
 .playlist-icons{
   display: flex;
@@ -106,15 +110,6 @@ body {
   flex-direction: column;
 }
 
-.nav--content{
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  width: -webkit-fill-available;
-  grid-template-columns: 0.5fr 0.5fr 1fr 0.9fr 0fr;
-  margin: 0;
-}
 
 .toggler{
   border: 1px solid black !important;
@@ -138,10 +133,7 @@ body {
   background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
 
-.lud {
-  color: var(--font-color-heading2);
-  text-align: center;
-}
+
 
 #christmashyperlink {
   text-decoration: none;
@@ -679,15 +671,8 @@ background-color: #f49cbb;
 }
 
 
-#header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 #switch {
-  position: absolute;
   right: -3.5rem;
 }
 
@@ -709,12 +694,7 @@ background-color: #f49cbb;
 /* The slider */
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+
   background-color: var(--bg-color-menu);
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -862,93 +842,11 @@ a:active {
   color: red;
 }
 
-/* media queries */
-@media screen and (min-width: 1024px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #header1{
-    display: none;
-  }
-}
- 
-/* For Tablet View */
-@media screen and (min-device-width: 768px)
-and (max-device-width: 1024px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
 
-  #header1{
-    display: none;
-  }
-}
-
-@media screen and (max-device-width: 768px)
-and (max-device-width: 1024px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #lyrics-btn{
-    display: none;
-  }
-
-  #yml{
-    display: none;
-  }
-
-  .nav--content {
-    display: grid;
-    grid-template-columns: 0.5fr 7fr 0fr 0.9fr 0fr;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 0;
-    width: -webkit-fill-available;
-}
-
-.nav--content:link {
-  text-decoration: none;
-}
-
-.nav--content:visited {
-  text-decoration: none;
-}
-
-.nav--content:hover {
-  text-decoration: underline;
-}
-
-.nav--content:active {
-  text-decoration: underline;
-}
-
-.toggler{
-  visibility:visible;
-}
-
-.others{
-  display: none;
-}
-
-#switch{
-  display: none;
-  visibility: hidden;
-}
-}
- 
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -975,19 +873,25 @@ and (orientation: portrait) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
+
 }
-}
- 
+ @media screen and (max-width: 763px){
+   #img-section {
+     display: none;
+   }
+   #song-section {
+     width: 90vw;
+     align-self: center;
+     justify-self: center;
+   }
+   main {
+     display: block;
+   }
+ }
 /* For Mobile Landscape View */
 @media screen and (max-device-width: 640px)
 and (orientation: landscape) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -1015,18 +919,12 @@ and (orientation: landscape) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
+
 }
  
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+ 
 
   #lyrics-btn{
     display: none;
@@ -1054,30 +952,26 @@ and (orientation: landscape) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
+
 
 }
  
 /* For iPhone 4 Portrait or Landscape View */
 @media screen and (min-device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
 
+
+}
+@media (max-width: 628px){
+  #home-page-img {
+    display: none;
+  }
 }
  
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px) and (device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -1103,22 +997,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
+
 
 }
 header {
-  width: 95vw;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 3% 2%;
+  padding: 3%;
+  height: 10vh;
 }
 #h1 {
   font-family: 'Life Savers';
   color: var(--bg-color-menu);
   font-weight: 800;
+  text-align: center;
 }
 main {
   display: flex;
@@ -1126,20 +1019,31 @@ main {
   width: 100vw;
   padding: 0;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
+  min-height: fit-content;
 }
 main section {
-  height: 100%;
+  height: 83%;
+  width: 50vw;
 }
 
-main img {
-  margin-left: -50px;
-}
 #song-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  min-height: fit-content;
+  width: 50vw;
+  text-align: center;
 }
+#home-page-img {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+}
+#song-section p {
+  font-size: 20px;
+}
+
 
 #menu-display {
   display: none;
@@ -1147,6 +1051,7 @@ main img {
   left: 0;
   height: 90vh;
   width: 25vw;
+  min-width: fit-content;
   background: var(--bg-color-menu);
   position: absolute;
   z-index: 10;
@@ -1158,7 +1063,7 @@ main img {
   border-radius: 0px 5px 5px 0px;
   font-size: 20px;
   font-weight: 500;
-  padding: 1.5% 0;
+  padding: 1.5% 1%;
 }
 #menu-display a{
   text-decoration: none;
@@ -1174,14 +1079,15 @@ main img {
 #open-menu-icon {
   display: none;
 }
+.lud {
+  color: var(--bg-color);
+  font-size: 14px;
+}
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
 @media (min-device-height: 667px) and (min-device-width: 375px)
 and (-webkit-min-device-pixel-ratio: 3) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -1204,10 +1110,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
   visibility:visible;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
 
 .others{
   display: none;
