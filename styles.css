@@ -1136,7 +1136,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   background: var(--bg-color-menu);
   position: absolute;
   z-index: 10;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
