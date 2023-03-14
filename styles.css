@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
 
 :root {
   --bg-color: #F8F6EE;
@@ -22,7 +23,7 @@
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
   --grey: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito";
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,7 +74,8 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--bg-color);
-
+  font-family: 'Nunito';
+  font-weight: 200;
 }
 
 /* Headings, etc */
@@ -88,12 +90,6 @@ body {
   gap: 18px;
 }
 
-.heading {
-  color: var(--font-color-red);
-  font-family: "Redressed", cursive;
-  text-align: center;
-  text-decoration: underline;
-}
 
 .DaysTillChristmas {
   color: var(--font-color-red);
@@ -130,10 +126,7 @@ body {
   visibility: hidden;
 }
 
-.ludsocials-heading {
-  color: var(--ludsocials-color-heading);
-  font-family: "Redressed", cursive;
-}
+
 
 .lyrics-heading {
   color: var(--font-color-heading);
@@ -229,7 +222,6 @@ body {
   color: white;
   font-size: larger;
   width: -webkit-fill-available;
-  font-family: "Handlee", cursive;
   text-decoration: none;
   background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
 }
@@ -252,7 +244,7 @@ a:active {
 }
 
 .songs {
-  color: var(--font-color-blue);
+  color: var(--bg-color-menu);
   cursor: pointer;
   text-align: center;
 }
@@ -362,7 +354,6 @@ background-color: #f49cbb;
   color: white;
   outline: none;
   border: none;
-  font-family: "Handlee", cursive;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -421,7 +412,6 @@ background-color: #f49cbb;
   color: white;
   outline: none;
   border: none;
-  font-family: "Handlee", cursive;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -1213,8 +1203,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
   display: none;
 }
 }
-.heading#christmasDayCountdown
+#christmasDayCountdown
 {
-  padding:10px;
-  background: rgba(255, 0, 0, 0.05);
+  color: var(--bg-color-menu);
+  font-family: 'Nunito';
+  font-weight: 500;
 }
