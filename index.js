@@ -321,7 +321,7 @@ function clearTimeLeft() {
 }
 
 function displayMenu(){
-  document.getElementById('menu-display').style.display = 'block'
+  document.getElementById('menu-display').style.display = 'flex'
   document.getElementById('closed-menu-icon').style.display = 'none'
   document.getElementById('open-menu-icon').style.display = 'block'
 }

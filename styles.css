@@ -1137,7 +1137,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   position: absolute;
   z-index: 10;
   backdrop-filter: blur(50px);
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
