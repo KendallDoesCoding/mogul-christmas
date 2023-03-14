@@ -595,7 +595,12 @@ background-color: #f49cbb;
   font-weight: bold;
 }
 
-
+.lud-socials p a{
+  color: var(--bg-color-menu);
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
 
 .credits-button {
   background-image: radial-gradient(
