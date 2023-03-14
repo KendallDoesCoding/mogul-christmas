@@ -166,6 +166,7 @@ body {
 
 #grey {
   color: var(--grey);
+
 }
 
 .christmas_day_message {
@@ -1134,7 +1135,7 @@ main img {
   bottom: 0;
   left: 0;
   height: 90vh;
-  width: 30vw;
+  width: 25vw;
   background: var(--bg-color-menu);
   position: absolute;
   z-index: 10;
@@ -1144,10 +1145,17 @@ main img {
   justify-content: space-around;
   text-align: center;
   border-radius: 0px 5px 5px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1.5% 0;
 }
 #menu-display a{
   text-decoration: none;
   color: var(--bg-color);
+}
+#menu-display a:hover{
+  text-decoration: none;
+  color: #A81817;
 }
 #closed-menu-icon {
   display: block;
