@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
 
 :root {
   --bg-color: #F8F6EE;
@@ -44,6 +45,9 @@
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
   --grey: black;
+}
+*{
+  box-sizing: border-box;
 }
 
 .hidden{
@@ -1123,14 +1127,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 }
-
-
-#menu {
-  margin: 2%;
+header {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 2%;
 }
+#h1 {
+  font-family: 'Life Savers';
+  color: var(--bg-color-menu);
+  font-weight: 800;
+}
+
 #menu-display {
   display: none;
-  top: 2;
+  bottom: 0;
+  left: 0;
   height: 90vh;
   width: 30vw;
   background: var(--bg-color-menu);
