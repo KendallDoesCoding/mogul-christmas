@@ -1138,6 +1138,15 @@ header {
   color: var(--bg-color-menu);
   font-weight: 800;
 }
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  padding: 0;
+}
+main img {
+  margin-left: -150px;
+}
 
 #menu-display {
   display: none;
