@@ -33,7 +33,7 @@ const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
 const newTabGithub = document.getElementById('grey');
 const toggle = document.getElementById("round");
-const toggle1 = document.getElementById("round1");
+// const toggle1 = document.getElementById("round1");
 const slider = document.querySelector(".slider");
 const audioControls = document.querySelector(".audio-controls");
 const loader = document.querySelector("#loader");
@@ -55,7 +55,7 @@ let songList = [];
 let playedNext = true;
 let intervalId;
 toggle.addEventListener("click", modeSwitch);
-toggle1.addEventListener("click", modeSwitch);
+// toggle1.addEventListener("click", modeSwitch);
 
 // Darkmode/Lightmode + Making songs play when clicked
 let isLight = localStorage.getItem("darkmode") === "false";
@@ -79,7 +79,7 @@ const updateMode = () => {
     canvasBody.style.backgroundColor = "#F8F6EE";
     canvasHead.style.backgroundColor = "#F8F6EE";
     body.style.backgroundColor = "#F8F6EE";
-    navB.style.backgroundColor = "#F8F6EE";
+    // navB.style.backgroundColor = "#F8F6EE";
     document.getElementById('line-1').style.stroke = "#272B2E";
     document.getElementById('line-2').style.stroke = "#272B2E";
     document.getElementById('line-3').style.stroke = "#272B2E";
@@ -90,7 +90,7 @@ const updateMode = () => {
     canvasBody.style.backgroundColor = "#272B2E";
     canvasHead.style.backgroundColor = "#272B2E";
     body.style.backgroundColor = "#272B2E";
-    navB.style.backgroundColor = "#272B2E";
+    // navB.style.backgroundColor = "#272B2E";
     document.getElementById('line-1').style.stroke = "#F8F6EE";
     document.getElementById('line-2').style.stroke = "#F8F6EE";
     document.getElementById('line-3').style.stroke = "#F8F6EE";

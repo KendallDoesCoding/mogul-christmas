@@ -1123,11 +1123,22 @@ header {
 main {
   display: flex;
   justify-content: space-around;
-  width: 95vw;
+  width: 100vw;
   padding: 0;
+  align-items: center;
+  height: 80vh;
 }
+main section {
+  height: 100%;
+}
+
 main img {
   margin-left: -50px;
+}
+#song-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #menu-display {
