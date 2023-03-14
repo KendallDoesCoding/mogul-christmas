@@ -617,6 +617,13 @@ background-color: #f49cbb;
 
 .lyrics {
   color: var(--lyrics-text-color);
+  height: 100vh;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.lyrics .songs p:hover {
+  color: #A81817;
 }
 
 #embed {
@@ -757,6 +764,7 @@ a:focus,
 a:active {
   text-decoration: none;
   color: inherit;
+  font-size: 24px;
 }
 
 .songs1 a,
@@ -872,6 +880,7 @@ and (orientation: portrait) {
 .others{
   display: none;
 }
+
 
 
 }
@@ -1006,6 +1015,12 @@ header {
   justify-content: space-between;
   padding: 3%;
   height: 10vh;
+}
+.h1 {
+  font-family: 'Life Savers';
+  color: var(--bg-color-menu);
+  font-weight: 800;
+  text-align: center;
 }
 #h1 {
   font-family: 'Life Savers';
