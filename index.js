@@ -31,7 +31,7 @@ const songs = {
 };
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
-const newTabGithub = document.querySelector(".social");
+const newTabGithub = document.getElementById('grey');
 const toggle = document.getElementById("round");
 const toggle1 = document.getElementById("round1");
 const slider = document.querySelector(".slider");
@@ -97,7 +97,6 @@ const updateMode = () => {
     document.getElementById('line-4').style.stroke = "#F8F6EE";
     document.getElementById('line-5').style.stroke = "#F8F6EE";
     rootElement.classList.add("darkMode");
-    christmasCountdown.style.background = "rgba(235, 235, 235, 0.05)";
   }
  
 };

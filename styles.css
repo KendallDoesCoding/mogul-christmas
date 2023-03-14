@@ -22,7 +22,7 @@
   --lyrics-text-color: red;
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
-  --grey: black;
+  --grey: hsla(45, 43%, 95%, 1);
   font-family: "Nunito";
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -45,7 +45,7 @@
   --lyrics-text-color: red;
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
-  --grey: black;
+  --grey: hsla(206, 8%, 17%, 1);
 }
 *{
   box-sizing: border-box;
@@ -91,11 +91,6 @@ body {
 }
 
 
-.DaysTillChristmas {
-  color: var(--font-color-red);
-  font-family: "Redressed", cursive;
-  text-align: center;
-}
 
 .container{
   display: flex;
@@ -719,13 +714,9 @@ background-color: #f49cbb;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: gray;
+  background-color: var(--bg-color-menu);
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background-image: url("./images/light.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .slider:before {
@@ -735,17 +726,17 @@ background-color: #f49cbb;
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--bg-color);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: var(--bg-color-menu);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px var(--bg-color-menu);
 }
 
 input:checked + .slider:before {
@@ -1135,7 +1126,7 @@ main {
   padding: 0;
 }
 main img {
-  margin-left: -150px;
+  margin-left: -50px;
 }
 
 #menu-display {
@@ -1208,4 +1199,5 @@ and (-webkit-min-device-pixel-ratio: 3) {
   color: var(--bg-color-menu);
   font-family: 'Nunito';
   font-weight: 500;
+  background: none;
 }
