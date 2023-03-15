@@ -1,6 +1,5 @@
 *{
-  margin: 0;
-  padding: 0;
+
   box-sizing: border-box;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -11,41 +10,9 @@
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 /*display mobile when the browser window is 991px width or less*/
- @media only screen and (max-width: 991px){
-    background: url('portrait.jpg');
 
-}
-
-body {
-  background-size: cover;
-  width: 100%;
-  display: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  max-width: 100%;
-}
-
-main{
-  margin-top:3em;
-  width: 100%;
-  display: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  background: rgba(0,0,0, 0.9);
-}
-h1{
-  text-align: center;
-  margin: 1em;
-  color: white;
-  padding: 10px;
-  font-weight: 800;
-  font-size: xx-large;
-  font-family: 'Poppins',sans-serif;
-}
 h3{
-  border: ipx solid white;
+  border: 1px solid white;
   box-shadow: 6px 2px  2px rgba(0,0,0,0.15);
   width: 80%;
   height: 100px;
@@ -100,44 +67,3 @@ label{
   transform: scale(1.1);
 }
     /* for large screens */
-@media screen and (min-width : 750px){
-  body{
-background: url('/images/light-bg.png') no-repeat;
-
-
-    background-size: cover;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    color: black;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  main{
-    width: 70%;
-    height: 80vh;
-    margin-top: 3em;
-    background-color: white;
-    border-radius: 10px;
-  }
-  h1{
-    text-align: center;
-    margin: 1em;
-    color: black;
-    padding: 10px;
-    font-weight: 800;
-    font-size: xx-large;
-    font-family: 'Poppins',sans-serif;
-  }
-  .select{
-    height:50px;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    color: black;
-    margin: 5px;
-    border: 1px solid black;
-    background-color: transparent;
-  }
-}
