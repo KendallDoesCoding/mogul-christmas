@@ -37,10 +37,9 @@ label{
   text-align: center;
   border-radius: 5px;
   padding: 5px;
-  color: white;
+  color: black;
   margin: 5px;
-  border: 1px solid white;
-  background-color: black;
+  background-color: white;
 }
 .rating{
   width: 300px;

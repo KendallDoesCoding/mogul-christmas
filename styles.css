@@ -226,14 +226,7 @@ body {
   color: var(--font-color-blue);
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: underline;
-  color: inherit;
 
-}
 
 .songs {
   color: var(--bg-color-menu);
@@ -1143,3 +1136,21 @@ header a svg:hover {
   transform: translateX(-10px);
   transition: 1s;
 } 
+
+a {
+  transition-duration: 1s;
+  text-decoration: none;
+  color: var(--bg-color-menu);
+}
+a:hover {
+  color: #A81817;
+}
+
+#rating-section {
+  color: var(--bg-color-menu);
+}
+
+
+#rating-section button {
+  background: #A81817;
+}
