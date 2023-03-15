@@ -1044,7 +1044,26 @@ main section {
   font-size: 20px;
 }
 
-
+@keyframes appear {
+  from {
+    left: -25vw;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes desappear {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: -25vw;
+    opacity: 0;
+  }
+}
 #menu-display {
   display: none;
   bottom: 0;
@@ -1064,7 +1083,11 @@ main section {
   font-size: 20px;
   font-weight: 500;
   padding: 1.5% 1%;
+  animation-duration: 1s;
 }
+
+
+
 #menu-display a{
   text-decoration: none;
   color: var(--bg-color);

@@ -321,11 +321,14 @@ function clearTimeLeft() {
 
 function displayMenu(){
   document.getElementById('menu-display').style.display = 'flex'
+  document.getElementById('menu-display').style.animationName = 'appear'
   document.getElementById('closed-menu-icon').style.display = 'none'
   document.getElementById('open-menu-icon').style.display = 'block'
 }
 function closeMenu(){
-  document.getElementById('menu-display').style.display = 'none'
+  document.getElementById('menu-display').style.animationName = 'desappear'
   document.getElementById('closed-menu-icon').style.display = 'block'
   document.getElementById('open-menu-icon').style.display = 'none'
+  const displayToNone = () => document.getElementById('menu-display').style.display = 'none'
+  setTimeout(displayToNone, 1000)
 }
