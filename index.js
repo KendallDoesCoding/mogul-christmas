@@ -33,7 +33,6 @@ const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
 const newTabGithub = document.getElementById('grey');
 const toggle = document.getElementById("round");
-// const toggle1 = document.getElementById("round1");
 const slider = document.querySelector(".slider");
 const audioControls = document.querySelector(".audio-controls");
 const loader = document.querySelector("#loader");
@@ -100,6 +99,7 @@ const updateMode = () => {
   }
  
 };
+window.addEventListener("load", updateMode)
 
 function modeSwitch() {
   isLight = !isLight;
