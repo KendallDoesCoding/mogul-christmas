@@ -232,6 +232,7 @@ a:focus,
 a:active {
   text-decoration: underline;
   color: inherit;
+
 }
 
 .songs {
@@ -739,14 +740,6 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
-.songs a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-  font-size: 24px;
-}
 
 .songs1 a,
 a:hover,
@@ -1146,7 +1139,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
   background: none;
 }
 
-header a:hover {
+header a svg:hover {
   transform: translateX(-10px);
   transition: 1s;
 } 
