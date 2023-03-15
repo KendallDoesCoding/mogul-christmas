@@ -36,22 +36,35 @@
   }
 }
 
-h1,
-h2 {
-  text-align: center;
-}
+
 
 
 
 h2 {
-  color: lightcoral;
-  font-family: "Roboto", sans-serif;
+  color: #A81817;
+  font-family: "Nunito";
+  margin-top: 5%;
+}
+h2 a {
+  text-decoration: none;
 }
 
-a {
-  color: lightcoral;
-}
+
 
 a:hover {
   color: orange;
+}
+#grid-container {
+  width: 90vw;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5%;
+  margin-top: 5%;
+}
+#grid-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
 }
