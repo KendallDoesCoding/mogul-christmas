@@ -50,6 +50,9 @@
 *{
   box-sizing: border-box;
 }
+main #list{
+  color: var(--bg-color-menu)
+}
 html {
   width: 100vw;
 }
@@ -315,11 +318,6 @@ background-color: #f49cbb;
 
 .random {
   /* This button is for the YML directory NOT the main page */
-  background-image: radial-gradient(
-    circle farthest-corner at 92.3% 71.5%,
-    rgba(83, 138, 214, 1) 0%,
-    rgba(134, 231, 214, 1) 90%
-  );
   color: white;
   outline: none;
   border: none;
@@ -409,18 +407,9 @@ background-color: #f49cbb;
 }
 
 .report {
-  background-color: #ff9a8b;
-  background-image: linear-gradient(
-    90deg,
-    #ff9a8b 0%,
-    #ff6a88 55%,
-    #ff99ac 100%
-  );
-
   color: white;
   outline: none;
   border: none;
-  font-family: "Handlee", cursive;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -430,11 +419,6 @@ background-color: #f49cbb;
 }
 
 .button {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(14, 174, 87, 1) 0%,
-    rgba(12, 116, 117, 1) 90%
-  );
   /* Used in main page */
   border: none;
   color: white;
@@ -445,7 +429,16 @@ background-color: #f49cbb;
   justify-content: space-between;
   font-size: 16px;
   margin-bottom: 10px;
-  font-family: "Handlee", cursive;
+  font-family: "Nunito";
+  background: #496C42;
+  min-width: fit-content;
+  max-width: 30vw;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.button a {
+  text-decoration: none;
 }
 
 .button1 {
@@ -602,23 +595,6 @@ background-color: #f49cbb;
   text-decoration: none;
 }
 
-.credits-button {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(255, 209, 67, 1) 0%,
-    rgba(255, 145, 83, 1) 90%
-  );
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-family: "Handlee", cursive;
-}
 
 .lyrics {
   color: var(--lyrics-text-color);
@@ -835,24 +811,28 @@ a:active {
 }
 
 .random-song {
-  color: #ffa500;
+  color: black;
 }
 #random-button {
-  color: black;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  background: #496C42;
+  font-family: "Nunito";
 }
 
 #suggest-button {
-  color: black;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  background: #496C42;
+  font-family: "Nunito";
 }
 
 #report-button {
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  background: #496C42;
+  font-family: "Nunito";
 }
 
 #report {
-  color: red;
+  color:#A81817;
 }
 
 
@@ -1026,6 +1006,7 @@ header {
   color: var(--bg-color-menu);
   font-weight: 800;
   text-align: center;
+  font-size: 2.5rem;
 }
 #h1 {
   font-family: 'Life Savers';
@@ -1044,7 +1025,7 @@ main {
 }
 main section {
   height: 83%;
-  width: 50vw;
+  width: 45vw;
 }
 
 #song-section {
@@ -1052,13 +1033,12 @@ main section {
   flex-direction: column;
   justify-content: space-around;
   min-height: fit-content;
-  width: 50vw;
   text-align: center;
 }
 #home-page-img {
   width: 100%;
   height: auto;
-  max-width: 550px;
+  max-width: 600px;
 }
 #song-section p {
   font-size: 20px;
@@ -1142,3 +1122,4 @@ and (-webkit-min-device-pixel-ratio: 3) {
   font-weight: 500;
   background: none;
 }
+

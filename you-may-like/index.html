@@ -30,43 +30,47 @@
                  </div>
                </div>
          </header>
-      <p class="lud">Songs like the <a href="https://mogulchristmas.kendalldoescoding.gq/mogulchristmasplaylist">Mogul Christmas Album  <i class="fa fa-music"></i></a></p>
-      <div class="christmas_day_message">
-         <p>Merry Christmas! These are a couple songs like the Mogul Christmas album, to put you in the Christmas Mood. &#128522; 
-         </p>
-      </div>
-      <div class="random-song">
+         <main>
+            <section id='buttons-section'>
+         <div class="random-song">
+            <p>
+                  <i id="random" class="fa fa-random fa-2x"></i>
+                  <span><button class="random" id="random-button" onClick="openStuff();">Play Random Song</button></span>
+               </a>
+            </p>
+         </div>
+      <div class="suggest-song">
          <p>
-               <i id="random" class="fa fa-random fa-2x"></i>
-               <span><button class="random" id="random-button" onClick="openStuff();">Play Random Song</button></span>
+               <i id="suggest" class="fa fa-plus fa-2x"></i>
+               <span><button class="suggest" id="suggest-button" onclick="window.location.href='song-suggestion'">Suggest a Song</button></span>
             </a>
          </p>
       </div>
-   <div class="suggest-song">
-      <p>
-            <i id="suggest" class="fa fa-plus fa-2x"></i>
-            <span><button class="suggest" id="suggest-button" onclick="window.location.href='song-suggestion'">Suggest a Song</button></span>
-         </a>
-      </p>
-   </div>
-   <main>
-      <div class="list" id="list"></div>
-      <div class="pagenumbers" id="pagination"></div>
-   </main>
-      <div class="container">
-      <div id="report">
-         <p>
-            <i id="report" class="fa fa-flag fa-2x"></i>
-            <span><button class="report" id="report-button" onclick="window.location.href='report-song'">Report a Song</button></span>
-         </a>
-         </p>
-      </div>
-      </div>
-      <div class="container">
-      <div id="credits" class="credits-button">
-         <a href="/credits" id="credits-btn" class="btn">Credits</a>
-      </div>
-      </div>
+         <div class="container">
+         <div id="report">
+            <p>
+               <i id="report" class="fa fa-flag fa-2x"></i>
+               <span><button class="report" id="report-button" onclick="window.location.href='report-song'">Report a Song</button></span>
+            </a>
+            </p>
+         </div>
+         </div>
+            </section>
+            <section>
+               <p class="lud" id="suggestions-message">Songs like the <a href="https://mogulchristmas.kendalldoescoding.gq/mogulchristmasplaylist">Mogul Christmas Album  <i class="fa fa-music"></i></a></p>
+         <div class="christmas_day_message">
+            <p>Merry Christmas! These are a couple songs like the Mogul Christmas album, to put you in the Christmas Mood. &#128522; 
+            </p>
+         </div>
+            <div class="list" id="list"></div>
+            <div class="pagenumbers" id="pagination"></div>
+         </section>
+         </main>
+         <div class="container">
+            <div id="credits" class="credits-button">
+               <a href="/credits" id="credits-btn" class="btn">Credits</a>
+            </div>
+            </div>
    </body>
    <script src="index.js"></script>
    <script type="text/javascript" src="/scripts/christmasday.js"></script>
