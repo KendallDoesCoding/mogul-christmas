@@ -1131,7 +1131,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 } */
 #christmasDayCountdown
 {
-  color: var(--bg-color-menu);
+  color: #A81817;
   font-family: 'Nunito';
   font-weight: 500;
   background: none;
