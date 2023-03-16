@@ -87,7 +87,7 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 10%;
+  gap: 5%;
 }
 
 /* Headings, etc */
@@ -1012,8 +1012,6 @@ main {
   width: 100vw;
   gap: 10vh;
   padding: 0;
-  align-items: center;
-  min-height: 90vh;
   height: fit-content;
 }
 main section {

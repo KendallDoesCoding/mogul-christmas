@@ -25,10 +25,11 @@
     gap: 50px;
     align-self: center;
     justify-self: center;
+    align-items: center;
   }
 
   #grid-container img {
-    width: 90vw;
+    min-width: 80vw;
   }
   span {
     display: none;

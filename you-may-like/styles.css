@@ -96,18 +96,17 @@ main section {
   main section {
     width: 90vw;
     height: fit-content;
-    margin: 30% 0;
   }
 
   main {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 30vh;
+    justify-content: center;
   }
   #buttons-section {
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
+    width: 70vw;
 
   }
   #buttons-section button {
@@ -115,8 +114,5 @@ main section {
   }
   #credits {
     top: 15vh;
-  }
-  #lyrics-main {
-    margin-top: -30vh;
   }
 }
