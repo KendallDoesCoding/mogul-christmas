@@ -1090,6 +1090,9 @@ main section {
   text-decoration: none;
   color: var(--bg-color);
 }
+#menu svg {
+  max-height: 50px;
+}
 #menu-display a:hover{
   text-decoration: none;
   color: #A81817;
