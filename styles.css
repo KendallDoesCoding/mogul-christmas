@@ -592,8 +592,6 @@ background-color: #f49cbb;
 
 
 .lyrics {
-  color: var(--lyrics-text-color);
-  height: 100vh;
   min-height: fit-content;
   display: flex;
   flex-direction: column;
@@ -992,7 +990,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 3%;
-  height: 10vh;
+  min-height: 20vh;
+  height: fit-content;
 }
 .h1 {
   font-family: 'Life Savers';
@@ -1338,4 +1337,16 @@ html {
   width: 100px;
   height: 100px;
   animation: snowfall-pic 10s linear 95.732s infinite;
+}
+
+.lyrics-main {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 90vw;
+  color: var(--bg-color-menu);
+  font-family: "Nunito";
+  font-size: 24px;
+  padding-bottom: 300px;
+
 }
