@@ -870,7 +870,10 @@ and (orientation: portrait) {
     margin-top: 10vh;
     padding-bottom: 200px;
    }
-
+   #snow-container img {
+     display: none;
+     animation: none;
+   }
  }
 /* For Mobile Landscape View */
 /* @media screen and (max-device-width: 640px)
