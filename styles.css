@@ -865,7 +865,6 @@ and (orientation: portrait) {
    }
    main {
     display: block;
-    margin-top: 10vh;
     padding-bottom: 200px;
    }
    #snow-container img {
