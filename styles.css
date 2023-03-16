@@ -269,7 +269,7 @@ body {
 }
 
 /*Chrome*/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-max-device-pixel-ratio:0) {
   input[type='range'] {
     overflow: hidden;
     width: 100px;
