@@ -223,9 +223,7 @@ body {
   text-decoration: none;
 }
 
-.lyrics-lud {
-  color: var(--font-color-blue);
-}
+
 
 
 
@@ -1241,7 +1239,7 @@ html {
   position: relative;
   z-index: 0;
   margin-left: 5%;
-  animation: snowfall 15s linear 5s;
+  animation: snowfall 15s linear 2s;
 }
 
 .snow-2{
@@ -1315,7 +1313,7 @@ html {
   position: relative;
   z-index: 0;
   margin-left: 5%;
-  animation: snowfall-2 15s linear 10s;
+  animation: snowfall-2 15s linear 6s;
 }
 .snow-12{
   opacity: 0;
@@ -1346,6 +1344,13 @@ html {
   font-size: 24px;
   padding-bottom: 300px;
 
+}
+.lyrics-main a {
+  font-weight: 500;
+  color: #A81817;
+}
+.lyrics-main a:hover{
+  color: var(--bg-color-menu);
 }
 
 .lyric-video {
