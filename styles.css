@@ -1167,3 +1167,138 @@ html {
   width: 100vw;
   box-sizing: border-box;
 }
+
+@keyframes snowfall {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    top: 110vh;
+    transform: rotate(130deg)
+  }
+}
+@keyframes snowfall-2 {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    top: 110vh;
+    transform: rotate(130deg)
+  }
+}
+@keyframes snowfall-3 {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    top: 110vh;
+    transform: rotate(130deg)
+  }
+}
+#snow-container {
+  position: absolute;
+  top: -50px;
+}
+.snow-1 {
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 5s;
+}
+
+.snow-2{
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 43.5s infinite;
+}
+.snow-3{
+  opacity: 0;
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 50s;
+}
+.snow-4 {
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 25s;
+}
+
+.snow-5{
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 36.7s infinite;
+}
+.snow-6{
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 45s;
+}
+.snow-7 {
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 35s;
+}
+
+.snow-8{
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 56.8s infinite;
+}
+.snow-9{
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 15s;
+}
+.snow-10 {
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 30s;
+}
+
+.snow-11{
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 10s;
+}
+.snow-12{
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 22.43s infinite;
+}
