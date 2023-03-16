@@ -53,11 +53,11 @@ main .list .item:hover {
 main {
   display: flex;
   flex-direction: row;
-  min-height: 90vh;
   width: 90vw;
   justify-content: space-around;
   align-items: center;
   margin-left: 0;
+  padding-top: 5%;
 }
 main section {
   display: flex;

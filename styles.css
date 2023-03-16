@@ -234,7 +234,8 @@ body {
 }
 
 .lud-socials {
-  color: var(--ludsocials-color-blue);
+  width: 100%;
+  padding-left: 5%;
 }
 
 .songs i {
@@ -428,6 +429,14 @@ background-color: #f49cbb;
   max-width: 30vw;
   align-self: center;
   border-radius: 5px;
+}
+button:hover{
+  transform: translate(2px, 3px);
+  transition-duration: 0.5s;
+}
+.button:hover{
+  transform: translate(2px, 3px);
+  transition-duration: 0.5s;
 }
 
 .button a {
