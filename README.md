@@ -191,3 +191,10 @@ _Credits include the following_:
 - Mogul Christmas Team
 - Project Contributors
 - Singers whose songs are in the You May Like directory.
+
+# Contributors
+Thanks to all our contributors for their active support and participation!
+
+<a href = "https://github.com/KendallDoesCoding/mogul-christmas">
+  <img src = "https://contrib.rocks/image?repo=KendallDoesCoding/mogul-christmas"/>
+</a>
