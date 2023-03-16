@@ -23,15 +23,8 @@ h3{
   visibility: hidden;
   border-radius: 10px;
 }
-form{
-  margin: auto;
-  width: 70%;
-  text-align: center;
-}
-label{
-  font-family: 'Poppins', sans-serif
-  
-}
+
+
 .select{
   height:50px;
   text-align: center;
@@ -42,11 +35,13 @@ label{
   background-color: white;
 }
 .rating{
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   color: purple;
   background-color: black;
 
 }
+
 .btn{
   margin-top: 1rem;
   height: 50px;
@@ -66,4 +61,18 @@ label{
   color: rgb(0, 0, 0);
   transform: scale(1.1);
 }
-    /* for large screens */
+@media screen and (max-width: 763px){
+  body {
+    width: 90vw;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  main section {
+    width: 90vw;
+    height: fit-content;
+  }
+  #select-song {
+    width: 200px;
+    margin-left: -15%;
+  }
+}

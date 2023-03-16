@@ -83,10 +83,11 @@ body {
   font-family: 'Nunito';
   font-weight: 200;
   width: 100vw;
-  height: 100vh;
-  min-height: fit-content;
+  min-height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
+  gap: 10%;
 }
 
 /* Headings, etc */
@@ -269,7 +270,7 @@ body {
 }
 
 /*Chrome*/
-@media screen and (-webkit-max-device-pixel-ratio:0) {
+/* @media screen and (-webkit-max-device-pixel-ratio:0) {
   input[type='range'] {
     overflow: hidden;
     width: 100px;
@@ -294,7 +295,7 @@ body {
     box-shadow: -80px 0 0 80px #A81817;
   }
 
-}
+} */
 /** FF*/
 input[type="range"]::-moz-range-progress {
 background-color: #f26a8d; 
@@ -822,7 +823,7 @@ a:active {
 }
 
 
-/* For Mobile Portrait View */
+/* For Mobile Portrait View
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
 
@@ -854,7 +855,7 @@ and (orientation: portrait) {
 
 
 
-}
+} */
  @media screen and (max-width: 763px){
    #img-section {
      display: none;
@@ -865,11 +866,14 @@ and (orientation: portrait) {
      justify-self: center;
    }
    main {
-     display: block;
+    display: block;
+    margin-top: 10vh;
+    padding-bottom: 200px;
    }
+
  }
 /* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
+/* @media screen and (max-device-width: 640px)
 and (orientation: landscape) {
 
   
@@ -900,9 +904,9 @@ and (orientation: landscape) {
 }
 
 
-}
+} */
  
-/* For Mobile Phones Portrait or Landscape View */
+/* For Mobile Phones Portrait or Landscape View
 @media screen and (max-device-width: 640px) {
  
 
@@ -934,22 +938,22 @@ and (orientation: landscape) {
 
 
 
-}
+} */
  
 /* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px)
+/* @media screen and (min-device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
 
-}
-@media (max-width: 628px){
+} */
+/* @media (max-width: 628px){
   #home-page-img {
     display: none;
   }
-}
+} */
  
 /* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px)
+/* @media (device-height: 568px) and (device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
   
@@ -979,7 +983,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 
 
-}
+} */
 header {
   width: 100vw;
   display: flex;
@@ -1000,14 +1004,16 @@ header {
   font-weight: 800;
   text-align: center;
 }
+
 main {
   display: flex;
   justify-content: space-around;
   width: 100vw;
+  gap: 10vh;
   padding: 0;
   align-items: center;
-  height: 90vh;
-  min-height: fit-content;
+  min-height: 90vh;
+  height: fit-content;
 }
 main section {
   height: 83%;
@@ -1094,7 +1100,7 @@ main section {
 }
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px)
+/* @media (min-device-height: 667px) and (min-device-width: 375px)
 and (-webkit-min-device-pixel-ratio: 3) {
 
   
@@ -1123,7 +1129,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 .others{
   display: none;
 }
-}
+} */
 #christmasDayCountdown
 {
   color: var(--bg-color-menu);
@@ -1153,4 +1159,11 @@ a:hover {
 
 #rating-section button {
   background: #A81817;
+}
+html {
+  padding-bottom: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100vw;
+  box-sizing: border-box;
 }

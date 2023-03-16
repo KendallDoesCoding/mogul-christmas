@@ -1,25 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+#grid-container {
+  max-width: 90vw;
 }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  max-width: 100%;
-}
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -29,13 +13,40 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
+@media screen and (max-width: 763px){
+  #photo-gallery-h1 {
+    font-size: 18px;
+  }
+  #grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    gap: 50px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #grid-container img {
+    width: 90vw;
+  }
+  span {
+    display: none;
+  }
+
+}
+@media screen and (min-width: 763px){
+  #grid-container {
+    width: 90vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5%;
+    margin-top: 5%;
+  }
+
+}
 
 
 
@@ -54,15 +65,7 @@ h2 a {
 a:hover {
   color: orange;
 }
-#grid-container {
-  width: 90vw;
-  height: fit-content;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 5%;
-  margin-top: 5%;
-}
+
 #grid-container img {
   width: 250px;
   height: auto;
