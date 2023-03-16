@@ -1347,3 +1347,9 @@ html {
   padding-bottom: 300px;
 
 }
+
+.lyric-video {
+  max-width: 500px;
+  min-height: 400px;
+  align-self: center;
+}
