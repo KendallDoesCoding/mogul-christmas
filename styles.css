@@ -1219,9 +1219,23 @@ html {
     transform: rotate(130deg)
   }
 }
+@keyframes snowfall-pic {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    transform: scale(2);
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 0;
+    transform: scale(1);
+  }
+}
 #snow-container {
   position: absolute;
-  top: -50px;
+  top: -200px;
+  width: 80vw;
 }
 .snow-1 {
   opacity: 0;
@@ -1246,6 +1260,7 @@ html {
   animation: snowfall-3 15s linear 50s;
 }
 .snow-4 {
+  opacity: 0;
   position: relative;
   z-index: 0;
   margin-left: 5%;
@@ -1253,18 +1268,21 @@ html {
 }
 
 .snow-5{
+  opacity: 0;
   position: relative;
   z-index: 0;
   margin-left: 5%;
   animation: snowfall-2 15s linear 36.7s infinite;
 }
 .snow-6{
+  opacity: 0;
   position: relative;
   margin-left: 5%;
   z-index: 0;
   animation: snowfall-3 15s linear 45s;
 }
 .snow-7 {
+  opacity: 0;
   position: relative;
   z-index: 0;
   margin-left: 5%;
@@ -1272,18 +1290,21 @@ html {
 }
 
 .snow-8{
+  opacity: 0;
   position: relative;
   z-index: 0;
   margin-left: 5%;
   animation: snowfall-2 15s linear 56.8s infinite;
 }
 .snow-9{
+  opacity: 0;
   position: relative;
   margin-left: 5%;
   z-index: 0;
   animation: snowfall-3 15s linear 15s;
 }
 .snow-10 {
+  opacity: 0;
   position: relative;
   z-index: 0;
   margin-left: 5%;
@@ -1291,14 +1312,27 @@ html {
 }
 
 .snow-11{
+  opacity: 0;
   position: relative;
   z-index: 0;
   margin-left: 5%;
   animation: snowfall-2 15s linear 10s;
 }
 .snow-12{
+  opacity: 0;
   position: relative;
   margin-left: 5%;
   z-index: 0;
   animation: snowfall-3 15s linear 22.43s infinite;
+}
+
+.snow-pic{
+  opacity: 0;
+  position: absolute;
+  top: 55vh;
+  left: 30vw;
+  z-index: 0;
+  width: 100px;
+  height: 100px;
+  animation: snowfall-pic 10s linear 95.732s infinite;
 }
