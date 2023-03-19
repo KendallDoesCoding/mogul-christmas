@@ -20,13 +20,6 @@ body {
   /* Internet Explorer/Edge */
 }
 
-h1 {
-  font-family: "Menlo", monospace;
-  font-size: 22px;
-  font-weight: 400;
-  margin: 0;
-  color: #2f5876;
-}
 
 a:link,
 a:visited {

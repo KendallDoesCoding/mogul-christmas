@@ -4,9 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
 
 :root {
-  --bg-color: white;
+  --bg-color: #F8F6EE;
+  --bg-color-menu: hsla(206, 8%, 17%, 0.7);
   --font-color-red: red;
   --font-color-blue: blue;
   --you-may-like-songs-color: blue;
@@ -19,17 +22,17 @@
   --lyrics-text-color: red;
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
-  --grey: black;
-  font-family: "Roboto", sans-serif;
+  --grey: hsla(45, 43%, 95%, 1);
+  font-family: "Nunito";
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  --bg-image: url("/images/light-bg.png");
 }
 
 .darkMode {
-  --bg-color: white;
+  --bg-color: #272B2E;
+  --bg-color-menu: hsla(45, 43%, 95%, 0.7);
   --font-color-red: red;
   --font-color-blue: blue;
   --you-may-like-songs-color: red;
@@ -42,8 +45,16 @@
   --lyrics-text-color: red;
   --yml-btn: #1abc9c;
   --rate-song-btn: #9400d3;
-  --grey: black;
-  --bg-image: url("/images/dark-bg.png");
+  --grey: hsla(206, 8%, 17%, 1);
+}
+*{
+  box-sizing: border-box;
+}
+main #list{
+  color: var(--bg-color-menu)
+}
+html {
+  width: 100vw;
 }
 
 .hidden{
@@ -68,21 +79,18 @@ body {
   /* Internet Explorer/Edge */
   align-items: center;
   text-align: center;
-  background-repeat: no-repeat, no-repeat;
-  background-position: right bottom, left bottom;
   background-color: var(--bg-color);
-  background: var(--bg-image) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  font-family: 'Nunito';
+  font-weight: 200;
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
 }
 
 /* Headings, etc */
-
-.navB{
-  background-color: #fdd7d1c4;
-}
 
 .playlist-icons{
   display: flex;
@@ -90,18 +98,7 @@ body {
   gap: 18px;
 }
 
-.heading {
-  color: var(--font-color-red);
-  font-family: "Redressed", cursive;
-  text-align: center;
-  text-decoration: underline;
-}
 
-.DaysTillChristmas {
-  color: var(--font-color-red);
-  font-family: "Redressed", cursive;
-  text-align: center;
-}
 
 .container{
   display: flex;
@@ -117,25 +114,13 @@ body {
   flex-direction: column;
 }
 
-.nav--content{
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  width: -webkit-fill-available;
-  grid-template-columns: 0.5fr 0.5fr 1fr 0.9fr 0fr;
-  margin: 0;
-}
 
 .toggler{
   border: 1px solid black !important;
   visibility: hidden;
 }
 
-.ludsocials-heading {
-  color: var(--ludsocials-color-heading);
-  font-family: "Redressed", cursive;
-}
+
 
 .lyrics-heading {
   color: var(--font-color-heading);
@@ -152,10 +137,7 @@ body {
   background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
 
-.lud {
-  color: var(--font-color-heading2);
-  text-align: center;
-}
+
 
 #christmashyperlink {
   text-decoration: none;
@@ -180,6 +162,7 @@ body {
 
 #grey {
   color: var(--grey);
+
 }
 
 .christmas_day_message {
@@ -231,7 +214,6 @@ body {
   color: white;
   font-size: larger;
   width: -webkit-fill-available;
-  font-family: "Handlee", cursive;
   text-decoration: none;
   background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90% );
 }
@@ -241,26 +223,19 @@ body {
   text-decoration: none;
 }
 
-.lyrics-lud {
-  color: var(--font-color-blue);
-}
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: underline;
-  color: inherit;
-}
+
+
 
 .songs {
-  color: var(--font-color-blue);
+  color: var(--bg-color-menu);
   cursor: pointer;
   text-align: center;
 }
 
 .lud-socials {
-  color: var(--ludsocials-color-blue);
+  width: 100%;
+  padding-left: 5%;
 }
 
 .songs i {
@@ -280,33 +255,33 @@ a:active {
 }
 
 .icon-btn{
-  color:#f49cbb;
+  color: var(--bg-color-menu);
   cursor: pointer;
 }
 :hover.icon-btn{
-  text-shadow: 0px 0px 3px blue;
+  text-shadow: 0px 0px 3px #A81817;
 }
 .icon-btn.active{
-  color: #f26a8d;
+  color: #A81817;
 }
 .audio-controls>.icon-btn{
   margin: 0 0.5rem;
 }
 
 /*Chrome*/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* @media screen and (-webkit-max-device-pixel-ratio:0) {
   input[type='range'] {
     overflow: hidden;
     width: 100px;
     -webkit-appearance: none;
-    background-color: #f49cbb;
+    background-color: var(--bg-color-menu);
     margin-left: 0.5rem;
   }
   
   input[type='range']::-webkit-slider-runnable-track {
     height: 10px;
     -webkit-appearance: none;
-    color: #f26a8d;
+    color: #A81817;
     margin-top: -20px;
   }
   
@@ -315,11 +290,11 @@ a:active {
     -webkit-appearance: none;
     height: 80px;
     cursor: ew-resize;
-    background: #f63464;
-    box-shadow: -80px 0 0 80px #f26a8d;
+    background: #A81817;
+    box-shadow: -80px 0 0 80px #A81817;
   }
 
-}
+} */
 /** FF*/
 input[type="range"]::-moz-range-progress {
 background-color: #f26a8d; 
@@ -337,11 +312,6 @@ background-color: #f49cbb;
 
 .random {
   /* This button is for the YML directory NOT the main page */
-  background-image: radial-gradient(
-    circle farthest-corner at 92.3% 71.5%,
-    rgba(83, 138, 214, 1) 0%,
-    rgba(134, 231, 214, 1) 90%
-  );
   color: white;
   outline: none;
   border: none;
@@ -364,7 +334,6 @@ background-color: #f49cbb;
   color: white;
   outline: none;
   border: none;
-  font-family: "Handlee", cursive;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -423,7 +392,6 @@ background-color: #f49cbb;
   color: white;
   outline: none;
   border: none;
-  font-family: "Handlee", cursive;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -433,18 +401,9 @@ background-color: #f49cbb;
 }
 
 .report {
-  background-color: #ff9a8b;
-  background-image: linear-gradient(
-    90deg,
-    #ff9a8b 0%,
-    #ff6a88 55%,
-    #ff99ac 100%
-  );
-
   color: white;
   outline: none;
   border: none;
-  font-family: "Handlee", cursive;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -454,11 +413,6 @@ background-color: #f49cbb;
 }
 
 .button {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(14, 174, 87, 1) 0%,
-    rgba(12, 116, 117, 1) 90%
-  );
   /* Used in main page */
   border: none;
   color: white;
@@ -469,7 +423,24 @@ background-color: #f49cbb;
   justify-content: space-between;
   font-size: 16px;
   margin-bottom: 10px;
-  font-family: "Handlee", cursive;
+  font-family: "Nunito";
+  background: #496C42;
+  min-width: fit-content;
+  max-width: 30vw;
+  align-self: center;
+  border-radius: 5px;
+}
+button:hover{
+  transform: translate(2px, 3px);
+  transition-duration: 0.5s;
+}
+.button:hover{
+  transform: translate(2px, 3px);
+  transition-duration: 0.5s;
+}
+
+.button a {
+  text-decoration: none;
 }
 
 .button1 {
@@ -619,28 +590,21 @@ background-color: #f49cbb;
   font-weight: bold;
 }
 
-
-
-.credits-button {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(255, 209, 67, 1) 0%,
-    rgba(255, 145, 83, 1) 90%
-  );
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+.lud-socials p a{
+  color: var(--bg-color-menu);
+  font-size: 24px;
+  font-weight: 500;
   text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-family: "Handlee", cursive;
 }
 
+
 .lyrics {
-  color: var(--lyrics-text-color);
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.lyrics .songs p:hover {
+  color: #A81817;
 }
 
 #embed {
@@ -695,15 +659,8 @@ background-color: #f49cbb;
 }
 
 
-#header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 #switch {
-  position: absolute;
   right: -3.5rem;
 }
 
@@ -725,19 +682,10 @@ background-color: #f49cbb;
 /* The slider */
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: gray;
+
+  background-color: var(--bg-color-menu);
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background-image: url("./images/light.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .slider:before {
@@ -747,17 +695,17 @@ background-color: #f49cbb;
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--bg-color);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: var(--bg-color-menu);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px var(--bg-color-menu);
 }
 
 input:checked + .slider:before {
@@ -791,13 +739,6 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
-.songs a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
 
 .songs1 a,
 a:hover,
@@ -862,113 +803,35 @@ a:active {
 }
 
 .random-song {
-  color: #ffa500;
+  color: black;
 }
 #random-button {
-  color: black;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  background: #496C42;
+  font-family: "Nunito";
 }
 
 #suggest-button {
-  color: black;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  background: #496C42;
+  font-family: "Nunito";
 }
 
 #report-button {
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  background: #496C42;
+  font-family: "Nunito";
 }
 
 #report {
-  color: red;
+  color:#A81817;
 }
 
-/* media queries */
-@media screen and (min-width: 1024px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #header1{
-    display: none;
-  }
-}
- 
-/* For Tablet View */
-@media screen and (min-device-width: 768px)
-and (max-device-width: 1024px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
 
-  #header1{
-    display: none;
-  }
-}
-
-@media screen and (max-device-width: 768px)
-and (max-device-width: 1024px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #lyrics-btn{
-    display: none;
-  }
-
-  #yml{
-    display: none;
-  }
-
-  .nav--content {
-    display: grid;
-    grid-template-columns: 0.5fr 7fr 0fr 0.9fr 0fr;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 0;
-    width: -webkit-fill-available;
-}
-
-.nav--content:link {
-  text-decoration: none;
-}
-
-.nav--content:visited {
-  text-decoration: none;
-}
-
-.nav--content:hover {
-  text-decoration: underline;
-}
-
-.nav--content:active {
-  text-decoration: underline;
-}
-
-.toggler{
-  visibility:visible;
-}
-
-.others{
-  display: none;
-}
-
-#switch{
-  display: none;
-  visibility: hidden;
-}
-}
- 
-/* For Mobile Portrait View */
+/* For Mobile Portrait View
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -995,19 +858,31 @@ and (orientation: portrait) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
-}
- 
+
+
+} */
+ @media screen and (max-width: 763px){
+   #img-section {
+     display: none;
+   }
+   #song-section {
+     width: 90vw;
+     align-self: center;
+     justify-self: center;
+   }
+   main {
+    display: block;
+    padding-bottom: 200px;
+   }
+   #snow-container img {
+     display: none;
+     animation: none;
+   }
+ }
 /* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
+/* @media screen and (max-device-width: 640px)
 and (orientation: landscape) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -1035,18 +910,12 @@ and (orientation: landscape) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
-}
+
+} */
  
-/* For Mobile Phones Portrait or Landscape View */
+/* For Mobile Phones Portrait or Landscape View
 @media screen and (max-device-width: 640px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+ 
 
   #lyrics-btn{
     display: none;
@@ -1074,30 +943,26 @@ and (orientation: landscape) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
 
-}
+
+} */
  
 /* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px)
+/* @media screen and (min-device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
 
-}
+
+} */
+/* @media (max-width: 628px){
+  #home-page-img {
+    display: none;
+  }
+} */
  
 /* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px)
+/* @media (device-height: 568px) and (device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -1123,20 +988,130 @@ and (-webkit-min-device-pixel-ratio: 2) {
   display: none;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
+
+
+} */
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  min-height: 20vh;
+  height: fit-content;
+}
+.h1 {
+  font-family: 'Life Savers';
+  color: var(--bg-color-menu);
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#h1 {
+  font-family: 'Life Savers';
+  color: var(--bg-color-menu);
+  font-weight: 800;
+  text-align: center;
 }
 
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  gap: 10vh;
+  padding: 0;
+  height: fit-content;
+}
+main section {
+  height: 83%;
+  width: 45vw;
+}
+
+#song-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: fit-content;
+  text-align: center;
+}
+#home-page-img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+#song-section p {
+  font-size: 20px;
+}
+
+@keyframes appear {
+  from {
+    left: -25vw;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes desappear {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: -25vw;
+    opacity: 0;
+  }
+}
+#menu-display {
+  display: none;
+  bottom: 0;
+  left: 0;
+  height: 90vh;
+  width: 25vw;
+  min-width: fit-content;
+  background: var(--bg-color-menu);
+  position: absolute;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1.5% 1%;
+  animation-duration: 1s;
+}
+
+
+
+#menu-display a{
+  text-decoration: none;
+  color: var(--bg-color);
+}
+#menu svg {
+  max-height: 50px;
+}
+#menu-display a:hover{
+  text-decoration: none;
+  color: #A81817;
+}
+#closed-menu-icon {
+  display: block;
+}
+#open-menu-icon {
+  display: none;
+}
+.lud {
+  color: var(--bg-color);
+  font-size: 14px;
 }
  
 /* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px)
+/* @media (min-device-height: 667px) and (min-device-width: 375px)
 and (-webkit-min-device-pixel-ratio: 3) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+
   
   #lyrics-btn{
     display: none;
@@ -1159,17 +1134,244 @@ and (-webkit-min-device-pixel-ratio: 3) {
   visibility:visible;
 }
 
-#switch{
-  display: none;
-  visibility: hidden;
-}
 
 .others{
   display: none;
 }
-}
-.heading#christmasDayCountdown
+} */
+#christmasDayCountdown
 {
-  padding:10px;
-  background: rgba(255, 0, 0, 0.05);
+  color: #A81817;
+  font-family: 'Nunito';
+  font-weight: 500;
+  background: none;
+}
+
+header a svg:hover {
+  transform: translateX(-10px);
+  transition: 1s;
+} 
+
+a {
+  transition-duration: 1s;
+  text-decoration: none;
+  color: var(--bg-color-menu);
+}
+a:hover {
+  color: #A81817;
+}
+
+#rating-section {
+  color: var(--bg-color-menu);
+}
+
+
+#rating-section button {
+  background: #A81817;
+}
+html {
+  padding-bottom: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+@keyframes snowfall {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    top: 110vh;
+    transform: rotate(130deg)
+  }
+}
+@keyframes snowfall-2 {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    top: 110vh;
+    transform: rotate(130deg)
+  }
+}
+@keyframes snowfall-3 {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    top: 110vh;
+    transform: rotate(130deg)
+  }
+}
+@keyframes snowfall-pic {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    transform: scale(2);
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+#snow-container {
+  position: absolute;
+  top: -200px;
+  width: 80vw;
+}
+.snow-1 {
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 2s;
+}
+
+.snow-2{
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 43.5s infinite;
+}
+.snow-3{
+  opacity: 0;
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 50s;
+}
+.snow-4 {
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 25s;
+}
+
+.snow-5{
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 36.7s infinite;
+}
+.snow-6{
+  opacity: 0;
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 45s;
+}
+.snow-7 {
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 35s;
+}
+
+.snow-8{
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 56.8s infinite;
+}
+.snow-9{
+  opacity: 0;
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 15s;
+}
+.snow-10 {
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall 15s linear 30s;
+}
+
+.snow-11{
+  opacity: 0;
+  position: relative;
+  z-index: 0;
+  margin-left: 5%;
+  animation: snowfall-2 15s linear 6s;
+}
+.snow-12{
+  opacity: 0;
+  position: relative;
+  margin-left: 5%;
+  z-index: 0;
+  animation: snowfall-3 15s linear 22.43s infinite;
+}
+
+.snow-pic{
+  opacity: 0;
+  position: absolute;
+  top: 55vh;
+  left: 30vw;
+  z-index: 0;
+  width: 100px;
+  height: 100px;
+  animation: snowfall-pic 10s linear 95.732s infinite;
+}
+
+.lyrics-main {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 90vw;
+  color: var(--bg-color-menu);
+  font-family: "Nunito";
+  font-size: 24px;
+  padding-bottom: 300px;
+
+}
+.lyrics-main a {
+  font-weight: 500;
+  color: #A81817;
+}
+.lyrics-main a:hover{
+  color: var(--bg-color-menu);
+}
+
+.lyric-video {
+  max-width: 500px;
+  min-height: 400px;
+  align-self: center;
+}
+
+.switch-input {
+  height: 0px;
+  width: 0px;
 }

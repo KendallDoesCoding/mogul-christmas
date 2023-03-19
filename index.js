@@ -31,9 +31,8 @@ const songs = {
 };
 const songsDOM = document.querySelector(".songs");
 const embed = document.getElementById("embed");
-const newTabGithub = document.querySelector(".social");
+const newTabGithub = document.getElementById('grey');
 const toggle = document.getElementById("round");
-const toggle1 = document.getElementById("round1");
 const slider = document.querySelector(".slider");
 const audioControls = document.querySelector(".audio-controls");
 const loader = document.querySelector("#loader");
@@ -48,13 +47,14 @@ const canvasHead = document.getElementById("canvasHead");
 const navB = document.getElementById("navB");
 const switchh = document.getElementById("switch");
 let christmasCountdown = document.getElementById("christmasDayCountdown");
+const body = document.getElementById("body")
 let player;
 let currSong;
 let songList = [];
 let playedNext = true;
 let intervalId;
 toggle.addEventListener("click", modeSwitch);
-toggle1.addEventListener("click", modeSwitch);
+// toggle1.addEventListener("click", modeSwitch);
 
 // Darkmode/Lightmode + Making songs play when clicked
 let isLight = localStorage.getItem("darkmode") === "false";
@@ -69,26 +69,37 @@ newTabGithub.addEventListener("click", () => {
   );
 });
 
+document.getElementById('closed-menu-icon').addEventListener('click', displayMenu)
+document.getElementById('open-menu-icon').addEventListener('click', closeMenu)
+
 const updateMode = () => {
   const rootElement = document.body;
-  if (isLight) {
-    slider.style.backgroundImage = "url('./images/light.png')";
-    toggle1.style.backgroundImage = "url('./images/light.png')";
-    canvasBody.style.backgroundColor = "#fdd7d1";
-    canvasHead.style.backgroundColor = "#fdd7d1";
-    navB.style.backgroundColor = "#fdd7d1c4";
+  if (!isLight) {
+    canvasBody.style.backgroundColor = "#F8F6EE";
+    canvasHead.style.backgroundColor = "#F8F6EE";
+    body.style.backgroundColor = "#F8F6EE";
+    // navB.style.backgroundColor = "#F8F6EE";
+    document.getElementById('line-1').style.stroke = "#272B2E";
+    document.getElementById('line-2').style.stroke = "#272B2E";
+    document.getElementById('line-3').style.stroke = "#272B2E";
+    document.getElementById('line-4').style.stroke = "#272B2E";
+    document.getElementById('line-5').style.stroke = "#272B2E";
     rootElement.classList.remove("darkMode");
   } else {
-    slider.style.backgroundImage = "url('./images/dark.png')";
-    toggle1.style.backgroundImage = "url('./images/dark.png')";
-    canvasBody.style.backgroundColor = "#dadada";
-    canvasHead.style.backgroundColor = "#dadada";
-    navB.style.backgroundColor = "#e1e1e1c4";
+    canvasBody.style.backgroundColor = "#272B2E";
+    canvasHead.style.backgroundColor = "#272B2E";
+    body.style.backgroundColor = "#272B2E";
+    // navB.style.backgroundColor = "#272B2E";
+    document.getElementById('line-1').style.stroke = "#F8F6EE";
+    document.getElementById('line-2').style.stroke = "#F8F6EE";
+    document.getElementById('line-3').style.stroke = "#F8F6EE";
+    document.getElementById('line-4').style.stroke = "#F8F6EE";
+    document.getElementById('line-5').style.stroke = "#F8F6EE";
     rootElement.classList.add("darkMode");
-    christmasCountdown.style.background = "rgba(235, 235, 235, 0.05)";
   }
  
 };
+window.addEventListener("load", updateMode)
 
 function modeSwitch() {
   isLight = !isLight;
@@ -306,4 +317,18 @@ function clearTimeLeft() {
   for (let i = 0; i < a.length; i++) {
     a[i].classList.remove("active");
   }
+}
+
+function displayMenu(){
+  document.getElementById('menu-display').style.display = 'flex'
+  document.getElementById('menu-display').style.animationName = 'appear'
+  document.getElementById('closed-menu-icon').style.display = 'none'
+  document.getElementById('open-menu-icon').style.display = 'block'
+}
+function closeMenu(){
+  document.getElementById('menu-display').style.animationName = 'desappear'
+  document.getElementById('closed-menu-icon').style.display = 'block'
+  document.getElementById('open-menu-icon').style.display = 'none'
+  const displayToNone = () => document.getElementById('menu-display').style.display = 'none'
+  setTimeout(displayToNone, 1000)
 }

@@ -1,8 +1,10 @@
-html,
-body {
-  background: url(/images/linktree-bg.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#official-btn {
+    color: white;
 }
+
+@media screen and (max-width: 763px){
+    .h1 {
+      font-size: 20px;
+    }
+  
+  }

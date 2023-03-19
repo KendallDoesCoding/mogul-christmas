@@ -6,9 +6,6 @@ let isLight = true;
 
 function modeSwitch() {
   isLight = !isLight;
-  isLight
-    ? (slider.style.backgroundImage = "url('../images/day.png')")
-    : (slider.style.backgroundImage = "url('../images/night.png')");
   const rootElement = document.body;
   rootElement.classList.toggle("darkMode");
 }
