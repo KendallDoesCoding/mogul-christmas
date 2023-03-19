@@ -1370,3 +1370,8 @@ html {
   min-height: 400px;
   align-self: center;
 }
+
+.switch-input {
+  height: 0px;
+  width: 0px;
+}
