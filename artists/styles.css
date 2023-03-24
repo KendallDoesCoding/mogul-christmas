@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
+
+#grid-container {
+  max-width: 90vw;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 763px){
+  #photo-gallery-h1 {
+    font-size: 18px;
+  }
+  #grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    gap: 50px;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+  }
+
+  #grid-container img {
+    min-width: 80vw;
+  }
+  span {
+    display: none;
+  }
+
+}
+@media screen and (min-width: 763px){
+  #grid-container {
+    width: 90vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5%;
+    margin-top: 5%;
+    margin-right: 3%;
+  }
+
+}
+
+h2 {
+  color: #A81817;
+  font-family: "Nunito";
+  margin-top: 5%;
+}
+h2 a {
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  color: orange;
+}
+
+#grid-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.flipper {
+    position: relative;
+   
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .flipper:hover {
+    transform: rotateY(180deg);
+  }
+
+  .front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
