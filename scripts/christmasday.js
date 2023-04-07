@@ -21,13 +21,13 @@ var x = setInterval(function() {
 
   // Find the distance between now and the count down date
   distance = countDownDate - now;
- 
-  // Time calculations for days, 
- days = Math.floor(distance / (1000 * 60 * 60 * 24));  
- 
+
+  // Time calculations for days,
+ days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
 
   // Display the result in the element with id="demo"
- 
+
   document.getElementById("christmasDayCountdown").innerHTML = days + " days left until Christmas " ;
 
   // If the count down is finished, write some text
@@ -41,7 +41,7 @@ var x = setInterval(function() {
 
 //     // One day Time in ms (milliseconds)
 //     var one_day = 1000 * 60 * 60 * 24;
-      
+
 //     const date = new Date();
 
 //     let day = date.getDate();
@@ -53,14 +53,14 @@ var x = setInterval(function() {
 
 //     // To set present_dates to two variables
 //     var present_date = new Date(date);
-      
+
 //     // 0-11 is Month in JavaScript
 //     var christmas_day = new Date(12-25-2022)
-      
+
 //     // To Calculate the result in milliseconds and then converting into days
 //     var Result = Math.round(christmas_day - present_date) / (one_day);
-      
+
 //     // To remove the decimals from the (Result) resulting days value
 //     var Final_Result = Result.toFixed(0);
-      
+
 // document.getElementById("christmasOVER").innerHTML = "Christmas was " + Final_Result + " days ago" ;

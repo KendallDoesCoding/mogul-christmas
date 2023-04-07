@@ -279,52 +279,72 @@ function toggleLoop() {
     loopButton.classList.add("active");
   }
 }
+
 function updateLoop() {
+  // Check the current state of the loop
   if (loopState === false) {
+    // If it's off, remove the 'active' class from the loop button
     loopButton.classList.remove("active");
   } else if (loopState === true) {
+    // If it's on, add the 'active' class to the loop button
     loopButton.classList.add("active");
   }
 }
 
+// Function to toggle the shuffle mode
 function toggleShuffle() {
-  shuffleState = !shuffleState;
-  localStorage.setItem("shuffle", shuffleState);
+  shuffleState = !shuffleState; // Toggle the shuffle state
+  localStorage.setItem("shuffle", shuffleState); // Save the state to local storage
+  // If shuffle mode is turned off, remove the active class from the shuffle button
   if (shuffleState === false) {
     shuffleButton.classList.remove("active");
+    // If shuffle mode is turned on, add the active class to the shuffle button and shuffle the songs list
   } else if (shuffleState === true) {
     shuffleButton.classList.add("active");
     shuffleSongsList();
   }
 }
+
+// Function to update the shuffle mode
 function updateShuffle() {
+  // If shuffle mode is turned off, remove the active class from the shuffle button
   if (shuffleState === false) {
     shuffleButton.classList.remove("active");
+
+    // If shuffle mode is turned on, add the active class to the shuffle button and shuffle the songs list
   } else if (shuffleState === true) {
     shuffleButton.classList.add("active");
     shuffleSongsList();
   }
 }
+
+// Function to update the volume
 function updateVolume() {
   let volumeState = parseInt(localStorage.getItem("volume") ?? 50);
+  // Set the volume of the player to the volume state
   player?.setVolume?.(volumeState);
+  // Set the value of the volume bar to the volume state
   volumeBar.value = volumeState;
 }
 
+// Function to clear the time left interval and remove the active class from the time left elements
 function clearTimeLeft() {
-  clearInterval(intervalId);
+  clearInterval(intervalId); // Clear the interval
   const a = document.getElementsByClassName("time-left");
   for (let i = 0; i < a.length; i++) {
-    a[i].classList.remove("active");
+    a[i].classList.remove("active"); // Remove the active class from each element
   }
 }
 
+// Function to display the menu
 function displayMenu(){
   document.getElementById('menu-display').style.display = 'flex'
   document.getElementById('menu-display').style.animationName = 'appear'
   document.getElementById('closed-menu-icon').style.display = 'none'
   document.getElementById('open-menu-icon').style.display = 'block'
 }
+
+// Function to close the menu
 function closeMenu(){
   document.getElementById('menu-display').style.animationName = 'desappear'
   document.getElementById('closed-menu-icon').style.display = 'block'
