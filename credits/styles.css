@@ -66,3 +66,13 @@ h2 {
   font-family: "Beau Rivage", cursive;
   font-size: 9mm;
 }
+
+#contributions {
+  display: none;
+}
+
+#show_contribution_but {
+  border: none;
+  color: white;
+  background-color: aqua;
+}
