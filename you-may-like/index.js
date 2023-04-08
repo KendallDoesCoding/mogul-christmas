@@ -92,45 +92,67 @@ const list_items = [
   },
 ];
 
+// Select the HTML element with the ID "list" and store it in the variable "list_element"
 const list_element = document.getElementById("list");
+
+// Select the HTML element with the ID "pagination" and store it in the variable "pagination_element"
 const pagination_element = document.getElementById("pagination");
 
+// Declare a variable "current_page" and set its initial value to 1
 let current_page = 1;
 let rows = 5;
 
+// Define a function called "DisplayList" that takes in an array of items, a wrapper element, the number of rows per page, and the current page number as parameters
 function DisplayList(items, wrapper, rows_per_page, page) {
+  // Clear the content of the wrapper element
   wrapper.innerHTML = "";
+
+  // Decrease the current page number by 1, since array indexes start at 0
   page--;
 
+  // Calculate the start and end indexes of the current page's items
   let start = rows_per_page * page;
   let end = start + rows_per_page;
+
+  // Create a new array containing only the items for the current page
   const paginatedItems = items.slice(start, end);
 
+  // Loop through each item in the paginatedItems array
   for (let i = 0; i < paginatedItems.length; i++) {
+    // Get the current item from the paginatedItems array
     const item = paginatedItems[i];
 
     let item_element = document.createElement("div");
     item_element.classList.add("item");
     item_element.innerText = item.title;
+
+    // Add a click event listener to the item element that opens the item's link in a new tab when clicked
     item_element.addEventListener("click", (e) => {
       window?.open(item?.link, "_blank");
     });
 
+    // Append the item element to the wrapper element
     wrapper.appendChild(item_element);
   }
 }
 
+// Define a function called "SetupPagination" that takes in an array of items, a wrapper element, and the number of rows per page as parameters
 function SetupPagination(items, wrapper, rows_per_page) {
   wrapper.innerHTML = "";
 
+  // Calculate the total number of pages needed to display all the items
   let page_count = Math.ceil(items.length / rows_per_page);
+
+  // Loop through each page and create a new button element for it
   for (let i = 1; i < page_count + 1; i++) {
     let btn = PaginationButton(i, items);
     wrapper.appendChild(btn);
   }
 }
 
+// Define a function called "PaginationButton" that takes in a page number and an array of items as parameters
 function PaginationButton(page, items) {
+  // Create a new button element with the page number as its text content
   let button = document.createElement("button");
   button.innerText = page;
 
@@ -146,6 +168,7 @@ function PaginationButton(page, items) {
     button.classList.add("active");
   });
 
+  // Return the created button element
   return button;
 }
 

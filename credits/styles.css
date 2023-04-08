@@ -1,30 +1,35 @@
 /* Fonts */
+/* Importing Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
 
+/* Set center alignment and text alignment for all HTML and body elements */
 html,
 body {
   align-items: center;
   text-align: center;
 }
 
-
+/* Set color of visited links to blue */
 a:visited {
   color: blue;
 }
 
+/* Set color to purple and font family to "Handlee" for all h3 elements */
 h3 {
   color: purple;
   font-family: "Handlee", cursive;
 }
 
+/* Set color to green for all h2 elements */
 h2 {
   color: green;
 }
 
+/* Set color to #1abc9c, center alignment, text alignment and font family to "Redressed" for elements with class "heading" */
 .heading {
   color: #1abc9c;
   align-items: center;
@@ -32,6 +37,7 @@ h2 {
   font-family: "Redressed", cursive;
 }
 
+/* Set color to red, center alignment, text alignment and font family to "Roboto" for elements with class "subtext" */
 .subtext {
   color: red;
   align-items: center;
@@ -39,28 +45,34 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+/* Set center alignment for elements with class "contributors" containing an embed element */
 .contributors embed {
   align-items: center;
 }
 
+/* Set font size to small for elements with class "techstudent10-work" */
 .techstudent10-work {
   font-size: small;
 }
 
+/* Set color to red and font family to "ZCOOL QingKe HuangYou" for elements with class "be-a-contributor" */
 .be-a-contributor {
   color: red;
   font-family: "ZCOOL QingKe HuangYou", cursive;
 }
 
+/* Set color to red and font family to "ZCOOL QingKe HuangYou" for elements with class "commits" */
 .commits {
   color: red;
   font-family: "ZCOOL QingKe HuangYou", cursive;
 }
 
+/* Set color to red for all links inside elements with class "commits" */
 .commits a {
   color: red;
 }
 
+/* Set color to purple, font family to "Beau Rivage" and font size to 9mm for elements with class "thank-you" */
 .thank-you {
   color: purple;
   font-family: "Beau Rivage", cursive;
