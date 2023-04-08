@@ -68,9 +68,9 @@ h2 {
 }
 .dropbtn {
   
-  padding: 16px;
+  border:2px;
   font-size: 16px;
-  border: none;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -112,6 +112,6 @@ h2 {
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 2px;
   margin-left: 10px;
 }
