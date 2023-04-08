@@ -207,6 +207,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "harisdev-netizen",
+      "name": "Haris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81189198?v=4",
+      "profile": "https://linkfree.io/harisdev-netizen",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
