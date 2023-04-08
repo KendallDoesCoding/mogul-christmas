@@ -1,3 +1,4 @@
+/* Defines the font family, size, and other general styles for the whole page */
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -20,7 +21,7 @@ body {
   /* Internet Explorer/Edge */
 }
 
-
+/* Defines styles for links */
 a:link,
 a:visited {
   color: #000000;
@@ -28,47 +29,56 @@ a:visited {
   text-decoration: none;
 }
 
+/* Defines styles for images */
 img {
   width: 30px;
   color: darksalmon;
 }
 
+/* Defines styles for modal header */
 .modal-header {
   align-items: center;
   border-bottom: 0.5px solid #dadada;
 }
 
+/* Defines styles for modal content */
 .modal-content {
   padding: 0 22px;
 }
 
+/* Defines styles for modal icons */
 .modal-icons {
   border-top: 0.5px solid #dadada;
   height: 50px;
   width: 100%;
 }
 
+/* Defines styles for the logo */
 .logo {
   padding: 16px;
 }
 
+/* Defines styles for the logo icon */
 .logo-icon {
   vertical-align: text-bottom;
   margin-right: 12px;
   width: 50%;
 }
 
+/* Defines styles for the version number */
 .version {
   color: #444;
   font-size: 18px;
 }
 
+/* Defines styles for the flex container */
 .flex-container {
   display: flex;
   justify-content: space-between;
   padding: 10px 22px;
 }
 
+/* Defines styles for the flex items */
 .flex {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
@@ -79,6 +89,7 @@ img {
   opacity: 0.4;
 }
 
+/* Defines styles for the flex item icons */
 .flex .fa {
   font-size: 40px;
   color: #2f5876;
