@@ -8,6 +8,7 @@
     <title>Report A Song</title>
   </head>
   <body>
+    <!-- The heading of the form -->
     <h1>
       Report a Song Violating Our
       <a
@@ -16,26 +17,42 @@
         >Requirements</a
       >
     </h1>
+
+    <!-- The information about why to report the song and what will happen after the report -->
     <h2 class="info">Even though our team tries to ensure that there are no songs in the You May Like page not following our requirements, incase we miss any song violating our requirements though, please report it as violating and we will take it down, after review, if required.</h2>
+
+    <!-- The form for reporting a song violation -->
     <form name="violation" method="POST" data-netlify="true">
+
+      <!-- Input field for the user's name -->
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
       </p>
+
+      <!-- Input field for the user's email -->
       <p>
         <label>Your Email: <input type="email" name="email" /></label>
       </p>
+
+      <!-- Input field for the name of the song that is being reported -->
       <p>
         <label
           >Song Violating Requirements <input type="text" name="song"
         /></label>
       </p>
+
+      <!-- Input field for the requirement that the song is violating -->
       <p>
         <label
           >Which requirement is it violating? <input type="text" name="violation">
       </p>
+
+      <!-- Input field for any additional information the user wants to provide -->
       <p>
         <label>Additional Info: <textarea name="message"></textarea></label>
       </p>
+
+      <!-- Button for submitting the form -->
       <p>
         <button type="submit">Send</button>
       </p>

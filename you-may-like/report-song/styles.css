@@ -1,39 +1,46 @@
 
 
+/* CSS code for styling the form */
 
-
+/* Style for the information header */
 .info {
   color: purple;
   text-align: center;
   font-size: 15px;
 }
 
+/* Style for the form */
 form {
   margin: 0 auto;
   width: 250px;
 }
 
+/* Style for the paragraphs inside the form */
 p {
   color: deeppink;
 }
 
+/* Style for the 'You May Like' link */
 .suggestions {
   color: deeppink;
   text-decoration: none;
 }
 
+/* Style for the 'You May Like' link container */
 .suggestions {
   width: 100%;
   text-align: center;
   padding-right: 50px;
 }
 
+/* Style for the 'Requirements' link */
 .requirements {
   padding-left: 5px;
   color: blue;
   text-decoration: underline;
 }
 
+/* Style for the 'Requirements' link */
 .requirements:hover {
   text-decoration: none;
   color: orange;
