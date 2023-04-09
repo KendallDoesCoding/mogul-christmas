@@ -79,7 +79,7 @@ h2 {
   display: inline-block;
 }
 
-.dropdown-content {
+#item,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -88,22 +88,20 @@ h2 {
   z-index: 1;
 }
 
-.dropdown-content a {
+#item13 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+#item,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13 a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  
-}
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
