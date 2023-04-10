@@ -1044,6 +1044,7 @@ main section {
 
 #menu {
   z-index: 11;
+  position: fixed;
 }
 
 #menu-display {
@@ -1054,7 +1055,7 @@ main section {
   width: 25vw;
   min-width: fit-content;
   background: var(--bg-color-menu);
-  position: absolute;
+  position: fixed;
   z-index: 10;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -1065,11 +1066,11 @@ main section {
   font-size: 20px;
   font-weight: 500;
   padding: 1.5% 1%;
-  transition: all 1s;
+  transition: left 1s, opacity 1s;
 }
 
 #menu-display a[href="/lyrics"] {
-  padding-top: 10vh;
+  margin-top: 10vh;
 }
 
 #menu-display a{
@@ -1089,7 +1090,7 @@ main section {
 }
 #open-menu-icon {
   display: none;
-  margin-top: -5px;
+  margin-top: -17.5px;
   cursor: pointer;
 }
 .lud {
