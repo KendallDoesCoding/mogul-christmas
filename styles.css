@@ -1042,31 +1042,15 @@ main section {
   font-size: 20px;
 }
 
-@keyframes appear {
-  from {
-    left: -25vw;
-    opacity: 0;
-  }
-  to {
-    left: 0;
-    opacity: 1;
-  }
+#menu {
+  z-index: 11;
 }
-@keyframes desappear {
-  from {
-    left: 0;
-    opacity: 1;
-  }
-  to {
-    left: -25vw;
-    opacity: 0;
-  }
-}
+
 #menu-display {
-  display: none;
+  display: flex;
   bottom: 0;
-  left: 0;
-  height: 90vh;
+  left: -25vw;
+  height: 100vh;
   width: 25vw;
   min-width: fit-content;
   background: var(--bg-color-menu);
@@ -1081,10 +1065,12 @@ main section {
   font-size: 20px;
   font-weight: 500;
   padding: 1.5% 1%;
-  animation-duration: 1s;
+  transition: all 1s;
 }
 
-
+#menu-display a[href="/lyrics"] {
+  padding-top: 10vh;
+}
 
 #menu-display a{
   text-decoration: none;
@@ -1099,9 +1085,12 @@ main section {
 }
 #closed-menu-icon {
   display: block;
+  cursor: pointer;
 }
 #open-menu-icon {
   display: none;
+  margin-top: -5px;
+  cursor: pointer;
 }
 .lud {
   color: var(--bg-color);

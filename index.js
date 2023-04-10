@@ -338,17 +338,16 @@ function clearTimeLeft() {
 
 // Function to display the menu
 function displayMenu(){
-  document.getElementById('menu-display').style.display = 'flex'
-  document.getElementById('menu-display').style.animationName = 'appear'
   document.getElementById('closed-menu-icon').style.display = 'none'
   document.getElementById('open-menu-icon').style.display = 'block'
+  document.getElementById('menu-display').style.opacity = '1'
+  document.getElementById('menu-display').style.left = '0'
 }
 
 // Function to close the menu
 function closeMenu(){
-  document.getElementById('menu-display').style.animationName = 'desappear'
   document.getElementById('closed-menu-icon').style.display = 'block'
   document.getElementById('open-menu-icon').style.display = 'none'
-  const displayToNone = () => document.getElementById('menu-display').style.display = 'none'
-  setTimeout(displayToNone, 1000)
+  document.getElementById('menu-display').style.opacity = '0'
+  document.getElementById('menu-display').style.left = '-25vw'
 }
