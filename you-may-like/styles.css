@@ -8,14 +8,14 @@ main .list .item:last-of-type {
 main .list .item:hover {
   background: rgba(0, 0, 0, 0.05);
 }
-
+/* page numbers list */
 .pagenumbers {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
+/* page numbers buttons*/
 .pagenumbers button {
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@ main .list .item:hover {
 #suggestions-message {
   color: #A81817;
 }
-
+/*songs and buttons*/
 main {
   display: flex;
   flex-direction: row;
@@ -88,7 +88,7 @@ main section {
   color: #A81817;
   font-family: "Nunito";
 }
-
+/* responsive */
 @media screen and (max-width: 763px){
   .h1 {
     font-size: 20px;
