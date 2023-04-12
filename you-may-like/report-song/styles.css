@@ -4,7 +4,8 @@
 
 /* Style for the information header */
 .info {
-  color: purple;
+  margin-inline: 5%;
+  color: rgb(99, 98, 98);
   text-align: center;
   font-size: 15px;
 }
@@ -12,7 +13,9 @@
 /* Style for the form */
 form {
   margin: 0 auto;
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 /* Style for the paragraphs inside the form */
@@ -35,13 +38,34 @@ p {
 
 /* Style for the 'Requirements' link */
 .requirements {
+  text-decoration: none;
   padding-left: 5px;
-  color: blue;
-  text-decoration: underline;
+  color: rgb(191, 40, 40);
 }
 
 /* Style for the 'Requirements' link */
 .requirements:hover {
   text-decoration: none;
-  color: orange;
+  color: rgb(191, 40, 40);
+}
+
+input{
+  margin-top: 1%;
+  padding: 0.5%;
+  width: 40%;
+}
+button {
+  background-color: green;
+  width: 13%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 5px;
+  color: aliceblue;
+  margin-inline: auto;
+  margin-top: 2%;
+}
+h1{
+  margin-inline: 5%;
+  text-align: center;
+  color: rgb(191, 40, 40);
 }
