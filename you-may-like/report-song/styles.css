@@ -38,9 +38,9 @@ p {
 
 /* Style for the 'Requirements' link */
 .requirements {
+  text-decoration: none;
   padding-left: 5px;
   color: rgb(191, 40, 40);
-  text-decoration: underline;
 }
 
 /* Style for the 'Requirements' link */
