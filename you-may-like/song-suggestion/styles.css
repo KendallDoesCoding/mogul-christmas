@@ -57,3 +57,20 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
+.requirements-heading{
+  color: rgb(167, 36, 36);
+  text-align: center;
+}
+.requirements-list{
+  margin-inline: 15%;
+  list-style-type:disc;
+  color: rgb(22, 22, 16);
+  display: block;
+  padding: 2%;
+}
+.requirements-list-items{
+  margin-top: 1%;
+  padding: 1%;
+  font-size: large;
+}
