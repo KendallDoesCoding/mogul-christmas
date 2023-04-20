@@ -225,6 +225,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Jayrajrodage",
+      "name": "Yuvraj Rodage",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106481127?v=4",
+      "profile": "https://portfolio-jayrajrodage.vercel.app/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "mogul-christmas",
