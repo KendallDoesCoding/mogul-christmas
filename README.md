@@ -110,7 +110,7 @@ For bringing the repository on your device you need to clone it.
 
 ### How to clone
 
-Go to your version of the repository, click on the "Code" button and choose one of three ways: HTTPS, ssh or GitHub Cli.
+Go to your version of the repository, click on the "Code" button and choose one of three ways: HTTPS, SSH or GitHub CLI.
 Copy the line beneath the method. 
 
 Open a terminal and navigate to where you want to place the repository.  
