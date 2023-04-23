@@ -125,7 +125,7 @@ You ***never*** work directly on the main branch (sometimes also called master).
 
 Change to the repository directory on your computer (if you are not already there):
 
-`cd food-up`
+`cd mogul-christmas`
 
 Now create a branch using the git checkout command:
 
