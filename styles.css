@@ -162,8 +162,9 @@ body {
 
 #grey {
   color: var(--grey);
-
+  cursor:pointer;
 }
+
 
 .christmas_day_message {
   display: none;
