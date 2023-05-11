@@ -46,7 +46,7 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9a61158-0ccb-489e-ba45-85eafcf4bc3b/deploy-status)](https://app.netlify.com/sites/mogulchristmas/deploys)
 
-<!---
+
 # Images From Website
 ## Landing Page
 <img src="images\screenshots\mogul-christmas-1.jpg" alt="MarineGEO circle logo"/>
@@ -62,7 +62,7 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 
 ## Recommended Songs
 <img src="images\screenshots\song-recommendations.jpg" alt="MarineGEO circle logo"/>
--->
+
 
 # Contributing Guidelines & Related Contributing Stuff
 
