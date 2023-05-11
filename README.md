@@ -49,22 +49,22 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 
 # Images From Website
 ## Landing Page
-<img src="images\screenshots\main-page.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/main-page.png" alt="MarineGEO circle logo"/>
 
 ## Landing Page (Dark Mode)
-<img src="images\screenshots\main-page-dark-mode.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/main-page-dark-mode.png" alt="MarineGEO circle logo"/>
 
 ## Photo Gallery
-<img src="images\screenshots\photo-gallery.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/photo-gallery.png" alt="MarineGEO circle logo"/>
 
 ## Songs With Lyrics
-<img src="images\screenshots\lyrics.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/lyrics.png" alt="MarineGEO circle logo"/>
 
 ## Recommended Songs
-<img src="images\screenshots\rate-song.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/rate-song.png" alt="MarineGEO circle logo"/>
 
 ## Ludwigs Social
-<img src="images\screenshots\ludwigs-scoial.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/ludwigs-scoial.png" alt="MarineGEO circle logo"/>
 
 # Contributing Guidelines & Related Contributing Stuff
 
