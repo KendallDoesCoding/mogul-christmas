@@ -61,7 +61,7 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 <img src="images/screenshots/lyrics.png" alt="Lyrics landing page/>
 
 ## Recommended Songs
-<img src="images/screenshots/rate-song.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/rate-song.png" alt="Rating page/>
 
 ## Ludwigs Social
 <img src="images/screenshots/ludwigs-scoial.png" alt="MarineGEO circle logo"/>
