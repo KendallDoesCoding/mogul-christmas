@@ -49,7 +49,7 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 
 # Images From Website
 ## Landing Page
-<img src="images/screenshots/main-page.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/main-page.png" alt="Landing Page"/>
 
 ## Landing Page (Dark Mode)
 <img src="images/screenshots/main-page-dark-mode.png" alt="MarineGEO circle logo"/>
