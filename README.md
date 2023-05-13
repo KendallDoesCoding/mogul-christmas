@@ -64,7 +64,7 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 <img src="images/screenshots/rate-song.png" alt="Rating page/>
 
 ## Ludwig's Socials
-<img src="images/screenshots/ludwigs-scoial.png" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/ludwigs-social.png" alt="Ludwig Socials"/>
 
 # Contributing Guidelines & Related Contributing Stuff
 
