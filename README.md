@@ -55,13 +55,13 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 <img src="images/screenshots/main-page-dark-mode.png" alt="Landing Page darkmode"/>
 
 ## Photo Gallery
-<img src="images/screenshots/photo-gallery.png" alt="Photo Gallery/>
+<img src="images/screenshots/photo-gallery.png" alt="Photo Gallery"/>
 
 ## Songs With Lyrics
-<img src="images/screenshots/lyrics.png" alt="Lyrics landing page/>
+<img src="images/screenshots/lyrics.png" alt="Lyrics landing page"/>
 
 ## Recommended Songs
-<img src="images/screenshots/rate-song.png" alt="Rating page/>
+<img src="images/screenshots/rate-song.png" alt="Rating page"/>
 
 ## Ludwig's Socials
 <img src="images/screenshots/ludwigs-social.png" alt="Ludwig Socials"/>
