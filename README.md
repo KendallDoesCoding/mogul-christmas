@@ -46,23 +46,25 @@ Below, you can see the progress of the GitHub deployment to the site. In case a 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9a61158-0ccb-489e-ba45-85eafcf4bc3b/deploy-status)](https://app.netlify.com/sites/mogulchristmas/deploys)
 
-<!---
+
 # Images From Website
 ## Landing Page
-<img src="images\screenshots\mogul-christmas-1.jpg" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/main-page.png" alt="Landing Page"/>
 
 ## Landing Page (Dark Mode)
-<img src="images\screenshots\mogul-christmas-dark-mode.jpg" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/main-page-dark-mode.png" alt="Landing Page darkmode"/>
 
 ## Photo Gallery
-<img src="images\screenshots\photo-gallery.jpg" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/photo-gallery.png" alt="Photo Gallery"/>
 
 ## Songs With Lyrics
-<img src="images\screenshots\video-with-lyrics.jpg" alt="MarineGEO circle logo"/>
+<img src="images/screenshots/lyrics.png" alt="Lyrics landing page"/>
 
 ## Recommended Songs
-<img src="images\screenshots\song-recommendations.jpg" alt="MarineGEO circle logo"/>
--->
+<img src="images/screenshots/rate-song.png" alt="Rating page"/>
+
+## Ludwig's Socials
+<img src="images/screenshots/ludwigs-social.png" alt="Ludwig Socials"/>
 
 # Contributing Guidelines & Related Contributing Stuff
 
