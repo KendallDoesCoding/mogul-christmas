@@ -1,71 +1,134 @@
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap");
 
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+
+header {
+	background-color: #496C42;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.artist-card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s;
+}
+
+.artist-card:hover {
+	transform: scale(1.05);
+}
+
+.artist-card img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.artist-name {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.artist-description {
+	font-size: 14px;
+	color: #666;
+}
+
 #grid-container {
-    max-width: 90vw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
-    gap: 20px; /* Adjust the gap between cards */
+	max-width: 90vw;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* Adjust the number of columns as needed */
+	gap: 20px;
+	/* Adjust the gap between cards */
 }
 
 .column {
-    flex: 1;
-    max-width: 30%;
+	flex: 1;
+	max-width: 30%;
 }
 
 .card {
-    position: relative;
-    cursor: pointer;
-    transition: transform 0.3s;
-    overflow: hidden;
-    border-radius: 10px;
+	position: relative;
+	cursor: pointer;
+	transition: transform 0.3s;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
 .card:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .card img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 
 .card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    transition: opacity 0.3s;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition: opacity 0.3s;
 }
 
 .card:hover::before {
-    opacity: 1;
+	opacity: 1;
 }
 
 .card-text {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    color: white;
-    font-size: 18px;
-    font-family: "Handlee", sans-serif;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+	color: white;
+	font-size: 18px;
+	font-family: "Handlee", sans-serif;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 h2 {
-    color: #A81817;
-    font-family: "Nunito", sans-serif;
-    margin-top: 5%;
+	color: #A81817;
+	font-family: "Nunito", sans-serif;
+	margin-top: 5%;
 }
 
 a:hover {
-    color: orange;
+	color: orange;
 }
