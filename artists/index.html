@@ -1,138 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artists - A Very Mogul Christmas!</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="/styles.css" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+        /* Global CSS styles go here */
+
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #496C42;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .artist-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .artist-card:hover {
+            transform: scale(1.05);
+        }
+
+        .artist-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .artist-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .artist-description {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <a href="../index.html">
-      <svg width="40" height="40" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class='arrow' d="M0.792893 6.79289C0.402369 7.18342 0.402369 7.81658 0.792893 8.20711L7.15685 14.5711C7.54738 14.9616 8.18054 14.9616 8.57107 14.5711C8.96159 14.1805 8.96159 13.5474 8.57107 13.1569L2.91421 7.5L8.57107 1.84315C8.96159 1.45262 8.96159 0.819456 8.57107 0.428932C8.18054 0.0384079 7.54738 0.0384079 7.15685 0.428932L0.792893 6.79289ZM18.5 8.5C19.0523 8.5 19.5 8.05228 19.5 7.5C19.5 6.94772 19.0523 6.5 18.5 6.5V8.5ZM1.5 8.5H18.5V6.5H1.5V8.5Z"fill="#496C42"/>
-        </svg>
-      </a>   
-      <h1 id='artists-h1' class="h1"><span>Celebrated Musicians of the Holiday Season</span></h1>
-
-            <!-- Toggler Outside Menu -->
-            <div id="header">
-              <div id="switch">
-                 <label role='switch' class="switch">
-                   <input class="switch-input" type="checkbox" />
-                  <span class="switch slider round" id="round"></span>
-                </label>
-              </div>
+        <a href="../index.html">
+            <svg width="40" height="40" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Your SVG code for the arrow here -->
+            </svg>
+        </a>
+        <h1>Celebrated Musicians of the Holiday Season</h1>
+    </header>
+    <div class="grid-container">
+        <!-- Artist Card 1 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/1.jpg" alt="Bing Crosby">
+            <div class="artist-name">Bing Crosby</div>
+            <div class="artist-description">
+                Known as the "King of Christmas," Bing Crosby is an iconic crooner who recorded the classic song "White Christmas," which remains a holiday favorite.
             </div>
-      </header>
-      <!-- <h2><a href="https://github.com/KendallDoesCoding/mogul-christmas/tree/main/images/photo-gallery-imgs">
-        Add your photo here</a></h2> -->
-    <div id='grid-container' class="row">
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/1.jpg" />
         </div>
-        <div class="back">
-        <h2>Bing Crosby</h2>
-        <p>Known as the "King of Christmas," Bing Crosby is an iconic crooner who recorded the classic song "White Christmas," which remains a holiday favorite.</p>
-        </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/2.webp" />
+        <!-- Artist Card 2 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/2.webp" alt="Mariah Carey">
+            <div class="artist-name">Mariah Carey</div>
+            <div class="artist-description">
+                Mariah Carey's hit song "All I Want for Christmas Is You" has become a modern-day classic and is one of the most streamed songs during the holiday season.
+            </div>
         </div>
-        <div class="back">
-        <h2>Mariah Carey</h2>
-    <p>Mariah Carey's hit song "All I Want for Christmas Is You" has become a modern-day classic and is one of the most streamed songs during the holiday season.</p>  
-    </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/3.webp" />
+        <!-- Artist Card 3 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/3.webp" alt="Michael Bublé">
+            <div class="artist-name">Michael Bublé</div>
+            <div class="artist-description">
+                Michael Bublé is a contemporary crooner who has released several successful Christmas albums, including "Christmas" and "Noël."
+            </div>
         </div>
-        <div class="back">
-        <h2>Michael Bublé</h2>
-    <p>Michael Bublé is a contemporary crooner who has released several successful Christmas albums, including "Christmas" and "Noël."</p>   
-    </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/4.jpg" />
+        <!-- Artist Card 4 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/4.jpg" alt="Johnny Mathis">
+            <div class="artist-name">Johnny Mathis</div>
+            <div class="artist-description">
+                Johnny Mathis is a legendary crooner who has recorded many holiday classics, including "It's Beginning to Look a Lot Like Christmas" and "Sleigh Ride."
+            </div>
         </div>
-        <div class="back">
-        <h2>Johnny Mathis</h2>
-    <p>Johnny Mathis is a legendary crooner who has recorded many holiday classics, including "It's Beginning to Look a Lot Like Christmas" and "Sleigh Ride."
-    </p>   
-    </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/5.jpg" />
+        <!-- Artist Card 5 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/5.jpg" alt="Nat King Cole">
+            <div class="artist-name">Nat King Cole</div>
+            <div class="artist-description">
+                Nat King Cole's warm and smooth voice is perfect for Christmas music, and his version of "The Christmas Song (Chestnuts Roasting on an Open Fire)" is a holiday staple.
+            </div>
         </div>
-        <div class="back">
-        <h2>Nat King Cole</h2>  
-    <p> Nat King Cole's warm and smooth voice is perfect for Christmas music, and his version of "The Christmas Song (Chestnuts Roasting on an Open Fire)" is a holiday staple.</p>  
-    </div>
-   </div>
+        <!-- Artist Card 6 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/6.jpg" alt="Trans-Siberian Orchestra">
+            <div class="artist-name">Trans-Siberian Orchestra</div>
+            <div class="artist-description">
+                The Trans-Siberian Orchestra is a progressive rock band known for their elaborate Christmas-themed concerts and their hit song "Christmas Eve/Sarajevo 12/24."
+            </div>
+        </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/6.jpg" />
+        <!-- Artist Card 7 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/7.webp" alt="Pentatonix">
+            <div class="artist-name">Pentatonix</div>
+            <div class="artist-description">
+                Pentatonix is a popular a cappella group that has released several Christmas albums and is known for their unique arrangements of classic holiday songs.
+            </div>
         </div>
-        <div class="back">
-        <h2>Trans-Siberian Orchestra</h2>
-    <p>The Trans-Siberian Orchestra is a progressive rock band that has become known for their elaborate Christmas-themed concerts and their hit song "Christmas Eve/Sarajevo 12/24."</p>  
-    </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/7.webp" />
+        <!-- Artist Card 8 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/8.jpg" alt="Frank Sinatra">
+            <div class="artist-name">Frank Sinatra</div>
+            <div class="artist-description">
+                Frank Sinatra's jazzy renditions of holiday classics like "Have Yourself a Merry Little Christmas" and "Jingle Bells" have become timeless holiday favorites.
+            </div>
         </div>
-        <div class="back">
-        <h2>Pentatonix</h2>
-    <p> Pentatonix is a popular a cappella group that has released several Christmas albums and is known for their unique arrangements of classic holiday songs.</p>  
-    </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/8.jpg" />
+        <!-- Artist Card 9 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/9.webp" alt="Elvis Presley">
+            <div class="artist-name">Elvis Presley</div>
+            <div class="artist-description">
+                Elvis Presley's rockabilly sound brought a new energy to holiday music with hits like "Blue Christmas" and "Santa Claus Is Back in Town."
+            </div>
         </div>
-        <div class="back">
-        <h2>Frank Sinatra</h2>
-    <p>Frank Sinatra's jazzy renditions of holiday classics like "Have Yourself a Merry Little Christmas" and "Jingle Bells" have become timeless holiday favorites.</p>   
-    </div>
-   </div>
 
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/9.webp" />
+        <!-- Artist Card 10 -->
+        <div class="artist-card">
+            <img src="../images/artists-imgs/10.jpg" alt="Andy Williams">
+            <div class="artist-name">Andy Williams</div>
+            <div class="artist-description">
+                Andy Williams recorded many holiday classics, including "It's the Most Wonderful Time of the Year" and "The Christmas Song," and his annual Christmas television specials became a holiday tradition.
+            </div>
         </div>
-        <div class="back">
-        <h2>Elvis Presley</h2>
-    <p>Elvis Presley's rockabilly sound brought a new energy to holiday music with hits like "Blue Christmas" and "Santa Claus Is Back in Town."</p>
     </div>
-   </div>
-
-   <div class="flipper">
-    <div class="front">
-        <img src="../images/artists-imgs/10.jpg" />
-        </div>
-        <div class="back">
-        <h2>Andy Williams</h2>
-   <p>Andy Williams recorded many holiday classics, including "It's the Most Wonderful Time of the Year" and "The Christmas Song," and his annual Christmas television specials became a holiday tradition.</p>
-    </div>
-   </div>
-      </div>
-    </div>
-  </body>
-  <script type="text/javascript" src="../you-may-like/darkmode.js"></script>
+</body>
+<script type="text/javascript" src="../you-may-like/darkmode.js"></script>
 </html>
+        
