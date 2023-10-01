@@ -145,6 +145,7 @@ a:hover {
 @media screen  and (max-width: 480px){
 	.grid-container{
 		grid-template-columns: repeat(1,1fr);
+		padding: 10px;
 	}
 	.h1{
 		font-size: 20px;
@@ -154,9 +155,6 @@ a:hover {
 	}
 	.artist-description{
 		font-size: 12px;
-	}
-	.grid-container{
-		padding: 10px;
 	}
 
 }
