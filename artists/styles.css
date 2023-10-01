@@ -147,6 +147,7 @@ a:hover {
 		grid-template-columns: repeat(1,1fr);
 		padding: 10px;
 	}
+
 	.artist-card{
 		padding: 10px;
 	}
