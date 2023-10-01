@@ -132,3 +132,28 @@ h2 {
 a:hover {
 	color: orange;
 }
+/*Responsive styles */
+@media screen  and (max-width: 768px){
+	.grid-container{
+		grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+	}
+	.artist-card{
+		padding: 10px;
+	}
+
+}
+@media screen  and (max-width: 480px){
+	.h1{
+		font-size: 20px;
+	}
+	.artist-card{
+		padding: 10px;
+	}
+	.artist-description{
+		font-size: 12px;
+	}
+	.grid-container{
+		padding: 10px;
+	}
+
+}
