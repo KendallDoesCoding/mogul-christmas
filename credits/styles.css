@@ -5,44 +5,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
 
 /* Set center alignment and text alignment for all HTML and body elements */
 html,
 body {
   align-items: center;
   text-align: center;
-}
-
-/* Set color of visited links to blue */
-a:visited {
-  color: blue;
+  background-color:  #F8F6EE;
 }
 
 /* Set color to purple and font family to "Handlee" for all h3 elements */
 h3 {
-  color: purple;
+  color: hsla(206, 8%, 17%, 0.7);
   font-family: "Handlee", cursive;
 }
 
-/* Set color to green for all h2 elements */
+/* Set color to green and font family to 'Nunito' for all h2 elements */
 h2 {
-  color: green;
+  color: #496C42;
+  font-family: 'Nunito';
 }
 
-/* Set color to #1abc9c, center alignment, text alignment and font family to "Redressed" for elements with class "heading" */
+.mogul-christmas-team-href, .project-repo-href, .songs-you-may-like-directory-href, .contributors-href {
+  color: hsla(206, 8%, 17%, 0.7);
+  text-decoration-color: hsla(206, 8%, 17%, 0.7);
+}
+
+/* Set color of hovered links  */
+.mogul-christmas-team-href:hover, .project-repo-href:hover, .songs-you-may-like-directory-href:hover, .contributors-href:hover {
+  color: #f7504f;
+  text-decoration-color: #f7504f;
+}
+
+.mogul-christmas-team-a, .songs-you-may-like-directory-a {
+  color: hsla(206, 8%, 17%, 0.7);
+  font-family: "Handlee", cursive;
+  font-size: 1.2rem;
+}
+
+/* Set color to hsla(206, 8%, 17%, 0.7);, text alignment, font-weight to 800, font-size to 2,5rem and font family to "Life Savers" for elements with class "heading" */
 .heading {
-  color: #1abc9c;
-  align-items: center;
+  color: hsla(206, 8%, 17%, 0.7);
   text-align: center;
-  font-family: "Redressed", cursive;
+  font-family: "Life Savers";
+  font-weight: 800;
+  font-size: 2.5rem;
 }
 
-/* Set color to red, center alignment, text alignment and font family to "Roboto" for elements with class "subtext" */
+/* Set color to #f7504f, center alignment, text alignment and font family to 'Nunito' for elements with class "subtext" */
 .subtext {
-  color: red;
+  color: #f7504f;
   align-items: center;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Nunito';
+  font-weight: 500;
+  font-size: larger;
+}
+
+hr {
+  border: 3px solid hsla(206, 8%, 17%, 0.7);
+  border-radius: 10px;
+}
+
+/* Set color to hsla(206, 8%, 17%, 0.7), font family to "Handlee" and font size to 1,5em for elements with class "thank-you" */
+.thank-you {
+  color: hsla(206, 8%, 17%, 0.7);
+  font-family: "Handlee", cursive;
+  font-size: 1.5em;
+}
+
+/* Set color to red and font family to "ZCOOL QingKe HuangYou" for elements with class "be-a-contributor" */
+.be-a-contributor {
+  color: hsla(206, 8%, 17%, 0.7);
+  font-family: "Handlee", cursive;
+  font-size: 1.5em;
 }
 
 /* Set center alignment for elements with class "contributors" containing an embed element */
@@ -50,76 +88,58 @@ h2 {
   align-items: center;
 }
 
-/* Set font size to small for elements with class "techstudent10-work" */
-.techstudent10-work {
-  font-size: small;
+sub {
+  color: hsla(206, 8%, 17%, 0.7);
+  font-family: "Handlee", cursive;
 }
 
-/* Set color to red and font family to "ZCOOL QingKe HuangYou" for elements with class "be-a-contributor" */
-.be-a-contributor {
-  color: red;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+sub:hover {
+  color: #f7504f;
 }
 
-/* Set color to red and font family to "ZCOOL QingKe HuangYou" for elements with class "commits" */
-.commits {
-  color: red;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+.round-image {
+  border-radius: 50%;
+}
+
+.songs-you-may-like-directory-h2 {
+  color: hsla(206, 8%, 17%, 0.7);
+}
+
+.contributors-dropdown {
+  color: hsla(206, 8%, 17%, 0.7);
+  text-decoration: none;
+}
+
+.contributors-dropdown:hover {
+  color: #f7504f;
 }
 
 /* Set color to red for all links inside elements with class "commits" */
 .commits a {
   color: red;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
 }
 
-/* Set color to purple, font family to "Beau Rivage" and font size to 9mm for elements with class "thank-you" */
-.thank-you {
-  color: purple;
-  font-family: "Beau Rivage", cursive;
-  font-size: 9mm;
-}
-
-
-.dropbtn {
-  
-  border:2px;
-  font-size: 16px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-#item,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13{
+#item,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13, #item14, #item15, #item16,
+#item17, #item18, #item19, #item20, #item21, #item22, #item23, #item24, #item25, #item26, #item27, #item28 {
+  color: hsla(206, 8%, 17%, 0.7);
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color:  white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-#item13 a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-#item,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13 a:hover {background-color: #f1f1f1}
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -132,5 +152,18 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 3%;
+  padding: 2%;
+  transition: transform 1s;
+}
+
+.back-arrow:hover {
+  transform: translateX(-5px);
+}
+
+#christmas-balls-gif {
+  float: left;
+}
+
+#christmas-balls2-gif {
+  float: right;
 }
