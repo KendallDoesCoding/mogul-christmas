@@ -9,8 +9,15 @@
 <a href="https://github.com/KendallDoesCoding/mogul-christmas/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/KendallDoesCoding/mogul-christmas?color=0059b3"></a>
 </div>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/KendallDoesCoding/mogul-christmas)
 
+## Open in an Online IDE of your choice
+Skip cloning locally, and start developing in the cloud
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/KendallDoesCoding/mogul-christmas)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/KendallDoesCoding/mogul-christmas)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/KendallDoesCoding/mogul-christmas)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/KendallDoesCoding/mogul-christmas)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/KendallDoesCoding/mogul-christmas)
 
 
 # Introduction
