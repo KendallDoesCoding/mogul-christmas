@@ -663,6 +663,7 @@ button:hover{
 
 #switch {
   right: -3.5rem;
+  cursor: pointer;
 }
 
 .switch {
@@ -670,6 +671,7 @@ button:hover{
   display: inline-block;
   width: 60px;
   height: 34px;
+  cursor: pointer;
 }
 
 /* Hide default HTML checkbox */
