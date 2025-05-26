@@ -72,6 +72,12 @@ newTabGithub.addEventListener("click", () => {
 document.getElementById('closed-menu-icon').addEventListener('click', displayMenu)
 document.getElementById('open-menu-icon').addEventListener('click', closeMenu)
 
+// Ensure menu is closed by default when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  // Close the menu by default (especially important for mobile)
+  closeMenu();
+});
+
 const updateMode = () => {
   const rootElement = document.body;
   if (!isLight) {
@@ -342,6 +348,8 @@ function displayMenu(){
   document.getElementById('open-menu-icon').style.display = 'block'
   document.getElementById('menu-display').style.opacity = '1'
   document.getElementById('menu-display').style.left = '0'
+  // Make menu visible when it's displayed
+  document.getElementById('menu-display').style.visibility = 'visible'
 }
 
 // Function to close the menu
@@ -350,4 +358,6 @@ function closeMenu(){
   document.getElementById('open-menu-icon').style.display = 'none'
   document.getElementById('menu-display').style.opacity = '0'
   document.getElementById('menu-display').style.left = '-25vw'
+  // Add display none to completely hide the menu initially
+  document.getElementById('menu-display').style.visibility = 'hidden'
 }
